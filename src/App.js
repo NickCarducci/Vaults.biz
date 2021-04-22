@@ -24,6 +24,9 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
+          sworn oath is bonk it is a threat blumental you gross thing
+          <br />
+          <br />
           a central authority cannot be circular @japan
           <br />
           <br />
