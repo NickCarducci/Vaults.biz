@@ -29,7 +29,8 @@ export default class App extends React.Component {
           <br />
           <br />
           Anyone would go crazy in this economy. It isn’t real! It’s all
-          outstanding
+          outstanding... previous violent act if fine to be wary, but not
+          mental-health nor drug-abuse. if you threaten us we can to you 1932
           <br />
           <br />
           judges are incentivized by their income and rackets, releasing
@@ -1320,3 +1321,4 @@ export default class App extends React.Component {
     );
   }
 }
+
