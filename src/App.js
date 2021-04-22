@@ -24,7 +24,33 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
-          sworn oath is bonk it is a threat blumental you gross thing
+          sworn oath is bonk it is a threat blumental you gross thing. you are
+          re-tarded, but do you have a mental-disabilty or are neural-atypical?
+          Capable-becoming violent cannot be assumed
+          <br />
+          <br />
+          You want to detain people without a crime? While you allow serflords
+          and banksquatting? @BrooklynDA heat rises - Vaults - 30under5.us
+          magnate.company @vaultbiz
+          <br />
+          <br />
+          Bail strike you let people out @JCats2013 has been saying and now he
+          has you on @FCC
+          <br />
+          <br />
+          @aclu #cfius your inability to do math is not my mental illness, no
+          humoral mind is ill by definition @JudiciaryDems @SenJudiciaryGOP
+          <br />
+          <br />a better deal is to buy it after repossession & down-payments
+          reimbursed ol' coot @marklevinshow not refinancing @AFCMortgages @ftc
+          prohibiting trade is counterfeit once spent on a nonconsensual promise
+          of another consumer
+          <br />
+          <br />
+          Can we stop calling bank-squatting, homeownership @PoppyHarlowCNN
+          @SECEnfDirector like treasury shares not in outstanding @ftc you guys
+          don’t care! #MinnesotaIsGuilty @WellsFargo #WellsFargoIsInnocent
+          #ChauvinTrial @NerdWallet @fcc
           <br />
           <br />
           a central authority cannot be circular @japan
