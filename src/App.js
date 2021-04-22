@@ -28,9 +28,23 @@ export default class App extends React.Component {
           market-liquidity 30under5.us and not of the harmful kind foiegras.life
           <br />
           <br />
-          You must establish someone is a danger to others, not witness
-          testimony but plans of attack and not statements of castile doctrines
-          or ability to bluff carrying, but not open-carrying
+          Anyone would go crazy in this economy. It isn’t real! It’s all
+          outstanding
+          <br />
+          <br />
+          judges are incentivized by their income and rackets, releasing
+          criminals instead of spending the money to keep them on strike of
+          bonds and Moody's coming to the light
+          <br />
+          <br />
+          they are being discriminatory of unobjective reasons of how to apply
+          laws
+          <br />
+          <br />
+          You must establish logistical-proof that someone is a danger to
+          others, not witness testimony but plans of attack and not statements
+          of castile doctrines or ability to bluff carrying, but not
+          open-carrying
           <br />
           <br />
           If I cannot play the market away from where you took it
