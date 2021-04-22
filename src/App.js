@@ -24,6 +24,34 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
+          You must establish someone is a danger to others, not witness
+          testimony but plans of attack and not statements of castile doctrines
+          or ability to bluff carrying, but not open-carrying
+          <br />
+          <br />
+          If I cannot play the market away from where you took it
+          @SECEnfDirector what is the point? Every move I make the market
+          follows because I am against credit
+          <br />
+          <br />
+          Most people make it out is an intent of no standing of innocence
+          <br />
+          <br />
+          For prisoner duress cases (rent, insurance,
+          lending-promising-credit-promising-collusion-slavery-by-proxy-colonialism-central-authority-communism-non-marxism)
+          <br />
+          <br />
+          Wholesale is not, counterfeit-wholesale is the illegal
+          “pyramid-scheme” and is as harmful as (1)
+          brand-or-common-innovator-counterfeit, (2) fractional-shares without
+          shareholder vote, (3) treasury-shares not in outstanding, or (4) theft
+          in non-cross-party-risk opportunity
+          <br />
+          <br />
+          Diff between pyramid scheme that is legal (wholesale) vs illegal
+          (money, counterfeit-wholesale)
+          <br />
+          <br />
           only free-rider-immutable services are there not already resources,
           ready, that are entirely price-elastic
           <br />
