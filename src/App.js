@@ -86,12 +86,14 @@ export default class App extends React.Component {
           civil rights trumps misinformed arrests based on usurped powers like
           pharma&nbsp;
           <b
+            style={{ textDecoration: "underline" }}
             onClick={() => this.setState({ openPower: !this.state.openPower })}
           >
             monopsony
           </b>
           <div
             style={{
+              backgroundColor: "rgba(100,150,255,.2)",
               overflow: "hidden",
               width: "100%",
               height: this.state.openPower ? "min-content" : "0px",
