@@ -32,7 +32,9 @@ export default class App extends React.Component {
           outstanding... previous violent act is fine to be wary in arresting
           for non-violence-arrest... which can be done at any-time, but not
           mental-health nor drug-abuse. if you threaten us we can to you 1932
-          @Fresco sheriff
+          @Fresco sheriff. she is completely delusional, be careful with this
+          one. guns up. "if you make a plea that you are resisting arrest you
+          won't go to jail for my confiscation of weed"
           <br />
           <br />
           judges are incentivized by their income and rackets, releasing
