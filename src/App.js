@@ -24,6 +24,79 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
+          only free-rider-immutable services are there not already resources,
+          ready, that are entirely price-elastic
+          <br />
+          <br />
+          This is about nationalism and baby bonds @TheJusticeDept #cfius bonds
+          owned by colluding governments prohibiting trade
+          <br />
+          <br />
+          civil rights trumps misinformed arrests based on usurped powers like
+          pharma&nbsp;
+          <b
+            onClick={() => this.setState({ openPower: !this.state.openPower })}
+          >
+            monopsony
+          </b>
+          <div
+            style={{
+              overflow: "hidden",
+              width: "100%",
+              height: this.state.openPower ? "min-content" : "0px",
+              transition: ".3s ease-in"
+            }}
+          >
+            If you’re healthy you’re not a customer
+            <br />
+            <br />
+            Incentive is not duress
+            <br />
+            alternative government with upholding of civil rights thumbprint.us
+            saverparty.xyz micro-theory.com bankingisnot.biz poverty-reduction
+            depends on equity-security,
+            freedom-of-non-objective-or-logistical-minimal-viable-product-proof-discrimination
+            and technological advancement without nationalized assets lightte.ch
+            edit: withdrawal is triggered by both, sale is triggered by
+            entrepreneur per not cancel, suspension, scheduling, but
+            renumeration to cash:debt annual gains based on 3under2.us
+            free-rider principles and micro-theory.com equity by
+            individual-autonomy to not harm any in making policy in benefiting
+            another, and keep productivity-high, waste-labor and
+            convictions-reasonable. This benefits society and
+            civil-equity-rights as it does per shares and common-innovators
+            instead of latent-prohibitors that do not curry-favor of the least
+            frugal consumer but hoard their land, future- and previous-earnings
+            in usury by item, fraud, counterfeit, prisoners' dilemma, or money;
+            that which is to not use as in sell but lend, an identifiable
+            intent-to-harm given price-elasticity of Supply and Demand marginal
+            parties' frugality to price-determination. Monopsony by
+            central-authorities in R&D is IP taken from common-innovators with
+            voluntary customers Royalty-contracts w max-profit stewardship
+            (disburse upon sale or withdrawal) and depositary-consortium
+            (deposit upon QE). Ponzi is legal if goods (warehouse) but not if
+            money (insurance, fraud, counterfeit) since prisoner’s dilemma
+            duress is intent to harm, not use (usury). micro-theory.com teaches
+            monopsony or other third-party dead-weight can be margin-targeted by
+            policy and Class-action-suit
+            <br />
+            <br />
+            The Great Depression was caused by paying bonds off/foreclosures, by
+            the way. The income-inequality drop then could be the cessation of
+            passive-income...
+            <br />
+            <br />
+            Rentier do not provide housing, buyers don’t, builders
+            <br />
+            <br />
+            You want growth? You want more people? That’s nice, but you are
+            looking at population growth when you look at GDP growth, and
+            otherwise it is price based not on assets but m2
+            <br />
+            <br />
+            when you say importing, do you mean money or items? @larry_kudlow
+            econ 101 @77WABCradio
+          </div>
           sworn oath is bonk it is a threat blumental you gross thing. you are
           re-tarded, but do you have a mental-disabilty or are neural-atypical?
           Capable-becoming violent cannot be assumed
