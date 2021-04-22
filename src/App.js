@@ -39,6 +39,11 @@ export default class App extends React.Component {
             src="https://www.youtube.com/embed/sPfD1-UXp4Q"
             title="https://www.youtube.com/watch?v=sPfD1-UXp4Q"
           ></iframe>
+          <iframe
+            width="300px"
+            src="https://www.slideshare.net/slideshow/embed_code/key/8UPMKsiboWfRgT"
+            title="https://www.slideshare.net/NicholasCarducci/vaultsbiz"
+          ></iframe>
           <Intro />
           The following page is dedicated to the forces/special-interests
           against or to distract from the problems that vaults.biz below the
