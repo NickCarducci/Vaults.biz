@@ -24,6 +24,21 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
+          a central authority cannot be circular @japan
+          <br />
+          <br />
+          labor*resource Supply is unchanging with Demand
+          <br />
+          <br />
+          Monopsony by central-authorities in R&D is IP taken from
+          common-innovators with voluntary customers
+          <br />
+          <br />
+          <iframe
+            width="300px"
+            src="https://www.youtube.com/embed/sPfD1-UXp4Q"
+            title="https://www.youtube.com/watch?v=sPfD1-UXp4Q"
+          ></iframe>
           <Intro />
           The following page is dedicated to the forces/special-interests
           against or to distract from the problems that vaults.biz below the
