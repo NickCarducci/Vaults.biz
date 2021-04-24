@@ -125,33 +125,17 @@ class Intro extends React.Component {
             from this idea
           </a>
         </h2>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignContent: "center",
-            height: "stretch"
-          }}
-        >
-          <div
-            style={{
-              alignSelf: "center"
-            }}
-          >
-            <TwitterTweetEmbed
-              key="id"
-              tweetId={tweetId}
-              /*onLoad={(tweetWidgetEl) => {
+        <TwitterTweetEmbed
+          key="id"
+          tweetId={tweetId}
+          /*onLoad={(tweetWidgetEl) => {
                   console.log(parent.twitterString);
                   const tweetEl = tweetWidgetEl.shadowRoot.querySelector(
                     ".EmbeddedTweet"
                   );
                   tweetEl.style.width = "100%";
                 }}*/
-            />
-          </div>
-        </div>
+        />
         <div
           style={{
             flexDirection: "column",
