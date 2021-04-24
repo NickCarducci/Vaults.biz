@@ -24,65 +24,15 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
-          As a home-builder, I know access to housing is improved by
-          market-liquidity 30under5.us and not of the harmful kind foiegras.life
-          <br />
-          <br />
-          Anyone would go crazy in this economy. It isn’t real! It’s all
-          outstanding... previous violent act is fine to be wary in arresting
-          for non-violence-arrest... which can be done at any-time, but not
-          mental-health nor drug-abuse. if you threaten us we can to you 1932
-          @Fresco sheriff. she is completely delusional, be careful with this
-          one. guns up. "if you make a plea that you are resisting arrest you
-          won't go to jail for my confiscation of weed"
-          <br />
-          <br />
-          judges are incentivized by their income and rackets, releasing
-          criminals instead of spending the money to keep them on strike of
-          bonds and Moody's coming to the light
-          <br />
-          <br />
-          they are being discriminatory of unobjective reasons of how to apply
-          laws
-          <br />
-          <br />
-          You must establish logistical-proof that someone is a danger to
-          others, not witness testimony but plans of attack and not statements
-          of castile doctrines or ability to bluff carrying, but not
-          open-carrying
-          <br />
-          <br />
-          If I cannot play the market away from where you took it
-          @SECEnfDirector what is the point? Every move I make the market
-          follows because I am against credit
-          <br />
-          <br />
-          Most people make it out is an intent of no standing of innocence
-          <br />
-          <br />
-          For prisoner duress cases (rent, insurance,
-          lending-promising-credit-promising-collusion-slavery-by-proxy-colonialism-central-authority-communism-non-marxism)
-          <br />
-          <br />
-          Wholesale is not, counterfeit-wholesale is the illegal
-          “pyramid-scheme” and is as harmful as (1)
-          brand-or-common-innovator-counterfeit, (2) fractional-shares without
-          shareholder vote, (3) treasury-shares not in outstanding, or (4) theft
-          in non-cross-party-risk opportunity
-          <br />
-          <br />
-          Diff between pyramid scheme that is legal (wholesale) vs illegal
-          (money, counterfeit-wholesale)
-          <br />
-          <br />
-          only free-rider-immutable services are there not already resources,
-          ready, that are entirely price-elastic
-          <br />
-          <br />
-          This is about nationalism and baby bonds @TheJusticeDept #cfius bonds
-          owned by colluding governments prohibiting trade
-          <br />
-          <br />
+          I’ve made the statistical law that populations need to be shuffled for
+          significance to be true
+          <div style={{ width: "100%", maxWidth: "600px" }}>
+            <img
+              style={{ height: "auto", width: "100%" }}
+              alt="many 60+ now 5x than 1950, gradually"
+              src="https://www.dl.dropboxusercontent.com/s/q8n2wh39sk1u0me/Population-Pyramid-1950-to-2100-793x550.jpeg?dl=0"
+            />
+          </div>
           civil rights trumps misinformed arrests based on usurped powers like
           pharma&nbsp;
           <b
@@ -100,6 +50,66 @@ export default class App extends React.Component {
               transition: ".3s ease-in"
             }}
           >
+            As a home-builder, I know access to housing is improved by
+            market-liquidity 30under5.us and not of the harmful kind
+            foiegras.life
+            <br />
+            <br />
+            Anyone would go crazy in this economy. It isn’t real! It’s all
+            outstanding... previous violent act is fine to be wary in arresting
+            for non-violence-arrest... which can be done at any-time, but not
+            mental-health nor drug-abuse. if you threaten us we can to you 1932
+            @Fresco sheriff. she is completely delusional, be careful with this
+            one. guns up. "if you make a plea that you are resisting arrest you
+            won't go to jail for my confiscation of weed"
+            <br />
+            <br />
+            judges are incentivized by their income and rackets, releasing
+            criminals instead of spending the money to keep them on strike of
+            bonds and Moody's coming to the light
+            <br />
+            <br />
+            they are being discriminatory of unobjective reasons of how to apply
+            laws
+            <br />
+            <br />
+            You must establish logistical-proof that someone is a danger to
+            others, not witness testimony but plans of attack and not statements
+            of castile doctrines or ability to bluff carrying, but not
+            open-carrying
+            <br />
+            <br />
+            If I cannot play the market away from where you took it
+            @SECEnfDirector what is the point? Every move I make the market
+            follows because I am against credit
+            <br />
+            <br />
+            Most people make it out is an intent of no standing of innocence
+            <br />
+            <br />
+            For prisoner duress cases (rent, insurance,
+            lending-promising-credit-promising-collusion-slavery-by-proxy-colonialism-central-authority-communism-non-marxism)
+            <br />
+            <br />
+            Wholesale is not, counterfeit-wholesale is the illegal
+            “pyramid-scheme” and is as harmful as (1)
+            brand-or-common-innovator-counterfeit, (2) fractional-shares without
+            shareholder vote, (3) treasury-shares not in outstanding, or (4)
+            theft in non-cross-party-risk opportunity
+            <br />
+            <br />
+            Diff between pyramid scheme that is legal (wholesale) vs illegal
+            (money, counterfeit-wholesale)
+            <br />
+            <br />
+            only free-rider-immutable services are there not already resources,
+            ready, that are entirely price-elastic
+            <br />
+            <br />
+            This is about nationalism and baby bonds @TheJusticeDept #cfius
+            bonds owned by colluding governments prohibiting trade
+            <br />
+            <br />
             If you’re healthy you’re not a customer
             <br />
             <br />
@@ -149,19 +159,21 @@ export default class App extends React.Component {
             <br />
             when you say importing, do you mean money or items? @larry_kudlow
             econ 101 @77WABCradio
+            <br />
+            <br />
+            sworn oath is bonk it is a threat blumental you gross thing. you are
+            re-tarded, but do you have a mental-disabilty or are
+            neural-atypical? Capable-becoming violent cannot be assumed
+            <br />
+            <br />
+            You want to detain people without a crime? While you allow serflords
+            and banksquatting? @BrooklynDA heat rises - Vaults - 30under5.us
+            magnate.company @vaultbiz
+            <br />
+            <br />
+            Bail strike you let people out @JCats2013 has been saying and now he
+            has you on @FCC
           </div>
-          sworn oath is bonk it is a threat blumental you gross thing. you are
-          re-tarded, but do you have a mental-disabilty or are neural-atypical?
-          Capable-becoming violent cannot be assumed
-          <br />
-          <br />
-          You want to detain people without a crime? While you allow serflords
-          and banksquatting? @BrooklynDA heat rises - Vaults - 30under5.us
-          magnate.company @vaultbiz
-          <br />
-          <br />
-          Bail strike you let people out @JCats2013 has been saying and now he
-          has you on @FCC
           <br />
           <br />
           @aclu #cfius your inability to do math is not my mental illness, no
