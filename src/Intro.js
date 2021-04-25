@@ -403,6 +403,15 @@ class Intro extends React.Component {
               Trash, water & electricity is free-rider-mutable; equity-,
               societal-security and toilets are not
             </b>
+            <br />
+            The right [to be included without court-certified-evidence of mvp]
+            is not from Civil Rights it is free-rider-excluder enslaving those
+            denied not based on mvp, of as evidenced as a cease-and-desist
+            defamation order would require.
+            <br />
+            <br />
+            Here, you must prove condensation does not happen @uscourts
+            @neiltyson
           </div>
           <div
             style={{
