@@ -369,23 +369,30 @@ class Intro extends React.Component {
               alignItems: "center"
             }}
           >
-            financial policy
+            No government-monopsony when given free-rider-immutable authority
+            <br />
+            2% of the population owns 4400% of the assets
             <br />
             <br />
             Efficiency (labor-equity) Act & Accord
             <br />
             1. Taxes are slavery except free-rider-immutable services, below
             <br />
-            2. Sales tax is efficient, under{" "}
-            <a href="https://vaults.biz">$2k buys</a>:
+            2. Sales tax is efficient, under $2k buys:
             <br />
             first grand is $60, second is $30 (6%, 3%)
             <br />
-            a. Local police/plow
+            a. Local police/plow/sanitation
             <br />
             b. tollless roads
             <br />
-            c. supreme courts
+            c. supreme courts. (new: if justice wouldn't lessen their pay)
+            <br />
+            <br />
+            <b>
+              Trash, water & electricity is free-rider-mutable; equity-,
+              societal-security and toilets are not
+            </b>
           </div>
           <div
             style={{
