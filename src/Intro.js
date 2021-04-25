@@ -374,6 +374,16 @@ class Intro extends React.Component {
             2% of the population owns 4400% of the assets
             <br />
             <br />
+            This is M2; $300k per person a year promised out of no-where, $70k
+            per person a year given to gov monopsony contractors for
+            free-rider-mutables beyond free-rider-immutables.&nbsp;
+            <a href="https://foiegras.life">Bloated demand</a>&nbsp;for
+            free-rider-mutables<b>&nbsp;does not create jobs</b>
+            <iframe
+              style={{ width: "100%", height: "400px" }}
+              title="2% of the population owns 4400% of the assets"
+              src="https://froth.app"
+            />
             Efficiency (labor-equity) Act & Accord
             <br />
             1. Taxes are slavery except free-rider-immutable services, below
