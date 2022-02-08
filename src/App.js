@@ -970,7 +970,30 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “why would any doctor work for less than what they were worth in 2010?
+          that provision already resulted in several emergency legislations, to
+          fix the issue” “Obamacare,” according to the CBO, *saves pennywise
+          versus that of healthcare with insurance false bid pools, invoices and
+          “general revenue” asset sales (of horizontal 1/12 industry), because
+          it *is price-fixed to the **change-rate** (e.g. per year) of
+          material+rent inflation (excludes assets [homes, IP, land, equities],
+          labor, profits, nor good-will accrual of that collateral which is not
+          included).
+          <br />
+          <br />
+          If you do this then this vertical trust is not applicable in equal in
+          receipt and scope truncated production tax Article 1.8
+          <br />
+          And stimmy is Saver land exploration rights that is 20%.
+          <br />
+          And it has to be relative to input cost, skew, to not be discriminated
+          by reasonable doubt of subjective duress beyond minimal viable duress,
+          by 11/12 industry-variable science.
+          <br />
+          <br />
           migration is an invasion or trade?
+          {/* Swear them in! Wait in line! Watch
+          in a cell, $STUDY*/}
           <br />
           {/*'free' healthcare and compenstion should come from the tort, MONETARY DAMAGES REGARDLESS, numerable and state-lands' exploration rights, 'free' science 
           from unreciprocated, albeit tech advancement skipping comparative advantage step, labor*/}
@@ -1081,6 +1104,56 @@ export default class App extends React.Component {
             a multiple of THAT
           </h3>
           <h2>LIABILITIES ARE TRUE, ASSETS ARE BOOK</h2>
+          "Maybe our disconnect is that I’m not referencing contemporary banks?
+          I’m referencing the act of banking in theory. It also seems to me that
+          you’re very caught up in government/legal/financial terminology for
+          things; that in no way affects economic theory to me. I don’t care if
+          something is classified as (x) according to congress, I am laying out
+          the fundamental principles of exchange according to the laws of
+          economics."
+          <br />
+          <br />I would describe your view as Mises and Rothbard - I look at the
+          **practical, -applied economics**. You can describe my point of view
+          as *bona fide cash accounting, microeconomic Supply and Demand*, with
+          the view that *dead-weight-box is ****not only**** descriptive of
+          government*, on the economic welfare x-axis, (*that I define as
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">
+            **GDP/hour-GDP/p**
+          </a>{" "}
+          and call, “
+          <a href="https://data.oecd.org/lprdty/gdp-per-hour-worked.htm">
+            **productive* *
+          </a>
+          -efficiency,” -GDP/p change-rate being tech-advancement and less
+          work*), **but also** finance, being 2/3 of total debt.{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LOyP">
+            Debt to checking
+          </a>
+          . The collateral of currency, ostensibly either per capita or dollar
+          U.S. Saver land exploration rights, third party donee beneficiary
+          claimable. This is why I am Chair and Founder of{space}
+          <a href="https://saverparty.quora.com/">Saver Party</a>
+          {space}
+          <span role="img" aria-label="bottom-left white-circle squirrel">
+            ↙️⚪️🐿
+          </span>
+          . (cash/debt)*income every year back instead of cancel is the only
+          mediation that which we all paid what we would have without debt, move
+          to max-royalty 1/12 industry type, instead of collateral, for future
+          investment relations (so I am developing that like{space}
+          <a href="http://pipe.io">pipe.io</a>
+          {space}without derivatives as outlays at{space}
+          <a href="https://vaults.biz/sdr">vaults.biz</a>), and Article 1.8
+          equal in scope and receipt truncated production tax.
+          <br />
+          Thanks for reading and writing cogently, albeit I am no douche! Haha
+          I’m for rent-free science - in a world without privacy for
+          all-science. Might you know about why GDP/yr=mv1==mv2?? This is the
+          good will I am talking about. The velocity of checking,
+          “CurrencyComponentOfM1,” isn’t even reported (or at least charted, if
+          you know if that is available please let me know)!
+          <br />
+          <br />
           Stop saying we don’t work, 25-34 work twice per capita than the
           highest paid per capita 45-54.
           <br />
