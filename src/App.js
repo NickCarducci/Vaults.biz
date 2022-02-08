@@ -1735,7 +1735,7 @@ export default class App extends React.Component {
             margin target operational monoplolies, laborless-demand implausible
             rental-income use cap by units or days
           </h2>
-          <hr ref={this.insurance} />
+          <h3 ref={this.insurance}>unknown hazard liability</h3>
           "'Does insurance cover punitive damages?'"
           <br />
           "No. It would be against public policy to allow insurance companies to
