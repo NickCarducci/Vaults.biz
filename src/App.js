@@ -964,6 +964,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h3>
+            book is a multiple of concurrentable value into good will, price is
+            a multiple of THAT
+          </h3>
+          <h2>LIABILITIES ARE TRUE, ASSETS ARE BOOK</h2>
+          Stop saying we don’t work, 25-34 work twice per capita than the
+          highest paid per capita 45-54.
+          <br />
           "economic opportunity and more jobs," without labor-borne-demand
           sounds like busy-work.
           <br />
