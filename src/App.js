@@ -964,6 +964,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          competing with consumers not only is not surprising, but it is
+          retarded for bunting GDP/hour-GDP/p
           <h1>Jump! Go ahead, jump!</h1>
           “No to the nordstream pipeline, because Putin poisons his political
           competition. Obama position has been clear, along with pennywise
@@ -973,6 +975,7 @@ export default class App extends React.Component {
           <a href="https://vaults.biz/healthcare">44% Medicare</a>
           {space}being stock sales.” Rick Grenel
           <h1>“Working field,” I’m the boss!</h1>
+          {/**rot in hell, bitch */}
           Stop saying we don't work cunt, 25-34 work twice per capita than the
           highest paid per capita 45-54. "We have another full time job, younger
           people don’t want to work," the amount of hours worked per home
@@ -1467,6 +1470,18 @@ export default class App extends React.Component {
             rental-income use cap by units or days
           </h2>
           <hr ref={this.insurance} />
+          "'Does insurance cover punitive damages?'"
+          <br />
+          "No. It would be against public policy to allow insurance companies to
+          sell policies that would cover punitive damages. It’s already illegal
+          to sell insurance that covers damages for deliberate torts or fines.
+          The NRA got into trouble with New York State for selling coverage for
+          legal costs related to gun crimes."
+          <br />
+          If it is a damage that is a known hazard, then it isn’t liable; so,
+          necessarily, all workplace torts (that are valid) are meant to punish
+          to fix an operational problem.
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -3014,6 +3029,7 @@ export default class App extends React.Component {
             e.stopPropagation();
           }}
           style={{
+            wordBreak: "break-word",
             cursor: "pointer",
             zIndex: "9999",
             opacity: !this.state.footer && this.state.scrollTop !== 0 ? 0.3 : 1,
