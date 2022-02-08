@@ -29,7 +29,7 @@ class Archive extends React.Component {
         ref={this.props.chapter2}
         style={{
           position: "relative",
-          width:"100%",
+          width: "100%",
           textAlign: "center",
           fontFamily: "Nunito, sans-serif",
           backgroundColor: "rgb(20,20,25)",
@@ -2840,6 +2840,25 @@ class Archive extends React.Component {
         <br />
         {/*Why would a deprecated currency make people want to buy from you? 
         Your goods and services are becoming more expensive.*/}
+        "Modern banking is only somewhat unique in that its transaction occurs
+        over longer periods of time."
+        <br />
+        <br />
+        Non-profits (and commercial banks/credit unions) make money by salary
+        too, they just, by legal definition, do not maintain a positive balance
+        sheet (*by cash, not good will assets*). If you **amortize** a money
+        making operation and they are negative net worth (where liabilities are
+        true and assets are of $170t good will, non-concurrentable $2t, by the
+        numbers)… they are less of a business and more of a
+        counterfeit-in-contract non-profit (making money; net negative **cash**
+        assets, as good will value of **accrual**/bond assets do not count).
+        <h2 ref={this.props.trade}>
+          "a strong dollar means it is cheaper to buy foreign goods, so a weak
+          dollar means less exports."
+        </h2>
+        this is another basis rate fallacy of economists today:
+        <br />
+        <br />
         The reason why there is a trade deficit might be because foreign goods
         are so cheap! Input costs include labor, that which is not accounted for
         in inflation nor poverty=(input/income), but inequality
@@ -7594,6 +7613,7 @@ export default React.forwardRef((props, ref) => {
     "immi",
     "calc",
     "voting",
+    "trade",
     "first",
     "china",
     "obamacare",
@@ -7612,9 +7632,7 @@ export default React.forwardRef((props, ref) => {
   //FFTUconsole.log(subset2);
 
   return (
-    <div
-    style={{position:"relative"}}
-    >
+    <div style={{ position: "relative" }}>
       <Archive {...props} {...subset1} />
       <Arcs
         {...props}
@@ -7625,8 +7643,8 @@ export default React.forwardRef((props, ref) => {
           }
         }}
         scrollTop={
-          props.scrollTop// -
-         // (chapter2.current ? chapter2.current.offsetHeight : 0)
+          props.scrollTop // -
+          // (chapter2.current ? chapter2.current.offsetHeight : 0)
         }
       />
     </div>
