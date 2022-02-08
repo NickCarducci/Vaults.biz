@@ -970,6 +970,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          migration is an invasion or trade?
+          <br />
+          {/*'free' healthcare and compenstion should come from the tort, MONETARY DAMAGES REGARDLESS, numerable and state-lands' exploration rights, 'free' science 
+          from unreciprocated, albeit tech advancement skipping comparative advantage step, labor*/}
           kill yourself Dr. Yamamoto
           <h2>paradigm entrenchment</h2>
           "Bringing voices that aren't tapped, like quora or thumbprint,
