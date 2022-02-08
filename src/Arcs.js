@@ -6749,8 +6749,9 @@ class Arcs extends React.Component {
         general-income payday surrenders non-rollover for signee's consumers at
         a useless price inelasticity to boot
         <br />
-        <br />
+        <br />{/**capitalism */}
         <h1 ref={this.props.sdr}>transaction-based-sdr</h1>
+        max-royalty 1/12 industry{space}&bull;{space} 
         Truncated sales Tax Free Rider Immutable sewage police lawsuits geohash
         transaction line, congress only needs to see sum per month
         <div id="t1255155430264799233" />
