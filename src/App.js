@@ -978,7 +978,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          A 'cause,' would beget an {space}
+          Saver good will land exploration rights
+          <br />
+          Donee beneficiary
+          <br />
+          False bid pool too
+          <br />
+          <br />A 'cause,' would beget an {space}
           <span
             style={{
               textDecoration: "underline"
@@ -3650,4 +3656,3 @@ export default class App extends React.Component {
     );
   }
 }
-
