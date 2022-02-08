@@ -978,6 +978,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Don't see any reason why natural immunity doesn't work," is
+          reasonable doubt of its duress of minimal viable product by General
+          Maintanance Unit 11/12 industry-type, consensus.
+          <br />
+          <br />
           "Save the cost of the druggie, by buying their needles." Chris Salcedo
           <br />
           <br />
