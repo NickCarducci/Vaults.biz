@@ -970,6 +970,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Newsome: "Required to have two week paid leave for trust building more
+          than 26 employees' copy kept in{space}
+          <a href="https://projectequity.org">
+            profit-accounts, collateral or industry-type max-royalty
+          </a>
+          {space}(not payday loan nor compound interest donee invocation and
+          borrower defense, impossible, intentional and retarded for
+          GDP/hour-GDP/p bunting tech advancement for productivity, but
+          efficient, or productive-efficiency).
+          <br />
+          Good will{space}
+          <a href="https://vaults.biz/science">freedoms</a>."
           <h2>
             "soooold on amazon, find out how to be the next publisher with page
             publishing"
@@ -3590,4 +3602,3 @@ export default class App extends React.Component {
     );
   }
 }
-
