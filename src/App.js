@@ -978,6 +978,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Make it happen, hard to follow… good. “Theyre you go, there is karma,”
+          good will savers’ land exploration rights (20%) Per capita, per
+          dollar, or per locale? No way. Montana is ours!
+          <br />
+          <br />
           Saver good will land exploration rights
           <br />
           Donee beneficiary
