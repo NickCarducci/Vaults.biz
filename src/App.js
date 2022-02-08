@@ -978,6 +978,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Operational monopoly equal in receipt and scope truncated production
+          tax.
+          <br />
+          <br />
           "Don't see any reason why natural immunity doesn't work," is
           reasonable doubt of its duress of minimal viable product by General
           Maintanance Unit 11/12 industry-type, consensus.
