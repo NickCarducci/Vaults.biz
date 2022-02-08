@@ -992,9 +992,14 @@ export default class App extends React.Component {
           Maintanance Unit 11/12 industry-type, consensus.
           <br />
           <br />
-          "Save the cost of the druggie, by buying their needles." Chris Salcedo
-          <br />
-          <br />
+          "Save the cost of the druggie, by buying their needles." Chris
+          Salcedo. "equal bond-tax"
+          <h2>
+            pharmacy invasion: transaction fee based sdr, without good will
+            donee invocations, nor false bid pool loss competing with consumer
+            (material+rent)/income cornering by the fucking olds (most of 19%
+            disabled).
+          </h2>
           allow junkies inject illegal and illicit drugs into their system,
           enforcing open source and the right to try, 86'ing Death Valley,
           wholesale, not pennywise by "general revenue" stock sales and{space}
@@ -1002,6 +1007,11 @@ export default class App extends React.Component {
             market concentration
           </a>
           .
+          <br />
+          <br />
+          Cannabis user per capita (person) and accidents while high per capita
+          (accident), describe correlation by change-rate instead of correlation
+          first, then explaining endogeneity away with non-sensible quips.
           <h1>
             sdr flat flat tax - prescription cost for the pinche hispanics?
           </h1>
@@ -3692,4 +3702,3 @@ export default class App extends React.Component {
     );
   }
 }
-
