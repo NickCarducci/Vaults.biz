@@ -979,7 +979,8 @@ export default class App extends React.Component {
           }}
         >
           Operational monopoly equal in receipt and scope truncated production
-          tax.
+          tax. "We give China access to our science rental-leaches and licensing
+          closed-source-costs," why wouldn't you give everyone
           <br />
           <br />
           "Don't see any reason why natural immunity doesn't work," is
@@ -3687,4 +3688,3 @@ export default class App extends React.Component {
     );
   }
 }
-
