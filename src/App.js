@@ -996,7 +996,8 @@ export default class App extends React.Component {
           scope of work than expected in literal requirements."
           <h3>
             valley of death, right to try, open source, false bid pool loss (not
-            reciprocol/isolated trade)
+            reciprocol/isolated trade) - trials, 100ks trials, ARPA-H can be
+            price-fixed to the rate of material-inflation.
           </h3>
           Rare can be fulcrum of all else (if TRANSMITTED instead of BYPRODUCT
           PREVALENT); genetic? not so. "Covid type of program, in this very
