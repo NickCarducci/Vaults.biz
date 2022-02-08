@@ -965,6 +965,19 @@ export default class App extends React.Component {
           }}
         >
           <h3>
+            valley of death, right to try, open source, false bid pool loss (not
+            reciprocol/isolated trade)
+          </h3>
+          Rare can be fulcrum of all else (if TRANSMITTED instead of BYPRODUCT
+          PREVALENT); genetic? not so. "Covid type of program, in this very
+          complex world we live in. How do we ensure we are complimentary,
+          assisting, to get beyond high-risk, how do we draw the line?"
+          <br />
+          ARPA-H rare diseased, 7k small patient populations, fill
+          unincentivized good will and accrual accounting. "Research innovation
+          growth direct research funding"{space}
+          <a href="https://">anti-trust</a>.
+          <h3>
             book is a multiple of concurrentable value into good will, price is
             a multiple of THAT
           </h3>
