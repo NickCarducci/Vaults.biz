@@ -974,7 +974,9 @@ export default class App extends React.Component {
           <h2>paradigm entrenchment</h2>
           "Bringing voices that aren't tapped, like quora or thumbprint,
           knowledge discovery, to give working scientists, like statisticians
-          whom use indices instead of R luddite."
+          whom use indices instead of endogenous R (change-rate correlation)
+          variance-undiscounting, -luddite (instead of per capita by all-time)."
+          So important.
           <br />
           <br />
           "Federal supported research, peer-review leverages ARPA-H like NIH and
