@@ -992,6 +992,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Canadians are gonna want their goods, services," and assets.
+          <br />
           Fuck off judge "recompence treatment."
           <br />
           closed-source labor never fixed cost, just because it is durable to
