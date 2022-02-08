@@ -91,6 +91,7 @@ export default class App extends React.Component {
     this.redistricting = React.createRef();
     this.psych = React.createRef();
     this.obamacare = React.createRef();
+    this.intllaw = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -107,6 +108,7 @@ export default class App extends React.Component {
       ["voting", this.voting],
       ["trade", this.trade],
       ["china", this.china],
+      ["intllaw", this.intllaw],
       ["obamacare", this.obamacare],
       //
       ...genChildRefs3,
@@ -414,6 +416,8 @@ export default class App extends React.Component {
           pager("arc", this.party.current.offsetTop);
         } else if (this.props.pathname === "/marx") {
           pager("arc", this.marx.current.offsetTop);
+        } else if (this.props.pathname === "/intllaw") {
+          pager(null, this.intllaw.current.offsetTop);
         } else if (this.props.pathname === "/calc") {
           pager(null, this.calc.current.offsetTop);
         } else if (this.props.pathname === "/obamacare") {
@@ -694,6 +698,8 @@ export default class App extends React.Component {
         inSection("calc");
       } else if (construct(null, this.voting.current) < tryy) {
         inSection("voting");
+      } else if (construct(null, this.intllaw.current) < tryy) {
+        inSection("intllaw");
       } else if (construct(null, this.trade.current) < tryy) {
         inSection("trade");
       } else if (construct(null, this.obamacare.current) < tryy) {
@@ -3492,6 +3498,13 @@ export default class App extends React.Component {
               Obamacare
             </a>
             <br />
+            <a
+              style={{ color: "black", border: scrollPath("intllaw") }}
+              href={`${window.location.origin}/intllaw`}
+            >
+              intllaw
+            </a>
+            {space}
             <a
               style={{ color: "black", border: scrollPath("capitalism") }}
               href={`${window.location.origin}/capitalism`}
