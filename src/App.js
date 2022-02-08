@@ -982,7 +982,11 @@ export default class App extends React.Component {
           <br />
           Donee beneficiary
           <br />
-          False bid pool too
+          False bid pool too (not insulated casino,{space}
+          <a href="https://humanharvest.info/polio">
+            population growth, life expectancy ago
+          </a>
+          )
           <br />
           <br />A 'cause,' would beget an {space}
           <span
