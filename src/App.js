@@ -970,6 +970,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Doesn't compute, might displace the private sector, time gated,
+          performance metrics, fail early, holding progam managers responsible.
+          Medicare false bid pool loss, invoice donee invocation and
+          prescription cost direct rebate 44% stock sales."
+          <br />"
+          <a href="https://froth.app">$6.5b/yr biomedical r&d gentrification</a>
+          {space}(for licensing, rather than open-source ingredient-lists for
+          the right to try) doesn't counteract the issues in pricing and drug
+          markets (prescription costs, expiring premiums/false bid pool loss,
+          'general revenue' asset sales of other industry)."
+          <h2>fully unleash the private sector</h2>
+          “Seems like congress wants to solve all our problems by throwing a lot
+          of money at it, instead of facilitating what could be done in the
+          private (or scientific, ‘rent-free’) sector. Less regulation, faster
+          approval, HR3 less giving away of IP, less competition.” Mr. Curtis
+          <br />
+          <br />
           "Purchase vaccines and prevent negotiation by actual voluntary demand,
           not a collective bargain if no actual labor-based-demand, even if the
           purchase is rollover, concurrentable, not good will nor expiring. We
@@ -3465,3 +3482,4 @@ export default class App extends React.Component {
     );
   }
 }
+
