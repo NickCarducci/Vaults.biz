@@ -964,6 +964,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>Jump! Go ahead, jump!</h1>
           “No to the nordstream pipeline, because Putin poisons his political
           competition. Obama position has been clear, along with pennywise
           cheaper than insurance false bid pool costs by price controls and
@@ -971,8 +972,7 @@ export default class App extends React.Component {
           non-insulated ‘healthcare,’ especially{space}
           <a href="https://vaults.biz/healthcare">44% Medicare</a>
           {space}being stock sales.” Rick Grenel
-          <br />
-          <br />
+          <h1>“Working field,” I’m the boss!</h1>
           Stop saying we don't work cunt, 25-34 work twice per capita than the
           highest paid per capita 45-54. "We have another full time job, younger
           people don’t want to work," the amount of hours worked per home
