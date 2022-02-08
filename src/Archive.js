@@ -200,6 +200,23 @@ class Archive extends React.Component {
         (e.g. spectrum monopoly and subsidies, I will not take income from these
         donee invocations).
         <h2 ref={this.props.rec}>
+        <Cable
+          onError={handleScollImgError}
+          //img={true}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.dl.dropboxusercontent.com/s/v94nqshd3bn0lke/Screen%20Shot%202022-02-08%20at%206.14.07%20PM.png?dl=0"
+          }
+          float="left"
+          title="Change the Economic system - always middle ground "
+          scrolling={this.props.scrolling}
+          fwd={this.props["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
+          General Maintenence Unit (duress and donee)
+          <br/>
           "
           <a href="https://arstechnica.com/information-technology/2021/02/verizon-and-att-dominate-spectrum-auction-spending-combined-69-billion/">
             I've got a bridge to sell you
