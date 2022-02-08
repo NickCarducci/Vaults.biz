@@ -1045,8 +1045,7 @@ export default class App extends React.Component {
           And it has to be relative to input cost, skew, to not be discriminated
           by reasonable doubt of subjective duress beyond minimal viable duress,
           by 11/12 industry-variable science.
-          <br />
-          <br />
+          <h2>"Pay tax unvaccinated, unequal"</h2>
           migration is an invasion or trade?
           {/* Swear them in! Wait in line! Watch
           in a cell, $STUDY*/}
@@ -1257,12 +1256,14 @@ export default class App extends React.Component {
           {space}being stock sales.” Rick Grenel
           <h1>“Working field,” I’m the boss!</h1>
           {/**rot in hell, bitch */}
-          Stop saying we don't work cunt, 25-34 work twice per capita than the
-          highest paid per capita 45-54. "We have another full time job, younger
-          people don’t want to work," the amount of hours worked per home
-          doubles every 5 years, and not because of population growth, but
-          because of good will accounting. There is just not enough working age
-          and{space}
+          <a href="https://www.quora.com/Can-Trump-eradicate-unemployment/answer/Nick-Carducci">
+            Stop saying we don't work cunt
+          </a>
+          , 25-34 work twice per capita than the highest paid per capita 45-54.
+          "We have another full time job, younger people don’t want to work,"
+          the amount of hours worked per home doubles every 5 years, and not
+          because of population growth, but because of good will accounting.
+          There is just not enough working age and{space}
           <a href="https://vaults.biz/work">too many boomers</a>.
           <br />
           <br />
