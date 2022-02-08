@@ -978,7 +978,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          A 'cause,' would beget an exponential induction, not a{space}
+          A 'cause,' would beget an {space}
+          <span
+            style={{
+              textDecoration: "underline"
+            }}
+          >
+            exponential induction
+          </span>
+          , not a{space}
           <a href="https://www.cdc.gov/transportationsafety/impaired_driving/impaired-drv_factsheet.html">
             basis matching
           </a>
@@ -1050,8 +1058,15 @@ export default class App extends React.Component {
           "Bringing voices that aren't tapped, like quora or thumbprint,
           knowledge discovery, to give working scientists, like statisticians
           whom use indices instead of endogenous R (change-rate correlation)
-          variance-undiscounting, -luddite (instead of per capita by all-time)."
-          So important.
+          {space}
+          <span
+            style={{
+              textDecoration: "line-through"
+            }}
+          >
+            variance-undiscounting
+          </span>
+          , -luddite (instead of per capita by all-time)." So important.
           <br />
           <br />
           "Federal supported research, peer-review leverages ARPA-H like NIH and
@@ -3634,3 +3649,4 @@ export default class App extends React.Component {
     );
   }
 }
+
