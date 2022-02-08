@@ -978,6 +978,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Save the cost of the druggie, by buying their needles." Chris Salcedo
+          <br />
+          <br />
+          allow junkies inject illegal and illicit drugs into their system,
+          enforcing open source and the right to try, 86'ing Death Valley,
+          wholesale, not pennywise by "general revenue" stock sales and{space}
+          <a href="https://www.linkedin.com/posts/american-economic-liberties-project_mergers-ruin-everything-activity-6896932492499062784-3qFv">
+            market concentration
+          </a>
+          .
           <h1>
             sdr flat flat tax - prescription cost for the pinche hispanics?
           </h1>
