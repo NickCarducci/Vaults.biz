@@ -970,6 +970,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>gentrification: meeting people where they are</h2>
           "Doesn't compute, might displace the private sector, time gated,
           performance metrics, fail early, holding progam managers responsible.
           Medicare false bid pool loss, invoice donee invocation and
