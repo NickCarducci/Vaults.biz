@@ -74,6 +74,7 @@ export default class App extends React.Component {
     this.air = React.createRef();
     this.china = React.createRef();
     this.voting = React.createRef();
+    this.trade = React.createRef();
     this.first = React.createRef();
     this.chapter2 = React.createRef();
     this.calc = React.createRef();
@@ -101,6 +102,7 @@ export default class App extends React.Component {
       ["first", this.first],
       ["calc", this.calc],
       ["voting", this.voting],
+      ["trade", this.trade],
       ["china", this.china],
       ["obamacare", this.obamacare],
       //
@@ -305,25 +307,25 @@ export default class App extends React.Component {
             !this.chapter3.current
           )
             return null;
-          //this.setState({ offScroll: true }, () => {
-          console.log(current, this.chapter1.current.offsetHeight);
-          window.scroll(
-            0,
-            planner === "arc"
-              ? this.chapter1.current.offsetHeight +
-                  this.chapter2.current.offsetHeight +
-                  current
-              : !planner
-              ? this.chapter1.current.offsetHeight + current
-              : current
-          );
-          clearInterval(this.check);
-          //this.setState({ offScroll: false });
-          /*this.setState(
+          this.setState({ offScroll: true }, () => {
+            //console.log(current, this.chapter1.current.offsetHeight);
+            window.scroll(
+              0,
+              planner === "arc"
+                ? this.chapter1.current.offsetHeight +
+                    this.chapter2.current.offsetHeight +
+                    current
+                : !planner
+                ? this.chapter1.current.offsetHeight + current
+                : current
+            );
+            clearInterval(this.check);
+            this.setState({ offScroll: false });
+            /*this.setState(
             {
               ternaryHeight
             }*/
-          /* () => {
+            /* () => {
               this.setState({
                 ternaryHeight: this.state.planner
                   ? this.chapter1.current
@@ -335,7 +337,7 @@ export default class App extends React.Component {
                     this.chapter2.current.offsetHeight
               });
             }*/
-          // });
+          });
         };
         if (this.props.pathname === "/") {
           this.setState({ planner: true });
@@ -403,6 +405,8 @@ export default class App extends React.Component {
           pager(null, this.first.current.offsetTop);
         } else if (this.props.pathname === "/voting") {
           pager(null, this.voting.current.offsetTop);
+        } else if (this.props.pathname === "/trade") {
+          pager(null, this.trade.current.offsetTop);
         } else if (this.props.pathname === "/air") {
           pager(null, this.air.current.offsetTop);
         } else if (this.props.pathname === "/sci") {
@@ -668,6 +672,8 @@ export default class App extends React.Component {
         inSection("calc");
       } else if (construct(null, this.voting.current) < tryy) {
         inSection("voting");
+      } else if (construct(null, this.trade.current) < tryy) {
+        inSection("trade");
       } else if (construct(null, this.obamacare.current) < tryy) {
         inSection("obamacare");
       } else if (construct(null, this.immi.current) < tryy) {
@@ -1653,7 +1659,7 @@ export default class App extends React.Component {
           <h3>
             war bond conflict of interest; education, healthcare, housing,
             juris, indices funds over currency, over labor costs, General
-            Maintenance keeping us from implausible landlord use, export jury
+            Maintenance keeping us from implausible landlord use, expert jury
             saveface lest malpractice torts, and repo-cycle kept down payment,
             fails.
           </h3>
@@ -3105,6 +3111,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/redistricting`}
             >
               redistricting
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("trade") }}
+              href={`${window.location.origin}/trade`}
+            >
+              trade
             </a>
             {space}
             <a
