@@ -970,8 +970,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "We know provider-users will seek those whom look like them. I am a
-          man of science, I like to measure things. How can we measure, metrics?
+          "Purchase vaccines and prevent negotiation by actual voluntary demand,
+          not a collective bargain if no actual labor-based-demand, even if the
+          purchase is rollover, concurrentable, not good will nor expiring. We
+          know provider-users will seek those whom look like them. I am a man of
+          science, I like to measure things. How can we measure, metrics?
           Metrics of how populations are identified, and what we are looking
           for. Equitable, affordable for all conumers. Private ensures
           manufacturing and end to end, but we need to make sure we gentrify
