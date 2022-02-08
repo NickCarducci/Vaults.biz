@@ -978,6 +978,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "<a href="https://www.yardeni.com/pub/monetagg.pdf">legal markets</a>
+          ," I just don't get it art mentariz, basis rate fallacy haver
+          <br />
           Roger stone. Gold gristedes truncated production tax drop dead victim.
           Down throat.
           <h3>Get good will out of the juris!</h3>
