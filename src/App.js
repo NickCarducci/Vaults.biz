@@ -59,6 +59,7 @@ export default class App extends React.Component {
     this.insurance = React.createRef();
     this.saver = React.createRef();
     this.dns = React.createRef();
+    this.science = React.createRef();
     this.biz = React.createRef();
     this.crime = React.createRef();
     this.health = React.createRef();
@@ -341,6 +342,11 @@ export default class App extends React.Component {
         };
         if (this.props.pathname === "/") {
           this.setState({ planner: true });
+        } else if (this.props.pathname === "/science") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.science.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/redistricting") {
           this.setState(
             { planner: true },
@@ -964,6 +970,24 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "We know provider-users will seek those whom look like them. I am a
+          man of science, I like to measure things. How can we measure, metrics?
+          Metrics of how populations are identified, and what we are looking
+          for. Equitable, affordable for all conumers. Private ensures
+          manufacturing and end to end, but we need to make sure we gentrify
+          communities, instead of SHARING THE FUCKING SCIENCE FOR FREE FUCKING
+          TACO. Consultation in how projects are prioritized, instead of actual
+          consumer surrogates. Health equity is short for healthcare workers.
+          underlying biology in cross-sectional comparisons, not time-series
+          alone on one population, Diversity in Clinical Trials Act."
+          <br />
+          "An authoritative-healthcare would not make a non-profit (cash not
+          held year to year) agency work on behalf of the citizenry by
+          laundering share-split from Saver land exploration rights, nor trust
+          build r&d, abett closed source science and rents, not equity."
+          <hr ref={this.science} />
+          rent-free shuffled-extrapolations: sum average per capita fixed for
+          skew for median/(mean)
           <h2>
             instead of banning invoices, you funnel $829.5b/yr Medicare thru
             $2.7t/yr '<a href="https://vaults.biz/obamacare">healthcare</a>,'
