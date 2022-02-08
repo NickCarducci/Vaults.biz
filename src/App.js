@@ -982,7 +982,11 @@ export default class App extends React.Component {
           ," I just don't get it art mentariz, basis rate fallacy haver
           <br />
           Roger stone. Gold gristedes truncated production tax drop dead victim.
-          Down throat.
+          Down throat. They will corner farmland by claiming mom and pops’ lace
+          it without laundering thru FDA Death Valley. "30% more potent than
+          morphine, (stops breathing).{space}
+          <a href="https://teapharmacy.party/drugs">Substance abuse</a>, 2x-3x
+          over closures of jobs and schools.”
           <h3>Get good will out of the juris!</h3>
           Altruism is reflexive whom.
           <br />
