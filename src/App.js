@@ -973,7 +973,9 @@ export default class App extends React.Component {
           "Doesn't compute, might displace the private sector, time gated,
           performance metrics, fail early, holding progam managers responsible.
           Medicare false bid pool loss, invoice donee invocation and
-          prescription cost direct rebate 44% stock sales."
+          prescription cost direct rebate 44% stock sales." Dr. Miller
+          continues, "All it means is if the good will value of the horizontal
+          trust is $0, then the price is $0." (?)
           <br />"
           <a href="https://froth.app">$6.5b/yr biomedical r&d gentrification</a>
           {space}(for licensing, rather than open-source ingredient-lists for
@@ -3482,4 +3484,3 @@ export default class App extends React.Component {
     );
   }
 }
-
