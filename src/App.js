@@ -62,7 +62,7 @@ export default class App extends React.Component {
     this.biz = React.createRef();
     this.crime = React.createRef();
     this.health = React.createRef();
-    this.pdt = React.createRef();
+    this.trading = React.createRef();
     this.canvas = React.createRef();
     this.chapter1 = React.createRef();
     this.work = React.createRef();
@@ -371,9 +371,9 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.dns.current.offsetTop) //offsetTop
           );
-        } else if (this.props.pathname === "/pdt") {
+        } else if (this.props.pathname === "/trading") {
           this.setState({ planner: true }, () =>
-            pager(true, this.pdt.current.offsetTop)
+            pager(true, this.trading.current.offsetTop)
           );
         } else if (this.props.pathname === "/con") {
           this.setState(
@@ -413,7 +413,7 @@ export default class App extends React.Component {
           pager(null, this.sci.current.offsetTop); //costing lives' Salcedo
         } else if (this.props.pathname === "/sdr") {
           pager(null, this.sdr.current.offsetTop);
-        } else if (this.props.pathname === "/rec") {
+        } else if (["/receipts", "/rec"].includes(this.props.pathname)) {
           pager(null, this.rec.current.offsetTop);
         } else if (this.props.pathname === "/immi") {
           //console.log("immi");
@@ -964,6 +964,31 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "economic opportunity and more jobs," without labor-borne-demand
+          sounds like busy-work.
+          <br />
+          <br />
+          The{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=Lznz">
+            Federal Reserve
+          </a>
+          {space}*induces ***market concentration over the dollar** by
+          *laborless-demand and labor cost cornering*, but they are non-profit,
+          or - at least, **outlay institutional-fees to their
+          accountant-economists within a year**.
+          <br />
+          Rather, more appropriately, and in aggregate: since the Federal
+          Reserve balance sheet is mostly outstanding checking, and{space}
+          <a href="https://www.federalreserve.gov/releases/h6/current/default.htm">
+            assets are merely Good Will on that negative
+          </a>
+          {space}basis…. Where they make these fees is obscure, it may be
+          general revenue asset (bond and stock) sales, or they just{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=Lzu0">**make**</a>
+          {space}($b) their salaries to outstanding (share-split) Savers’ claims
+          of dollars over bonds’ of state-lands and “exploration” resources.
+          <br />
+          <br />
           competing with consumers not only is not surprising, but it is
           retarded for bunting GDP/hour-GDP/p
           <h1>Jump! Go ahead, jump!</h1>
@@ -2456,7 +2481,11 @@ export default class App extends React.Component {
           ‘name-your-price tool,’ -loss, is fallacious; people are good
           economically, and GDP/hours is productivity if GDP/hours-GDP/p is
           productive efficiency, tech advancement -GDP/p.
-          <h2 ref={this.pdt}>"bankrolling-rent"</h2>
+          <h2 ref={this.trading}>"bankrolling: rent"</h2>blind trust/indices
+          concentration over the dollar, like I come in to{space}
+          <a href="https://vaults.biz/receipts">make-policy</a>
+          {space}for my book
+          <h3>pattern day trading:</h3>
           How do you bet responsibly by shooting {"<"}$25k fish in a barrel.
           Show us your real time holdings PER ACCOUNT WITH IDENTIFICATION OF not
           more than 3 accounts Castigation gentrification, Medicare 44% stock
@@ -3108,12 +3137,6 @@ export default class App extends React.Component {
             Superfluous intra juris. Con i see convict interntl intranet. Enough
             said (bona fide politics: doubt, move on). Behaving the way they
             did, while the rest of us couldn’t.{space}
-            <a
-              style={{ color: "black", border: scrollPath("pdt") }}
-              href={`${window.location.origin}/pdt`}
-            >
-              Pattern day trading
-            </a>
             .
             <br />
             <br />
@@ -3129,6 +3152,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/obamacare`}
             >
               Obamacare
+            </a>
+            <br />
+            <a
+              style={{ color: "black", border: scrollPath("trading") }}
+              href={`${window.location.origin}/trading`}
+            >
+              trading
             </a>
             <br />
             <a
