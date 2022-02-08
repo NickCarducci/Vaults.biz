@@ -88,6 +88,7 @@ export default class App extends React.Component {
     this.plandemic = React.createRef();
     this.education = React.createRef();
     this.redistricting = React.createRef();
+    this.psych = React.createRef();
     this.obamacare = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
@@ -386,6 +387,10 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.con.current.offsetTop) //content,comms
           );
+        } else if (this.props.pathname === "/psych") {
+          this.setState({ planner: true }, () =>
+            pager(true, this.psych.current.offsetTop)
+          );
         } else if (this.props.pathname === "/trust") {
           this.setState({ planner: true }, () =>
             pager(true, this.trust.current.offsetTop)
@@ -646,6 +651,9 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
+      if (construct(true, this.psych.current) < tryy) {
+        inSection("psych");
+      }
       if (construct(true, this.redistricting.current) < tryy) {
         inSection("redistricting");
       } else if (construct(true, this.sci.current) < tryy) {
@@ -970,6 +978,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          A 'cause,' would beget an exponential induction, not a{space}
+          <a href="https://www.cdc.gov/transportationsafety/impaired_driving/impaired-drv_factsheet.html">
+            basis matching
+          </a>
+          .
+          <br />
+          <hr ref={this.psych} />
+          Spokeswoman for Trump 2020 campaign: "Non-biomedical and{space}
+          <a href="https://www.adcouncil.org/campaign/drug-impaired-driving-prevention">
+            unscientific
+          </a>
+          {space}
+          Mental health and drug epidemic can be suppressed by providing access
+          to individuals by stock sales of horizontal industry, donee invoking
+          and impossible invoices and false bid pool loss."
+          <br />
+          <br />
           Newsome: "Required to have two week paid leave for trust building more
           than 26 employees' copy kept in{space}
           <a href="https://projectequity.org">
@@ -3376,7 +3401,14 @@ export default class App extends React.Component {
             >
               trading
             </a>
-            <br />
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("psych") }}
+              href={`${window.location.origin}/psych`}
+            >
+              psych
+            </a>
+            {space}
             <a
               style={{ color: "black", border: scrollPath("redistricting") }}
               href={`${window.location.origin}/redistricting`}
