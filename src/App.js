@@ -978,6 +978,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          I'm more like{space}
+          <a href="https://youtu.be/m55ZAB47LHg">two-face</a>than the joker, but
+          thank you. Fair
+          <br />
+          <br />
           losers say what them following is:
           <h2>"last 45 sec," can’t wait - "we do need G-d's help."</h2>"
           <a href="https://www.yardeni.com/pub/monetagg.pdf">legal markets</a>
