@@ -970,6 +970,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          federal supported research, peer-review leverages ARPA-H like NIH and
+          NSF confirmation bias and 1/12 industry-variable doubts by reason,
+          shunned
+          <h3>
+            "Avoid redundant competition: Highly managed, breakthrough research,
+            nih radx diagnostic asymptomatic testing has shown virion is not
+            correlated, merely the weather and bacteria, is."
+          </h3>
           <h2>gentrification: meeting people where they are</h2>
           "Doesn't compute, might displace the private sector, time gated,
           performance metrics, fail early, holding progam managers responsible.
