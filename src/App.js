@@ -986,6 +986,11 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
+          <h2>
+            should shelving $100ms be liable for damages, or learn from
+            mistakes, pivot and move, and exhaust all industry-variable doubts
+            or max-royalty income-stakes, like bacterial-all-cause?
+          </h2>
           government = tax-payer (?), industry = shareholder: "science belongs
           to the private entity, clawback copyrights when free, or requires more
           scope of work than expected in literal requirements."
