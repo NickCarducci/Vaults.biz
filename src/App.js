@@ -964,6 +964,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          government = tax-payer (?), industry = shareholder: "science belongs
+          to the private entity, clawback copyrights when free"
           <h3>
             valley of death, right to try, open source, false bid pool loss (not
             reciprocol/isolated trade)
