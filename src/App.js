@@ -970,9 +970,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          federal supported research, peer-review leverages ARPA-H like NIH and
+          kill yourself Dr. Yamamoto
+          <h2>paradigm entrenchment</h2>
+          "Bringing voices that aren't tapped, like quora or thumbprint,
+          knowledge discovery, to give working scientists, like statisticians
+          whom use indices instead of R luddite."
+          <br />
+          <br />
+          "Federal supported research, peer-review leverages ARPA-H like NIH and
           NSF confirmation bias and 1/12 industry-variable doubts by reason,
-          shunned
+          shunned."
           <h3>
             "Avoid redundant competition: Highly managed, breakthrough research,
             nih radx diagnostic asymptomatic testing has shown virion is not
