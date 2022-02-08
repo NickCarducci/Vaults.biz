@@ -964,8 +964,31 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            instead of banning invoices, you funnel $829.5b/yr Medicare thru
+            $2.7t/yr '<a href="https://vaults.biz/obamacare">healthcare</a>,'
+            and you have the gaul to say that the government doesn't profit from
+            this market concentration, making reasonable margins, impractical?
+          </h2>
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/itn1ms1mvpo7e2j/Screen%20Shot%202022-02-08%20at%2012.40.12%20PM.png?dl=0"
+            }
+            float="left"
+            title="Energy and Commerce (Youtube) - rent-seeking science and gentrification"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           government = tax-payer (?), industry = shareholder: "science belongs
-          to the private entity, clawback copyrights when free"
+          to the private entity, clawback copyrights when free, or requires more
+          scope of work than expected in literal requirements."
           <h3>
             valley of death, right to try, open source, false bid pool loss (not
             reciprocol/isolated trade)
