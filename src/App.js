@@ -992,6 +992,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Answer disobedient to parents, gerontocratic gentrification, sleigh
+          the preacher like He said He would die. BEHAVE 65% mortgage, 35% rent,
+          even the 5% in financial industry is net loss in non-profit banking
+          (salary, as federal reserve, of CASH in profit accounts,
+          year-to-year).
+          <br />
+          <br />
           "Canadians are gonna want their goods, services," and assets.
           <br />
           Fuck off judge "recompence treatment."
@@ -1841,6 +1848,11 @@ export default class App extends React.Component {
             rental-income use cap by units or days
           </h2>
           <h3 ref={this.insurance}>unknown hazard liability</h3>
+          "A workers’ comp plan that works for me to grow the company, without
+          breaking the bank."
+          {/*"before being raisen from dead, phil robertson, 'forgive them'" */}
+          <br />
+          <br />
           "'Does insurance cover punitive damages?'"
           <br />
           "No. It would be against public policy to allow insurance companies to
@@ -3753,3 +3765,4 @@ export default class App extends React.Component {
     );
   }
 }
+
