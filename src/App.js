@@ -3708,8 +3708,19 @@ export default class App extends React.Component {
               immigration
             </a>
             <br />
-            <br />
-            per hour price deflation spam
+            <div
+              style={{
+                color: "white",
+                backgroundColor: "rgb(20,20,50)",
+                overflow: "hidden",
+                //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+                height: this.state.footer ? "" : "0px"
+              }}
+            >
+              GDP/hour-GDP/p
+              <br />
+              per hour price deflation spam
+            </div>
             <br />
             gentrification
             <br />
