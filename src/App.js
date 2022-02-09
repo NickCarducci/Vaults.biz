@@ -993,7 +993,9 @@ export default class App extends React.Component {
           }}
         >
           "$100m illegal defunding releasing illegal aliens from ICE detention,"
-          anything bond loss net profit
+          anything bond loss net profit. "Talking about $40m tax-dollars $248m,
+          $448m profit to next year, 40% debt spend, 10% debt service, njta 50%
+          nd 40%."
           <h2>
             Shortage of spectrum, bridges and German-oil in rural communities,
             target margin
