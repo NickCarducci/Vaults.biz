@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles.css";
 import Cable from "./Dropwire";
 import { UAParser } from "ua-parser-js";
@@ -1000,7 +999,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          my prescription? lobotomy. their diagnosis of homelessness
+          spend time, pay attention; for science or copyright.
+          <nr />
+          my prescription? lobotomy. their diagnosis of homelessness.
           <h1>Emma Reckenburg is addicted to basis rate fallacies.</h1>
           <h2>
             Pfizer and Harvard wyss says bacterial cause is acute version of
@@ -1061,6 +1062,9 @@ export default class App extends React.Component {
           n=(1/100)*population, shuffled, or 100, randomly selected.
           <br />
           5% spasms of single-year-age-death-rate is expected, and per age is.
+          <br />
+          X, z plane of year and age, distributional shift of {">"}.05, still
+          requires 100 to materialize a distribution
           {/**
           So, it is safe to say r Pearson significance p<.05 (of a new test)
            isn’t significant unless there is a sample of at least 100 random 
@@ -1070,6 +1074,15 @@ export default class App extends React.Component {
           <br />
           “Poverty (material+rent)/income lowered, under Trump; wages grew.”
           Jason Riley, Black Boom.
+          <br />
+          <br />
+          The reason we take the absolute is because an endogenous factor is.
+          {/**"every advanage in life tends to have disadvantage, and that is 
+          the problem, or the solution of those if altru. Hydrogen and water 
+          and inert as H20, mito break carbon and extract energy, fungus 6, 36
+           oxidized/bVitamin antioxidant reduction a c aand e, b vit foliate, 
+           MTHFR - disadvantage of oxygation, wringles, elasticity, plaque heart disease,
+            heart attack, stroke, eyes prediabetes" ford brewer alzeimers is caused by sewage. */}
           <br />
           <br />
           College, housing, not enough income, need to run in the military, if
