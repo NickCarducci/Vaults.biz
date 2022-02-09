@@ -1,3 +1,4 @@
+import React from "react";
 import "./styles.css";
 import Cable from "./Dropwire";
 import { UAParser } from "ua-parser-js";
