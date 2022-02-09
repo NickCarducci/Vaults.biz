@@ -1053,6 +1053,8 @@ export default class App extends React.Component {
           Mean age-at-death distribution of a population; mean age-at-death,
           rate, distribution of a time-series, is only significant with
           n=(1/100)*population, shuffled, or 100, randomly selected.
+          <br />
+          5% spasms of single-year-age-death-rate is expected, and per age is.
           {/**
           So, it is safe to say r Pearson significance p<.05 (of a new test)
            isn’t significant unless there is a sample of at least 100 random 
