@@ -1000,6 +1000,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "good will $30k/yr kid, not sustainable," it is donee claimable Saver
+          land exploration rights 20%
+          <h3>
+            equal in receipt and scope: truncated production tax sewage police
+            lawsuits 2025 - Citizens are more criminal, by 1% vaults.biz/immi
+          </h3>
           <h1>
             people are on the streets because of finance, not because they are
             too high
