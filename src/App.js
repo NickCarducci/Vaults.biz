@@ -4189,6 +4189,23 @@ export default class App extends React.Component {
             censorship
             <br />
             wwii
+            <br />
+            <br />
+          </div>
+          <div
+            style={{
+              overflow: "hidden",
+              //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+              height: this.state.footer ? "" : "0px"
+            }}
+          >
+            the demand is legit{/**historically */}
+            The{space}
+            <a href="https://magnate.company">
+              anti-nuclear reactor, torus-magnetic engine
+            </a>
+            . “Lives AND livelihoods.” Bar-association. Ban licenses. Open
+            ingredient lists.
           </div>
         </div>
         <div
