@@ -112,7 +112,7 @@ export default class MoldMask extends React.Component {
     };
   }
   componentDidMount = () => {
-    if (window.location.href.startsWith("https://moldmask.co/"))
+    if (window.location style={{color: "rgb(90, 120, 185)"}}.href.startsWith("https://moldmask.co/"))
       this.state.pouch
         .readPrivateKeys()
         .then(async (nonce) => {
@@ -216,7 +216,6 @@ export default class MoldMask extends React.Component {
         this.setState({ serviceCancelingImages: true });
       }
     };
-    console.log(lastPath);
     return (
       <div
         style={{
@@ -228,9 +227,6 @@ export default class MoldMask extends React.Component {
           backgroundColor: "rgb(200, 230, 255)"
         }}
       >
-        <div onClick={() => this.props.history.push("/" + lastPath)}>
-          back to vaults.biz/{lastPath}
-        </div>
         <div
           style={{
             left: "10px",
@@ -244,7 +240,7 @@ export default class MoldMask extends React.Component {
           <br />
           <br />
           <div style={{ position: "absolute" }}>
-            {/*window.location.href === "https://moldmask.co/" && (
+            {/*window.location style={{color: "rgb(90, 120, 185)"}}.href === "https://moldmask.co/" && (
             <div
               style={{
                 backgroundColor: "rgb(100,200,255)",
@@ -261,7 +257,7 @@ export default class MoldMask extends React.Component {
                   _id: "nonce"
                 });
                 if (resp) {
-                  // window.location.href = `https://${shop}.myshopify.com/admin/oauth/authorize?client_id=${api_key}&scope=${scopes}&redirect_uri=${redirect}&state=${nonce}&grant_options[]={access_mode}`;
+                  // window.location style={{color: "rgb(90, 120, 185)"}}.href = `https://${shop}.myshopify.com/admin/oauth/authorize?client_id=${api_key}&scope=${scopes}&redirect_uri=${redirect}&state=${nonce}&grant_options[]={access_mode}`;
                 }
               }}
             >
@@ -328,7 +324,12 @@ export default class MoldMask extends React.Component {
                 Have a real hankering for raising hell for you and your fellows?
                 Check out our always-pivoting
                 <br />
-                <a href="https://foiegras.life">FoieGras</a>
+                <a
+                  style={{ color: "rgb(90, 120, 185)" }}
+                  href="https://foiegras.life"
+                >
+                  FoieGras
+                </a>
               </div>
               <div
                 style={{
@@ -351,11 +352,23 @@ export default class MoldMask extends React.Component {
                 backgroundColor: "rgb(200, 230, 255)"
               }}
             >
-              <a style={{ color: "blue" }} href="https://billbiden.org">
+              <a
+                style={{ color: "rgb(90, 120, 185)" }}
+                href="https://billbiden.org"
+              >
                 BillBiden
               </a>
               : does it seep into the pores?
             </div>
+          </div>
+          <div
+            onClick={() => this.props.history.push(lastPath)}
+            style={{
+              border: "3px solid",
+              borderRadius: "15px"
+            }}
+          >
+            back to vaults.biz{lastPath}
           </div>
           <Cable
             style={{ width: "300px", height: "230px" }}
@@ -381,7 +394,10 @@ export default class MoldMask extends React.Component {
           <br />
           Imagine people claiming you are fraudulent and trying to steer people
           away from social security by giving them&nbsp;
-          <a href="http://www.thealmightyguru.com/Wiki/index.php?title=Social_Security_Board_notice_hoax">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="http://www.thealmightyguru.com/Wiki/index.php?title=Social_Security_Board_notice_hoax"
+          >
             all the information
           </a>
           ?
@@ -397,12 +413,16 @@ export default class MoldMask extends React.Component {
               color: "rgb(230,230,255)",
               backgroundColor: "rgb(32, 22, 11)"
             }}
+            style={{ color: "rgb(90, 120, 185)" }}
             href="https://humanharvest.info"
           >
             humanharvest.info
           </a>
           <h1>heat/(density) rises</h1>
-          <a href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/"
+          >
             engineer says masks stop spittle
           </a>
           , but
@@ -424,7 +444,10 @@ export default class MoldMask extends React.Component {
                   <td>2m</td>
                 </tr>
                 <tr>
-                  <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/#:~:text=Practical">
+                  <a
+                    style={{ color: "rgb(90, 120, 185)" }}
+                    href="https://pubmed.ncbi.nlm.nih.gov/17542834/#:~:text=Practical"
+                  >
                     <td>breathe</td>
                   </a>
                   <td>{"<"}1m</td>
@@ -447,7 +470,14 @@ export default class MoldMask extends React.Component {
               evolutionary trait.
               <br />
               <br />I don’t think tornadoes start on land, from the atmosphere
-              &nbsp;<a href="https://froth.app/hadley">Hadley</a>&nbsp;cells
+              &nbsp;
+              <a
+                style={{ color: "rgb(90, 120, 185)" }}
+                href="https://froth.app/hadley"
+              >
+                Hadley
+              </a>
+              &nbsp;cells
             </div>
             <iframe
               style={{
@@ -478,56 +508,97 @@ export default class MoldMask extends React.Component {
           </div>
           <br />
           and&nbsp;
-          <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication"
+          >
             electron microscope only with bacteria+snapshot+mitosis
           </a>
           , to which&nbsp;
-          <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance"
+          >
             prevalence
           </a>
           &nbsp;does not cause, make.&nbsp;
-          <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.cdc.gov/flu/about/professionals/antigenic.htm"
+          >
             For virus
           </a>
           , it is &nbsp;
-          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference"
+          >
             bacterially
           </a>
           -
-          <a href="https://www.fda.gov/media/144245/download#page=42">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.fda.gov/media/144245/download#page=42"
+          >
             prevalent
           </a>
           &nbsp;as a byproduct and&nbsp;
-          <a href="https://www.cmu.edu/common-cold-project/">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.cmu.edu/common-cold-project/"
+          >
             warning-mechanism
           </a>
           , of debris de-clotting operations and bacterial infection, as we know
           it "requires cell to replicate," as its only&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Protistology">taxonomy</a>, and
-          such would be the order of innovation (evolution, in this case) that
-          creates the tech stack in the end of the
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://en.wikipedia.org/wiki/Protistology"
+          >
+            taxonomy
+          </a>
+          , and such would be the order of innovation (evolution, in this case)
+          that creates the tech stack in the end of the
           industrial-[design,discovery,maintainless-utility]-
-          <a href="https://www.sparknotes.com/biology/cellreproduction/cellcycle/section2/">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.sparknotes.com/biology/cellreproduction/cellcycle/section2/"
+          >
             cycle
           </a>
           .&nbsp;
-          <a href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html#:~:text=cSeven%20serious">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html#:~:text=cSeven%20serious"
+          >
             mRNA-sporing-graft
           </a>
           &nbsp;debris-
-          <a href="https://www.google.com/search?q=b+cell+dysregulation+oncogensesis">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.google.com/search?q=b+cell+dysregulation+oncogensesis"
+          >
             excess
           </a>
           &nbsp;antibody b-cell&nbsp;
-          <a href="https://www.fda.gov/media/144452/download#page=60">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.fda.gov/media/144452/download#page=60"
+          >
             dysregulation
           </a>
           &nbsp;is&nbsp;
-          <a href="https://www.lls.org/who-we-are/covid-19-vaccines-faq-patients-and-caregivers#:~:test=Some%20people%20receiving%20a%20COVID-19%20vaccine%20have%20reported%20swollen%20lymph%20nodes">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.lls.org/who-we-are/covid-19-vaccines-faq-patients-and-caregivers#:~:test=Some%20people%20receiving%20a%20COVID-19%20vaccine%20have%20reported%20swollen%20lymph%20nodes"
+          >
             expected
           </a>
           &nbsp;and&nbsp;
-          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://link.springer.com/article/10.1007/s00259-021-05314-2"
+          >
             evident
           </a>
           .
@@ -540,8 +611,8 @@ export default class MoldMask extends React.Component {
               padding: "0px 10px",
               fontSize: "20px",
               fontFamily: "'Pacifico', sans-serif",
-              color: "rgb(230,230,255)",
-              backgroundColor: "rgb(32, 22, 11)"
+              backgroundColor: "rgb(32, 22, 11)",
+              color: "rgb(90, 120, 185)"
             }}
             href="https://2052.live"
           >
@@ -592,11 +663,17 @@ export default class MoldMask extends React.Component {
             <br />
             <br />
             What logistical proof do you have that masking is not a&nbsp;
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+            >
               false positive
             </a>
             ,&nbsp;
-            <a href="https://www.google.com/search?q=null+hypothesis">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.google.com/search?q=null+hypothesis"
+            >
               null hypothesis
             </a>
             <br />
@@ -667,14 +744,20 @@ export default class MoldMask extends React.Component {
             <br />
             <br />
             “It’s the&nbsp;
-            <a href="https://www.dailymail.co.uk/sciencetech/article-9426499/Scientists-evidence-toxic-chemicals-face-masks.html">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.dailymail.co.uk/sciencetech/article-9426499/Scientists-evidence-toxic-chemicals-face-masks.html"
+            >
               testing
             </a>
             ”
             <br />
             <br />
             If&nbsp;
-            <a href="https://cdc.gov/tb/publications/factsheets/general/ltbiandactivetb.htm">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://cdc.gov/tb/publications/factsheets/general/ltbiandactivetb.htm"
+            >
               asymptomatic tuberculosis
             </a>
             &nbsp;cannot spread from human to human (about 1/4 est to have
@@ -697,16 +780,27 @@ export default class MoldMask extends React.Component {
               />
             </div>
             I bet if bonds were&nbsp;
-            <a href="https://billbiden.org">prosecuted as illegal</a>, the
-            treatment would be different than “grants” with strings attached.
-            Fraud in broad daylight just gets ignored #COVID19
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://billbiden.org"
+            >
+              prosecuted as illegal
+            </a>
+            , the treatment would be different than “grants” with strings
+            attached. Fraud in broad daylight just gets ignored #COVID19
             <br />
             <br />
-            <a href="https://www.easyflowusa.com/company-tests">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.easyflowusa.com/company-tests"
+            >
               continuously aerosolized-microorganisms in 10cubicfoot
             </a>
             &nbsp;chamber air&nbsp;
-            <a href="https://halosil.com/what-are-logs-and-why-do-they-matter-in-preventing-infections/#:~:text=The%20highest%20percentage%20that%20is,6%2Dlog%20kill%20rate.%E2%80%9D">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://halosil.com/what-are-logs-and-why-do-they-matter-in-preventing-infections/#:~:text=The%20highest%20percentage%20that%20is,6%2Dlog%20kill%20rate.%E2%80%9D"
+            >
               2LOG kill
             </a>
             <br />
@@ -731,12 +825,18 @@ export default class MoldMask extends React.Component {
               />
             </div>
             <br />“
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+            >
               100,000 could have been saved
             </a>
             ,” they were triggered by gain of function + monoclonal antibodies
             or poisoning, masking causes the&nbsp;
-            <a href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms.">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
+            >
               virus to be prolonged
             </a>
             <br />
@@ -758,7 +858,10 @@ export default class MoldMask extends React.Component {
             <br />
             <br />
             "There is going to be catastrophe," Fauci says&nbsp;
-            <a href="https://www.the-scientist.com/news-opinion/nih-cancels-funding-for-bat-coronavirus-research-project-67486">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.the-scientist.com/news-opinion/nih-cancels-funding-for-bat-coronavirus-research-project-67486"
+            >
               laughingly
             </a>
             <br />
@@ -776,7 +879,10 @@ export default class MoldMask extends React.Component {
             "No benefit of monoclonal antibodies after visiting a hospital nest,
             have to make your own mRNA or a graft without using your own
             punches,&nbsp;
-            <a href="https://www.nature.com/articles/cddis2016148">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.nature.com/articles/cddis2016148"
+            >
               need to guide it
             </a>
             "
@@ -802,7 +908,10 @@ export default class MoldMask extends React.Component {
                 }}
               >
                 Free-rider exclusion without evidence more significant that 1/
-                <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
+                <a
+                  style={{ color: "rgb(90, 120, 185)" }}
+                  href="https://www.cdc.gov/flu/about/professionals/antigenic.htm"
+                >
                   2000
                 </a>
                 &nbsp;for societal policy. 5m have died with this virus that has
@@ -812,14 +921,14 @@ export default class MoldMask extends React.Component {
               <br />
               What would be evidence if not&nbsp;
               <a
-                style={{ color: "rgb(150,220,255)" }}
+                style={{ color: "rgb(90, 120, 185)" }}
                 href="https://www.healthline.com/health-news/noninvasive-saliva-tests-for-covid-19-as-effective-as-nose-throat-swabs"
               >
                 this
               </a>
               , a blood test?&nbsp;
               <a
-                style={{ color: "rgb(150,220,255)" }}
+                style={{ color: "rgb(90, 120, 185)" }}
                 href="https://www.cochrane.org/news/how-accurate-are-routine-laboratory-tests-diagnosis-covid-19"
               >
                 Unless
@@ -842,7 +951,7 @@ export default class MoldMask extends React.Component {
                 institution pulled the trigger on its spread. China presumes the
                 virus was spread by the market, or was the&nbsp;
                 <a
-                  style={{ color: "rgb(150,220,255)" }}
+                  style={{ color: "rgb(90, 120, 185)" }}
                   href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30006-9/fulltext"
                 >
                   rubicon
@@ -878,36 +987,60 @@ export default class MoldMask extends React.Component {
           <br />
           <br />
           The&nbsp;
-          <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx"
+          >
             Virus
           </a>
           &nbsp;is&nbsp;
-          <a href="https://journals.sagepub.com/doi/pdf/10.1177/000456328101800501">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://journals.sagepub.com/doi/pdf/10.1177/000456328101800501"
+          >
             an
           </a>
           &nbsp;endangered&nbsp;
-          <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.cdc.gov/flu/about/professionals/antigenic.htm"
+          >
             species
           </a>
           , that which we use in&nbsp;
-          <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5288344/">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5288344/"
+          >
             our
           </a>
           &nbsp;
-          <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/"
+          >
             diagnosis
           </a>
-          &nbsp;<a href="https://jvi.asm.org/content/77/16/8801">induces</a>{" "}
+          &nbsp;
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://jvi.asm.org/content/77/16/8801"
+          >
+            induces
+          </a>{" "}
           a&nbsp;
-          <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2"
+          >
             reaction to cold virus too
           </a>
           <br />
           <h1>
             <a
               style={{
-                color: "rgb(178, 90, 197)",
-                fontFamily: '"Pacifico", sans-serif'
+                fontFamily: '"Pacifico", sans-serif',
+                color: "rgb(90, 120, 185)"
               }}
               href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
             >
@@ -923,22 +1056,38 @@ export default class MoldMask extends React.Component {
             }}
           >
             ween off of oxygen with fungi, grow your own&nbsp;
-            <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
+            >
               (B.1.1.7
             </a>
             !
           </span>
           <br />
           If you'll love the&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Joan_Hamburg">death</a>
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://en.wikipedia.org/wiki/Joan_Hamburg"
+          >
+            death
+          </a>
           &nbsp;caused by masks, you'll love our other product line&nbsp;
-          <a href="https://humanharvest.info">HumanHarvest</a>
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://humanharvest.info"
+          >
+            HumanHarvest
+          </a>
           <br />
           <br />
           <div style={{ display: "inline-block" }}>
             Thanks, Wolfe Blitzer for sharing studies as fact without a control
             so us mask-sellers ignore weather systems and proof that masks&nbsp;
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+            >
               do not save lives absolutely
             </a>
             &nbsp; to sell these things, with only correlations that they do
@@ -965,14 +1114,14 @@ export default class MoldMask extends React.Component {
             Epidemiologists respond with a null finding. Physicists respond with
             a&nbsp;
             <a
-              style={{ color: "rgb(150,220,255)" }}
+              style={{ color: "rgb(90, 120, 185)" }}
               href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
             >
               positive
             </a>
             &nbsp;finding (heat rises/earth’s electrons pull, only&nbsp;
             <a
-              style={{ color: "rgb(150,220,255)" }}
+              style={{ color: "rgb(90, 120, 185)" }}
               href="https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html"
             >
               oxygen
@@ -980,7 +1129,7 @@ export default class MoldMask extends React.Component {
             &nbsp;exists in Brownian motion). Politifact’s epidemiologist
             consults say virus’ require hosts’&nbsp;
             <a
-              style={{ color: "rgb(150,220,255)" }}
+              style={{ color: "rgb(90, 120, 185)" }}
               href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/"
             >
               spittle/oils
@@ -988,13 +1137,21 @@ export default class MoldMask extends React.Component {
             &nbsp;and gestation time
           </div>
           <br />
-          <a href="https://thecritic.co.uk/face-masks-make-you-stupid/">OBEY</a>
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://thecritic.co.uk/face-masks-make-you-stupid/"
+          >
+            OBEY
+          </a>
           &nbsp;(to say lockdown are required now that someone has the PCR for
           cold is laughable. The root cause of hostility towards Asians is
           lockdowns and the Duke U hostility towards lockdown orders is not
           cases of Poly-Chain Reaction to cold, it is because you do not
           understand&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Atmospheric_circulation">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://en.wikipedia.org/wiki/Atmospheric_circulation"
+          >
             weather systems
           </a>
           )<br />
@@ -1018,13 +1175,21 @@ export default class MoldMask extends React.Component {
           <br />
           <br />
           If the&nbsp;
-          <a href="https://">
+          <a style={{ color: "rgb(90, 120, 185)" }} href="https://">
             financial-canibalism, rentier-colonialism & Bernie Sanders
           </a>
           &nbsp;didn't exist to&nbsp;
-          <a href="https://froth.app/debt">sell us out</a>,&nbsp;the rich media
-          deductible-philantropists would want to&nbsp;
-          <a href="https://www.the-scientist.com/news-opinion/nih-cancels-funding-for-bat-coronavirus-research-project-67486">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://froth.app/debt"
+          >
+            sell us out
+          </a>
+          ,&nbsp;the rich media deductible-philantropists would want to&nbsp;
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.the-scientist.com/news-opinion/nih-cancels-funding-for-bat-coronavirus-research-project-67486"
+          >
             kill us
           </a>
           <br />
@@ -1137,11 +1302,16 @@ export default class MoldMask extends React.Component {
           <br />
           non-exclusive artifact requires all-inclusive symptomatic fever
           increase testing credential,&nbsp;
-          <a href="https://humanharvest.info/testing">regime as is in Isreal</a>
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://humanharvest.info/testing"
+          >
+            regime as is in Isreal
+          </a>
           , warning mechanism control from vacuum, not with standing.
           {this.state.lastWidth && (
             <a
-              style={{ color: "rgb(230,230,255)" }}
+              style={{ color: "rgb(90, 120, 185)" }}
               href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html"
             >
               <Vaxx
@@ -1154,7 +1324,10 @@ export default class MoldMask extends React.Component {
               />
             </a>
           )}
-          <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance"
+          >
             "COVID-19 coded deaths were added to P&I to create the PIC
             (pneumonia, influenza, and/or COVID-19) classification."
           </a>
@@ -1211,7 +1384,10 @@ export default class MoldMask extends React.Component {
             assay results as indicators of community circulation of the variants
             of concern. Before introducing a new testing method or a new assay,
             a &nbsp;
-            <a href="https://www.ecdc.europa.eu/sites/default/files/documents/Methods-for-the-detection-and-identification-of-SARS-CoV-2-variants.pdf">
+            <a
+              style={{ color: "rgb(90, 120, 185)" }}
+              href="https://www.ecdc.europa.eu/sites/default/files/documents/Methods-for-the-detection-and-identification-of-SARS-CoV-2-variants.pdf"
+            >
               validation and verification
             </a>
             &nbsp;exercise should be carried out to ensure that the laboratory
@@ -1279,7 +1455,12 @@ export default class MoldMask extends React.Component {
             DO YOU JUST WANT PLYABLE FOLLOWER OR GULLIBLE CLASS TO LIVE?
           </h2>
           seems like twitter just&nbsp;
-          <a href="https://twitter.com/nickcarducci">bans</a>
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://twitter.com/nickcarducci"
+          >
+            bans
+          </a>
           &nbsp;whistleblowers (that arent plants), like I know my product when
           finished will be better than yours for politics, but I am busy. Could
           you be that pathetic as that would be your motive of
@@ -1300,7 +1481,10 @@ export default class MoldMask extends React.Component {
             LISTEN TO THE SCIENCE. STATISTICIANS ARE MORE SCIENCE THAN DOCTORS
             THAT GET MALPRACTICE UNLESS THEY FOLLOW EACH OTHER
           </h2>
-          <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
+          <a
+            style={{ color: "rgb(90, 120, 185)" }}
+            href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html"
+          >
             i called it
           </a>
           <br />
