@@ -1000,6 +1000,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          College, housing, not enough income, need to run in the military, if
+          we didn’t do that for overseas, we would gentrify home-contractors
+          here, pittance for equity, so they don’t sleep in the woods with
+          lethal blood alcohol reluctantly saw were because Medicaid, $829.5b/yr
+          44% stock sales, ‘general revenue,’ pittance busy-work jobs,
+          relinquishing your science copy and equity. Fucking cunts!
+          <br />
+          <br />
           don't bailout uncollateralized debt, retards. I don’t want people to
           get profits, when technology can make their operational loss obsolete.
           If you are fucking retarded, vote “NO,” on “
@@ -3849,4 +3857,3 @@ export default class App extends React.Component {
     );
   }
 }
-
