@@ -1000,9 +1000,87 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          it's not even correlated you dumb fuck opthamologist
+          <h1>
+            How is it ever an opportunity for a government to rent-seek science?
+          </h1>
+          ​When is it the same thing, in the definition of insanity is doing the
+          same thing and expecting different results? the left thinks money, the
+          right thinks debt. the bottom thinks -GDP/p is tech advancement (less
+          work). ​2/3 total douche. Presidential only.
+          <br />
+          Only Saver wants to stop competing with consumers by input cost
+          cornering (includes labor, donee, mvp-duress by 11/12 industry
+          consensus, "General Maintenance Unit"). 65% already pro-Occupy, split
+          both.
+          <br />
+          <br />
+          ​Poverty is a number (material+income)/income, not assets nor market
+          concentration.
+          <br />
+          <br />
+          19% population are disaabled, mostly 65+
+          <br />
+          ​anti gerontocracy, anti-rent-seeker{space}
+          <span role="img" aria-label="bottom-left">
+            ↙
+          </span>
+          <br />
+          democrats are for indices funding welfare, republicans too, ​he is
+          selling stocks, ​indices are just IP good will rent-seeking science,
+          ​open ingredient lists.
+          <br />
+          <br />
+          (cash/debt)*income every year back, cap rental-units at 5
+          <br />
+          <br />
+          marx called what you all (Fred Hampton Leftists) talk about, 'vulgar.'
+          Don't fucking ever say his name again - ​cancelling student debt
+          allows universities to keep the fucking money. ​reverse the debt.
+          donee beneficiary Saver land exploration rights. 65% pro occupy, only
+          2/3 vote, 1/2 in NJ guber. never a choice
+          <br />
+          <br />
+          marx and engels knew pittance is useless, like price elastic. we want
+          sructural change, no science/implausible use rental-income nor good
+          will accrual as property. welfare for your equity and ward?
+          <br />
+          <br />
+          why is the plural majority not good enough? I have n=18 38% ban rental
+          income above 5 units, the rest either for price over fairness, or just
+          legal
+          <br />
+          <br />
+          65% mortgage, 35% rent, the rest lend, ​liabilities are the only true
+          nomial, ​1/12 industry-type max-royalty replaces debt. ​ban licenses,
+          vote Saver
+          <br />
+          ​Stock sales m4a pennywise insurance, ban it instead - Saver. pro-rent
+          seeker and gentrification, don't even know the words.
+          <br />
+          ​I view m4a media as stock broker, "general revenue," $465b/yr
+          Medicare $829.5b/yr, total "healthcare" $2.7t/yr, froth.app.
+          <br />
+          AOC saved NYC from Amazon gentrification, M4a is gentrification -
+          cheaper than insurance, because they price fix to inflation. which
+          exludes labor and structures.
+          <br />
+          ​false bid pool 'name-your-price' tool loss. expiring premium and
+          donee bene. ​insurance is like investment bank, commercial is like
+          debt-based sdr instead of transation fee. njta 40% debt service
+          instead of Truncated Produyction Tax 2025 is retarded.
+          <br />
+          <br />
+          Universities would rather cancel than reverse borrower defense
+          (impossible) nor donee invocations of Savers’.
+          <br />
+          Imagine me making policy around my book.
+          <br />
+          Poverty is a number (material+income)/income.
+          <br />
+          <br />
+          It's not even correlated you dumb fuck opthamologist
           <h1>I WANNA BE ROGUE</h1>
-          do you believe crackheads run for office? Poverty=equality. This is
+          Do you believe crackheads run for office? Poverty=equality. This is
           like more education funding makes more jobs lol. Telling recruiters
           their pay is not enough for $12k/yr debt, $64/yr checking per person
           now.
@@ -4131,3 +4209,4 @@ export default class App extends React.Component {
     );
   }
 }
+
