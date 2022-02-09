@@ -992,6 +992,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "The last decent pay rise was good pay reward, 2010 government froze
+          the wage rise, but 295lbs on average, 2t lbs not paid off in your nor
+          my lifetime Nigel, it would reward the hard working staff (existing
+          business trust sleaze) in the pandemic."
+          <br />
+          <br />
           "$100m illegal defunding releasing illegal aliens from ICE detention,"
           anything bond loss net profit. "Talking about $40m tax-dollars $248m,
           $448m profit to next year, 40% debt spend, 10% debt service, njta 50%
