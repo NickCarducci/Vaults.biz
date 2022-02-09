@@ -1000,6 +1000,56 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "What are the actual benefits of inflation?"
+          <br />
+          *Relative to labor costs*, it may be, but only if inequality lessens
+          (assets[profits, IP, land, equities,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjI1">bonds</a>, homes,
+          labor]), for *comparative advantage, tech advancement, and economic
+          welfare, productive efficiency* grounds.
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            poverty = (material+rent)/income, inflation/
+            <a href="https://fred.stlouisfed.org/graph/?g=LRSU">labor</a>;
+          </div>
+          more poverty means less inequality by market-cornering by labor cost!
+          <br />
+          <a href="https://vaults.biz/gdp">GDP/p</a>
+          {space}is inflation all-cause (“
+          <a href="https://www.yardeni.com/pub/monetagg.pdf">inflation</a>” is
+          {space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LRRg">
+            material+rent, not outright-structure
+          </a>
+          {space}nor labor-ward), -GDP/p is tech advancement,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">GDP</a>
+          /hour-GDP/p is{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">
+            productive-efficiency
+          </a>
+          .
+          <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/2yace5056svixj8/Screen%20Shot%202022-02-09%20at%2011.14.18%20AM.png?dl=0"
+            }
+            float="left"
+            title="nextdoor.com implausible landlord use survey - https://nextdoor.com/p/yJhWyXgPTdNG"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          Always sowing division.
+          <br />
+          <br />
+          Don’t extrapolate me.
+          <br />
+          <br />
           Mean age-at-death distribution of a population; mean age-at-death,
           rate, distribution of a time-series, is only significant with
           n=(1/100)*population, shuffled, or 100, randomly selected.
