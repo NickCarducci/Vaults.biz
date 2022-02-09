@@ -1004,9 +1004,9 @@ export default class App extends React.Component {
           of an undefined set - except, essentially a cross section for
           comparing two time-series’ of rates - or, nominal units of something,
           unassuming of an unsquare plane, and measured with full vivo onset if
-          a factor. r nor Pearson ranking is distributive of derivatives, or
-          change-rate per change-rate, but distributive of endogeneity, 1-p of
-          an insignificant mean.
+          a factor. r Pearson nor Spearman ranking is distributive of
+          derivatives, or change-rate per change-rate, but distributive of
+          endogeneity, 1-p of an insignificant mean.
           <br />
           <br />
           "good will $30k/yr kid, not sustainable," it is donee claimable Saver
