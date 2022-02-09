@@ -1000,6 +1000,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            "$30m for crack pipe distribution," will only be meth when it is
+            stolen - prices are still elastic and{space}
+            <a href="https://humanharvest.info/polio">
+              2019-20 single year (age,period) death was insignificant
+            </a>
+          </h2>
+          evidence or{space}
+          <a href="https://teapharmacy.party/drugs">settlement</a>?
+          <br />
+          <br />
+          Alzheimer's is caused by sewage, in a cross-section of 2/100 with
+          standing.
+          <h2>
+            redistricting by density, 12 industries for max-royalty type (no
+            collateral) and general maintenance unit (duress, mvp),
+            {/**shuffle before extrapolation, don't extrapolate me nor tranche-report such-reporting bias */}
+          </h2>
+          <br />
+          <br />
           "A sample size that is a substantial fraction of the population is a
           rarity. If the sample is less than 10% of the population the finite
           population correction makes very little difference. In that case the
