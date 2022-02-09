@@ -1000,6 +1000,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          don't bailout uncollateralized debt, retards. I don’t want people to
+          get profits, when technology can make their operational loss obsolete.
+          If you are fucking retarded, vote “NO,” on “
+          <a href="https://vaults.biz/receipts">Truncated</a>
+          {space}Production Tax,” (
+          <a href="https://qr.ae/pGjITN">or don’t vote at all</a>).
+          <br />
+          <br />
           that which is illegal is free rider immutable, is preserve medical
           sector integrity over truth
           <h2>poverty is more rich material than asset</h2>
@@ -3841,3 +3849,4 @@ export default class App extends React.Component {
     );
   }
 }
+
