@@ -1000,6 +1000,29 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "A sample size that is a substantial fraction of the population is a
+          rarity. If the sample is less than 10% of the population the finite
+          population correction makes very little difference. In that case the
+          population size is irrelevant.
+          <br />
+          Also I’m talking of random sampling. Observational data is different."
+          <br />I am working backwards from the claim that, '2019–20 single year
+          death rate was significant.' -
+          <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm#fig3">
+            CDC
+          </a>
+          <br />
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            1Statistically significant increase in age-specific death rate from
+            2019 to 2020 (*p*{" < "}0.05).
+          </div>
+          Life expectancy is average age at death for the last year, fyi. I am
+          generally confused why (1/n)*Sum(x,y,deviations)/standard 68/100 is
+          correlation on a scale of [0,1] for 5% significance from mean,
+          expected; like, what if n is a sample:population ratio, wouldn’t that
+          make exclusive sense (imagine correlation is substantiated by 1/1) -
+          lest you randomly-select test, or shuffled-population view?
+          <br />
           spend time, pay attention; for science or copyright.
           <nr />
           my prescription? lobotomy. their diagnosis of homelessness.
@@ -3943,3 +3966,4 @@ export default class App extends React.Component {
     );
   }
 }
+
