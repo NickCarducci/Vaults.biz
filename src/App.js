@@ -1000,6 +1000,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          that which is illegal is free rider immutable, is preserve medical
+          sector integrity over truth
           <h2>poverty is more rich material than asset</h2>
           <Cable
             style={{ width: "200px", height: "auto" }}
@@ -1108,7 +1110,7 @@ export default class App extends React.Component {
           <h1>
             sdr flat flat tax - prescription cost for the pinche hispanics?
           </h1>
-          Make it happen, hard to follow… good. “Theyre you go, there is karma,”
+          Make it happen, hard to follow… good. “There you go, there is karma,”
           good will savers’ land exploration rights (20%) Per capita, per
           dollar, or per locale? No way. Montana is ours!
           <br />
