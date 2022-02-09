@@ -3929,6 +3929,29 @@ export default class App extends React.Component {
             <div
               style={{
                 color: "white",
+                backgroundColor: "rgb(50,20,20)",
+                overflow: "hidden",
+                //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+                height: this.state.footer ? "" : "0px"
+              }}
+            >
+              tech-adv, prod-eff, econ-welf, poverty-equality, pce-structure,
+              fixed-{/*wages-income-*/}
+            </div>
+            <div
+              style={{
+                color: "white",
+                backgroundColor: "rgb(50,20,20)",
+                overflow: "hidden",
+                //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+                height: this.state.footer ? "" : "0px"
+              }}
+            >
+              laborless-demand
+            </div>
+            <div
+              style={{
+                color: "white",
                 backgroundColor: "rgb(20,20,50)",
                 overflow: "hidden",
                 //color: !this.state.footer ? "rgb(180,180,250)" : "black",
