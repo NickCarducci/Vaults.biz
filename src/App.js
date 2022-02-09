@@ -1000,6 +1000,37 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          do you believe crackheads run for office? Poverty=equality. This is
+          like more education funding makes more jobs lol. Telling recruiters
+          their pay is not enough for $12k/yr debt, $64/yr checking per person
+          now.
+          <br />
+          <br />
+          "Is the currency of the United States at a point of no return as far
+          as lowering the national debt and its interest payment?"
+          <br />
+          We do not know velocity of CurrencyComponentOfM1, but{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LAg4">
+            $12k/64 debt/cash per person a year
+          </a>
+          {space}is **already impossible when that change-rate-ratio was 1x, now
+          187.5x**, and total outstanding is 44x, and if{space}
+          <a href="https://froth.app">GDP/yr</a>
+          is velocity by{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LsIz">m2</a>
+          /checking share, it is 11x. So, I say:
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            <a href="https://fred.stlouisfed.org/graph/?g=LjGf">
+              it would take 44 years to payday current debt
+            </a>
+            , impossibly with current income.
+          </div>
+          <br />
+          <br />
+          Marx called the distribution of crackpipes as, “vulgar democratic
+          socialism.”
+          <br />
+          <br />
           You cannot take a sample:population of a time-series (as population)
           of an undefined set - except, essentially a cross section for
           comparing two time-series’ of rates - or, nominal units of something,
