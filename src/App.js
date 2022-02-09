@@ -1000,6 +1000,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>I WANNA BE ROGUE</h1>
           do you believe crackheads run for office? Poverty=equality. This is
           like more education funding makes more jobs lol. Telling recruiters
           their pay is not enough for $12k/yr debt, $64/yr checking per person
