@@ -3817,7 +3817,8 @@ export default class App extends React.Component {
             e.stopPropagation();
           }}
           style={{
-            wordBreak: "break-word",
+            wordBreak: "none",
+            wordWrap: "break-word",
             cursor: "pointer",
             zIndex: "9999",
             opacity: !this.state.footer && this.state.scrollTop !== 0 ? 0.3 : 1,
@@ -3825,7 +3826,6 @@ export default class App extends React.Component {
             height: "min-content",
             overflowY: "auto",
             overflowX: "hidden",
-            maxWidth: "594px",
             backgroundColor: "rgb(180,180,250)",
             minWidth: this.state.footer ? "100px" : "",
             width: this.state.footer
@@ -3866,6 +3866,9 @@ export default class App extends React.Component {
               &times;
             </div>
           )}
+          Anti-rentier, -gentrification, {this.state.footer ? "Amazon" : ""}{" "}
+          stock general revenue Asset selling.
+          <br />
           <div
             style={{
               overflow: "hidden",
@@ -3878,14 +3881,22 @@ export default class App extends React.Component {
             <br />
             Immunity is proven to not be correlated with per capita sickness, so
           </div>
-          <a style={{ color: "black" }} href="https://paydayt.com">
-            take care of eachother
-          </a>
-          , globalism,
-          {space}
-          <a style={{ color: "black" }} href="https://qr.ae/pGEuMc">
-            nuclear family
-          </a>
+          <div
+            style={{
+              overflow: "hidden",
+              //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+              height: this.state.footer ? "" : "0px"
+            }}
+          >
+            <a style={{ color: "black" }} href="https://paydayt.com">
+              take care of eachother
+            </a>
+            , globalism,
+            {space}
+            <a style={{ color: "black" }} href="https://qr.ae/pGEuMc">
+              nuclear family
+            </a>
+          </div>
           <h2 onClick={() => this.setState({ footer: true })}>
             New technologies, on the market (not free)
           </h2>
