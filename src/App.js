@@ -1000,6 +1000,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “Poverty (material+rent)/income lowered, under Trump; wages grew.”
+          Jason Riley, Black Boom.
+          <br />
+          <br />
           College, housing, not enough income, need to run in the military, if
           we didn’t do that for overseas, we would gentrify home-contractors
           here, pittance for equity, so they don’t sleep in the woods with
