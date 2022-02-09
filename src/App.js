@@ -1114,6 +1114,29 @@ export default class App extends React.Component {
             CDC
           </a>
           <br />
+          <br />
+          Ask the 12 industry-heads, "Alzheimer's cause by cleaner-sewage."
+          <br />
+          bacterium.
+          <br />
+          Not even correlated asymptomatic, non exclusive byproduct
+          <br />
+          Single year Age growth, year to year as z plane, x-axis as ordered
+          normally around average age at death
+          <br />
+          Working backwards from the “significance” claim.
+          <br />
+          Normal as a skew up to maximum 80, mean 78, as the number-x surmounts
+          the level-y.
+          <br />
+          By time, would be a plane floor z-axis, Y- is still density. The
+          significance of the mean is impossible to predict, yet the White House
+          purports this nonsense for decades, "say sorry later, the tort People
+          vs State is Savers' land exploration rights, donee and duress-mvp."
+          <br />
+          Making warnings of assumptions in theories but then ignoring the
+          warnings in its applications.
+          <br />
           <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
             1Statistically significant increase in age-specific death rate from
             2019 to 2020 (*p*{" < "}0.05).
