@@ -1129,6 +1129,22 @@ export default class App extends React.Component {
           Normal as a skew up to maximum 80, mean 78, as the number-x surmounts
           the level-y.
           <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/vnw9r149t004yvp/Screen%20Shot%202022-02-09%20at%203.35.36%20PM.png?dl=0"
+            }
+            float="left"
+            title="https://humanharvest.info/polio"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           By time, would be a plane floor z-axis, Y- is still density. The
           significance of the mean is impossible to predict, yet the White House
           purports this nonsense for decades, "say sorry later, the tort People
