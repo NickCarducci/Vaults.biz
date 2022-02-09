@@ -1620,7 +1620,11 @@ export default class App extends React.Component {
           <br />
           <br />
           Jurisdiction imprudence causing trucker terror, 11/12 industry mvp
-          duress permit is constitutional.
+          duress permit is constitutional. “‘Freedom convoy,’ we (Newsmax, Greg
+          Kelly) are glad you made the trip, keep us posted, but trump DID NOT
+          sponsor you guys." "...My son is in real estate, making more money
+          than me.” CAD land exploration rights, full-resource ownership, and
+          11/12 trigger variable all-cost.
           <br />
           <br />
           Replace debt-collateral with max-royalty-1/12 industry type, for donee
@@ -3835,4 +3839,3 @@ export default class App extends React.Component {
     );
   }
 }
-
