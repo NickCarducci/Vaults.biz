@@ -3476,6 +3476,9 @@ export default class App extends React.Component {
               height: this.state.footer ? "" : "0px"
             }}
           >
+            truncated production tax purple carpet false bid pool insualted
+            loss-vice
+            <br />
             Immunity is proven to not be correlated with per capita sickness, so
           </div>
           <a style={{ color: "black" }} href="https://paydayt.com">
@@ -3769,4 +3772,3 @@ export default class App extends React.Component {
     );
   }
 }
-
