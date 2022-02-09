@@ -1000,14 +1000,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          never tried PCP/meth, but all kills are for money
+          <br />
+          The White House, "harm reduction fo poverty-equality; indices over
+          Savers' land exploration rights (20%)!"
           <h2>
             "$30m for crack pipe distribution," will only be meth when it is
-            stolen - prices are still elastic and{space}
+            stolen - prices are still elastic (gentrification) and{space}
             <a href="https://humanharvest.info/polio">
               2019-20 single year (age,period) death was insignificant
             </a>
           </h2>
-          evidence or{space}
+          evidence or open-source{space}
           <a href="https://teapharmacy.party/drugs">settlement</a>?
           <br />
           <br />
@@ -3986,4 +3990,3 @@ export default class App extends React.Component {
     );
   }
 }
-
