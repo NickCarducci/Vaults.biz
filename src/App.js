@@ -1001,7 +1001,11 @@ export default class App extends React.Component {
           }}
         >
           my prescription? lobotomy. their diagnosis of homelessness
-          <h1>Emma Robertson is addicted to basis rate fallacies.</h1>
+          <h1>Emma Reckenburg is addicted to basis rate fallacies.</h1>
+          <h2>
+            Pfizer and Harvard wyss says bacterial cause is acute version of
+            virion.
+          </h2>
           "What are the actual benefits of inflation?"
           <br />
           *Relative to labor costs*, it may be, but only if inequality lessens
