@@ -4111,6 +4111,24 @@ export default class App extends React.Component {
               immigration
             </a>
             <br />
+            <br />
+            stop/frisk criminalization without evidence/settlement with Savers'
+            land exploration rights (20%), People v State; when laundering,
+            anything washes.
+            <br />
+            <br />
+            make cops quit bonds, cold turkey&bull;tax gristedes
+            <div
+              style={{
+                color: "white",
+                backgroundColor: "rgb(20,50,20)",
+                overflow: "hidden",
+                //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+                height: this.state.footer ? "" : "0px"
+              }}
+            >
+              operational-monopsony, 12-industry, truncated-immutable.
+            </div>
             <div
               style={{
                 color: "white",
@@ -4120,6 +4138,8 @@ export default class App extends React.Component {
                 height: this.state.footer ? "" : "0px"
               }}
             >
+              3% under $2k
+              <br />
               tech-adv, prod-eff, econ-welf, poverty-equality, pce-structure,
               fixed-{/*wages-income-*/}
             </div>
@@ -4209,4 +4229,3 @@ export default class App extends React.Component {
     );
   }
 }
-
