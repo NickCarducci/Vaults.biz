@@ -1000,6 +1000,22 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "We have natural tendencies, but we are really humans that do our
+          best, with medical professionals, not rules.
+          <h2>Good News!</h2>
+          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+            Hyper
+          </a>
+          {space}immune wouldn’t be beneficial to you," covid patients, not PIC
+          is what we see.
+          <br />
+          "Omicron was 99% of infections we had,” asymptomatically and
+          uncorrelated lot. Gi-bugs, not washing their hands as much, better
+          mi's never went away but were knocked out of the ranks of concern. We
+          are getting back to real medicine again. Should there be masks? If you
+          look at the Hadley cell, 10s/(heat/(density))m of personal-height."
+          <br />
+          <br />
           Scope of requirements profit.
           <br />
           bonds receipt, scope e.g. :Safe injection sites?
