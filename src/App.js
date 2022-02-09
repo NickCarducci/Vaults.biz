@@ -1000,6 +1000,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>
+            people are on the streets because of finance, not because they are
+            too high
+          </h1>
           "We have natural tendencies, but we are really humans that do our
           best, with medical professionals, not rules.
           <h2>Good News!</h2>
@@ -4040,3 +4044,4 @@ export default class App extends React.Component {
     );
   }
 }
+
