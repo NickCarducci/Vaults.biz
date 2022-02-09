@@ -6,12 +6,15 @@ import App from "./App";
 import MoldMask from "./Pages/MoldMask";
 
 class PathRouter extends React.Component {
-  state = {};
+  state = { lastPathname: "/", lastPath: "/" };
   componentDidUpdate = () => {
     const { pathname } = this.state;
-    if (pathname && this.state.lastPathname !== pathname) {
+    if (pathname && this.state.lastPath !== pathname) {
       this.setState(
-        { lastPathname: pathname, lastPath: this.state.lastPathname },
+        {
+          lastPath: pathname,
+          lastPathname: this.state.lastPath
+        },
         () => {
           this.toPathname(pathname);
         }
@@ -43,6 +46,17 @@ class PathRouter extends React.Component {
               <CSSTransition key="1" timeout={300} classNames={"fade"}>
                 <Switch key={location.key} location={location}>
                   <Route
+                    exact
+                    path="/moldmask"
+                    render={(props) => (
+                      <MoldMask
+                        lastPath={this.state.lastPathname}
+                        pathname={this.state.pathname}
+                        history={this.state.history}
+                      />
+                    )}
+                  />
+                  <Route
                     //exact
                     path="/"
                     render={(props) => (
@@ -52,17 +66,6 @@ class PathRouter extends React.Component {
                       />
                     )}
                   />
-                  {/*<Route
-                    exact
-                    path="/moldmask"
-                    render={(props) => (
-                      <MoldMask
-                        lastPath={this.state.lastPath}
-                        pathname={this.state.pathname}
-                        history={this.state.history}
-                      />
-                    )}
-                    />*/}
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
