@@ -1000,6 +1000,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          80-90% cannot be done again, Congressman king, cuck
           <h1>
             How is it ever an opportunity for a government to rent-seek science?
           </h1>
