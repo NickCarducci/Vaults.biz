@@ -1079,7 +1079,7 @@ export default class App extends React.Component {
           lest you randomly-select test, or shuffled-population view?
           <br />
           spend time, pay attention; for science or copyright.
-          <nr />
+          <br />
           my prescription? lobotomy. their diagnosis of homelessness.
           <h1>Emma Reckenburg is addicted to basis rate fallacies.</h1>
           <h2>
@@ -4044,4 +4044,3 @@ export default class App extends React.Component {
     );
   }
 }
-
