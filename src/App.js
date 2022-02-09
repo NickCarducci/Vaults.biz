@@ -92,6 +92,7 @@ export default class App extends React.Component {
     this.psych = React.createRef();
     this.obamacare = React.createRef();
     this.intllaw = React.createRef();
+    this.monopoly = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -355,6 +356,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.redistricting.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/monopoly") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.monopoly.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/insurance") {
           this.setState(
@@ -666,6 +672,8 @@ export default class App extends React.Component {
       }
       if (construct(true, this.redistricting.current) < tryy) {
         inSection("redistricting");
+      } else if (construct(true, this.monopoly.current) < tryy) {
+        inSection("monopoly");
       } else if (construct(true, this.sci.current) < tryy) {
         inSection("sci");
       } else if (construct(true, this.insurance.current) < tryy) {
@@ -992,10 +1000,31 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "The last decent pay rise was good pay reward, 2010 government froze
-          the wage rise, but 295lbs on average, 2t lbs not paid off in your nor
-          my lifetime Nigel, it would reward the hard working staff (existing
-          business trust sleaze) in the pandemic."
+          <h2>poverty is more rich material than asset</h2>
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/4gcmden1eks46jt/Screen%20Shot%202022-02-08%20at%207.33.40%20PM.png?dl=0"
+            }
+            float="left"
+            title="Nigel Farage (GBNews, Youtube) - Peter carter, 'poverty is more rich material than assets'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          <h2>
+            "highly motivated complacent stock share conflict of interest
+            saveface lest malpractice cucks."
+          </h2>
+          Peter Carter: "The last decent pay rise was good pay reward, 2010
+          government froze the wage rise, but 295lbs on average, 2t lbs not paid
+          off in your nor my lifetime Nigel, it would reward the hard working
+          staff (existing business trust sleaze) in the pandemic."
           <br />
           <br />
           "$100m illegal defunding releasing illegal aliens from ICE detention,"
@@ -3535,6 +3564,13 @@ export default class App extends React.Component {
               Obamacare
             </a>
             <br />
+            <a
+              style={{ color: "black", border: scrollPath("monopoly") }}
+              href={`${window.location.origin}/monopoly`}
+            >
+              monopoly
+            </a>
+            {space}
             <a
               style={{ color: "black", border: scrollPath("intllaw") }}
               href={`${window.location.origin}/intllaw`}
