@@ -998,7 +998,8 @@ export default class App extends React.Component {
           nd 40%."
           <h2>
             Shortage of spectrum, bridges and German-oil in rural communities,
-            target margin
+            {space}
+            <a href="https://vaults.biz/monopoly">target margin</a>
           </h2>
           Answer disobedient to parents, gerontocratic gentrification, sleigh
           the preacher like He said He would die. BEHAVE 65% mortgage, 35% rent,
@@ -1051,6 +1052,11 @@ export default class App extends React.Component {
             donee invocations, nor false bid pool loss competing with consumer
             (material+rent)/income cornering by the fucking olds (most of 19%
             disabled).
+          </h2>
+          <h2 ref={this.monopoly}>
+            operational
+            {/*wrong way!!, 'produced a report overnight, thanks americans.' say
+            the brits, why don't I hear of their news making teh news?*/}
           </h2>
           allow junkies inject illegal and illicit drugs into their system,
           enforcing open source and the right to try, 86'ing Death Valley,
@@ -3787,3 +3793,4 @@ export default class App extends React.Component {
     );
   }
 }
+
