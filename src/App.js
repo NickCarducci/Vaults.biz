@@ -1000,6 +1000,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Larry O'Connor, in for 'The Great One,' Mark 'false-bid-pool re-loss
+          {/*, stock sale and invoice */}'Levin, “Elected officials and
+          representatives betray you and your tax dollars and children, it is
+          your obligation for revenge, you must make them pay, and that is where
+          your vote comes in. It is your vote to go against the people that have
+          done this as a weapon to make them pay. It’s just a vig.”
+          <br />
+          <br />
           80-90% cannot be done again, Congressman king, cuck
           <h1>
             How is it ever an opportunity for a government to rent-seek science?
