@@ -1000,6 +1000,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Scope of requirements profit.
+          <br />
+          bonds receipt, scope e.g. :Safe injection sites?
+          Anything-/means/-method works.
+          <h2>
+            ween cops off bond loss profit by Article 1.8 equal receipt and
+            scope bond-tax truncated production tax 2025
+          </h2>
+          $"Getting arrested can be good for you," how do you know what is good
+          for me? Kill yourself.
+          <br />
           never tried PCP/meth, but all kills are for money
           <br />
           The White House, "harm reduction fo poverty-equality; indices over
