@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          rube ploy racket conservative/libertarian hypocrisy, liberal
+          self-harm!
           <h2>
             19% disabled, whole lives to Save, instead causes market
             concentration indices over the dollar-land-deeds.
