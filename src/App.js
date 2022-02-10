@@ -1062,9 +1062,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "stop bying bonds to" to reduce recession by reducing money supply.
-          economists will let you pass if you are wrong. I am going to punt my
-          nobel and kill everyone who stopped me. Defltion is recession retard.
+          <h1>WRONG, word salad</h1>
+          Housing boom carries the 65% mortgage and 35% rent thru?
+          <br />"<a href="https://qr.ae/pGjAXm">Stop buying bonds to</a>,"
+          reduce recession by reducing money supply. economists will let you
+          pass if you are wrong. I am going to punt my nobel and kill everyone
+          (Charlie Gaspirino) who stopped me.{space}
+          <a href="https://qr.ae/pGjAX1">Deflation is recession</a>
+          {space}and tech{space}
+          <a href="https://qr.ae/pGjAXZ">advancement</a>
+          {space}retard.
           <br />
           <br />
           "at the beginning of the pandemic, youth were not dying, so for the
