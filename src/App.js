@@ -441,10 +441,14 @@ export default class App extends React.Component {
           pager("arc", this.party.current.offsetTop);
         } else if (this.props.pathname === "/marx") {
           pager("arc", this.marx.current.offsetTop);
+        } else if (this.props.pathname === "/crypto") {
+          pager(null, this.crypto.current.offsetTop);
         } else if (this.props.pathname === "/bitcongress") {
           pager(null, this.bitcongress.current.offsetTop);
         } else if (this.props.pathname === "/intllaw") {
           pager(null, this.intllaw.current.offsetTop);
+        } else if (this.props.pathname === "/crypto") {
+          pager(null, this.crypto.current.offsetTop);
         } else if (this.props.pathname === "/calc") {
           pager(null, this.calc.current.offsetTop);
         } else if (this.props.pathname === "/obamacare") {
@@ -724,6 +728,8 @@ export default class App extends React.Component {
         inSection("party");
       } else if (construct("arc", this.marx.current) < tryy) {
         inSection("marx");
+      } else if (construct(null, this.bitcongress.current) < tryy) {
+        inSection("crypto");
       } else if (construct(null, this.bitcongress.current) < tryy) {
         inSection("bitcongress");
       } else if (construct(null, this.sdr.current) < tryy) {
@@ -1026,6 +1032,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          you didn't give me Savers' land-exploration rights JEW
+          <br />
+          immigrants brought covid into america, 2m/yr." Michael Savage and
+          Grant Stinchfield. "This is Mao's China emerging in the U.S., Maoism
+          not Marxism, everyone has it wrong, Biden is like the new KGB; we have
+          all looked at revolutions: 'excess' deaths were expected (from
+          population growth, life expectancy ago), again."
           <h2 ref={this.govtech}>
             geohash/mo equal in receipt and scope truncated production tax 2025
           </h2>
@@ -4083,10 +4096,17 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              style={{ color: "black", border: scrollPath("crypto") }}
+              href={`${window.location.origin}/crypto`}
+            >
+              crypto
+            </a>
+            {space}
+            <a
               style={{ color: "black", border: scrollPath("statistic") }}
               href={`${window.location.origin}/statistic`}
             >
-              statistice
+              statistic
             </a>
             {space}
             <a
@@ -4330,4 +4350,3 @@ export default class App extends React.Component {
     );
   }
 }
-
