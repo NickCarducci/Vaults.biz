@@ -1067,7 +1067,7 @@ export default class App extends React.Component {
           <br />
           There is no accounting for taste if there is good will
           non-concurrentable (collateral value is fake, liabilities nominally
-          true, exclusively).
+          true, exclusively). "A Negotiated deal" - rollover or over mine?
           <br />
           <br />
           Do not slander me for contributing science that you find bizarre. Such
