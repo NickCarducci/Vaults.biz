@@ -61,6 +61,7 @@ export default class App extends React.Component {
     this.insurance = React.createRef();
     this.saver = React.createRef();
     this.dns = React.createRef();
+    this.homelessness = React.createRef();
     this.science = React.createRef();
     this.capitalism = React.createRef();
     this.biz = React.createRef();
@@ -108,6 +109,7 @@ export default class App extends React.Component {
       ["air", this.air],
       ["immi", this.immi],
       ["first", this.first],
+      ["homelessness", this.first],
       ["calc", this.calc],
       ["voting", this.voting],
       ["bitcongress", this.bitcongress],
@@ -443,6 +445,8 @@ export default class App extends React.Component {
           pager("arc", this.marx.current.offsetTop);
         } else if (this.props.pathname === "/crypto") {
           pager(null, this.crypto.current.offsetTop);
+        } else if (this.props.pathname === "/homelessness") {
+          pager(null, this.homelessness.current.offsetTop);
         } else if (this.props.pathname === "/bitcongress") {
           pager(null, this.bitcongress.current.offsetTop);
         } else if (this.props.pathname === "/intllaw") {
@@ -732,6 +736,8 @@ export default class App extends React.Component {
         inSection("crypto");
       } else if (construct(null, this.bitcongress.current) < tryy) {
         inSection("bitcongress");
+      } else if (construct(null, this.homelessness.current) < tryy) {
+        inSection("homelessness");
       } else if (construct(null, this.sdr.current) < tryy) {
         inSection("sdr");
       } else if (construct(null, this.calc.current) < tryy) {
@@ -1034,10 +1040,19 @@ export default class App extends React.Component {
         >
           you didn't give me Savers' land-exploration rights JEW
           <br />
-          immigrants brought covid into america, 2m/yr." Michael Savage and
-          Grant Stinchfield. "This is Mao's China emerging in the U.S., Maoism
-          not Marxism, everyone has it wrong, Biden is like the new KGB; we have
-          all looked at revolutions: 'excess' deaths were expected (from
+          "Consider this: negative tests of an uncorrelated with
+          original-artifact, and pfizer/harvard wyss say bacteria is acute
+          version of vial pneumonia, epidimiology-work of century is
+          bonk-damages, doctors are becoming comedians to Savetort, and
+          significance of a sample size of 2 terrorized (with an ask, not mental
+          health unbiomedical{space}
+          <a href="https://vaults.biz/homelessness">tresspass-agreivance</a>).
+          <a href="https://vaults.biz/immi">Immigrants</a>brought covid into
+          america,{space}
+          <a href="https://humanharvest.info/polio">2m/yr</a>." Michael Savage
+          and Grant Stinchfield. "This is Mao's China emerging in the U.S.,
+          Maoism not Marxism, everyone has it wrong, Biden is like the new KGB;
+          we have all looked at revolutions: 'excess' deaths were expected (from
           population growth, life expectancy ago), again."
           <h2 ref={this.govtech}>
             geohash/mo equal in receipt and scope truncated production tax 2025
@@ -3989,6 +4004,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/obamacare`}
             >
               Obamacare
+            </a>
+            <br />
+            <a
+              style={{ color: "black", border: scrollPath("homelessness") }}
+              href={`${window.location.origin}/homelessness`}
+            >
+              homelessness
             </a>
             <br />
             <a
