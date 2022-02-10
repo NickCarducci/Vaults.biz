@@ -1062,7 +1062,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          What the fuck is family court? Why is owning a gun/drug unregistered a crime, unless it is closed-source?
+          you can use Medicare to stop insurance and prescription costs (or cut
+          the throat of doctors), "lowering prescription drug costs, a laudible
+          goal, but not a house for that yet."
+          <h3>good or bad? Income/labor, material/labor</h3>
+          What the fuck is family court? Why is owning a gun/drug unregistered a
+          crime, unless it is closed-source?
           <br />
           "tracy abrams has co-borbidities that make virus worst," it isn't even
           correlated with sickness as age and comorbidities is. you all are so
