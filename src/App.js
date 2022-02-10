@@ -1062,11 +1062,40 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Why do Austrian economists like deflation?"
+          <br />
+          *Marxists* like *deflation*, **Austrian Economists** call good-will
+          **numerable && true** albeit *non-concurrentable*, **albeit never
+          actually traded**, $170t:$2t, velocity of CurrencyComponentOfM1 is
+          unknown,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">
+            mv1===mv2==GDP/yr
+          </a>
+          {space}
+          shouldn’t equate, GDP*(M2/currencyComponentOfM1) is
+          11/cash-accounting.
+          <br />
+          <br />
+          Austrian Economists, at least espoused by Rothbard and Mises, think
+          deflation is bad, -<a href="https://vaults.biz/gdp">GDP/p</a>, but
+          microeconomists (Supply and Demand, Pareto) and Marxists think that is
+          tech advancement, deflator of **
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">
+            GDP/hour-GDP/p**
+          </a>
+          ** productive-efficiency, “economic welfare,” *****enumerated***.
           <h3>
             I don't want to work for Amazon, I want to make a competitor with
             AOC and ban her from voting for relevant{space}
             <a href="https://scopes.cc">line items (timeclock-unlock)</a>.
           </h3>
+          Equality is competition
+          <br />
+          19% disabled Schumer; "Disruptions in the internet has harmed their
+          own employees,” working back from a gift is not yours to lose, just
+          yours to miss
+          <br />
+          <br />
           “American patriotism will not absolve your sins, neither sacrifice nor
           bond donee invocations of Savers’ land exploration. Pittance for
           laborless-demand.”
@@ -4831,4 +4860,3 @@ export default class App extends React.Component {
     );
   }
 }
-
