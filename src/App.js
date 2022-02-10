@@ -1062,8 +1062,47 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          What guarantees are there that the international debt will ever be
-          repaid?
+          bonjourno bitch
+          <h1>kill the old rental-income laborless-demand people</h1>
+          Government should be trying its best to get out of pharmacies and the
+          crack market, except to open ingredient lists and same name - not
+          front-running the operational monopsony of drug paraphernalia, free
+          rider mutable equal in receipt and scope truncated production tax.
+          <br />
+          <br />
+          "The tool Code for Boston built — not a service that Lorelei, a
+          researcher is providing — is a benefits calculator for{space}
+          <a href="https://ssacalculator.org/">Social Security</a>. Helping
+          elders calculate their
+          <a href="https://www.house.gov/representatives/find-your-representative">
+            Social Security benefits, help with overpayment, & links to a page
+            to Find your Representative to change the law
+          </a>
+          : is indeed in the public interest. If you are unhappy with how Social
+          Security finances work or the structure of the US financial system
+          that empowers and rewards wealthy seniors who have capital, I hope
+          you’ll find organizations that work on the issue and scrub in to
+          change. Criticizing a SS calculator as a “first mover investment bank”
+          seems in error."
+          <br />
+          <br />
+          it’s like a tool to look at your pittance for index-fund over
+          market-equality wounds. -GDP/p is tech advancement, and 1937 was not
+          helping. “Benefits,” seems to be propaganda - for good will accrual
+          accounting (non-concurrentable $170t stocks for $2t checking), only
+          liabilities are nominally true until foreclosure and kept down
+          payments, donee invocations. CBO in 2010 said Obamacare is cheaper
+          than insurance because it price fixes for an already supply!=demand
+          market. 44% of Medicare $829.5b/yr, “healthcare” $2.7t/yr investment
+          bank (froth.app)… this is a generator of inequality, lower poverty
+          (material+rent)/income. The disparity of Saving elders for
+          laborless-demand is the cause of such gerontocracy, of 19% of the
+          population being “disabled,” mostly 65+. Social Security does not
+          treat disabled youth the same, to boot.
+          <br />
+          <br />
+          "What guarantees are there that the international debt will ever be
+          repaid?"
           <br />
           Nick Carducci - Legal Writer & Software Engineer at Vaults.biz
           (2020–present)
