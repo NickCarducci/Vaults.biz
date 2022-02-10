@@ -306,6 +306,22 @@ class Archive extends React.Component {
           was private the Asians wouldn't be able to do this to our people. KILL
           THEM ALL.
         </h1>
+          <Cable
+            style={{ width: "100%", maxWidth: "300px", height: "auto" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/WlSVwRaO-iQ?t=890"
+            }
+            float="right"
+            title="Curtis Sliwa and mentally-ill homeless (Trump USPTO fruitless nonsense) - https://youtu.be/WlSVwRaO-iQ?t=890"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
         "I yield my time, I yield back. your honor, not you're." garbage trains,
         city systems, that is free rider mutable, so why funnel it to
         debt-service? fucking chink
@@ -7707,3 +7723,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
