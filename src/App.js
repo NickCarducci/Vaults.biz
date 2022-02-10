@@ -1061,6 +1061,13 @@ export default class App extends React.Component {
             Trial prove that someone cannot exercise their rights? What? That is
             impossible. Everyone at Syracuse, die
           </h3>
+          We 25-34 work twice as much as 45-54, "a lot of younger
+          developmental," 19% disabled mostly 65+, want someone to be watched
+          out for that can do a lot in their life, "like a conservatorship,"
+          THESE ARE MY FUCKING INVENTIONS, pigs. You will have to take them from
+          my cold, dead hands, greasy gumba
+          <br />
+          <br />
           rita cosby needs medicine for being such a bitch, fair would be
           castration and male hormone.
           <br />
@@ -4503,3 +4510,4 @@ export default class App extends React.Component {
     );
   }
 }
+
