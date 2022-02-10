@@ -1117,6 +1117,14 @@ export default class App extends React.Component {
           19% olds, contributing science to who?
           <br />
           <br />
+          Facebook washes fact check third party, and racket of public trust
+          (without market concentration indices over dollar gentrification of
+          home-contracting, and science USPTO, retards for comparative
+          advantage, tech advancement, and GDP/hour-HGDP/p
+          productive-efficiency, how I enumerate microeconomic Supply and
+          Demand, “economic welfare.”
+          <br />
+          <br />
           how about investigate and pitfall, known hazards are tortious, once,
           then jail with par or chat evidence. 10 years of research and 3 years
           to write. Tell admissions "takedown investigate & pitfall credit-
