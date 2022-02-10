@@ -1062,8 +1062,30 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            he will make constant miracles; am I smartest in the world by making
+            everyone else Mr. Anderson stupid?
+          </h2>
+          "death rates are still high, hopsitalizations are still high," not per
+          capita... listen to statisticians, not saveface "scientists."
+          <br />
+          <br />
           get the same media, from the conflict of interest racketeering.
-          Savers’ boycott credit
+          Savers’ boycott credit.
+          <br />
+          <br />
+          "What guarantees are there that the international debt will ever be
+          repaid?"
+          <br />
+          Debt!=cash, nominally, and is growing at 187.5x their respective
+          rates, so not even collateralized debt of par-timeLeft would be able
+          to recoup principal: $170t/$2t (U.S.) good-will/checking is bonds and
+          stocks, non-concurrentable “currencyComponentOfM1.” I’m sure the
+          international rates are similar. The balance sheet is assets with only
+          liabilities as nominal && true, unless you are the lender to
+          foreclose; however, if there is no collateral, there is no
+          technically-illegal precedent to keep down payments and repossess the
+          evidently and impossibly-not overvalued collateral.
           <hr ref={this.randpaul} />
           spending money we don't have, borrowed it, what do you call the
           interest or general-income, stealing? "inflation lags behind the
