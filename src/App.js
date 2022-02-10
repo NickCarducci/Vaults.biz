@@ -1038,7 +1038,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          you didn't give me Savers' land-exploration rights JEW
+          you didn't give me Savers' land-exploration rights JEW. "
+          <a href="https://vaults.biz/trading">giveitbacknancy.com</a>"
+          <br />
           <br />
           "Consider this: negative tests of an uncorrelated with
           original-artifact, and pfizer/harvard wyss say bacteria is acute
