@@ -1062,6 +1062,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h3>i work for science, alone</h3>
           inflation and inequality is caused not by{space}
           <a href="https://vaults.biz/gdp">population</a>, but by insurance,
           lenders and landlords rent seekers of science and operational
