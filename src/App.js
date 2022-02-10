@@ -1038,6 +1038,27 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          abolish prisons, no more bond-index-fund, lest war bond geroge soros
+          want chaos, pro criminal not safety, gascone, "pussywhipped (failed)
+          armed robbery is not tortious"
+          <br />
+          <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/whj20plzuf24zqi/Screen%20Shot%202022-02-09%20at%2010.10.50%20PM.png?dl=0"
+            }
+            float="left"
+            title="Rob Schmitt (Newsmax) - Crack child murder GTA 26%/yr+ 2019"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           Comparative advantage and tech advancement (-GDP/p) for GDP/hour-GDP/p
           productive efficiency bunting, how I enumerate economic welfare
           (microeconomics).
@@ -1058,7 +1079,7 @@ export default class App extends React.Component {
           “Econometric whistleblower student turns to poli sci.”
           <br />
           <br />
-          Jigaboo chorer
+          Jigaboo chorer{/**this is not a joke */}
           <br />
           Just word salad. I am not going to take good will as income of donee
           invocations, false bid pool and invoice, while saying it is retarded
