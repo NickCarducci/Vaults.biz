@@ -1062,12 +1062,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Marxist Democrats,{space}
+          <a href="https://vaults.biz/marx">oxymoronic</a>.<br />
+          talks like two face, sounds like a winner to me.
+          <br />
           pittance arbitration mediation non-compete redraft concurrentable
           (never ponzi hours), for #MeToo, what about catscans for the
           homeless???
           <br />
           "you have to be out there," libertarians like debt, they will not
-          turnout the non-voting-majority
+          turnout the non-voting-majority. yes,{space}
+          <a href="https://teapharmacy.party/drugs">tea party</a>
+          {space}are hypocrites, too. Don't be prudes, get cops out of good will
+          and pharmacy, open ingredient lists and ban licensure. Known hazard
+          tort, once, then jail (evidence-based, hold only with physical
+          evidence).
           <h2>
             manufacturing trade deals dumping products in Ohio, that isn't the
             goal of government, it is to remove science as property for tech
