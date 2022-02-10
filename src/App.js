@@ -1061,9 +1061,15 @@ export default class App extends React.Component {
                 ? "21px"
                 : "17px"
           }}
-        ><h1>
-          listen you black cunt, it isn't your fuckuing business</h1>
-          "it was actually thought police could only react to crime, they prevented it."<br/><br/>
+        >
+          "tracy abrams has co-borbidities that make virus worst," it isn't even
+          correlated with sickness as age and comorbidities is. you all are so
+          entrenched in your own feces.
+          <h1>listen you black cunt, it isn't your fuckuing business</h1>
+          "it was actually thought police could only react to crime, they
+          prevented it."
+          <br />
+          <br />
           revolution in policing has caused sewage, lzheimers, and tech
           advancement. Does it matter?
           <h2>applied miracles - safe prosperity</h2>
