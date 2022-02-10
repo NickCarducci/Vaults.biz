@@ -208,7 +208,7 @@ class Archive extends React.Component {
               : "https://www.dl.dropboxusercontent.com/s/v94nqshd3bn0lke/Screen%20Shot%202022-02-08%20at%206.14.07%20PM.png?dl=0"
           }
           float="left"
-          title="Change the Economic system - always middle ground "
+          title="Change the Economic system - always middle ground NJ Constitutional Republicans, John Robert Carman"
           scrolling={this.props.scrolling}
           fwd={this.props["scrollImg" + scrollnum()]}
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
@@ -1050,7 +1050,7 @@ class Archive extends React.Component {
         + $1.5m."- Stinchfield. "Criminals while awaiting trial," just petite
         juris them, "don't need bail to keep people safe."
         <br />
-        But it is not completely trustless, so it doesn't work.
+        <h2 ref={this.props.bitcongress}>But it is not completely trustless, so it doesn't work.</h2>
         <br />
         "Do you trust current election technologies?" I do not. Open-source can
         prove{space}
@@ -6253,6 +6253,7 @@ class Archive extends React.Component {
         ."
         <br />
         <br />
+        <hr ref={this.props.crypto}/>
         <Cable
           style={{
             width: "200px",
@@ -6919,6 +6920,8 @@ class Archive extends React.Component {
         John Belizaire: "Data centers for government racket beyond article 4,
         please, trust is not a dead weight box in microeconomics' Supply and
         Demand."
+
+        <hr ref={this.props.crypto}/>
         <h1>
           bitcoin is more than a global payment processing network, it is a
           whole caste of wealth-class.
@@ -7630,6 +7633,8 @@ export default React.forwardRef((props, ref) => {
     "rec",
     "air",
     "immi",
+    "crypto",
+    "bitcongress",
     "calc",
     "voting",
     "trade",
