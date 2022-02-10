@@ -1062,6 +1062,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "stop bying bonds to" to reduce recession by reducing money supply.
+          economists will let you pass if you are wrong. I am going to punt my
+          nobel and kill everyone who stopped me. Defltion is recession retard.
+          <br />
+          <br />
           "at the beginning of the pandemic, youth were not dying, so for the
           life of me I couldn't figure out that 1942 was a life expectancy ago."
           A licensed physician. This is why we need to ban licensure, open
@@ -3313,6 +3318,12 @@ export default class App extends React.Component {
             }}
             ref={this.education}
           >
+            Anything washes bond good will, even teachers. They say employment
+            haha same per capita rise as education but not emp-rate/edu-rate
+            (second derivative, useful when the factors are endogenous of one
+            another, education requires employment).
+            <br />
+            <br />
             "55% not important, 1/3 no plans, 7/10 job is important after
             graduation," is retarded because borrower defense and donee
             beneficiary invocations:
