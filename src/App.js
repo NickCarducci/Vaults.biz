@@ -56,6 +56,7 @@ export default class App extends React.Component {
     );*/
 
     //const obj = Object.fromEntries(entries);
+    this.govtech = React.createRef();
     this.insurance = React.createRef();
     this.saver = React.createRef();
     this.dns = React.createRef();
@@ -347,10 +348,20 @@ export default class App extends React.Component {
         };
         if (this.props.pathname === "/") {
           this.setState({ planner: true });
+        } else if (this.props.pathname === "/psych") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.psych.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/science") {
           this.setState(
             { planner: true },
             () => pager(true, this.science.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/govtech") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.govtech.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/redistricting") {
           this.setState(
@@ -669,8 +680,9 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.psych.current) < tryy) {
         inSection("psych");
-      }
-      if (construct(true, this.redistricting.current) < tryy) {
+      } else if (construct(true, this.govtech.current) < tryy) {
+        inSection("govtech");
+      } else if (construct(true, this.redistricting.current) < tryy) {
         inSection("redistricting");
       } else if (construct(true, this.monopoly.current) < tryy) {
         inSection("monopoly");
@@ -1000,6 +1012,22 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2 ref={this.govtech}>
+            geohash/mo equal in receipt and scope truncated production tax 2025
+          </h2>
+          Public is science, not rent-seeking operational monopolies. 40% debt
+          spending is Savers’ land exploration rights, donee claimable. First
+          mover, in the public interest?
+          <br />
+          <br />
+          Tax-payers are not paying for vaults.biz/immi competitive
+          productive-efficiency loss, Savers’ land exploration rights are.
+          <br />
+          <br />
+          “Public interest technologists are the first movers in this new
+          democratic space,” is welfare for equity?
+          <br />
+          <br />
           Larry O'Connor, in for 'The Great One,' Mark 'false-bid-pool re-loss
           {/*, stock sale and invoice */}'Levin, “Elected officials and
           representatives betray you and your tax dollars and children, it is
@@ -3940,6 +3968,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/monopoly`}
             >
               monopoly
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("govtech") }}
+              href={`${window.location.origin}/govtech`}
+            >
+              govtech
             </a>
             {space}
             <a
