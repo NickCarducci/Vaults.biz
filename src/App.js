@@ -1062,6 +1062,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          more treasonous than open trade.<br/>
+          Stopped scince open ingredients, "only-forseen bills," is not a change
+          in law... like the tariffs for nothing.
+          <br />
+          Trump is racist and retarded on trade and immigration, for Supply and
+          Demand economic welfare, GDP/hour-GDP/p.
+          <br />
           Marxist Democrats,{space}
           <a href="https://vaults.biz/marx">oxymoronic</a>.<br />
           talks like two face, sounds like a winner to me.
