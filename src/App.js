@@ -1054,6 +1054,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Do not slander me for contributing science that you find bizarre. Such
+          a burden, to be the smartest person in eternity, everyone being so
+          dependent on your whims, and terrified of your technological
+          advancements.
+          <br />
+          <br />
           shaving her head, bashing cars, why not?
           <br />
           "taking care of drug addicted children," doens't that mean they enjoy
@@ -4516,4 +4522,3 @@ export default class App extends React.Component {
     );
   }
 }
-
