@@ -1062,8 +1062,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          My only way to afford (gov malfeasance/confusion) court. Court tech that kills all bar-association
-          members upon download.
+          19% disabled for indices and blind trusts??
+          <br />
+          Whoever gives me the nobel better do so by mail because I'm going to
+          STICK IT UP THEIR ASS
+          <br />
+          externalities endogeneity is when something makes another, like
+          education begetting employment, the second derivative shows the gain
+          per each capita
+          <br />
+          <br />
+          My only way to afford (gov malfeasance/confusion) court. Court tech
+          that kills all bar-association members upon download.
           <br />
           I am going to kill everyone at the Neptune, NJ SSA office for
           slandering me and making me appeal 3x over the course of 4 years with
@@ -5089,4 +5099,3 @@ export default class App extends React.Component {
     );
   }
 }
-
