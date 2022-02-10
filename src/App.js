@@ -1062,6 +1062,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          If the government were to take over{space}
+          <a href="https://qr.ae/pGj2LU">thumbprint</a>
+          {space}they would rent-seek the shit out of it. Savers will pull
+          non-voters from bipartisan plural minorities’ hold.
           <h2>
             he will make constant miracles; am I smartest in the world by making
             everyone else Mr. Anderson stupid?
