@@ -1062,6 +1062,24 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          cancelled pipeline, by what rights, Saver land exploration rights?
+          <br />
+          <br />
+          i'm not crying about 15% rent, just an indication," it is a{space}
+          <a href="https://vaults.biz/gdp">smoking gun</a>
+          {space}douchebag.
+          <br />
+          <h2>
+            <a href="https://teapharmacy.party/drugs">
+              rudy giumiani says no one will go to crack dealer again when laced
+              with fentanyl, with the same name.
+            </a>
+          </h2>
+          Rudy Giuliani, ”60m people killed.” 5m worldwide with 50m excess
+          expected from population growth save for growing population,
+          population average age and sewage.
+          <br />
+          <br />
           Jimmy, nver has a lab study successfully inseminated cell in vivo,
           faggot.
           <br />
