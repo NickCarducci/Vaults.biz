@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "you have to be out there," libertarians like debt, they will not
+          turnout the non-voting-majority
           <h2>
             manufacturing trade deals dumping products in Ohio, that isn't the
             goal of government, it is to remove science as property for tech
