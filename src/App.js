@@ -1062,6 +1062,30 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Claugh and pivon overwhelm democracy until failure, crime across the
+          border is a failure 2012-2018 shows citizens are criminalized 1% more
+          than the working age illegals
+          <br />
+          <br />
+          19% olds, contributing science to who?
+          <br />
+          <br />
+          how about investigate and pitfall, known hazards are tortious, once,
+          then jail with par or chat evidence
+          <br />
+          <br />
+          Savers is donee land-exploration rights, so desist, hold Rudy, equal
+          in receipt and scope truncated production tax, or flat flat tax, a
+          clean 3% under $2k to ween cops off bonds.
+          <br />
+          <br />
+          significance requires at least 100 n to fill a distribution, otherwise
+          the mean is wrong from just a sample of 2, like 2019-20 death rate and
+          hospitalizations, looks like people that get vaxxed are quick to
+          concern themselves with their more acute viral pneumonia by bacteria,
+          according to Pfizer and Harvard Wyss.
+          <br />
+          <br />
           "prevent aging out of young adulthood for conservatorship." why don't
           we slaughter the old people instead?? They had their entire lives to
           Save land-exploration rights (dollars, 20% of U.S.) 19% disabled
