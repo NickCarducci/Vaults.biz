@@ -1054,6 +1054,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          shaving her head, bashing cars, why not?
+          <br />
+          "taking care of drug addicted children," doens't that mean they enjoy
+          it? borrowers loiter on Savers' donee rights, 187.5x debt/cash new,
+          44x debt/cash total, 11x debt/cash velocity/yr or /qtr
           <h2>
             protection and advocacy system slander - I'm going to kill everyone
           </h2>
@@ -1065,7 +1070,8 @@ export default class App extends React.Component {
           developmental," 19% disabled mostly 65+, want someone to be watched
           out for that can do a lot in their life, "like a conservatorship,"
           THESE ARE MY FUCKING INVENTIONS, pigs. You will have to take them from
-          my cold, dead hands, greasy gumba
+          my cold, dead hands, greasy gumba. “I’m proud I can run, have a
+          physical characteristic.” Joe.
           <br />
           <br />
           rita cosby needs medicine for being such a bitch, fair would be
