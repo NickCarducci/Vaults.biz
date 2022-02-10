@@ -1039,7 +1039,10 @@ export default class App extends React.Component {
           }}
         >
           you didn't give me Savers' land-exploration rights JEW. "
-          <a href="https://vaults.biz/trading">giveitbacknancy.com</a>"
+          <a href="https://vaults.biz/trading">giveitbacknancy.com</a>" you
+          would go to jail for making policy around your blind trust/indices
+          over currency - Savers' land exploration rights (20%). I am going to
+          kill Grant Stinchfield and the moms on the right
           <br />
           <br />
           "Consider this: negative tests of an uncorrelated with
