@@ -1062,6 +1062,33 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          prepandemic times vehicle thefts has nothing to do with eachother,
+          jennifer grad you fucking useless-racketing laborless-demand conflict
+          of interest bitch, !.
+          <br />
+          <br />
+          bloomberg national security gentrification of science for what?
+          uncomparative advantage?
+          <br />
+          "Is the American economy starting to get worse as the years go by?"
+          <br />
+          Nick Carducci - Chairperson at Saver Party (2020–present)
+          <br />
+          Yes, the $12k/64 new good will to chequeing rate derivative a year per
+          person is increasing over time, 187.5x; total 44x, velocity 11x. If
+          you include stocks, it is twice that rate. We do not know the
+          velocity/yr of CurrencyComponentOfM1 (actual checking),
+          GDP/yr=mv1==mv2 is mathematically a LIE.
+          <br />
+          <br />
+          -GDP/p is actually tech advancement (less busy-work, laborless-demand,
+          disparity of chores and science in counted labor).
+          <br />
+          <br />
+          Poverty excludes assets, just (material+rent)/income, inflation/labor,
+          actually making equality with poverty.
+          <br />
+          <br />
           "Why do Austrian economists like deflation?"
           <br />
           *Marxists* like *deflation*, **Austrian Economists** call good-will
