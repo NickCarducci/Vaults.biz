@@ -1054,6 +1054,22 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Bail to keep people in jail? Isn’t that no evidence to hold and
+          review, and bribe/settlement for State v People/Saver?
+          <br />
+          <br />
+          Bail or judge discretion to reoffend,” that is criminalizing before
+          crime, double jeopardy.
+          <br />
+          “Meet bail or be remanded. Unless it is murder, judges don’t have
+          discretion to hold, pre trial nor set bail-bribe. Misconduct.”
+          <br />
+          <br />
+          There is no accounting for taste if there is good will
+          non-concurrentable (collateral value is fake, liabilities nominally
+          true, exclusively).
+          <br />
+          <br />
           Do not slander me for contributing science that you find bizarre. Such
           a burden, to be the smartest person in eternity, everyone being so
           dependent on your whims, and terrified of your technological
@@ -4525,4 +4541,3 @@ export default class App extends React.Component {
     );
   }
 }
-
