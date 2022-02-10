@@ -1054,6 +1054,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Schools make rotary.org/action no actual change (most work doesnt
+          require the scam of trade-secrets). 
+          <br/><br/>Difficulty paying and rent,
+          utilities and other housing related expenses va.gov/homeless
+          preventing price elasticity, bailing out the glutteonous producers.
+          <br />
+          <br />
+          Medishare share $4b, $600/yr, invited to be part of it (85551BIBLE),
+          CBO said it is to be price-fixed, and still produce the same,
+          admitting it is a net loss, IN 2010. How can they allow this to happen
+          in private?
+          <br />
           Curtis Sliwa got 37k/7m votes, that is .05% of eligible voters. 93%
           voted, "no-candidate," but don't let the aldercocker Frank Morano cuck
           speak another word, cut out his tongue.
