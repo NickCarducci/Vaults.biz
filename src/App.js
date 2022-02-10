@@ -1068,6 +1068,14 @@ export default class App extends React.Component {
           Dollar-lands. Lift people up by increasing poverty and equality
           <br />
           <br />
+          Aging of the population because of baby boomers, born 1942, 18-24
+          intellectual disability, non-biomedical. I don’t have a disability,
+          except a hole in my leg, but psychologists say I’m crazy! The
+          government makes my mom payee to pay off her debts, because I have no
+          uncollateralized debts. is 19% disabled, mostly 65+, abusive
+          guardianship? Isn't all guardianship abusive?
+          <br />
+          <br />
           "Long term treatment, help them get off of it," that is out fucking
           choice Maliotakis; I want you dead, deskinned on a clotheswire, racket
           for anything washes
