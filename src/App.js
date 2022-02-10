@@ -56,6 +56,7 @@ export default class App extends React.Component {
     );*/
 
     //const obj = Object.fromEntries(entries);
+    this.statistic = React.createRef();
     this.govtech = React.createRef();
     this.insurance = React.createRef();
     this.saver = React.createRef();
@@ -73,6 +74,7 @@ export default class App extends React.Component {
     this.party = React.createRef();
     this.marx = React.createRef();
     this.immi = React.createRef();
+    this.bitcongress = React.createRef();
     this.rec = React.createRef();
     this.air = React.createRef();
     this.china = React.createRef();
@@ -108,6 +110,7 @@ export default class App extends React.Component {
       ["first", this.first],
       ["calc", this.calc],
       ["voting", this.voting],
+      ["bitcongress", this.bitcongress],
       ["trade", this.trade],
       ["china", this.china],
       ["intllaw", this.intllaw],
@@ -353,6 +356,11 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.psych.current.offsetTop) //offsetTop
           );
+        } else if (this.props.pathname === "/statistic") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.statistic.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/science") {
           this.setState(
             { planner: true },
@@ -433,6 +441,8 @@ export default class App extends React.Component {
           pager("arc", this.party.current.offsetTop);
         } else if (this.props.pathname === "/marx") {
           pager("arc", this.marx.current.offsetTop);
+        } else if (this.props.pathname === "/bitcongress") {
+          pager(null, this.bitcongress.current.offsetTop);
         } else if (this.props.pathname === "/intllaw") {
           pager(null, this.intllaw.current.offsetTop);
         } else if (this.props.pathname === "/calc") {
@@ -692,6 +702,8 @@ export default class App extends React.Component {
         inSection("insurance");
       } else if (construct(true, this.education.current) < tryy) {
         inSection("education");
+      } else if (construct(true, this.statistic.current) < tryy) {
+        inSection("statistic");
       } else if (construct(true, this.trust.current) < tryy) {
         inSection("trust");
       } else if (construct(true, this.capitalism.current) < tryy) {
@@ -712,6 +724,8 @@ export default class App extends React.Component {
         inSection("party");
       } else if (construct("arc", this.marx.current) < tryy) {
         inSection("marx");
+      } else if (construct(null, this.bitcongress.current) < tryy) {
+        inSection("bitcongress");
       } else if (construct(null, this.sdr.current) < tryy) {
         inSection("sdr");
       } else if (construct(null, this.calc.current) < tryy) {
@@ -1209,6 +1223,7 @@ export default class App extends React.Component {
           <a href="https://teapharmacy.party/drugs">settlement</a>?
           <br />
           <br />
+          <hr ref={this.statistic} />
           Alzheimer's is caused by sewage, in a cross-section of 2/100 with
           standing.
           <h2>
@@ -4061,6 +4076,20 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              style={{ color: "black", border: scrollPath("bitcongress") }}
+              href={`${window.location.origin}/bitcongress`}
+            >
+              bitcongress
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("statistic") }}
+              href={`${window.location.origin}/statistic`}
+            >
+              statistice
+            </a>
+            {space}
+            <a
               style={{ color: "black", border: scrollPath("moldmask") }}
               href={`${window.location.origin}/moldmask`}
             >
@@ -4301,3 +4330,4 @@ export default class App extends React.Component {
     );
   }
 }
+
