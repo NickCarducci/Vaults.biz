@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          who is? whom isn't
+          <br />
           rube ploy racket conservative/libertarian hypocrisy, liberal
           self-harm!
           <h2>
@@ -1122,7 +1124,8 @@ export default class App extends React.Component {
           home-contracting, and science USPTO, retards for comparative
           advantage, tech advancement, and GDP/hour-HGDP/p
           productive-efficiency, how I enumerate microeconomic Supply and
-          Demand, “economic welfare.”
+          Demand, “economic welfare.” - NO HAZARDS KNOWN, JAIL AFTE ONE TORT
+          without false bid pool loss non-concurrentable nor-insulated.
           <br />
           <br />
           how about investigate and pitfall, known hazards are tortious, once,
