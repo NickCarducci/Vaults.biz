@@ -1062,7 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Court tech that kills all bar-association members upon download.
+          My only way to afford (gov malfeasance/confusion) court. Court tech that kills all bar-association
+          members upon download.
           <br />
           I am going to kill everyone at the Neptune, NJ SSA office for
           slandering me and making me appeal 3x over the course of 4 years with
@@ -5088,3 +5089,4 @@ export default class App extends React.Component {
     );
   }
 }
+
