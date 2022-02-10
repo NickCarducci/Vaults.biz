@@ -1062,6 +1062,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h3>
+            I don't want to work for Amazon, I want to make a competitor with
+            AOC and ban her from voting for relevant{space}
+            <a href="https://scopes.cc">line items (timeclock-unlock)</a>.
+          </h3>
           “American patriotism will not absolve your sins, neither sacrifice nor
           bond donee invocations of Savers’ land exploration. Pittance for
           laborless-demand.”
@@ -4826,3 +4831,4 @@ export default class App extends React.Component {
     );
   }
 }
+
