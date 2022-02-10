@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          get the same media, from the conflict of interest racketeering.
+          Savers’ boycott credit
           <hr ref={this.randpaul} />
           spending money we don't have, borrowed it, what do you call the
           interest or general-income, stealing? "inflation lags behind the
