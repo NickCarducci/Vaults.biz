@@ -57,6 +57,7 @@ export default class App extends React.Component {
 
     //const obj = Object.fromEntries(entries);
     this.statistic = React.createRef();
+    this.randpaul = React.createRef();
     this.govtech = React.createRef();
     this.insurance = React.createRef();
     this.saver = React.createRef();
@@ -361,6 +362,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.psych.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/randpaul") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.randpaul.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/statistic") {
           this.setState(
@@ -709,6 +715,8 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.plandemic.current) < tryy) {
         inSection("plandemic");
+      } else if (construct(true, this.randpaul.current) < tryy) {
+        inSection("randpaul");
       }
       if (construct(true, this.psych.current) < tryy) {
         inSection("psych");
@@ -1054,6 +1062,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <hr ref={this.randpaul} />
+          spending money we don't have, borrowed it, what do you call the
+          interest or general-income, stealing? "inflation lags behind the
+          borrowing, 2/3 is private.... retard, something for nothing. hits
+          Savers the hardest, pension is glutteonous. old people had their whole
+          lives to save, 19% disabled, mostly 65+ die already.
+          <br />
+          <br />
+          20x less likely because of basis rate fallacy, 55x more likely to go
+          to hospital. - more like the same people dont trust both. all the
+          medical science douchebag basis rate fallacy of non-exclusive
+          byproduct, 5% of sustected and not even correlated to artifact-cause
+          with asymptomatic cases.
+          <br />
+          <br />
           we need more immigrants and expell Steve Danes.
           <br />
           GOP only interested in indices market concentration over the currency,
@@ -4298,6 +4321,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/govtech`}
             >
               govtech
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("randpaul") }}
+              href={`${window.location.origin}/randpaul`}
+            >
+              randpaul
             </a>
             {space}
             <a
