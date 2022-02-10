@@ -1062,6 +1062,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          key tenant of mental health is understanding, whistleblowing and
+          international trade foreign relations aliens, too.
+          <br />
+          <br />
           wokies printing money, social justice, that is bond laundering Morici
           you peice of shite. On the kill list!
           <br />
