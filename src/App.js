@@ -80,6 +80,7 @@ export default class App extends React.Component {
     this.air = React.createRef();
     this.china = React.createRef();
     this.voting = React.createRef();
+    this.medical = React.createRef();
     this.trade = React.createRef();
     this.first = React.createRef();
     this.chapter2 = React.createRef();
@@ -112,6 +113,7 @@ export default class App extends React.Component {
       ["homelessness", this.homelessness],
       ["calc", this.calc],
       ["voting", this.voting],
+      ["medical", this.medical],
       ["bitcongress", this.bitcongress],
       ["trade", this.trade],
       ["china", this.china],
@@ -449,6 +451,8 @@ export default class App extends React.Component {
           pager(null, this.homelessness.current.offsetTop);
         } else if (this.props.pathname === "/bitcongress") {
           pager(null, this.bitcongress.current.offsetTop);
+        } else if (this.props.pathname === "/medical") {
+          pager(null, this.medical.current.offsetTop);
         } else if (this.props.pathname === "/intllaw") {
           pager(null, this.intllaw.current.offsetTop);
         } else if (this.props.pathname === "/crypto") {
@@ -742,6 +746,8 @@ export default class App extends React.Component {
         inSection("sdr");
       } else if (construct(null, this.calc.current) < tryy) {
         inSection("calc");
+      } else if (construct(null, this.medical.current) < tryy) {
+        inSection("medical");
       } else if (construct(null, this.voting.current) < tryy) {
         inSection("voting");
       } else if (construct(null, this.intllaw.current) < tryy) {
@@ -4100,6 +4106,13 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              style={{ color: "black", border: scrollPath("medical") }}
+              href={`${window.location.origin}/medical`}
+            >
+              medical
+            </a>
+            {space}
+            <a
               style={{ color: "black", border: scrollPath("capitalism") }}
               href={`${window.location.origin}/capitalism`}
             >
@@ -4437,3 +4450,4 @@ export default class App extends React.Component {
     );
   }
 }
+
