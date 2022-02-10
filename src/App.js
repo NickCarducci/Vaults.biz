@@ -1062,6 +1062,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          why would you allow a criminal (with evidence) out until their trial?
           <h1>WRONG, word salad</h1>
           Housing boom carries the 65% mortgage and 35% rent thru?
           <br />"<a href="https://qr.ae/pGjAXm">Stop buying bonds to</a>,"
