@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          What the fuck is family court? Why is owning a gun/drug unregistered a crime, unless it is closed-source?
+          <br />
           "tracy abrams has co-borbidities that make virus worst," it isn't even
           correlated with sickness as age and comorbidities is. you all are so
           entrenched in your own feces.
