@@ -1062,13 +1062,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          &bull;{space}You can get a platform anywhere, it is the onus of the platform to
-          prove you wrong, with no doubts (but review), or G-dly vivo
-          presentation.
+          <h2>
+            manufacturing trade deals dumping products in Ohio, that isn't the
+            goal of government, it is to remove science as property for tech
+            advancement (Supply and Demand).
+          </h2>
+          &bull;{space}You can get a platform anywhere, it is the onus of the
+          platform to prove you wrong, with no doubts (but review), or G-dly
+          vivo presentation.
           <br />
-          &bull;{space}You can use Medicare to stop insurance and prescription costs (or cut
-          the throat of doctors), "lowering prescription drug costs, a laudible
-          goal, but not a house for that yet."
+          &bull;{space}You can use Medicare to stop insurance and prescription
+          costs (or cut the throat of doctors), "lowering prescription drug
+          costs, a laudible goal, but not a house for that yet."
           <h3>good or bad? Income/labor, material/labor</h3>
           What the fuck is family court? Why is owning a gun/drug unregistered a
           crime, unless it is closed-source?
@@ -5050,4 +5055,3 @@ export default class App extends React.Component {
     );
   }
 }
-
