@@ -1062,6 +1062,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>trump the cuck prevents Supply and Demand prices from falling</h1>
           19% disabled for indices and blind trusts??
           <br />
           Whoever gives me the nobel better do so by mail because I'm going to
