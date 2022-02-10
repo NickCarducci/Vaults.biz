@@ -109,7 +109,7 @@ export default class App extends React.Component {
       ["air", this.air],
       ["immi", this.immi],
       ["first", this.first],
-      ["homelessness", this.first],
+      ["homelessness", this.homelessness],
       ["calc", this.calc],
       ["voting", this.voting],
       ["bitcongress", this.bitcongress],
@@ -4377,3 +4377,4 @@ export default class App extends React.Component {
     );
   }
 }
+
