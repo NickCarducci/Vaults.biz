@@ -216,8 +216,7 @@ class Archive extends React.Component {
         />
         <h2 ref={this.props.rec}>
           General Maintenence Unit (duress and donee)
-          <br/>
-          "
+          <br />"
           <a href="https://arstechnica.com/information-technology/2021/02/verizon-and-att-dominate-spectrum-auction-spending-combined-69-billion/">
             I've got a bridge to sell you
           </a>
@@ -306,22 +305,22 @@ class Archive extends React.Component {
           was private the Asians wouldn't be able to do this to our people. KILL
           THEM ALL.
         </h1>
-          <Cable
-            style={{ width: "100%", maxWidth: "300px", height: "auto" }}
-            onError={handleScollImgError}
-            //img={true}
-            src={
-              this.state.noyoutube
-                ? ""
-                : "https://www.youtube.com/embed/WlSVwRaO-iQ?t=890"
-            }
-            float="right"
-            title="Curtis Sliwa and mentally-ill homeless (Trump USPTO fruitless nonsense) - https://youtu.be/WlSVwRaO-iQ?t=890"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
-          />
+        <Cable
+          style={{ width: "100%", maxWidth: "300px", height: "auto" }}
+          onError={handleScollImgError}
+          //img={true}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.youtube.com/embed/WlSVwRaO-iQ?t=890"
+          }
+          float="right"
+          title="Curtis Sliwa and mentally-ill homeless (Trump USPTO fruitless nonsense) - https://youtu.be/WlSVwRaO-iQ?t=890"
+          scrolling={this.state.scrolling}
+          fwd={this["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
         "I yield my time, I yield back. your honor, not you're." garbage trains,
         city systems, that is free rider mutable, so why funnel it to
         debt-service? fucking chink
@@ -348,11 +347,14 @@ class Archive extends React.Component {
         fees. Geohash/month spoofable precinct, operational monopsony labor,
         storefront and residential structure costs, labor.
         <h2 ref={this.props.intllaw}>
-          SUCK MY DICK<br/>
+          SUCK MY DICK
+          <br />
           “In the 70’s you had that look, and as you get older you HAVE to clean
           it up a little.”
         </h2>
-        duress and donee is reflexive for innocence and tort, all hazard known and no holds, barred.<br/>
+        duress and donee is reflexive for innocence and tort, all hazard known
+        and no holds, barred.
+        <br />
         Livelihood is legal to defend internationally, offend intranationally.
         <br />
         End State prescriptions, end animal testing.
@@ -1066,7 +1068,9 @@ class Archive extends React.Component {
         + $1.5m."- Stinchfield. "Criminals while awaiting trial," just petite
         juris them, "don't need bail to keep people safe."
         <br />
-        <h2 ref={this.props.bitcongress}>But it is not completely trustless, so it doesn't work.</h2>
+        <h2 ref={this.props.bitcongress}>
+          But it is not completely trustless, so it doesn't work.
+        </h2>
         <br />
         "Do you trust current election technologies?" I do not. Open-source can
         prove{space}
@@ -4993,7 +4997,21 @@ class Archive extends React.Component {
         not 40$ debt spending amortize 1%, 50% stock gain general revenue,
          19% expiring premium claims., 65% mortagage, you like it 35% rent. 
          being original is so important*/}
-        <h2>NFL every Sunday</h2>
+        <h2 ref={this.props.medical}>NFL every Sunday</h2>
+        19% are disabled most 65+, going to reverse{space}
+        <a href="https://qr.ae/pGjrSD">social security</a>.
+        <br />
+        Tort for only unknown hazard.
+        <br />
+        <br />
+        Borrowers are loitering on collateral and homes, so the way I see it,
+        the ages are at war, a gerontocracy.
+        <br />
+        <br />
+        Medical, recreational coming soon. Just a way to add prescription costs,
+        because, say it with me, “when you launder, the wash don’t matta.”
+        <br />
+        <br />
         Get a unit under the bridge for stock gain funds 50% 19%, we need to
         fester on single data.
         <br />
@@ -6269,7 +6287,7 @@ class Archive extends React.Component {
         ."
         <br />
         <br />
-        <hr ref={this.props.crypto}/>
+        <hr ref={this.props.crypto} />
         <Cable
           style={{
             width: "200px",
@@ -6936,8 +6954,7 @@ class Archive extends React.Component {
         John Belizaire: "Data centers for government racket beyond article 4,
         please, trust is not a dead weight box in microeconomics' Supply and
         Demand."
-
-        <hr ref={this.props.crypto}/>
+        <hr ref={this.props.crypto} />
         <h1>
           bitcoin is more than a global payment processing network, it is a
           whole caste of wealth-class.
@@ -7646,6 +7663,7 @@ export default React.forwardRef((props, ref) => {
     "chapter2",
     "sci",
     "trust",
+"medical",    
     "rec",
     "homelessness",
     "air",
@@ -7685,8 +7703,8 @@ export default React.forwardRef((props, ref) => {
           }
         }}
         scrollTop={
-          props.scrollTop  -
-           (chapter2.current ? chapter2.current.offsetHeight : 0)
+          props.scrollTop -
+          (chapter2.current ? chapter2.current.offsetHeight : 0)
         }
       />
     </div>
