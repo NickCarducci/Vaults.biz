@@ -1072,7 +1072,7 @@ export default class App extends React.Component {
           "tracy abrams has co-borbidities that make virus worst," it isn't even
           correlated with sickness as age and comorbidities is. you all are so
           entrenched in your own feces.
-          <h1>listen you black cunt, it isn't your fuckuing business</h1>
+          <h1>listen you tar-faced{/**black */} cunt, it isn't your fuckuing business</h1>
           "it was actually thought police could only react to crime, they
           prevented it."
           <br />
