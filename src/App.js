@@ -1067,7 +1067,12 @@ export default class App extends React.Component {
             everyone else Mr. Anderson stupid?
           </h2>
           "death rates are still high, hopsitalizations are still high," not per
-          capita... listen to statisticians, not saveface "scientists."
+          capita... listen to statisticians, not saveface "scientists." science
+          and health experts in the federal government is out of Article 1.8
+          bond-tax lane. "president lowering prescription costs," by laundering
+          false bid pool loss thru cgovernment and price fix pittance for
+          equity. ban licensure, open ingredient list, invoices instead of
+          bipartisan plural minorities trust-building. retard john bachmann
           <br />
           <br />
           get the same media, from the conflict of interest racketeering.
