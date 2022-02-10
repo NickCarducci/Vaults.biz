@@ -1062,6 +1062,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            19% disabled, whole lives to Save, instead causes market
+            concentration indices over the dollar-land-deeds.
+          </h2>
+          Republicans and Democrats: "tech advancement for equity? lower poverty
+          for inequality? higher prices for busy-work? Count us in!"
+          <br />
+          <br />
           You should be able to find it anywhere, like good will books is actual
           trade for Savers' land exploration but donees looking to REPOSESS YOUR
           HOMES
