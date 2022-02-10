@@ -1062,6 +1062,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          inflation and inequality is caused not by{space}
+          <a href="https://vaults.biz/gdp">population</a>, but by insurance,
+          lenders and landlords rent seekers of science and operational
+          monopsony, or non-mvp 11/12 duress{space}
+          <a href="https://vaults.biz/gmu">GMU</a>. Same thing?
+          <br />
           Alzheimer's has been caused by sewage.
           <br />
           "catscan of your head to diagnose homelessness."
@@ -4816,4 +4822,3 @@ export default class App extends React.Component {
     );
   }
 }
-
