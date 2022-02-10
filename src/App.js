@@ -1063,8 +1063,10 @@ export default class App extends React.Component {
           }}
         >
           <h2>Lobotomize, Now!</h2>
-          Section 8 isn’t dangerous, it is federally subsidized clients, or gentrification of home contractor ward .
-          <br/><br/>
+          Section 8 isn’t dangerous, it is federally subsidized clients, or
+          gentrification of home contractor ward .
+          <br />
+          <br />
           trespass, not alonon, can just custody of a person to another, under
           18 is notwithstanding except in graphic content.
           <br />
@@ -1103,7 +1105,9 @@ export default class App extends React.Component {
           <br />
           <br />
           how about investigate and pitfall, known hazards are tortious, once,
-          then jail with par or chat evidence
+          then jail with par or chat evidence. 10 years of research and 3 years
+          to write. Tell admissions "takedown investigate & pitfall credit-
+          cycle Larry Kudlow, the Big Kahuna?
           <br />
           <br />
           Savers is donee land-exploration rights, so desist, hold Rudy, equal
