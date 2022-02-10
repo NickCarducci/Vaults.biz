@@ -1062,7 +1062,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          more treasonous than open trade.<br/>
+          Court tech that kills all bar-association members upon download.
+          <br />
+          I am going to kill everyone at the Neptune, NJ SSA office for
+          slandering me and making me appeal 3x over the course of 4 years with
+          a knee injury, claiming by third party psych that I am schizophrenic,
+          a conflict of interest especially poignant as my diagnosis was without
+          catscan/crime of tresspass and cage/medicate-castrationally but messy
+          hair and saying, "I have a hole in my leg, but you are talking in
+          illegal income by false bid pool loss non-concurrentable nor
+          insulated, with donee invocztions (legal term, no trial nor crime,
+          made up testimony)." more treasonous than open trade.
+          <br />
           Stopped scince open ingredients, "only-forseen bills," is not a change
           in law... like the tariffs for nothing.
           <br />
