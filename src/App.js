@@ -1062,6 +1062,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “American patriotism will not absolve your sins, neither sacrifice nor
+          bond donee invocations of Savers’ land exploration. Pittance for
+          laborless-demand.”
           <h3>i work for science, alone</h3>
           inflation and inequality is caused not by{space}
           <a href="https://vaults.biz/gdp">population</a>, but by insurance,
