@@ -1062,6 +1062,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "it was actually thought police could only react to crime, they prevented it."<br/><br/>
           revolution in policing has caused sewage, lzheimers, and tech
           advancement. Does it matter?
           <h2>applied miracles - safe prosperity</h2>
