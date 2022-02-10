@@ -1054,6 +1054,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Curtis Sliwa got 37k/7m votes, that is .05% of eligible voters. 93%
+          voted, "no-candidate," but don't let the aldercocker Frank Morano cuck
+          speak another word, cut out his tongue.
+          <br />
+          <br />
           Bail to keep people in jail? Isn’t that no evidence to hold and
           review, and bribe/settlement for State v People/Saver?
           <br />
@@ -4541,3 +4546,4 @@ export default class App extends React.Component {
     );
   }
 }
+
