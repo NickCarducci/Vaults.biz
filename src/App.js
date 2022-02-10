@@ -1062,8 +1062,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h2>
-          known 11/12 industry hazard jail</h2>
+          wokies printing money, social justice, that is bond laundering Morici
+          you peice of shite. On the kill list!
+          <br />
+          <br />
+          shelter 6mo lags, 1/3 of CPI, car, oil[frackers, saudis and others hit
+          limit, we really don’t know, 5%/yr+ land-exploration my cock.
+          Inflation is top of labor in poverty, excludes assets[land, IP,
+          equities, bonds, profits, labor]. Poverty=equality, imagine that!
+          Vaults.biz/gdp
+          <h2>known 11/12 industry hazard jail</h2>
           pun intended, sic busses, efforts to reduce prescription drugs (kill
           doctors).
           <br />
@@ -4793,4 +4801,3 @@ export default class App extends React.Component {
     );
   }
 }
-
