@@ -1043,8 +1043,7 @@ export default class App extends React.Component {
           would go to jail for making policy around your blind trust/indices
           over currency - Savers' land exploration rights (20%). I am going to
           kill Grant Stinchfield and the moms on the right
-          <br />
-          <br />
+          <h1>These are not tax-dollars, I want hogan gidley bloodlet like babbit</h1>
           "Consider this: negative tests of an uncorrelated with
           original-artifact, and pfizer/harvard wyss say bacteria is acute
           version of vial pneumonia, epidimiology-work of century is
@@ -4377,4 +4376,3 @@ export default class App extends React.Component {
     );
   }
 }
-
