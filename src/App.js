@@ -1062,7 +1062,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          you can use Medicare to stop insurance and prescription costs (or cut
+          &bull;{space}You can get a platform anywhere, it is the onus of the platform to
+          prove you wrong, with no doubts (but review), or G-dly vivo
+          presentation.
+          <br />
+          &bull;{space}You can use Medicare to stop insurance and prescription costs (or cut
           the throat of doctors), "lowering prescription drug costs, a laudible
           goal, but not a house for that yet."
           <h3>good or bad? Income/labor, material/labor</h3>
@@ -1072,7 +1076,10 @@ export default class App extends React.Component {
           "tracy abrams has co-borbidities that make virus worst," it isn't even
           correlated with sickness as age and comorbidities is. you all are so
           entrenched in your own feces.
-          <h1>listen you tar-faced{/**black */} cunt, it isn't your fuckuing business</h1>
+          <h1>
+            listen you tar-faced{/**black */} cunt, it isn't your fuckuing
+            business
+          </h1>
           "it was actually thought police could only react to crime, they
           prevented it."
           <br />
@@ -5043,3 +5050,4 @@ export default class App extends React.Component {
     );
   }
 }
+
