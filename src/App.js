@@ -1038,9 +1038,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          abolish prisons, no more bond-index-fund, lest war bond geroge soros
-          want chaos, pro criminal not safety, gascone, "pussywhipped (failed)
-          armed robbery is not tortious"
+          "'abolish prisons,' no more bond-index-fund, lest war bond geroge
+          soros want chaos, pro criminal not safety, gascone, 'pussywhipped
+          (failed) armed robbery is not tortious.'"
           <br />
           <br />
           <Cable
@@ -4434,3 +4434,4 @@ export default class App extends React.Component {
     );
   }
 }
+
