@@ -1062,6 +1062,28 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          revolution in policing has caused sewage, lzheimers, and tech
+          advancement. Does it matter?
+          <h2>applied miracles - safe prosperity</h2>
+          broken windows, prosecute lower like higher, step up, simple, old
+          fashioned, double jeporady and incrimination without fucking evidence,
+          like you can diagnose homelessness with a catscan instead of your own
+          doing.
+          <br />
+          Pipeline rent seeking science open ingredients and reviews same name
+          for login.gov
+          <br />
+          Historians and researchers, what am I ? Remember remember, two face?
+          Activist? Or borne from 2008 in home-contractor household, with a dog
+          <br />
+          <br />
+          laborless-demand lowers poverty.
+          <br />
+          III 3 4 6 8 arrests strikes and you are out, 2-3k/9m without them,
+          they are coming in from NJ to do the stealing and crack production
+          gentrification and amazon stock indices over currency tax rates.
+          <br />
+          <br />
           why would you allow a criminal (with evidence) out until their trial?
           <h1>WRONG, word salad</h1>
           Housing boom carries the 65% mortgage and 35% rent thru?
