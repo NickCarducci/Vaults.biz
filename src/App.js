@@ -1072,7 +1072,12 @@ export default class App extends React.Component {
           bond-tax lane. "president lowering prescription costs," by laundering
           false bid pool loss thru cgovernment and price fix pittance for
           equity. ban licensure, open ingredient list, invoices instead of
-          bipartisan plural minorities trust-building. retard john bachmann
+          bipartisan plural minorities trust-building. retard john bachmann. if
+          prices do not match quality, laborless-demand is borne, and GDP/p tech
+          deprecation grows - if producers are starving (and therefore
+          inelastic), or the producers just don’t show up. But this is already
+          not labor-borne-demand, it is insurance, lender and landlord
+          laborless-demand.
           <br />
           <br />
           get the same media, from the conflict of interest racketeering.
