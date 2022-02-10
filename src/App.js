@@ -1038,12 +1038,29 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Jigaboo chorer
+          <br />
+          Just word salad. I am not going to take good will as income of donee
+          invocations, false bid pool and invoice, while saying it is retarded
+          for GDP/hour-GDP/p bunting.
+          <br />
+          <br />
+          Subjective proof is messy hair for crime, or slander of mental
+          opinion, used to prosecute and involuntarily commit without evidence,
+          then trial? Just Crsheild ‘name-your-price’ false bid pool loss? Net
+          loss profit by bonds, banks and federal reserve is not a business
+          because they have liabilities and collateral as well as good will, not
+          just good will non-concurrentable (not real by nominal).
+          <br />
+          <br />
           you didn't give me Savers' land-exploration rights JEW. "
           <a href="https://vaults.biz/trading">giveitbacknancy.com</a>" you
           would go to jail for making policy around your blind trust/indices
           over currency - Savers' land exploration rights (20%). I am going to
           kill Grant Stinchfield and the moms on the right
-          <h1>These are not tax-dollars, I want hogan gidley bloodlet like babbit</h1>
+          <h1>
+            These are not tax-dollars, I want hogan gidley bloodlet like babbit
+          </h1>
           "Consider this: negative tests of an uncorrelated with
           original-artifact, and pfizer/harvard wyss say bacteria is acute
           version of vial pneumonia, epidimiology-work of century is
