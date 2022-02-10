@@ -1062,6 +1062,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          What guarantees are there that the international debt will ever be
+          repaid?
+          <br />
+          Nick Carducci - Legal Writer & Software Engineer at Vaults.biz
+          (2020–present)
+          <br />
+          Debt!=cash, nominally, and is growing at 187.5x their respective
+          rates, so not even collateralized debt of par-timeLeft would be able
+          to recoup principal: $170t/$2t (U.S.) good-will/checking is bonds and
+          stocks, non-concurrentable “currencyComponentOfM1.” I’m sure the
+          international rates are similar. The balance sheet is assets with only
+          liabilities as nominal && true, unless you are the lender to
+          foreclose; however, if there is no collateral, there is no
+          technically-illegal precedent to keep down payments and repossess the
+          evidently and impossibly-not overvalued collateral.
+          <br />
+          <br />
           If the government were to take over{space}
           <a href="https://qr.ae/pGj2LU">thumbprint</a>
           {space}they would rent-seek the shit out of it. Savers will pull
