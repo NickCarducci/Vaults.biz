@@ -1038,6 +1038,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Comparative advantage and tech advancement (-GDP/p) for GDP/hour-GDP/p
+          productive efficiency bunting, how I enumerate economic welfare
+          (microeconomics).
+          <br />
+          <br />
+          This needs to be privatized without debt and target margin after
+          (cash/debt)*income every year back. That is donee and contractor
+          liable for not doing diligence. Hold, desist, you GS nut.
+          <br />
+          <br />
+          I’m slowly seeing humans as ugly, showing their teeth.
+          <br />
+          <br />
+          “Getting along with countries is a good thing, not a bad thing,” like
+          tarrif China for no gain, and rent-seeking science by government?
+          <br />
+          <br />
+          “Econometric whistleblower student turns to poli sci.”
+          <br />
+          <br />
           Jigaboo chorer
           <br />
           Just word salad. I am not going to take good will as income of donee
