@@ -1054,11 +1054,112 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          we need more immigrants and expell Steve Danes.
+          <br />
+          GOP only interested in indices market concentration over the currency,
+          laborequity/Savers' land-exploration rights.
+          <br />
+          gentrification, rent-seeking, distribution and productivity displaced:
+          "invest in long term economic capacity, allow more americans to
+          participate in economy."
+          <h2>indices over currency</h2>
+          DOJ/Ethics: diversified mutual funds/ indices/ banning trading is not
+          enough, equities over currency. Imagine if I policy make around by
+          book? retards
+          <h2>
+            prohibit congress from OWNING stocks, they should only be interested
+            in the dollar, Savers' lands
+          </h2>
+          With England about to abolish their Covid rules, does this mean that
+          the economy will bounce back to better growth and inflation will drop
+          down to a more acceptable level?
+          <br />
+          <br />
+          GDP/p growth is tech deprecation (more work), and that has been the
+          same; no level of inflation is necessary nor acceptable. Poverty is
+          inflation/labor, or (material+rent)/income, that which excludes
+          assets, profits, labor, equities, bonds, land, IP, profits.
+          GDP/hour-GDP/p productive efficiency is the only measure of a
+          population’s economy that I use; it, as opposed to GDP/p growth,
+          doesn’t count busy-work as towards a better.{space}
+          <a href="https://www.spglobal.com/marketintelligence/en/news-insights/blog/banking-essentials-newsletter-february-edition-2022">
+            If you think covid (p
+            {"<"}.05 in 19–20 single year death rate, don’t you have 1942 baby
+            boomers in U.K.?) isn’t to paint the tape
+          </a>
+          , I have a bridge to sell you before the advent of automatic toll
+          booths due for operational-monopoly target margin, with private owners
+          and jail for known hazards...
+          <a href="https://humanharvest.info/polio">Here</a>
+          {space}is U.S. and Worldwide single year mortality and population, you
+          can see the more n (assumed as infinity) the less significant the
+          death rate. When average age meets average age at death, you realize
+          sewage has caused Alzheimer’s or humans biologically should be living
+          until 80 on average forevermore.
+          <br />
+          "Can you be conscious thinking but also pro-Marxist?"
+          <br />
+          Marx was so aware that while Adam Smith (50 years prior) was
+          discussing nationalism, he spoke of free trade without the profits by
+          anothers’ labor, as the cause of laborless-demand and waste, a keen
+          microeconomist (Pareto, Supply and Demand) reader will agree with him,
+          if you get past his sarcasm:
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            Communism deprives no man of the power to appropriate the products
+            of society; all that it does is to **deprive him of the power to
+            subjugate the labour of others** by means of such appropriation.
+          </div>
+          <br />
+          28 years later
+          <br />
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            Vulgar socialism (and from it in turn a section of the democrats)
+            has taken over from the bourgeois economists the consideration and
+            treatment of **distribution as independent of the mode of
+            production** and hence the presentation of socialism as turning
+            principally on distribution. After the real relation has long been
+            made clear, why retrogress again?
+          </div>
+          <br />
+          <br />
+          Senate GOP: "
+          <span role="img" aria-label="alarm">
+            🚨
+          </span>
+          <br />
+          U.S. inflation up 7.5%.
+          <br />
+          That’s a four-decade high.
+          <br />
+          And it’s not slowing down."
+          <br />
+          <br />
+          That’s the rate of profits, stocks, bonds and money, usually! Homes
+          5%/yr+, material and rents 2%/yr+. With $170t good will, $2t checking,
+          $4t/yr 40% debt-spend for 1/3 of public and private debt. GDP/p used
+          to be flat, so financial advocates in your ranks are to blame, too.
+          This could be a lag or just people raising prices. 19% of the
+          population disabled and most 65+, the couple million less working are
+          of that age as well. 25-34 work twice as much per capita than 45-54!
+          Obamacare pennywise cheaper than insurance, this is Senate GOP
+          malfeasance as well, no doubt! Show us velocity of
+          CurrencyComponentOfM1 to cooperate
+          <br />
+          Your debt is mine, “foundation is being done, something people can
+          touch.”
+          <br />
+          <br />
+          how is inflation a tax even when 1/3 debt is public? bond-tax is
+          unequal receipt and scope, as opposed to truncated production tax.
+          <br />
+          <br />
           Schools make rotary.org/action no actual change (most work doesnt
-          require the scam of trade-secrets). 
-          <br/><br/>Difficulty paying and rent,
-          utilities and other housing related expenses va.gov/homeless
-          preventing price elasticity, bailing out the glutteonous producers.
+          require the scam of trade-secrets).
+          <br />
+          <br />
+          Difficulty paying and rent, utilities and other housing related
+          expenses va.gov/homeless preventing price elasticity, bailing out the
+          glutteonous producers.
           <br />
           <br />
           Medishare share $4b, $600/yr, invited to be part of it (85551BIBLE),
@@ -4558,4 +4659,3 @@ export default class App extends React.Component {
     );
   }
 }
-
