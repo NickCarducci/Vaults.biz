@@ -1062,6 +1062,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "at the beginning of the pandemic, youth were not dying, so for the
+          life of me I couldn't figure out that 1942 was a life expectancy ago."
+          A licensed physician. This is why we need to ban licensure, open
+          ingredient lists, and get cops out of good will and pharmacy.
+          <br />
+          <br />
+          <TwitterTweetEmbed
+            style={{ width: "300px", float: "left" }}
+            key="1428312309685002241"
+            tweetId="1428312309685002241"
+          />
           who is? whom isn't
           <br />
           rube ploy racket conservative/libertarian hypocrisy, liberal
