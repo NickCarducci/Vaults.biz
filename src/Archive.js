@@ -6287,7 +6287,6 @@ class Archive extends React.Component {
         ."
         <br />
         <br />
-        <hr ref={this.props.crypto} />
         <Cable
           style={{
             width: "200px",
@@ -7741,3 +7740,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
