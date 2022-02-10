@@ -1068,6 +1068,9 @@ export default class App extends React.Component {
           <h2>
             protection and advocacy system slander - I'm going to kill everyone
           </h2>
+          “Detainment necessary condition. Try to put someone involuntary
+          commitment without a crime, a trauf of civil liberty attorneys would
+          do it for free. Made-up-boogeyman. Stfu!” - Frank Morano, cuck-douche
           <h3>
             Trial prove that someone cannot exercise their rights? What? That is
             impossible. Everyone at Syracuse, die
@@ -4522,3 +4525,4 @@ export default class App extends React.Component {
     );
   }
 }
+
