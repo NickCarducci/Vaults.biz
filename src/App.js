@@ -434,6 +434,11 @@ export default class App extends React.Component {
           this.setState({ planner: true }, () =>
             pager(true, this.trust.current.offsetTop)
           );
+        } else if (this.props.pathname === "/plandemic") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.plandemic.current.offsetTop) //content,comms
+          );
         } else if (this.props.pathname === "/biz") {
           this.setState(
             { planner: true },
@@ -702,6 +707,9 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
+      if (construct(true, this.plandemic.current) < tryy) {
+        inSection("plandemic");
+      }
       if (construct(true, this.psych.current) < tryy) {
         inSection("psych");
       } else if (construct(true, this.govtech.current) < tryy) {
@@ -1052,6 +1060,12 @@ export default class App extends React.Component {
           "'abolish prisons,' no more bond-index-fund, lest war bond geroge
           soros want chaos, pro criminal not safety, gascone, 'pussywhipped
           (failed) armed robbery is not tortious.'"
+          <br />
+          <br />
+          Pray that the suburbs don’t go the way of the city in cheaper
+          condominiums by sleighing all landlords implausible use and market
+          liquidity of... “They want to be this Mr. Big Short.” Pro American
+          Dollar-lands. Lift people up by increasing poverty and equality
           <br />
           <br />
           "Long term treatment, help them get off of it," that is out fucking
@@ -4134,6 +4148,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/capitalism`}
             >
               capitalism
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("plandemic") }}
+              href={`${window.location.origin}/plandemic`}
+            >
+              plandemic
             </a>
             {space}
             <a
