@@ -1075,6 +1075,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "The markets are uh, I have two degrees in economics."<br/><br/>
           corner by labor costs, that is for sure, but poverty lower is
           inequality higher.
           <br />
@@ -5332,4 +5333,3 @@ export default class App extends React.Component {
     );
   }
 }
-
