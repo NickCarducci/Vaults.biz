@@ -83,6 +83,7 @@ export default class App extends React.Component {
     this.voting = React.createRef();
     this.crypto = React.createRef();
     this.newecon = React.createRef();
+    this.geohash = React.createRef();
     this.medical = React.createRef();
     this.trade = React.createRef();
     this.first = React.createRef();
@@ -95,6 +96,7 @@ export default class App extends React.Component {
     this.bottom = React.createRef();
     this.chapter3 = React.createRef();
     this.gmu = React.createRef();
+    this.potholes = React.createRef();
     this.plandemic = React.createRef();
     this.education = React.createRef();
     this.redistricting = React.createRef();
@@ -106,6 +108,7 @@ export default class App extends React.Component {
     this.rights = React.createRef();
     this.fines = React.createRef();
     this.menger = React.createRef();
+    this.renewables = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -138,7 +141,9 @@ export default class App extends React.Component {
       ["gdp", this.gdp],
       ["gmu", this.gmu],
       ["work", this.work],
-      ["party", this.party]
+      ["party", this.party],
+      ["geohash", this.geohash],
+      ["potholes", this.potholes]
     ]);
     const immutable = {
       current: Object.fromEntries(entries)
@@ -411,6 +416,11 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.monopoly.current.offsetTop) //offsetTop
           );
+        } else if (this.props.pathname === "/renewables") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.renewables.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/insurance") {
           this.setState(
             { planner: true },
@@ -486,6 +496,10 @@ export default class App extends React.Component {
           pager("arc", this.gmu.current.offsetTop);
         } else if (this.props.pathname === "/party") {
           pager("arc", this.party.current.offsetTop);
+        } else if (this.props.pathname === "/potholes") {
+          pager("arc", this.potholes.current.offsetTop);
+        } else if (this.props.pathname === "/geohash") {
+          pager("arc", this.geohash.current.offsetTop);
         } else if (this.props.pathname === "/marx") {
           pager("arc", this.marx.current.offsetTop);
         } else if (this.props.pathname === "/crypto") {
@@ -793,6 +807,10 @@ export default class App extends React.Component {
         inSection("work");
       } else if (construct("arc", this.party.current) < tryy) {
         inSection("party");
+      } else if (construct("arc", this.potholes.current) < tryy) {
+        inSection("potholes");
+      } else if (construct("arc", this.geohash.current) < tryy) {
+        inSection("geohash");
       } else if (construct("arc", this.marx.current) < tryy) {
         inSection("marx");
       } else if (construct(null, this.bitcongress.current) < tryy) {
@@ -882,7 +900,14 @@ export default class App extends React.Component {
     vizElement.parentNode.insertBefore(scriptElement, vizElement);*/
 
     const scrollPath = (scrollPath) =>
-      this.state.scrollPath === scrollPath ? "2px solid" : "0px solid";
+      [this.state.hoverPath, this.state.scrollPath].includes(scrollPath)
+        ? "2px solid"
+        : "0px solid";
+    const hoverpathe = (ev) =>  ev.target&&ev.target.href&&
+      this.setState({
+        hoverPath: ev.target.href.split(`${window.location.origin}/`)[1]
+      });
+    
     return (
       /*<div style={{
         columnCount:""
@@ -2237,6 +2262,19 @@ export default class App extends React.Component {
           2019-2020…
           <br />
           <br />
+          Mean is Expected when outliers, but not abnormal-skew. Median (order)
+          normalizes a nominal skew, and is exclusively captured by your cross
+          or time (still-cross) section, n{">"}100 random or n{">"}1/100 testing
+          shuffled population. Normalizing a nominal is always still the first
+          derivative, but not change/change by section; factoral-exogeneity is
+          solved-for by the second, discounting
+          coincidence/necessary-endogeneity; for instance, education/employment
+          is unearthed (hard to find employment by education, just per
+          capita/average of each, or preferably, Single year age-SPECIFIC, not
+          “adjusted”-rate (an average). In this way, derivatives define
+          endogenous factors of a given Pearson correlation.
+          <br />
+          <br />
           Alzheimer's is caused by sewage, in a cross-section of 2/100 with
           standing.
           <h2>
@@ -3242,8 +3280,10 @@ export default class App extends React.Component {
           requirement.
           <br />
           We are not going to have a country if we allow everyone in, why?
-          <h2>
-            new renewable infrastructure is operational monopoly, no need to
+          <h2 ref={this.renewables}>
+            new{space}
+            <a href="https://magnate.company">renewable</a>
+            {space}infrastructure is operational monopoly, no need to
             rent-seek/gentrify science/spectrum/tolls; just target margin &
             geohash/mo free rider immutable local (not healthcare, education,
             housing)
@@ -4889,6 +4929,8 @@ export default class App extends React.Component {
             e.stopPropagation();
           }}
           style={{
+            paddingLeft:"2px",
+            paddingRight:"6px",
             wordBreak: "none",
             wordWrap: "break-word",
             cursor: "pointer",
@@ -4986,6 +5028,24 @@ export default class App extends React.Component {
             <br />
             <br />
             <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("geohash") }}
+              href={`${window.location.origin}/geohash`}
+            >
+              truncatedproductiontax
+            </a>
+            <br />
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("potholes") }}
+              href={`${window.location.origin}/potholes`}
+            >
+              potholes
+            </a>
+            <br />
+            <br />
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("first") }}
               href={`${window.location.origin}/first`}
             >
@@ -4993,6 +5053,7 @@ export default class App extends React.Component {
             </a>
             <br />
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("obamacare") }}
               href={`${window.location.origin}/obamacare`}
             >
@@ -5000,13 +5061,16 @@ export default class App extends React.Component {
             </a>
             <br />
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("homelessness") }}
               href={`${window.location.origin}/homelessness`}
             >
               homelessness
             </a>
             <br />
+            <br />
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("monopoly") }}
               href={`${window.location.origin}/monopoly`}
             >
@@ -5014,6 +5078,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("govtech") }}
               href={`${window.location.origin}/govtech`}
             >
@@ -5021,6 +5086,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("randpaul") }}
               href={`${window.location.origin}/randpaul`}
             >
@@ -5028,6 +5094,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("intllaw") }}
               href={`${window.location.origin}/intllaw`}
             >
@@ -5035,6 +5102,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("rights") }}
               href={`${window.location.origin}/rights`}
             >
@@ -5042,6 +5110,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("medical") }}
               href={`${window.location.origin}/medical`}
             >
@@ -5049,6 +5118,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("capitalism") }}
               href={`${window.location.origin}/capitalism`}
             >
@@ -5056,6 +5126,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("plandemic") }}
               href={`${window.location.origin}/plandemic`}
             >
@@ -5063,6 +5134,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("trading") }}
               href={`${window.location.origin}/trading`}
             >
@@ -5070,6 +5142,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("psych") }}
               href={`${window.location.origin}/psych`}
             >
@@ -5077,6 +5150,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("redistricting") }}
               href={`${window.location.origin}/redistricting`}
             >
@@ -5084,6 +5158,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("trade") }}
               href={`${window.location.origin}/trade`}
             >
@@ -5091,6 +5166,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("china") }}
               href={`${window.location.origin}/china`}
             >
@@ -5098,6 +5174,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{
                 color: "black",
                 border: scrollPath("education")
@@ -5108,6 +5185,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{
                 color: "black",
                 border: scrollPath("insurance")
@@ -5118,6 +5196,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("crime") }}
               href={`${window.location.origin}/crime`}
             >
@@ -5125,6 +5204,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("voting") }}
               href={`${window.location.origin}/voting`}
             >
@@ -5132,6 +5212,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("bitcongress") }}
               href={`${window.location.origin}/bitcongress`}
             >
@@ -5139,6 +5220,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("crypto") }}
               href={`${window.location.origin}/crypto`}
             >
@@ -5146,6 +5228,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("statistic") }}
               href={`${window.location.origin}/statistic`}
             >
@@ -5153,6 +5236,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("moldmask") }}
               href={`${window.location.origin}/moldmask`}
             >
@@ -5160,6 +5244,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("health") }}
               href={`${window.location.origin}/health`}
             >
@@ -5167,6 +5252,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("dns") }}
               href={`${window.location.origin}/dns`}
             >
@@ -5174,6 +5260,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("biz") }}
               href={`${window.location.origin}/biz`}
             >
@@ -5181,6 +5268,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("fines") }}
               href={`${window.location.origin}/fines`}
             >
@@ -5188,6 +5276,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("juris") }}
               href={`${window.location.origin}/juris`}
             >
@@ -5195,6 +5284,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("gmu") }}
               href={`${window.location.origin}/gmu`}
             >
@@ -5202,6 +5292,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("con") }}
               href={`${window.location.origin}/con`}
             >
@@ -5209,6 +5300,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("sci") }}
               href={`${window.location.origin}/sci`}
             >
@@ -5216,6 +5308,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("trust") }}
               href={`${window.location.origin}/trust`}
             >
@@ -5223,6 +5316,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("sdr") }}
               href={`${window.location.origin}/sdr`}
             >
@@ -5230,6 +5324,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("newecon") }}
               href={`${window.location.origin}/newecon`}
             >
@@ -5237,6 +5332,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("rec") }}
               href={`${window.location.origin}/rec`}
             >
@@ -5244,6 +5340,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("work") }}
               href={`${window.location.origin}/work`}
             >
@@ -5251,6 +5348,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("menger") }}
               href={`${window.location.origin}/menger`}
             >
@@ -5258,6 +5356,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("gdp") }}
               href={`${window.location.origin}/gdp`}
             >
@@ -5265,6 +5364,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("party") }}
               href={`${window.location.origin}/party`}
             >
@@ -5272,6 +5372,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("marx") }}
               href={`${window.location.origin}/marx`}
             >
@@ -5279,6 +5380,7 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("air") }}
               href={`${window.location.origin}/air`}
             >
@@ -5286,11 +5388,21 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("immi") }}
               href={`${window.location.origin}/immi`}
               // onClick={() => console.log("trr")}
             >
               immigration
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("renewables") }}
+              href={`${window.location.origin}/renewables`}
+              // onClick={() => console.log("trr")}
+            >
+              renewables
             </a>
             <br />
             <br />
@@ -5370,8 +5482,16 @@ export default class App extends React.Component {
             }}
           >
             the demand is legit{/**historically */}
+            <br />
             The{space}
-            <a style={{ color: "black" }} href="https://magnate.company">
+            <a
+              style={{
+                color: "black",
+                fontSize: "9px",
+                backgroundColor: "hotpink"
+              }}
+              href="https://magnate.company"
+            >
               anti-nuclear reactor, torus-magnetic engine
             </a>
             . “Lives AND livelihoods.” Bar-association. Ban licenses. Open
