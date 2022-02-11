@@ -1062,6 +1062,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Your appeal system is shite, your judges are shite, your receipt
+          method is fraudulent unequal bond tax conflict of interest (truncated
+          production tax 2025, 3% under $2k), your grounds are countervailing
+          themselves, you have the bar-system for the reason you certify, YOU
+          CANNOT CRYPTOGRAPHICALLY, NOR BY CONSENSUS (CONTENT ADDRESSABILITY),
+          PROVE ELECTION, without{space}
+          <a href="https://vaults.biz/bitcongress">ArrayArrays</a>
+          <br />
+          <br />
           10% is interest on the debt, 40% debt spending, is useless Supply and
           Demand DEAD WEIGHT BY THHE FATASS MARK LEVIN. SAVERS HAVE TO SHARE
           SPLIT DONEE DEBT FROM 2/3 private. That is worst than
