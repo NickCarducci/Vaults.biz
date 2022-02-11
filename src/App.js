@@ -1062,8 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Have kept-from0income chorers, depend on income from others, 65% good will $170t assets
-          non-true nominal like liabilities, 35% rent, the rest lend on net.
+          Have kept-from-income chorers, depend on income from others, 65% good will $170t assets
+          non-true nominal like liabilities, 35% rent, the rest lend on net (average).
           <h1>trump the cuck prevents Supply and Demand prices from falling</h1>
           19% disabled for indices and blind trusts??
           <br />
