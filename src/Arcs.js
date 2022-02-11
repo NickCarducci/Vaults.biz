@@ -3215,6 +3215,7 @@ class Arcs extends React.Component {
         lie.”
         <br />
         <br />
+        <hr ref={this.props.potholes} />
         “Where the investment needs to go to improve our infrastructure,” what
         public infrastructure is there except Free Rider mutable healthcare?
         Tolls for bridges can be automatic, and there is no need for 40% njta
@@ -3317,6 +3318,8 @@ class Arcs extends React.Component {
         <br />
         <br />
         <hr ref={this.props.party} />
+        leisure by scientific contributions, chores and copy?
+        <br />
         <WageAge
           lastWidth={Math.min(600, this.props.lastWidth - 20)}
           style={{
@@ -3677,14 +3680,15 @@ class Arcs extends React.Component {
         again and again."
         <br />
         <br />
-        trust by Tax is out of scope article 4 receipt method and spending
-        scope: geohash/mo spoofable to protest your precinct, reported by your
-        paytech
+        trust by Tax is out of scope article 4 receipt method Article 1.8
+        bond-tax and spending scope: geohash/mo spoofable to protest your
+        precinct, reported by your paytech
         <br />
         <br />
-        only way out is reverse amortization, not cancel nor bailout, as
-        Menendez wants. Voter 2025 Nick Carducci Truncated Production Tax,
-        (cash/debt)*income every year back. I was there for the Tyree catch!
+        only way out of donee claimables without allowing producers to keep it,
+        is reverse amortization, not cancel nor bailout, as Menendez wants.
+        Voter 2025 Nick Carducci Truncated Production Tax, (cash/debt)*income
+        every year back. I was there for the Tyree catch!
         <br />
         <br />
         _: “you are crazy,” isn’t scientific, and emotions are rational and
@@ -3780,7 +3784,7 @@ class Arcs extends React.Component {
         BALANCE OF NATURE IS NOT THE BEST ON THE MARKET BECAUSE IT TAKE CREDIT.
         (not a money market but DEAD WEIGHT BOX of actual labor shortage borne
         demand). Navian
-        <h2>
+        <h2 ref={this.props.geohash}>
           I studied market{space}
           <a href="https://qr.ae/pG3Zpg">propaganda</a>
           {space}at JHU; republicans and libertarians would quicker pay debts
@@ -4875,7 +4879,9 @@ class Arcs extends React.Component {
         "Domestic terrorism is being infected with a virus."
         <br />
         <h3 ref={this.props.gmu}>
-        General Maintenance Unit: Unbiased Polling to define science testing and randomness or variance, sometimes of disparate expected values (wrong mean-skew by variable for extrapolation). And etymology 
+          General Maintenance Unit: Unbiased Polling to define science testing
+          and randomness or variance, sometimes of disparate expected values
+          (wrong mean-skew by variable for extrapolation). And etymology
         </h3>
         Implausible landlord use is intent deduced, for grounds to tort
         (surrendered freedom, EULA) upon “Tranquil society,” and “voluntary
