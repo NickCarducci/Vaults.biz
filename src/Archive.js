@@ -7714,6 +7714,8 @@ export default React.forwardRef((props, ref) => {
     "gdp",
     "sdr",
     "work",
+    "geohash",
+    "potholes",
     "gmu",
     "party",
     ...dynamic2
