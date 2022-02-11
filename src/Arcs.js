@@ -37,8 +37,8 @@ class Arcs extends React.Component {
       <div
         ref={this.props.chapter3}
         style={{
-          position:"relative",
-          width:"100%",
+          position: "relative",
+          width: "100%",
           textAlign: "center",
           fontFamily: "Nunito, sans-serif",
           backgroundColor: "rgb(20,20,25)",
@@ -2430,6 +2430,14 @@ class Arcs extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        In GDP/hour-GDP/p GDP is a rate, so it is not exactly unchanging, 1, but
+        1/y if x is money velocity over time, and then a graphical
+        representation of GDP/hour is A derivative is a rate of x hour per y
+        gdp, another is minus x people per y gdp, and so it is how that
+        derivative, not variance from mean, but disparity, has changed over time
+        as another plane so actually y/z, x being time.
+        <br />
+        <br />
         "build a boat, diversify because retail traders uuid anon not the same
         as 13D {">"}5% holders nor holders’ abstain official unlike non-voter
         default, 'no.' Huh??"
@@ -6749,9 +6757,10 @@ class Arcs extends React.Component {
         general-income payday surrenders non-rollover for signee's consumers at
         a useless price inelasticity to boot
         <br />
-        <br />{/**capitalism */}
+        <br />
+        {/**capitalism */}
         <h1 ref={this.props.sdr}>transaction-based-sdr</h1>
-        max-royalty 1/12 industry{space}&bull;{space} 
+        max-royalty 1/12 industry{space}&bull;{space}
         Truncated sales Tax Free Rider Immutable sewage police lawsuits geohash
         transaction line, congress only needs to see sum per month
         <div id="t1255155430264799233" />
@@ -6799,10 +6808,10 @@ class Arcs extends React.Component {
           <br />
           <a
             href="https://saverparty.xyz"
-            style={{ color: "black", display: "flex", wordBreak:"break-word"}}
+            style={{ color: "black", display: "flex", wordBreak: "break-word" }}
           >
-            <h1 style={{ wordBreak:"break-word"}}>Saver Party</h1>
-            <span style={{ color: "grey", wordBreak:"break-word" }}>xyz</span>
+            <h1 style={{ wordBreak: "break-word" }}>Saver Party</h1>
+            <span style={{ color: "grey", wordBreak: "break-word" }}>xyz</span>
           </a>
           <span>
             demand-side conservatism (consent, no supply intervention by
@@ -7499,8 +7508,7 @@ class Arcs extends React.Component {
         <div
           style={{
             display: "flex",
-            border: ".5px dashed silver",
-           
+            border: ".5px dashed silver"
           }}
         >
           • Enable banking that does not lend to others, ensuring prices are
@@ -7540,8 +7548,8 @@ class Arcs extends React.Component {
         <div
           style={{
             display: "flex",
-            border: ".5px dashed silver",
-                      }}
+            border: ".5px dashed silver"
+          }}
         >
           • Offer a separate currency that equates to an net-asset-value of the
           inventory of non-unique, non-perishable commodities through a
@@ -7635,7 +7643,7 @@ class Arcs extends React.Component {
           style={{
             display: "block",
             border: ".5px dashed silver",
-            
+
             maxWidth: "100%",
 
             transition: "1s ease-out"
@@ -7999,7 +8007,7 @@ class Arcs extends React.Component {
         <br />
         <div
           style={{
-            overflow:"hidden",
+            overflow: "hidden",
             zIndex: this.state.wwii ? "0" : "-9999",
             position: this.state.wwii ? "relative" : "fixed",
             width: "100%"
@@ -8276,134 +8284,133 @@ class Arcs extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={!this.state.wwii ? 0 : this.props.scrollTop}
           />
-          </div>
-          <br />
-          <div style={{ width: "80%" }}>
-            Thank you for reading. You may ask yourself, "Why do I care?" The
-            lending/insurance-pool ponzi is front-running yourself. @icedTea if
-            you know me, I don't like self-harm, but maybe that's just everyone
-            but the rapping insurance salesman. pls try brokering gift
-            certificates... any voluntary gaffe made under duress is not
-            voluntary at all..
-          </div>
-          <br />
-          <br />
-          <a
-            href="https://Micro-Theory.com"
-            style={{
-              fontSize: "30px",
-              display: "flex",
-              position: "relative",
-              alignItems: "center",
-              justifyContent: "center",
-              width: "100%",
-              height: "76px",
-              backgroundColor: "rgb(230,230,230)",
-              color: "rgb(20,20,20)"
-            }}
-          >
-            Micro-Theory.com
-          </a>
-          <a
-            href="https://Micro-Theory.com"
-            style={{
-              fontSize: "30px",
-              display: "flex",
-              position: "relative",
-              alignItems: "center",
-              justifyContent: "center",
-              width: "100%",
-              height: "76px",
-              backgroundColor: "rgb(230,230,230)",
-              color: "rgb(20,20,20)"
-            }}
-          >
-            saverparty.xyz
-          </a>
-          <a
-            href="https://Micro-Theory.com"
-            style={{
-              fontSize: "30px",
-              display: "flex",
-              position: "relative",
-              alignItems: "center",
-              justifyContent: "center",
-              width: "100%",
-              height: "76px",
-              backgroundColor: "rgb(218, 198, 90)",
-              color: "rgb(20,20,20)"
-            }}
-          >
-            2052.live
-          </a>
-          QE is the purchase of bonds, or m2, outstanding, as if they were
-          checking, rather than $88t value of last traded price ($170t market
-          cap, collateral-appraised by{space}
-          <a href="https://www.yardeni.com/pub/valcapsales.pdf">itself</a>
-          ). New bonds from 40% debt spending federally $4t/yr 2010–2020, and
-          2/3 of the rest being private,{space}
-          <a href="https://fred.stlouisfed.org/graph/?g=K4YC">produces</a>
-          {space} $12k/year/p debt, $3k/year/p m2, $64/year/p new
-          CurrencyComponentOfM1 checking. Would be nice for the people on the
-          inside to follow and expand upon this, and how there is only $2t
-          CurrencyComponentOfM1 {space}
-          <a href="https://fred.stlouisfed.org/graph/?g=K4YV">checking</a>
-          {space}(3/2020).
-          <br />
-          The malfeasance over implausible deniability of third party donee
-          beneficiary claimable surrendered freedom, repo-cycle kept down
-          payments. As money is depositary for fractional and depository for
-          transaction-monthly-or-deposit-fee based (as opposed to lending beyond
-          actual investment as a partner waiting consumers not compounding third
-          party donee beneficiary claimable surrendered freedoms (EULA),
-          implausible landlord use beyond 30 days or 5 units instead of price,
-          and expiring claims to contract non-compete mechanic, doctor and other
-          intermediate-labor hours, are also mechanisms to make v2 - (
-          <a href="https://fred.stlouisfed.org/graph/?g=KalW">GDP</a>
-          {space}/(m2 - CurrencyComponentOfM1))/year ===
-          1.1*CurrencyComponentOfM1 === GDP/year.
-          <br />
-          Really busy,” the lender work deficit says, “aoww.”
-          <h2>
-            Free Rider mutable Tax bond laundering incarceration profit net loss
-            makes the cops a net loss, their arrests racketeering and moot,
-            non-white-collar fraud attention, to boot
-          </h2>
-          <h3>
-            ween the republicans off of nationalized bridge tolls/broadband
-            network fees and hypocrisy over unions, immigration and other
-            barriers to entry like finance and closed-source-licensing
-          </h3>
-          <Cable
-            style={{ width: "100%", height: "400px" }}
-            onError={handleScollImgError}
-            //img={true}
-            src={
-              this.state.noyoutube
-                ? ""
-                : "https://drive.google.com/file/d/1GUSbT4kKoryQ6qn4HpNZ0Iir-7Z9l3aS/preview"
-            }
-            float="left"
-            title="John Bachmann Now (Newsmax) - Christmas eve with net loss bond profit shills"
-            scrolling={this.props.scrolling}
-            fwd={this.props["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
-          />
-          "Cops have to stop crime, homeless from trains, robocops $94k/yr,
-          blamed as the bad guy,” only answer is to{space}
-          <a href="https://qr.ae/pGzOkx">(cash/debt)*income every year back</a>,
-          Truncated sales Tax sewage police lawsuits, cap rent at{space}
-          <a href="https://twitter.com/frothanalysis/status/1428312309685002241">
-            5 units or 30 days
-          </a>
-          , not price.
-          <br />
-          <br />
-          "Investing in Free Rider Immutable cops with federal, 'resources,'"
-          makes it pure, useless price inelasticity. make capacity from those
-          arrests, as customers, exclusively to remove conflict of interest.
-       
+        </div>
+        <br />
+        <div style={{ width: "80%" }}>
+          Thank you for reading. You may ask yourself, "Why do I care?" The
+          lending/insurance-pool ponzi is front-running yourself. @icedTea if
+          you know me, I don't like self-harm, but maybe that's just everyone
+          but the rapping insurance salesman. pls try brokering gift
+          certificates... any voluntary gaffe made under duress is not voluntary
+          at all..
+        </div>
+        <br />
+        <br />
+        <a
+          href="https://Micro-Theory.com"
+          style={{
+            fontSize: "30px",
+            display: "flex",
+            position: "relative",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "76px",
+            backgroundColor: "rgb(230,230,230)",
+            color: "rgb(20,20,20)"
+          }}
+        >
+          Micro-Theory.com
+        </a>
+        <a
+          href="https://Micro-Theory.com"
+          style={{
+            fontSize: "30px",
+            display: "flex",
+            position: "relative",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "76px",
+            backgroundColor: "rgb(230,230,230)",
+            color: "rgb(20,20,20)"
+          }}
+        >
+          saverparty.xyz
+        </a>
+        <a
+          href="https://Micro-Theory.com"
+          style={{
+            fontSize: "30px",
+            display: "flex",
+            position: "relative",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "76px",
+            backgroundColor: "rgb(218, 198, 90)",
+            color: "rgb(20,20,20)"
+          }}
+        >
+          2052.live
+        </a>
+        QE is the purchase of bonds, or m2, outstanding, as if they were
+        checking, rather than $88t value of last traded price ($170t market cap,
+        collateral-appraised by{space}
+        <a href="https://www.yardeni.com/pub/valcapsales.pdf">itself</a>
+        ). New bonds from 40% debt spending federally $4t/yr 2010–2020, and 2/3
+        of the rest being private,{space}
+        <a href="https://fred.stlouisfed.org/graph/?g=K4YC">produces</a>
+        {space} $12k/year/p debt, $3k/year/p m2, $64/year/p new
+        CurrencyComponentOfM1 checking. Would be nice for the people on the
+        inside to follow and expand upon this, and how there is only $2t
+        CurrencyComponentOfM1 {space}
+        <a href="https://fred.stlouisfed.org/graph/?g=K4YV">checking</a>
+        {space}(3/2020).
+        <br />
+        The malfeasance over implausible deniability of third party donee
+        beneficiary claimable surrendered freedom, repo-cycle kept down
+        payments. As money is depositary for fractional and depository for
+        transaction-monthly-or-deposit-fee based (as opposed to lending beyond
+        actual investment as a partner waiting consumers not compounding third
+        party donee beneficiary claimable surrendered freedoms (EULA),
+        implausible landlord use beyond 30 days or 5 units instead of price, and
+        expiring claims to contract non-compete mechanic, doctor and other
+        intermediate-labor hours, are also mechanisms to make v2 - (
+        <a href="https://fred.stlouisfed.org/graph/?g=KalW">GDP</a>
+        {space}/(m2 - CurrencyComponentOfM1))/year === 1.1*CurrencyComponentOfM1
+        === GDP/year.
+        <br />
+        Really busy,” the lender work deficit says, “aoww.”
+        <h2>
+          Free Rider mutable Tax bond laundering incarceration profit net loss
+          makes the cops a net loss, their arrests racketeering and moot,
+          non-white-collar fraud attention, to boot
+        </h2>
+        <h3>
+          ween the republicans off of nationalized bridge tolls/broadband
+          network fees and hypocrisy over unions, immigration and other barriers
+          to entry like finance and closed-source-licensing
+        </h3>
+        <Cable
+          style={{ width: "100%", height: "400px" }}
+          onError={handleScollImgError}
+          //img={true}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://drive.google.com/file/d/1GUSbT4kKoryQ6qn4HpNZ0Iir-7Z9l3aS/preview"
+          }
+          float="left"
+          title="John Bachmann Now (Newsmax) - Christmas eve with net loss bond profit shills"
+          scrolling={this.props.scrolling}
+          fwd={this.props["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
+        "Cops have to stop crime, homeless from trains, robocops $94k/yr, blamed
+        as the bad guy,” only answer is to{space}
+        <a href="https://qr.ae/pGzOkx">(cash/debt)*income every year back</a>,
+        Truncated sales Tax sewage police lawsuits, cap rent at{space}
+        <a href="https://twitter.com/frothanalysis/status/1428312309685002241">
+          5 units or 30 days
+        </a>
+        , not price.
+        <br />
+        <br />
+        "Investing in Free Rider Immutable cops with federal, 'resources,'"
+        makes it pure, useless price inelasticity. make capacity from those
+        arrests, as customers, exclusively to remove conflict of interest.
       </div>
     );
   }
