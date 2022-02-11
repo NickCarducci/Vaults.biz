@@ -1062,6 +1062,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Diplomacy," operational target margin monopsony; too much?
           "U.S. interests aren't so clear."
           Our enemy, Africa, transaction-fee-based-sdr. Understand thy enemy.
           <h2>
