@@ -1075,7 +1075,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "The markets are uh, I have two degrees in economics."<br/><br/>
+          "The markets are uh, I have two degrees in economics."
+          <br />
+          <br />
           corner by labor costs, that is for sure, but poverty lower is
           inequality higher.
           <br />
@@ -1100,23 +1102,19 @@ export default class App extends React.Component {
           own, newfound clarity. Now, let me try this:
           <br />
           <br />*/}
-          Median normalizes a nominal skew, and is exclusively captured by your
-          cross or time (still-cross) section, n{">"}100 random or n{">"}1/100
+          Mean is Expected when outliers, but not abnormal-skew?
+          <br />
+          <br />
+          Median (order) normalizes a nominal skew, and is exclusively captured
+          by your cross or time (still-cross) section, n>100 random or n>1/100
           testing shuffled population. Normalizing a nominal is always still the
           first derivative, but not change/change by section;
-          factoral-exogeneity is discounted by the second; for instance,
-          education/employment is unearthed (hard to find employment by
-          education, just per capita/average of each, or preferably, Single year
-          age-SPECIFIC, not “adjusted”-rate (an average). In this way,
-          derivatives define endogenous factors of a given Pearson correlation.
-          And pertaining to costs (“price”), it is the distribution of marginal
-          consumers, by utility-indifference of labor-borne-supply (demand).
-          Skew of labor inequality begets material-loss (as dictated by
-          “poverty,” excludes assets income/labor hours or inflation/income or
-          material+rent/labor, surely labor costs, & skew, are used to corner
-          the market) to corporate market communism (not the productive-ward
-          kind) - inequality, which is bad for competition, which is bad for
-          tech-advancement, early Expected retirement, and GDP/hour-GDP/p!
+          factoral-exogeneity is solved-for by the second, discounting
+          coincidence/necessary-endogeneity; for instance, education/employment
+          is unearthed (hard to find employment by education, just per
+          capita/average of each, or preferably, Single year age-SPECIFIC, not
+          “adjusted”-rate (an average). In this way, derivatives define
+          endogenous factors of a given Pearson correlation.
           <br />
           <br />
           “Bits are a state, not a resource cost.” Greg Kelly
