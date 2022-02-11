@@ -4874,7 +4874,9 @@ class Arcs extends React.Component {
         />
         "Domestic terrorism is being infected with a virus."
         <br />
-        <br />
+        <h3 ref={this.props.gmu}>
+        General Maintenance Unit: Unbiased Polling to define science testing and randomness or variance, sometimes of disparate expected values (wrong mean-skew by variable for extrapolation). And etymology 
+        </h3>
         Implausible landlord use is intent deduced, for grounds to tort
         (surrendered freedom, EULA) upon “Tranquil society,” and “voluntary
         trade,” by industry variable 11/12 jury of business-customer minimal
