@@ -1144,7 +1144,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Warmonger: perform in economic warfare is retarded.
+          1937-WWIII - We can take down Russia and China, anything washes.<br/>
+          That's all you know. Warmonger: perform in economic warfare is
+          retarded.
           <br />
           plants are flops, "just get your own media, 'credit is haram'
           microeconomists."
