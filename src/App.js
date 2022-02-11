@@ -110,6 +110,7 @@ export default class App extends React.Component {
     this.fines = React.createRef();
     this.menger = React.createRef();
     this.renewables = React.createRef();
+    this.drugs = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -373,6 +374,11 @@ export default class App extends React.Component {
         };
         if (this.props.pathname === "/") {
           this.setState({ planner: true });
+        } else if (this.props.pathname === "/drugs") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.drugs.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/rights") {
           this.setState(
             { planner: true },
@@ -772,9 +778,11 @@ export default class App extends React.Component {
       } else if (construct(true, this.plandemic.current) < tryy) {
         inSection("plandemic");
       } else if (construct(true, this.fines.current) < tryy) {
-        inSection("randpaul");
+        inSection("fines");
       } else if (construct(true, this.randpaul.current) < tryy) {
         inSection("randpaul");
+      } else if (construct(true, this.drugs.current) < tryy) {
+        inSection("drugs");
       } else if (construct(true, this.psych.current) < tryy) {
         inSection("psych");
       } else if (construct(true, this.govtech.current) < tryy) {
@@ -1136,6 +1144,24 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Racist, prejudicial Newsmax: "If there is any time to protect people
+          from harm, now is the time to do it."{space}
+          <a href="https://vaults.biz/immi">
+            Notice how GOP doesn't say immigrants are criminal anymore
+          </a>
+          , just the drug traffickers? They never say they take our labor
+          shortage by laborless-demand anymore, by insurers, lenders and
+          landlords.
+          <h2>Hold corrective appeal to account with fines of judges.</h2>
+          <a href="https://teapharmacy.party/drugs">Fentanyl</a>
+          {space}is legal, immigration law is bullshit - for economic welfare
+          GDP/hour-GDP/p, and with login.gov intranet.
+          <br />
+          {/**puns are like investigate and pitfall */}
+          “Pandemic inflation and supply shortage because of the trucking
+          problem, needed emergency trust building.” The big kahuna.
+          <br />
+          <br />
           Why does Chris Salcedo say "Americans have a right for medical
           decisions themselves," but not donee beneficiary freedoms invoked by
           credit, implausible landlord use nor false bid pool loss of that which
@@ -1168,6 +1194,8 @@ export default class App extends React.Component {
           </a>
           .<br />
           <br />
+          <hr ref={this.drugs} />
+          currency competition, transaction-fee-based-sdr requires NO DOCTORS.
           We{/*Walgreens*/} are drug-runners, it's just not your business
           alistar; open ingredient lists and ban{space}
           <a href="https://teapharmacy.party/drugs">licensure</a>.<br />
@@ -5364,6 +5392,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/work`}
             >
               work
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("drugs") }}
+              href={`${window.location.origin}/drugs`}
+            >
+              drugs
             </a>
             {space}
             <a
