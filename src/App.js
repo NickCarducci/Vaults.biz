@@ -1062,7 +1062,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h2>the retarded military members too short to make it, but dumb enough</h2>
+          inflation higher than labor harms corporates
+          <h2>
+            the retarded military members too short to make it, but dumb enough
+          </h2>
           "goods and services pass on to the consumer," they are only efficent
           when they equal, otherwise it is DEAD WEIGHT
           <br />
