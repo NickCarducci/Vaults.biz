@@ -803,9 +803,9 @@ export default class App extends React.Component {
         inSection("crime");
       } //else inSection("saverparty.xyz");
       //  } else {
-        if (construct("arc", this.woke.current) < tryy) {
-          inSection("woke");
-        } else if (construct("arc", this.gmu.current) < tryy) {
+      if (construct("arc", this.woke.current) < tryy) {
+        inSection("woke");
+      } else if (construct("arc", this.gmu.current) < tryy) {
         inSection("gmu");
       } else if (construct("arc", this.gdp.current) < tryy) {
         inSection("gdp");
@@ -909,11 +909,13 @@ export default class App extends React.Component {
       [this.state.hoverPath, this.state.scrollPath].includes(scrollPath)
         ? "2px solid"
         : "0px solid";
-    const hoverpathe = (ev) =>  ev.target&&ev.target.href&&
+    const hoverpathe = (ev) =>
+      ev.target &&
+      ev.target.href &&
       this.setState({
         hoverPath: ev.target.href.split(`${window.location.origin}/`)[1]
       });
-    
+
     return (
       /*<div style={{
         columnCount:""
@@ -1134,6 +1136,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Why does Chris Salcedo say "Americans have a right for medical
+          decisions themselves," but not donee beneficiary freedoms invoked by
+          credit, implausible landlord use nor false bid pool loss of that which
+          a narket is loitered/collateralized and priced in a non-concurrentable
+          premium (good-will last traded neighborhood price). What if that
+          person is spewing deadly virus? You can't be anti-mandate and
+          pro-vaxx, unless you are complicit in murder-ok policy. Or, just take
+          Pfizer and Harvard Wyss at their word: bacteria is acute version of
+          virion infection, and Hadley Cells handle fulcrum heat/(density) of
+          bacteria riding spittle in a{space}
+          <a href="https://vaults.biz/moldmask">matter of seconds</a>.
           <h2 ref={this.juris}>
             <a href="https://saverparty.xyz/jesus">
               He’s come to take the Sins from the world, have mercy on us, bra
@@ -4935,8 +4948,8 @@ export default class App extends React.Component {
             e.stopPropagation();
           }}
           style={{
-            paddingLeft:"2px",
-            paddingRight:"6px",
+            paddingLeft: "2px",
+            paddingRight: "6px",
             wordBreak: "none",
             wordWrap: "break-word",
             cursor: "pointer",
@@ -5562,4 +5575,3 @@ export default class App extends React.Component {
     );
   }
 }
-
