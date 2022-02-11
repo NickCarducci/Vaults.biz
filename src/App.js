@@ -1144,6 +1144,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>KILL THE RUSSIANS/CHINESE YESTERDAY - THEY WANT TO DEVELOPe</h1>
           1937-WWIII - We can take down Russia and China, anything washes.<br/>
           That's all you know. Warmonger: perform in economic warfare is
           retarded.
@@ -5621,3 +5622,4 @@ export default class App extends React.Component {
     );
   }
 }
+
