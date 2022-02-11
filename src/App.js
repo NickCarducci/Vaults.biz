@@ -1062,6 +1062,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Stuff just isn't fun anymore, we need to{space}<a href="https://truncatedproductiontax.com/gov">make our own fun</a>." Greg Kelly on prejudicila science.<br/>
           more like the right to exist before 11/12 desist, or pay.
           <br />
           Violent livelihood defense if average poverty, but that is equality
