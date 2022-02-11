@@ -1062,6 +1062,20 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>the retarded military members too short to make it, but dumb enough</h2>
+          "goods and services pass on to the consumer," they are only efficent
+          when they equal, otherwise it is DEAD WEIGHT
+          <br />
+          "so much{space}
+          <a href="https://www.yardeni.com/pub/monetagg.pdf">free cash</a>,
+          demand soared," 2/3 is private debt, that is more impactful of prices
+          than checking you ledhead.
+          <br />
+          <br />i weight costs against the tech advancement measure by hours
+          <h1>
+            indices bound wealth are stock scheming, absolutely destructive to
+            economic-welfare, GDP/hour-GDP/p
+          </h1>
           Your appeal system is shite, your judges are shite, your receipt
           method is fraudulent unequal bond tax conflict of interest (truncated
           production tax 2025, 3% under $2k), your grounds are countervailing
