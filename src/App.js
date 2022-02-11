@@ -1075,8 +1075,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          We{/*Walgreens*/} are drug-runners, it's just not your business alistar; open
-          ingredient lists and ban{space}
+          "Stop and search is a litmus test for the police service, such is a
+          touch job. We omnipotently should strive for consistency."
+          <br />
+          Police have to "combat sexism?" Only if it is duress of an map duress
+          trade, fucking faggot,{/**prick */ space}
+          <a href="https://vaults.biz/jury">Creddida Dick</a>.<br />
+          <br />
+          We{/*Walgreens*/} are drug-runners, it's just not your business
+          alistar; open ingredient lists and ban{space}
           <a href="https://teapharmacy.party/drugs">licensure</a>.<br />
           <br />
           We need to listen to statisticians, not cat gimmick . it is just de ja
