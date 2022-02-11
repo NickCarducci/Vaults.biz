@@ -1094,26 +1094,27 @@ export default class App extends React.Component {
           bookie (of a new market).
           <br />
           <br />
+          {/*
           Thanks for bringing this up, Dean! I’ve updated the answer to match my
           own, newfound clarity. Now, let me try this:
           <br />
-          <br />
+          <br />*/}
           Median normalizes a nominal skew, and is exclusively captured by your
-          cross or time (still-cross) section, n{">"}100 random or n{">"}1/100 testing
-          shuffled population. Normalizing a nominal is always still the first
-          derivative, but not change/change by section; factoral-exogeneity is
-          discounted by the second; for instance, education/employment is
-          unearthed (hard to find employment by education, just per
-          capita/average of each, or preferably, Single year age-SPECIFIC, not
-          “adjusted”-rate (an average). In this way, derivatives define
-          endogenous factors of a given Pearson correlation. And pertaining to
-          costs (“price”), it is the distribution of marginal consumers, by
-          utility-indifference of labor-borne-supply (demand). Skew of labor
-          inequality begets material-loss (as dictated by “poverty,” excludes
-          assets income/labor hours or inflation/income or material+rent/labor,
-          surely labor costs, & skew, are used to corner the market) to
-          corporate market communism (not the productive-ward kind) -
-          inequality, which is bad for competition, which is bad for
+          cross or time (still-cross) section, n{">"}100 random or n{">"}1/100
+          testing shuffled population. Normalizing a nominal is always still the
+          first derivative, but not change/change by section;
+          factoral-exogeneity is discounted by the second; for instance,
+          education/employment is unearthed (hard to find employment by
+          education, just per capita/average of each, or preferably, Single year
+          age-SPECIFIC, not “adjusted”-rate (an average). In this way,
+          derivatives define endogenous factors of a given Pearson correlation.
+          And pertaining to costs (“price”), it is the distribution of marginal
+          consumers, by utility-indifference of labor-borne-supply (demand).
+          Skew of labor inequality begets material-loss (as dictated by
+          “poverty,” excludes assets income/labor hours or inflation/income or
+          material+rent/labor, surely labor costs, & skew, are used to corner
+          the market) to corporate market communism (not the productive-ward
+          kind) - inequality, which is bad for competition, which is bad for
           tech-advancement, early Expected retirement, and GDP/hour-GDP/p!
           <br />
           <br />
@@ -5331,3 +5332,4 @@ export default class App extends React.Component {
     );
   }
 }
+
