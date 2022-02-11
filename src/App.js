@@ -1062,13 +1062,24 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          10% is interest on the debt, 40% debt spending, is useless Supply and
+          Demand DEAD WEIGHT BY THHE FATASS MARK LEVIN. SAVERS HAVE TO SHARE
+          SPLIT DONEE DEBT FROM 2/3 private. That is worst than
+          inflation-material alone. war on{space}
+          <a href="https://qr.ae/pGjAoO">retirement</a>, gentrification of the
+          working class. they don't care.
+          <h2>
+            <a href="https://qr.ae/pGjAoO">inflation</a>
+            {space}is a high class problem if the high class are the ones
+            without income RELATIVE to the others.
+          </h2>
           G-d, you are so fucking stupid mark levin and rich valdes. WHo is the
           latino now.
           <br />
           "Does money create or destroy people?"
-          <br/>
-          Nick Carducci -
- BA Political Science & Economics, Johns Hopkins University (2015) 
+          <br />
+          Nick Carducci - BA Political Science & Economics, Johns Hopkins
+          University (2015)
           <br />
           Money is disparity of productive-ward by lower poverty, so it does by
           tech advancement by comparative advantage and elasticity of marginal
