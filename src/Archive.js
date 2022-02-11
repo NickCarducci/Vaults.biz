@@ -1069,7 +1069,7 @@ class Archive extends React.Component {
         juris them, "don't need bail to keep people safe."
         <br />
         <h2 ref={this.props.bitcongress}>
-          But it is not completely trustless, so it doesn't work.
+          But it is not completely trustless, so it doesn't{space}<a href="https://carducci.us/videos">work</a>.
         </h2>
         <br />
         "Do you trust current election technologies?" I do not. Open-source can
@@ -6954,6 +6954,26 @@ class Archive extends React.Component {
         please, trust is not a dead weight box in microeconomics' Supply and
         Demand."
         <hr ref={this.props.crypto} />
+        <Cable
+          style={{
+            width: "200px",
+            height: "auto"
+          }}
+          img={true}
+          onError={handleScollImgError}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.dl.dropboxusercontent.com/s/4te1zet9pwfs5ll/Screen%20Shot%202022-02-11%20at%202.57.32%20PM.png?dl=0"
+          }
+          float="left"
+          title="GBNews, Friday Fizz with Jennifer Arcuri!"
+          scrolling={this.props.scrolling}
+          fwd={this.props["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
+        What is the point of securing digits if they are not only good will of last traded neighborhood price, but collateralized?
         <h1>
           bitcoin is more than a global payment processing network, it is a
           whole caste of wealth-class.
