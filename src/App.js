@@ -1062,6 +1062,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          more like the right to exist before 11/12 desist, or pay.
+          <br />
+          Violent livelihood defense if average poverty, but that is equality
+          <br />
+          <br />
+          “misinformation is dissenting view, ‘sex, vaxx.’” Right direction is
+          asking questions,"" I have the fucking answer but I am a
+          whistleblowing statistician and economist.
+          <br />
+          <br />
           "Oh our 'own government,' we paid for it," Savers paid by donee
           share-split, over time it is 100% from now 40% debt spending (I'll do
           anything to silence you), and non, from tech deprecation of
