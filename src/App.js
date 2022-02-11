@@ -105,6 +105,7 @@ export default class App extends React.Component {
     this.juris = React.createRef();
     this.rights = React.createRef();
     this.fines = React.createRef();
+    this.menger = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -374,6 +375,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.psych.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/menger") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.menger.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/randpaul") {
           this.setState(
@@ -739,7 +745,9 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
-      if (construct(true, this.juris.current) < tryy) {
+      if (construct(true, this.menger.current) < tryy) {
+        inSection("menger");
+      } else if (construct(true, this.juris.current) < tryy) {
         inSection("juris");
       } else if (construct(true, this.rights.current) < tryy) {
         inSection("rights");
@@ -2223,6 +2231,12 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          N is not a prospective, it is an indication (and used to deflate
+          Pearson correlation) of relevance, and variance is indicated after it
+          reaches 100 randomly-selected, or 1/100 population-shuffled. Never
+          2019-2020…
+          <br />
+          <br />
           Alzheimer's is caused by sewage, in a cross-section of 2/100 with
           standing.
           <h2>
@@ -2717,11 +2731,13 @@ export default class App extends React.Component {
           the fundamental principles of exchange according to the laws of
           economics."
           <br />
-          <br />I would describe your view as Mises and Rothbard - I look at the
-          **practical, -applied economics**. You can describe my point of view
-          as *bona fide cash accounting, microeconomic Supply and Demand*, with
-          the view that *dead-weight-box is ****not only**** descriptive of
-          government*, on the economic welfare x-axis, (*that I define as
+          <br />
+          <hr ref={this.menger} />I would describe your view as Mises and
+          Rothbard - I look at the **practical, -applied economics**. You can
+          describe my point of view as *bona fide cash accounting, microeconomic
+          Supply and Demand*, with the view that *dead-weight-box is ****not
+          only**** descriptive of government*, on the economic welfare x-axis,
+          (*that I define as
           <a href="https://fred.stlouisfed.org/graph/?g=Llrn">
             **GDP/hour-GDP/p**
           </a>{" "}
@@ -5232,6 +5248,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/work`}
             >
               work
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("menger") }}
+              href={`${window.location.origin}/menger`}
+            >
+              menger
             </a>
             {space}
             <a
