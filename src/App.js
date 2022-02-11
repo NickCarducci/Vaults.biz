@@ -1062,9 +1062,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          “Double the consumer satisfaction rate.” How high{space}<a href="https://qr.ae/pGjowC">can it go</a>?
-          <br/>
-          <br/>
+          “Double the consumer satisfaction rate.” How high{space}
+          <a href="https://qr.ae/pGjowC">can it go</a>?
+          <br />
+          <br />
           inflation higher than labor harms corporates
           <h2>
             the retarded military members too short to make it, but dumb enough
@@ -1114,6 +1115,10 @@ export default class App extends React.Component {
           tech advancement by comparative advantage and elasticity of marginal
           utility indifference (mechanism of collective bargain), and mostly on
           average.
+          <br />
+          Inequality (skew, or just variance as is normal? Stratification can
+          meet in the middle of normal assumption and skew); income-ware/labor,
+          material/income, devaluing things for favors, works’ loomed fruit.
           <br />
           <br />
           "Stuff just isn't fun anymore, we need to{space}
@@ -5184,3 +5189,4 @@ export default class App extends React.Component {
     );
   }
 }
+
