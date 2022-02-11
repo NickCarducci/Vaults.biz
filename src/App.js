@@ -1067,6 +1067,11 @@ export default class App extends React.Component {
           Violent livelihood defense if average poverty, but that is equality
           <br />
           <br />
+          19% of the population are disabled, but these are only old. Messy hair
+          is cited as a mental disability, and when is a brain disabled without
+          a catscan?
+          <br />
+          <br />
           “misinformation is dissenting view, ‘sex, vaxx.’” Right direction is
           asking questions,"" I have the fucking answer but I am a
           whistleblowing statistician and economist.
