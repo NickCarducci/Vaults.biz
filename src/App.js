@@ -82,6 +82,7 @@ export default class App extends React.Component {
     this.china = React.createRef();
     this.voting = React.createRef();
     this.crypto = React.createRef();
+    this.newecon = React.createRef();
     this.medical = React.createRef();
     this.trade = React.createRef();
     this.first = React.createRef();
@@ -121,6 +122,7 @@ export default class App extends React.Component {
       ["voting", this.voting],
       ["medical", this.medical],
       ["bitcongress", this.bitcongress],
+      ["newecon", this.newecon],
       ["trade", this.trade],
       ["china", this.china],
       ["intllaw", this.intllaw],
@@ -498,6 +500,8 @@ export default class App extends React.Component {
           pager(null, this.trade.current.offsetTop);
         } else if (this.props.pathname === "/air") {
           pager(null, this.air.current.offsetTop);
+        } else if (this.props.pathname === "/newecon") {
+          pager(null, this.newecon.current.offsetTop);
         } else if (this.props.pathname === "/sci") {
           pager(null, this.sci.current.offsetTop); //costing lives' Salcedo
         } else if (this.props.pathname === "/sdr") {
@@ -1118,14 +1122,15 @@ export default class App extends React.Component {
           <br />
           Average-, and marginal-, costs, in microeconomics, is a logistical-law
           that cites the derivative of, not change-rate of cost, per time nor
-          space, but change-rate of cost, per rate of output, per time or space
-          (allocation-scenario). So, the diminishing collective bargaining is
-          still a bargain through infinity, by reducing operational redundancies
-          (or utility indifference of the consumers’ labor?), but at less and
-          less “bang for buck,” or value, per output, on average - Average just
-          assumes the shared price after a market is “made,” and the price is
-          taken as fact (yet non-concurrentable for cash, good-will, like a game
-          of telephone), rather than from a spread laid on the bid and ask by a
+          space, but change-rate of cost, per rate of output (<a href="https://vaults.biz/newecon">economic welfare</a>{space}
+          by marginal consumer), per time or space (allocation-scenario). So,
+          the diminishing collective bargaining is still a bargain through
+          infinity, by reducing operational redundancies (or utility
+          indifference of the consumers’ labor?), but at less and less “bang for
+          buck,” or value, per output, on average - Average just assumes the
+          shared price after a market is “made,” and the price is taken as fact
+          (yet non-concurrentable for cash, good-will, like a game of
+          telephone), rather than from a spread laid on the bid and ask by a
           bookie (of a new market).
           <br />
           <br />
@@ -5184,6 +5189,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/sdr`}
             >
               sdr
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("newecon") }}
+              href={`${window.location.origin}/newecon`}
+            >
+              newecon
             </a>
             {space}
             <a
