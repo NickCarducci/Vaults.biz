@@ -93,6 +93,7 @@ export default class App extends React.Component {
     this.sdr = React.createRef();
     this.bottom = React.createRef();
     this.chapter3 = React.createRef();
+    this.gmu = React.createRef();
     this.plandemic = React.createRef();
     this.education = React.createRef();
     this.redistricting = React.createRef();
@@ -100,6 +101,7 @@ export default class App extends React.Component {
     this.obamacare = React.createRef();
     this.intllaw = React.createRef();
     this.monopoly = React.createRef();
+    this.rights = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -129,6 +131,7 @@ export default class App extends React.Component {
       ["marx", this.marx],
       ["sdr", this.sdr],
       ["gdp", this.gdp],
+      ["gmu", this.gmu],
       ["work", this.work],
       ["party", this.party]
     ]);
@@ -358,6 +361,11 @@ export default class App extends React.Component {
         };
         if (this.props.pathname === "/") {
           this.setState({ planner: true });
+        } else if (this.props.pathname === "/rights") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.rights.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/psych") {
           this.setState(
             { planner: true },
@@ -454,6 +462,8 @@ export default class App extends React.Component {
           pager("arc", this.work.current.offsetTop);
         } else if (this.props.pathname === "/gdp") {
           pager("arc", this.gdp.current.offsetTop);
+        } else if (this.props.pathname === "/gmu") {
+          pager("arc", this.gmu.current.offsetTop);
         } else if (this.props.pathname === "/party") {
           pager("arc", this.party.current.offsetTop);
         } else if (this.props.pathname === "/marx") {
@@ -713,12 +723,13 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
-      if (construct(true, this.plandemic.current) < tryy) {
+      if (construct(true, this.rights.current) < tryy) {
+        inSection("rights");
+      } else if (construct(true, this.plandemic.current) < tryy) {
         inSection("plandemic");
       } else if (construct(true, this.randpaul.current) < tryy) {
         inSection("randpaul");
-      }
-      if (construct(true, this.psych.current) < tryy) {
+      } else if (construct(true, this.psych.current) < tryy) {
         inSection("psych");
       } else if (construct(true, this.govtech.current) < tryy) {
         inSection("govtech");
@@ -746,7 +757,9 @@ export default class App extends React.Component {
         inSection("crime");
       } //else inSection("saverparty.xyz");
       //  } else {
-      if (construct("arc", this.gdp.current) < tryy) {
+      if (construct("arc", this.gmu.current) < tryy) {
+        inSection("gmu");
+      } else if (construct("arc", this.gdp.current) < tryy) {
         inSection("gdp");
       } else if (construct("arc", this.work.current) < tryy) {
         inSection("work");
@@ -1062,9 +1075,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "Diplomacy," operational target margin monopsony; too much?
-          "U.S. interests aren't so clear."
-          Our enemy, Africa, transaction-fee-based-sdr. Understand thy enemy.
+          "Diplomacy," operational target margin monopsony; too much? "U.S.
+          interests aren't so clear." Our enemy, Africa,
+          transaction-fee-based-sdr. Understand thy enemy.
           <h2>
             "cracking down" on state-of-emergency is not settlement with unequal
             bond-tax untruncated in receipt nor scope, just jail them for
@@ -1193,7 +1206,9 @@ export default class App extends React.Component {
           <br />
           more like the right to exist before 11/12 desist, or pay.
           <br />
-          Violent livelihood defense if average poverty, but that is equality
+          Violent livelihood defense if average poverty, but that is equality -
+          Kill them for good will. Why is Congress allowed to kill over foreign
+          construction but I’m not? Just because you? ‘Not a concise situation’
           <br />
           <br />
           19% of the population are disabled, but these are only old. Messy hair
@@ -1231,6 +1246,7 @@ export default class App extends React.Component {
           My only way to afford (gov malfeasance/confusion) court. Court tech
           that kills all bar-association members upon download.
           <br />
+          <hr ref={this.rights} />
           I am going to kill everyone at the Neptune, NJ SSA office for
           slandering me and making me appeal 3x over the course of 4 years with
           a knee injury, claiming by third party psych that I am schizophrenic,
@@ -1301,7 +1317,7 @@ export default class App extends React.Component {
           for login.gov
           <br />
           Historians and researchers, what am I ? Remember remember, two face?
-          Activist? Or borne from 2008 in home-contractor household, with a dog
+          Activist? Or borne from 2008 in home-contractor household, with a dog/bane
           <br />
           <br />
           laborless-demand lowers poverty.
@@ -4904,6 +4920,13 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              style={{ color: "black", border: scrollPath("rights") }}
+              href={`${window.location.origin}/rights`}
+            >
+              rights
+            </a>
+            {space}
+            <a
               style={{ color: "black", border: scrollPath("medical") }}
               href={`${window.location.origin}/medical`}
             >
@@ -5040,6 +5063,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/biz`}
             >
               biz
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("gmu") }}
+              href={`${window.location.origin}/gmu`}
+            >
+              gmu
             </a>
             {space}
             <a
