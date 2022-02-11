@@ -1152,7 +1152,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <hr ref={this.jews} />
+          <h1 ref={this.jews} >“Radical left perverts.”</h1>
           do battle with academics, as the stormclouds of war form ourside out
           border, and canadian and U.S. trucker fines, illegal aliens aren't the
           only source of fentanyl. Open source and login.gov marijuana producers
@@ -5647,4 +5647,3 @@ export default class App extends React.Component {
     );
   }
 }
-
