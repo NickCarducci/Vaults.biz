@@ -53,6 +53,11 @@ class Arcs extends React.Component {
             : "17px"
         }}
       >
+        <hr ref={this.props.woke}/>
+        "wealthy must pay taxes to benefit those more vulnerable in society."
+        Mark Dolan, tax from outside the market, or
+        bond-tax/large-item-sales/estate-tax is{space}
+        <a href="https://vaults.biz/geohash">useless price elasticity</a>.
         <h1>3% under $2k; reverse amortize, don't cancel nor bailout</h1>
         <h2>
           Marx was commenting on pogroms over credit-cycle, then died 1888
