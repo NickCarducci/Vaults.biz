@@ -1075,6 +1075,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          We{/*Walgreens*/} are drug-runners, it's just not your business alistar; open
+          ingredient lists and ban{space}
+          <a href="https://teapharmacy.party/drugs">licensure</a>.<br />
+          <br />
+          We need to listen to statisticians, not cat gimmick . it is just de ja
+          vu all over again and again like labor income hours income mesur
+          <br />
+          <br />
           "The markets are uh, I have two degrees in economics."
           <br />
           <br />
