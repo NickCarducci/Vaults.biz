@@ -1062,6 +1062,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “Double the consumer satisfaction rate.” How high{space}<a href="https://qr.ae/pGjowC">can it go</a>?
+          <br/>
+          <br/>
           inflation higher than labor harms corporates
           <h2>
             the retarded military members too short to make it, but dumb enough
@@ -1124,7 +1127,8 @@ export default class App extends React.Component {
           <br />
           19% of the population are disabled, but these are only old. Messy hair
           is cited as a mental disability, and when is a brain disabled without
-          a catscan?
+          a catscan? (even being a criminal, like not Saving for your own
+          retirement).
           <br />
           <br />
           “misinformation is dissenting view, ‘sex, vaxx.’” Right direction is
