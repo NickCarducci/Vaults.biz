@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "U.S. interests aren't so clear."
+          Our enemy, Africa, transaction-fee-based-sdr. Understand thy enemy.
           <h2>
             "cracking down" on state-of-emergency is not settlement with unequal
             bond-tax untruncated in receipt nor scope, just jail them for
