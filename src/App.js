@@ -1075,6 +1075,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “Bits are a state, not a resource cost.” Greg Kelly
+          <br/>
+          <br/>
           "Diplomacy," operational target margin monopsony; too much? "U.S.
           interests aren't so clear." Our enemy, Africa,
           transaction-fee-based-sdr. Understand thy enemy.
@@ -5285,3 +5288,4 @@ export default class App extends React.Component {
     );
   }
 }
+
