@@ -1062,6 +1062,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Jack Brewer: "<a href="https://login.gov">children sex trafficking</a>
+          {space}is desparate, leaving poverty (sounds so good, no
+          laborless-demand by{space}
+          <a href="https://qr.ae/pGjoS6">assets</a>)."
+          <br />
+          <br />
           “Double the consumer satisfaction rate.” How high{space}
           <a href="https://qr.ae/pGjowC">can it go</a>?
           <br />
@@ -5189,4 +5195,3 @@ export default class App extends React.Component {
     );
   }
 }
-
