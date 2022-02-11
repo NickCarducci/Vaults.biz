@@ -111,6 +111,7 @@ export default class App extends React.Component {
     this.menger = React.createRef();
     this.renewables = React.createRef();
     this.drugs = React.createRef();
+    this.jews = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -374,6 +375,11 @@ export default class App extends React.Component {
         };
         if (this.props.pathname === "/") {
           this.setState({ planner: true });
+        } else if (this.props.pathname === "/jews") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.jews.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/drugs") {
           this.setState(
             { planner: true },
@@ -769,7 +775,9 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
-      if (construct(true, this.menger.current) < tryy) {
+      if (construct(true, this.jews.current) < tryy) {
+        inSection("jews");
+      } else if (construct(true, this.menger.current) < tryy) {
         inSection("menger");
       } else if (construct(true, this.juris.current) < tryy) {
         inSection("juris");
@@ -1144,8 +1152,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <hr ref={this.jews} />
+          do battle with academics, as the stormclouds of war form ourside out
+          border, and canadian and U.S. trucker fines, illegal aliens aren't the
+          only source of fentanyl. Open source and login.gov marijuana producers
+          then. "Inflation, Biden wants to spend more money, American Marxists
+          and Bernie Sanders, but the laws of economics, still apply. If you are
+          energy independent, your country is secure, the price of energy is
+          cripled, for allowing Savers' to keep their land exploration rights."
           <h1>KILL THE RUSSIANS/CHINESE YESTERDAY - THEY WANT TO DEVELOPe</h1>
-          1937-WWIII - We can take down Russia and China, anything washes.<br/>
+          1937-WWIII - We can take down Russia and China, anything washes.
+          <br />
           That's all you know. Warmonger: perform in economic warfare is
           retarded.
           <br />
@@ -1249,7 +1266,7 @@ export default class App extends React.Component {
           <br />
           <br />
           Median (order) normalizes a nominal skew, and is exclusively captured
-          by your cross or time (still-cross) section, n>100 random or n>1/100
+          by your cross or time (still-cross) section, n{">"}100 random or n{">"}1/100
           testing shuffled population. Normalizing a nominal is always still the
           first derivative, but not change/change by section;
           factoral-exogeneity is solved-for by the second, discounting
@@ -5299,6 +5316,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/moldmask`}
             >
               moldmask
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("jews") }}
+              href={`${window.location.origin}/jews`}
+            >
+              jews
             </a>
             {space}
             <a
