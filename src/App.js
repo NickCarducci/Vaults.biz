@@ -1062,8 +1062,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Have kept-from-income chorers, depend on income from others, 65% good will $170t assets
-          non-true nominal like liabilities, 35% rent, the rest lend on net (average).
+          "Oh our 'own government,' we paid for it," Savers paid by donee
+          share-split, over time it is 100% from now 40% debt spending (I'll do
+          anything to silence you), and non, from tech deprecation of
+          laborless-demand of free rider mutable unequal in scope tax
+          (gentrification/rent-seeking of science and ward).
+          <br />
+          <br />
+          Have kept-from-income chorers, depend on income from others, 65% good
+          will $170t assets non-true nominal like liabilities, 35% rent, the
+          rest lend on net (average).
           <h1>trump the cuck prevents Supply and Demand prices from falling</h1>
           19% disabled for indices and blind trusts??
           <br />
