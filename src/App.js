@@ -72,6 +72,7 @@ export default class App extends React.Component {
     this.canvas = React.createRef();
     this.chapter1 = React.createRef();
     this.work = React.createRef();
+    this.woke = React.createRef();
     this.gdp = React.createRef();
     this.party = React.createRef();
     this.marx = React.createRef();
@@ -138,6 +139,7 @@ export default class App extends React.Component {
       ["chapter3", this.chapter3],
       ["marx", this.marx],
       ["sdr", this.sdr],
+      ["woke", this.woke],
       ["gdp", this.gdp],
       ["gmu", this.gmu],
       ["work", this.work],
@@ -488,6 +490,8 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.biz.current.offsetTop) //content,comms
           );
+        } else if (this.props.pathname === "/woke") {
+          pager("arc", this.woke.current.offsetTop);
         } else if (this.props.pathname === "/work") {
           pager("arc", this.work.current.offsetTop);
         } else if (this.props.pathname === "/gdp") {
@@ -799,7 +803,9 @@ export default class App extends React.Component {
         inSection("crime");
       } //else inSection("saverparty.xyz");
       //  } else {
-      if (construct("arc", this.gmu.current) < tryy) {
+        if (construct("arc", this.woke.current) < tryy) {
+          inSection("woke");
+        } else if (construct("arc", this.gmu.current) < tryy) {
         inSection("gmu");
       } else if (construct("arc", this.gdp.current) < tryy) {
         inSection("gdp");
@@ -5373,6 +5379,14 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("woke") }}
+              href={`${window.location.origin}/woke`}
+            >
+              woke
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("marx") }}
               href={`${window.location.origin}/marx`}
             >
@@ -5548,3 +5562,4 @@ export default class App extends React.Component {
     );
   }
 }
+
