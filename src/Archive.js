@@ -7685,6 +7685,7 @@ export default React.forwardRef((props, ref) => {
     "gdp",
     "sdr",
     "work",
+    "gmu",
     "party",
     ...dynamic2
   );
@@ -7740,4 +7741,3 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
-
