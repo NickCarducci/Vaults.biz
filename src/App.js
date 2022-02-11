@@ -1062,6 +1062,56 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “Double the consumer satisfaction rate.” How high can it go? medishare
+          does not save money, 98% customer sati(faction) 185551BIBLE, JESUS
+          would flip your tables, bud. He didn't die for sins, he was there to
+          reason away sin sacrifice and userers: lenders, landlords and
+          insurers.
+          <br />
+          Likely because homes lag inflation which lags labor, maybe the 19%
+          disabled can work that out for us too, huh?
+          <br />
+          <br />
+          Jay, Unbreakable with health insurance false bid pool loss provider
+          Brian Kilmeade: "I have clinical depression, I feel it physically in
+          by guts and heart. I am not worthy of being loved, my depression and
+          anxiety. We talk about mental health, but no one describes it. Is it
+          genetic? Year, we are all the same. My grandma was put on meds and she
+          didn't even know it. My panic attacks were heart attacks, since 2005.
+          I usually have a panic attack, wrestling with my abuser, I'm not
+          afraid to be on TV, but the walls cave in on me. It is like I don't
+          know why I feel things." Maybe you don't have a section of your{space}
+          <a href="https://brainscan.info">brain</a>? "I don't isolate,
+          self-silence anymore, be of service and fight back agaisnt the rite."
+          For people listening right now, what makes you cry in the morning, we
+          all have childhood chorer trauma, do not suffer in silence, try to
+          talk to my bad big dudes in the world, talk to people who help
+          themselves, usually people in general aren't Expected, if medication
+          works for you, get on it. I have tried 36 and nothing works. Some made
+          it worst. I will never stop trying to find the blue. Jay,similar
+          anxiety havent diagnosed it get. I had 80 year grandma finally had a
+          conversation." What kind of diagnosis is solved by conversation?
+          <br />
+          <br />
+          "When will income inequality mean the most in America in the coming
+          years?"
+          <br />
+          Income-inequality is a harbinger for asset/productivity-ward
+          inequality, the average-labor of the poverty-denomination,
+          brought-down. Poverty lowering may not coincide with increased
+          inequality by assets’ good will last traded non-concurrentable, and
+          cash, if income inequality is short, if income included unrealized
+          (concurrentable) capital gains (sold).
+          <br />
+          I would upload a photo, but here is income inequality, by age cohort
+          (vaults.biz/party); the national household income data tables
+          truncated -2008 at $100k and then $200k onwards.
+          <br />
+          Contrary to “conservative” belief, equality by income and asset last
+          traded (market unrealized “capitalization”) neighborhood price, is
+          good for competition, earlier Expected retirement, and GDP/hour-GDP/p.
+          <br />
+          <br />
           Jack Brewer: "<a href="https://login.gov">children sex trafficking</a>
           {space}is desparate, leaving poverty (sounds so good, no
           laborless-demand by{space}
