@@ -101,6 +101,7 @@ export default class App extends React.Component {
     this.obamacare = React.createRef();
     this.intllaw = React.createRef();
     this.monopoly = React.createRef();
+    this.juris = React.createRef();
     this.rights = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
@@ -410,6 +411,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.education.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/juris") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.juris.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/crime") {
           this.setState(
@@ -723,7 +729,9 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
-      if (construct(true, this.rights.current) < tryy) {
+      if (construct(true, this.juris.current) < tryy) {
+        inSection("juris");
+      } else if (construct(true, this.rights.current) < tryy) {
         inSection("rights");
       } else if (construct(true, this.plandemic.current) < tryy) {
         inSection("plandemic");
@@ -1075,12 +1083,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "Stop and search is a litmus test for the police service, such is a
-          touch job. We omnipotently should strive for consistency."
+          <hr ref={this.juris} />
+          {/**we haven't counted all police forces, of all variance of base count */}
+          "Stop and search is a litmus test for the{space}
+          <a href="https://vaults.biz/receipts">police service</a>, such is a
+          touch job. We omnipotently should strive for{space}
+          <a href="https://vaults.biz/gmu">consistency</a>."
           <br />
-          Police have to "combat sexism?" Only if it is duress of an map duress
+          Police have to "combat sexism?" Only if it is duress of an{space}
+          <a href="https://vaults.biz/juris">mvp duress</a>
+          {space}
           trade, fucking faggot,{/**prick */ space}
-          <a href="https://vaults.biz/jury">Creddida Dick</a>.<br />
+          <a href="https://vaults.biz/intllaw">
+            {/*Creddida Dick*/}Timothy Brainer
+          </a>
+          .<br />
           <br />
           We{/*Walgreens*/} are drug-runners, it's just not your business
           alistar; open ingredient lists and ban{space}
@@ -5128,6 +5145,13 @@ export default class App extends React.Component {
             </a>
             {space}
             <a
+              style={{ color: "black", border: scrollPath("juris") }}
+              href={`${window.location.origin}/juris`}
+            >
+              juris
+            </a>
+            {space}
+            <a
               style={{ color: "black", border: scrollPath("gmu") }}
               href={`${window.location.origin}/gmu`}
             >
@@ -5290,7 +5314,7 @@ export default class App extends React.Component {
           >
             the demand is legit{/**historically */}
             The{space}
-            <a href="https://magnate.company">
+            <a style={{ color: "black" }} href="https://magnate.company">
               anti-nuclear reactor, torus-magnetic engine
             </a>
             . “Lives AND livelihoods.” Bar-association. Ban licenses. Open
