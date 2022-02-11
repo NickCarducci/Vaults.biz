@@ -1069,7 +1069,8 @@ class Archive extends React.Component {
         juris them, "don't need bail to keep people safe."
         <br />
         <h2 ref={this.props.bitcongress}>
-          But it is not completely trustless, so it doesn't{space}<a href="https://carducci.us/videos">work</a>.
+          But it is not completely trustless, so it doesn't{space}
+          <a href="https://carducci.us/videos">work</a>.
         </h2>
         <br />
         "Do you trust current election technologies?" I do not. Open-source can
@@ -6123,14 +6124,20 @@ class Archive extends React.Component {
           The problem is your actuaries are non-academic & have a conflict of
           interests in expiring premiums
         </h2>
+        <hr ref={this.props.newecon} />
+        <a href="https://vaults.biz/juris">target</a>{space}margin operations,{space}
+        <a href="https://magnate.company">breakloose</a>
+        {space}
+        <a href="https://vaults.biz/gmu">science</a>.<br />
+        <br />
         <a href="https://truncatedsalestax.com">lock em up</a>! led pipe guys,
         don't fine!
         <br />
-        discount GDP/p tech deprecation for productivity GDP/hour for{space}
-        <a href="https://fred.stlouisfed.org/graph/?g=L4PG">
+        {space}
+        <a href="https://fred.stlouisfed.org/graph/?g=L4PG">discount GDP/p tech deprecation for productivity GDP/hour for
           efficient productivity
         </a>
-        {space}and antivaxx{space}
+        {space}and{space}<a href="https://humanharvest.info/polio">antivaxx</a>{space}
         <span role="img" aria-label="copyright">
           ©
         </span>
@@ -6973,7 +6980,8 @@ class Archive extends React.Component {
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
           scrollTop={this.props.scrollTop}
         />
-        What is the point of securing digits if they are not only good will of last traded neighborhood price, but collateralized?
+        What is the point of securing digits if they are not only good will of
+        last traded neighborhood price, but collateralized?
         <h1>
           bitcoin is more than a global payment processing network, it is a
           whole caste of wealth-class.
@@ -7691,6 +7699,7 @@ export default React.forwardRef((props, ref) => {
     "bitcongress",
     "calc",
     "voting",
+    "newecon",
     "trade",
     "first",
     "china",
@@ -7761,3 +7770,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
