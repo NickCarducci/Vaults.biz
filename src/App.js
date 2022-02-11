@@ -1144,6 +1144,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Warmonger: perform in economic warfare is retarded.
+          <br />
+          plants are flops, "just get your own media, 'credit is haram'
+          microeconomists."
+          <br />
+          Truncated production tax 2025 all grocers - get the military out of
+          good will, conflict of interest, loss profit (m2)
+          <br />
           Racist, prejudicial Newsmax: "If there is any time to protect people
           from harm, now is the time to do it."{space}
           <a href="https://vaults.biz/immi">
