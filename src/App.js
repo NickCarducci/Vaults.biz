@@ -1062,6 +1062,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            "cracking down" on state-of-emergency is not settlement with unequal
+            bond-tax untruncated in receipt nor scope, just jail them for
+            terrorism but their complaints are justified because the mandates
+            aren't scientific, removing bias of 1/12 industry, the reason by
+            11/12 convicts.
+          </h2>
           “Double the consumer satisfaction rate.” How high can it go? medishare
           does not save money, 98% customer sati(faction) 185551BIBLE, JESUS
           would flip your tables, bud. He didn't die for sins, he was there to
