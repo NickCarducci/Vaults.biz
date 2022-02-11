@@ -104,6 +104,7 @@ export default class App extends React.Component {
     this.monopoly = React.createRef();
     this.juris = React.createRef();
     this.rights = React.createRef();
+    this.fines = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -434,6 +435,11 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.capitalism.current.offsetTop) //offsetTop
           );
+        } else if (this.props.pathname === "/fines") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.fines.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/dns") {
           this.setState(
             { planner: true },
@@ -739,6 +745,8 @@ export default class App extends React.Component {
         inSection("rights");
       } else if (construct(true, this.plandemic.current) < tryy) {
         inSection("plandemic");
+      } else if (construct(true, this.fines.current) < tryy) {
+        inSection("randpaul");
       } else if (construct(true, this.randpaul.current) < tryy) {
         inSection("randpaul");
       } else if (construct(true, this.psych.current) < tryy) {
@@ -1087,7 +1095,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <hr ref={this.juris} />
+          <h2 ref={this.juris}>
+            <a href="https://saverparty.xyz/jesus">
+              He’s come to take the Sins from the world, have mercy on us, bra
+              bra bra bruuuu
+            </a>
+          </h2>
           {/**we haven't counted all police forces, of all variance of base count */}
           "Stop and search is a litmus test for the{space}
           <a href="https://vaults.biz/receipts">police service</a>, such is a
@@ -1122,7 +1135,9 @@ export default class App extends React.Component {
           <br />
           Average-, and marginal-, costs, in microeconomics, is a logistical-law
           that cites the derivative of, not change-rate of cost, per time nor
-          space, but change-rate of cost, per rate of output (<a href="https://vaults.biz/newecon">economic welfare</a>{space}
+          space, but change-rate of cost, per rate of output (
+          <a href="https://vaults.biz/newecon">economic welfare</a>
+          {space}
           by marginal consumer), per time or space (allocation-scenario). So,
           the diminishing collective bargaining is still a bargain through
           infinity, by reducing operational redundancies (or utility
@@ -1160,7 +1175,7 @@ export default class App extends React.Component {
           "Diplomacy," operational target margin monopsony; too much? "U.S.
           interests aren't so clear." Our enemy, Africa,
           transaction-fee-based-sdr. Understand thy enemy.
-          <h2>
+          <h2 ref={this.fines}>
             "cracking down" on state-of-emergency is not settlement with unequal
             bond-tax untruncated in receipt nor scope, just jail them for
             terrorism but their complaints are justified because the mandates
@@ -5147,6 +5162,13 @@ export default class App extends React.Component {
               href={`${window.location.origin}/biz`}
             >
               biz
+            </a>
+            {space}
+            <a
+              style={{ color: "black", border: scrollPath("fines") }}
+              href={`${window.location.origin}/fines`}
+            >
+              fines
             </a>
             {space}
             <a
