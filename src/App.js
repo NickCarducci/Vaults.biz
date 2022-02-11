@@ -1211,8 +1211,9 @@ export default class App extends React.Component {
           method is fraudulent unequal bond tax conflict of interest (truncated
           production tax 2025, 3% under $2k), your grounds are countervailing
           themselves, you have the bar-system for the reason you certify, YOU
-          CANNOT CRYPTOGRAPHICALLY, NOR BY CONSENSUS (CONTENT ADDRESSABILITY),
-          PROVE ELECTION, without{space}
+          CANNOT CRYPTOGRAPHICALLY, NOR BY{space}
+          <a href="https://vaults.biz/crypto">CONSENSUS</a>
+          {space}(CONTENT ADDRESSABILITY), PROVE ELECTION, without{space}
           <a href="https://vaults.biz/bitcongress">ArrayArrays</a>
           <br />
           <br />
