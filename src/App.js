@@ -1062,7 +1062,24 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "Stuff just isn't fun anymore, we need to{space}<a href="https://truncatedproductiontax.com/gov">make our own fun</a>." Greg Kelly on prejudicila science.<br/>
+          G-d, you are so fucking stupid mark levin and rich valdes. WHo is the
+          latino now.
+          <br />
+          "Does money create or destroy people?"
+          <br/>
+          Nick Carducci -
+ BA Political Science & Economics, Johns Hopkins University (2015) 
+          <br />
+          Money is disparity of productive-ward by lower poverty, so it does by
+          tech advancement by comparative advantage and elasticity of marginal
+          utility indifference (mechanism of collective bargain), and mostly on
+          average.
+          <br />
+          <br />
+          "Stuff just isn't fun anymore, we need to{space}
+          <a href="https://truncatedproductiontax.com/gov">make our own fun</a>
+          ." Greg Kelly on prejudicila science.
+          <br />
           more like the right to exist before 11/12 desist, or pay.
           <br />
           Violent livelihood defense if average poverty, but that is equality
