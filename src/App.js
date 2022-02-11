@@ -1062,6 +1062,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Have kept-from0income chorers, depend on income from others, 65% good will $170t assets
+          non-true nominal like liabilities, 35% rent, the rest lend on net.
           <h1>trump the cuck prevents Supply and Demand prices from falling</h1>
           19% disabled for indices and blind trusts??
           <br />
@@ -1086,8 +1088,8 @@ export default class App extends React.Component {
           insulated, with donee invocztions (legal term, no trial nor crime,
           made up testimony)." more treasonous than open trade.
           <br />
-          Stopped scince open ingredients, "only-forseen bills," is not a change
-          in law... like the tariffs for nothing.
+          Stopped science open ingredients, "only-forseen bills," is not a
+          change in law... like the tariffs for nothing.
           <br />
           Trump is racist and retarded on trade and immigration, for Supply and
           Demand economic welfare, GDP/hour-GDP/p.
