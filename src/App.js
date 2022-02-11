@@ -1075,9 +1075,51 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          corner by labor costs, that is for sure, but poverty lower is
+          inequality higher.
+          <br />
+          <br />
+          "Why does the average cost fall as the marginal costs are rising?"
+          <br />
+          Average-, and marginal-, costs, in microeconomics, is a logistical-law
+          that cites the derivative of, not change-rate of cost, per time nor
+          space, but change-rate of cost, per rate of output, per time or space
+          (allocation-scenario). So, the diminishing collective bargaining is
+          still a bargain through infinity, by reducing operational redundancies
+          (or utility indifference of the consumers’ labor?), but at less and
+          less “bang for buck,” or value, per output, on average - Average just
+          assumes the shared price after a market is “made,” and the price is
+          taken as fact (yet non-concurrentable for cash, good-will, like a game
+          of telephone), rather than from a spread laid on the bid and ask by a
+          bookie (of a new market).
+          <br />
+          <br />
+          Thanks for bringing this up, Dean! I’ve updated the answer to match my
+          own, newfound clarity. Now, let me try this:
+          <br />
+          <br />
+          Median normalizes a nominal skew, and is exclusively captured by your
+          cross or time (still-cross) section, n{">"}100 random or n{">"}1/100 testing
+          shuffled population. Normalizing a nominal is always still the first
+          derivative, but not change/change by section; factoral-exogeneity is
+          discounted by the second; for instance, education/employment is
+          unearthed (hard to find employment by education, just per
+          capita/average of each, or preferably, Single year age-SPECIFIC, not
+          “adjusted”-rate (an average). In this way, derivatives define
+          endogenous factors of a given Pearson correlation. And pertaining to
+          costs (“price”), it is the distribution of marginal consumers, by
+          utility-indifference of labor-borne-supply (demand). Skew of labor
+          inequality begets material-loss (as dictated by “poverty,” excludes
+          assets income/labor hours or inflation/income or material+rent/labor,
+          surely labor costs, & skew, are used to corner the market) to
+          corporate market communism (not the productive-ward kind) -
+          inequality, which is bad for competition, which is bad for
+          tech-advancement, early Expected retirement, and GDP/hour-GDP/p!
+          <br />
+          <br />
           “Bits are a state, not a resource cost.” Greg Kelly
-          <br/>
-          <br/>
+          <br />
+          <br />
           "Diplomacy," operational target margin monopsony; too much? "U.S.
           interests aren't so clear." Our enemy, Africa,
           transaction-fee-based-sdr. Understand thy enemy.
@@ -1320,7 +1362,8 @@ export default class App extends React.Component {
           for login.gov
           <br />
           Historians and researchers, what am I ? Remember remember, two face?
-          Activist? Or borne from 2008 in home-contractor household, with a dog/bane
+          Activist? Or borne from 2008 in home-contractor household, with a
+          dog/bane
           <br />
           <br />
           laborless-demand lowers poverty.
@@ -5288,4 +5331,3 @@ export default class App extends React.Component {
     );
   }
 }
-
