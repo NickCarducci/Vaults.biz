@@ -1193,6 +1193,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          First Dr. Mccullough said mortality is increasing because of the virion, now because of the vaccines!<br/><br/>
           I would not allow{space}
           <a href="https://thumbprint.us/payments">terrorists</a>
           {space}to raise funds, as I do not accept credit. I would not
