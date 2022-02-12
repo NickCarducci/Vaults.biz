@@ -1227,9 +1227,7 @@ export default class App extends React.Component {
               bipartisan
             </a>
             {space}plural{space}
-            <a href="https://nextdoor.com/p/gSknkSPp-t9C">
-              minorities
-            </a>
+            <a href="https://nextdoor.com/p/gSknkSPp-t9C">minorities</a>
             {space}show their teeth
           </h2>
           The state is not{space}
@@ -1239,9 +1237,12 @@ export default class App extends React.Component {
           a doubtless conviction is not from reasonable doubt, that just acquits
           defense: reasoned doubt cannot convict, only acquit.
           <br />
-          <br />
-          "Assess emotions and danger to society, temp prison, NY is only state
-          that doesn't allow this jurisdiction save prudence."
+          <br />"
+          <a href="https://vaults.biz/insurance">
+            Assess emotions and danger to society
+          </a>
+          , temp prison, NY is only state that doesn't allow this jurisdiction
+          save prudence."
           <br />
           Bail reform and tort reform go both pays (prejudice or evidence now &
           review, ENR), like cancel or reverse, Obamacare or price fix false bid
@@ -3888,6 +3889,9 @@ export default class App extends React.Component {
             margin target operational monoplolies, laborless-demand implausible
             rental-income use cap by units or days
           </h2>
+          “I have a lot of experience in assessing peoples competency['volatile emotional state'], because I
+          have looked at parents to see if they were of sound mind when creating
+          a will, for instance.”
           <h3 ref={this.insurance}>
             unknown{space}
             <a href="https://www.krasnolaw.com/articles/workers-compensation-arthritis-and-degenerative-disc-disease">
