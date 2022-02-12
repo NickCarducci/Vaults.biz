@@ -1194,12 +1194,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "Emergency Saver Spedning was needed under Trump, not under Biden; injecting new money
-          into the economy m2, not checking, 44%/2years. Phil Gram, distiguished
-          academic is going to weight in. Billiant Nobel Prize winners all
-          disagree with eachother. Janet Yellen used to be a pretty decent fed
-          chair; all due respecct, she is nuts." I would be ecstatic if Larry
-          Kudlow died.
+          “Four states have publicly credited ID.me with stopping $210 billion
+          in fraud. In Arizona, 99%+ of new claims were fraudulent before ID.me.
+          From 570,400 new claims filed the week before to 6,700 the week after.
+          We have held the line for America, and to protect Americans.” - Blake Hall, ID.me
+          <br />
+          <br />
+          19% are disabled; aren’t they just old?
+          <br />
+          <br />
+          "Emergency Saver Spending was needed under Trump, not under Biden;
+          injecting new money into the economy m2, not checking, 44%/2years.
+          Phil Gram, distiguished academic is going to weight in. Billiant Nobel
+          Prize winners all disagree with eachother. Janet Yellen used to be a
+          pretty decent fed chair; all due respecct, she is nuts." I would be
+          ecstatic if Larry Kudlow died.
           <br />
           <br />
           "What is causing the current inflation?"
