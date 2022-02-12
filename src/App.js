@@ -1204,7 +1204,7 @@ export default class App extends React.Component {
           }}
         >
           ChooseVa.gov commercial on 77WABC: "we gentrify home contracting."
-          <br/>
+          <br />
           Price controls only work if coming off an operational monopoly where
           supply aleady doesn't equal demand. Quality controls only work if you
           jail after the fact, not settle with government (they are not "the
@@ -1237,7 +1237,9 @@ export default class App extends React.Component {
           {space}understand it. 1/12 industry-type max-royalty is fine. "I think
           we all want a low Black unemployment rate," I want people to retire,
           not busy-work. That is the point of microeconomic Supply and Demand:
-          tech advancement...
+          tech advancement... Expected early retirement and{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LmzU">GDP/hour-GDP/p</a>
+          {space}(bunting)
           <br />
           <br />
           “Four states have publicly credited ID.me with stopping $210 billion
