@@ -1224,7 +1224,7 @@ export default class App extends React.Component {
           is bureaucracy, Trumpo for no USPTO gain, just rent seeking and
           racism, scapegoating punishment outside the ‘crime’ GDP/p 1800-1913
           inflation, $2t currency, we work twice as much per capita, and
-          significance from mean cannot be assumed by a sample of less than 100.
+          significance from mean cannot be assumed by a sample of less than 100. "Pay a fine, get in line, criminals regardless of evidence, deport them $$$ anything washes.”
           <h1>
             Anthony Weiner, Democrat Party Spokesperson: "Jobs and stock market
             ask gud."
@@ -6182,4 +6182,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
