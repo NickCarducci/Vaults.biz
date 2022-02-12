@@ -1203,8 +1203,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <a href="https://vaults.biz/gdp">GDP</a>/yr=mv1==mv2, is fraud<br/>
-          mb=pq or y is real GDP that discounts material+rent, not labor, hours, nor homes/IP!<br/><br/>
+          post-financial crisis, we couldn't get inflation uUP.
+          <br />
+          “I don’t think money causes inflation,” because only
+          CurrencyComponentOfM1 is traded for{space}
+          <a href="https://apps.bea.gov/iTable/iTable.cfm?reqid=19&step=2#reqid=19&step=2&isuri=1&1921=survey">
+            material+rent
+          </a>
+          <br />
+          <br />
+          <a href="https://vaults.biz/gdp">GDP</a>/yr=
+          <a href="https://fred.stlouisfed.org/graph/?g=Lznz">mv1==mv2</a>, is
+          fraud
+          <br />
+          mb=pq or y is real GDP that discounts material+rent, not labor, hours,
+          nor homes/IP!
+          <br />
+          <br />
           ChooseVa.gov commercial on 77WABC: "we gentrify home contracting."
           <br />
           Price controls only work if coming off an operational monopoly where
@@ -1235,9 +1250,13 @@ export default class App extends React.Component {
           higher than commodities." John Cockrin, Grump Economist, Hoover Inst.
           "If you borrow, you weaken the principal you owe, to overcome the harm
           done." I don't{space}
-          <span style={{
-            textDecoration:"line-through"
-          }}>see</span>
+          <span
+            style={{
+              textDecoration: "line-through"
+            }}
+          >
+            see
+          </span>
           {space}understand it. 1/12 industry-type max-royalty is fine. "I think
           we all want a low Black unemployment rate," I want people to retire,
           not busy-work. That is the point of microeconomic Supply and Demand:
@@ -5961,3 +5980,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
