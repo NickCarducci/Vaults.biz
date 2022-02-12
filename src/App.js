@@ -1211,6 +1211,46 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          PPP gave money to all these businesses, a loan program, 100%
+          fraudulent, nobody cares, ho hum, the '
+          <a href="https://qr.ae/pGj59F">cost of doing business</a>.' All these
+          vital programs:
+          <br />
+          DO NOT MAKE MY MOTHER PAYEE
+          <br />
+          <br />
+          Social Security - I would rather sue you for deduced-discrimination on
+          medical ground (19% are disabled; aren't they just old? I cannot
+          believe you assign disability on non-biomedical psych evaluation, this
+          'standing' has no grounds and seems like you're only interested in
+          washing funds to the SSA general revenue investment bank to
+          bond-holders' donee beneficiary liable principal) as opposed to
+          observational and subjective (messy hair is literally cited as
+          evidence of 'mental illness,' that is not even granted by a CT scan,
+          and not from recreational drugs nor concussions, but actual
+          malformations or tumors - how can you say a characteristic that cannot
+          be attenuated by prescription drugs, as much as a lobotomy suspends
+          people from acting out, and by testimony of Unbreakable by Jay Glazer
+          counting 35 different SSRIs, be attenuated by psychology/therapy or
+          less gentrification by your other industries in home contracting unto
+          homelessness, is a disability? Are you just trying to deflect blame?),
+          nor be presumptive of employers in other industries to take on the
+          burdens of the injured (I have lived my life thus far boycotting
+          credit as income, seeking hospitality, cash, jobs, that are actually
+          lands if the state is dissolved, that bonds have no claim on, as
+          contractor of no due diligence of the surrendered freedoms of others).
+          I have a hole in my leg, from a guard rail near a state-running-trail,
+          I will not take the money on a racket nor lie - just as I wouldn’t
+          give wrong answers just to pass classes.
+          <br />
+          <br />
+          The amount is also less than I would have earned had I not been
+          injured (end of 2017- $12.5k/yr = $50k -2022 start). $1t/yr 1985,
+          {space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M2gS">
+            $4t/yr 2010-3/2020
+          </a>
+          , $6.8t/yr last two years
           <hr ref={this.leisure} />
           'Unemployment' (people looking for work, not choring, copyrighting,
           nor leisure) is caused by the discretion to NOT HIRE. We must starve
