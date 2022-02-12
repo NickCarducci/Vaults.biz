@@ -1231,7 +1231,11 @@ export default class App extends React.Component {
           <a href="https://youtu.be/kDq6_dAZsBo">reasonable schools</a>, no
           tree-job too small." Why do you need to tax and share-split Savers?
           That is not reasonable because it is free rider mutable, so it is
-          elastic.
+          elastic. "Nepotism laws exists so politicians don’t benefit themselves
+          or family as a part of his job. How he is supporting himself - we need
+          to ensure he is working for the free rider immutable sewage police
+          lawsuit service, not conflict of interest bond loss profit. For
+          GDP/hour-GDP/p, not your reality, OUR rent-soaken-science."
           <h3>
             “We think Powell can fix the business cycle, we need a humble
             economics.” - David Bahnsen.
@@ -6166,3 +6170,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
