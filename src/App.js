@@ -1226,7 +1226,7 @@ export default class App extends React.Component {
               bipartisan
             </a>
             {space}plural{space}
-            <a href="https://nextdoor.com/p/gSknkSPp-t9C?utm_source=share&extras=Njc0NDU4Nzc%3D">
+            <a href="https://nextdoor.com/p/gSknkSPp-t9C">
               minorities
             </a>
             {space}show their teeth
