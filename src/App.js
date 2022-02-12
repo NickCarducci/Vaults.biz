@@ -1221,7 +1221,15 @@ export default class App extends React.Component {
         >
           <h2>
             "You are ruining a book I want to write, open now on our first
-            show,” the bipartisan plural minorities show their teeth
+            show,” the{space}
+            <a href="https://www.sfelections.org/results/20101102/data/d10.html?fbclid=IwAR2LLJBFscbwFgEASvcSg0BOiZZxJaUUBLuq7IgUD8MBm9RxZtboGYFRE4c">
+              bipartisan
+            </a>
+            {space}plural{space}
+            <a href="https://nextdoor.com/p/gSknkSPp-t9C?utm_source=share&extras=Njc0NDU4Nzc%3D">
+              minorities
+            </a>
+            {space}show their teeth
           </h2>
           The state is not{space}
           <a href="https://qr.ae/pGjwpm">victimizable</a>
