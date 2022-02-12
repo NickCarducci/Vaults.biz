@@ -980,6 +980,7 @@ export default class App extends React.Component {
 
       <div
         style={{
+          userSelect:"none",
           marginLeft: "62px",
           backgroundColor: "rgb(160,70,180)",
           width: "600px",
