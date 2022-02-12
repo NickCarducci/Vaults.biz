@@ -1219,6 +1219,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          GOP puts small business above labor, Dems government above equality,
+          Labor above labor-equity (productivity-ward), Libertarians chaos above
+          full voluntary supply equating demand (when price/quality fixing just
+          works).
           <h1>poverty=equality</h1>
           <h2>
             cornering by labor cost skew, for sure, (material+rent)/income
