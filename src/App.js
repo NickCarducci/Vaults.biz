@@ -1203,6 +1203,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          The Man's Neighbor - "So another words were fukked ?"
+          <br />
+          Nick Carducci - (cash/debt)*income every year out, equal in receipt
+          and scope truncated production tax 2025 is the only way out
+          <br />
+          <br />
           post-financial crisis, we couldn't get inflation uUP.
           <br />
           “I don’t think money causes inflation,” because only
