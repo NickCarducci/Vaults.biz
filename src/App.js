@@ -1219,6 +1219,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Stop alimony to{space}<a href="https://nextdoor.com/p/gSknkSPp-t9C">get people on board</a>.
+          <br/>
+          <br/>
           GOP puts small business above labor, Dems government above equality,
           Labor above labor-equity (productivity-ward), Libertarians chaos above
           full voluntary supply equating demand (when price/quality fixing just
