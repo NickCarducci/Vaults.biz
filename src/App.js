@@ -1235,7 +1235,9 @@ export default class App extends React.Component {
           higher than commodities." John Cockrin, Grump Economist, Hoover Inst.
           "If you borrow, you weaken the principal you owe, to overcome the harm
           done." I don't{space}
-          <span style={{}}>see</span>
+          <span style={{
+            textDecoration:"line-through"
+          }}>see</span>
           {space}understand it. 1/12 industry-type max-royalty is fine. "I think
           we all want a low Black unemployment rate," I want people to retire,
           not busy-work. That is the point of microeconomic Supply and Demand:
