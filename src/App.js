@@ -1203,6 +1203,20 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Price controls only work if coming off an operational monopoly where
+          supply aleady doesn't equal demand. Quality controls only work if you
+          jail after the fact, not settle with government (they are not "the
+          People").
+          <br />
+          <br />
+          "'Infrastructure does not mean roads and bridges, aparently', we were
+          about to get infrastructure that would be wonderful, $100b subsidies
+          to increase travel lanes," toll booths are too full on 40% debt
+          service, 10% federally, 40% debt spending, "...need more. Modern
+          infrastructure," electric tolls operational monopoly target margin
+          reverse debt and cap spectrum instead. "The problem with roads and
+          bridges is not the labor costs, it is the permits and environmental
+          reviews, for more expensive."
           <h2>"no immediate existential risk"</h2>
           <h3>if you dissolve the state you get land</h3>
           cpi should include homes and poverty, labor/assets, like economists
@@ -1216,10 +1230,12 @@ export default class App extends React.Component {
           {space}is the only thing they can do. You need interest rates to be
           higher than commodities." John Cockrin, Grump Economist, Hoover Inst.
           "If you borrow, you weaken the principal you owe, to overcome the harm
-          done." I don't see it. 1/12 industry-type max-royalty is fine. "I
-          think we all want a low Black unemployment rate," I want people to
-          retire, not busy-work. That is the point of microeconomic Supply and
-          Demand: tech advancement...
+          done." I don't{space}
+          <span style={{}}>see</span>
+          {space}understand it. 1/12 industry-type max-royalty is fine. "I think
+          we all want a low Black unemployment rate," I want people to retire,
+          not busy-work. That is the point of microeconomic Supply and Demand:
+          tech advancement...
           <br />
           <br />
           “Four states have publicly credited ID.me with stopping $210 billion
@@ -5937,3 +5953,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
