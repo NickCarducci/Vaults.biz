@@ -749,14 +749,14 @@ export default class App extends React.Component {
     const overIt = (event) => event.preventDefault();
     window.addEventListener(overMouseDrag, overIt);
     this.saveListeners(overMouseDrag, overIt);
-    const ifEnded = () => 
-    this.setState({ offScroll: false }, () => {
-      clearInterval(this.countmove);
-      //window.removeEventListener(listener, ifEnded);
-      window.removeEventListener(onUpEnd, ifEnded);
-      //window.removeEventListener(listener, onMouseMove);
-      window.removeEventListener(overMouseDrag, overIt);
-    });
+    const ifEnded = () =>
+      this.setState({ offScroll: false }, () => {
+        clearInterval(this.countmove);
+        //window.removeEventListener(listener, ifEnded);
+        window.removeEventListener(onUpEnd, ifEnded);
+        //window.removeEventListener(listener, onMouseMove);
+        window.removeEventListener(overMouseDrag, overIt);
+      });
     const onMouseMove = (ev) => {
       //console.log(window.scrollY + (direction === "up" ? -20 : 20));
       window.scroll(0, window.scrollY + (direction === "up" ? -20 : 20));
@@ -1193,9 +1193,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          First Dr. Mccullough said mortality is increasing because of the virion, now because of the vaccines!<br/><br/>
-          I would not allow{space}
-          <a href="https://thumbprint.us/payments">terrorists</a>
+          First Dr. Mccullough said mortality is increasing because of the
+          virion, now because of the vaccines!
+          <br />
+          <br />I would not allow{space}
+          <a href="https://thumbprint.us/payments">terrorists (blocking trade)</a>
           {space}to raise funds, as I do not accept credit. I would not
           prosecute them with such a{space}
           <a href="https://vaults.biz/govtech">
