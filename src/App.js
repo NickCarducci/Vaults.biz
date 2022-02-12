@@ -2696,6 +2696,7 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          Not bivariate, but problem-solution:<br/>
           N is not a prospective, it is an indication (and used to deflate
           Pearson correlation) of relevance, and variance is indicated after it
           reaches 100 randomly-selected, or 1/100 population-shuffled. Never
