@@ -1219,9 +1219,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-
-          bail reform and tort reform go both pays (prejudice or evidence now & review, ENR), like cancel or reverse,
-          Obamacare or price fix false bid pool loss?
+          "Assess emotions and danger to society, temp prison, NY is only state
+          that doesn't allow this jurisdiction save prudence."
+          <br />
+          Bail reform and tort reform go both pays (prejudice or evidence now &
+          review, ENR), like cancel or reverse, Obamacare or price fix false bid
+          pool loss?
           <br />
           <br />
           What’sup guys inflation is because of the covid crisis jamming up from
