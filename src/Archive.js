@@ -6124,8 +6124,18 @@ class Archive extends React.Component {
           The problem is your actuaries are non-academic & have a conflict of
           interests in expiring premiums
         </h2>
+        "Is the sharing economy a capitalist or a socialist idea?"
+        <br />
+        Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+        University (Graduated 2015)
+        <br />
+        Capitalists measure success by GDP/p or worse, GDP, and certainly not
+        tech advancement -GDP/p, unless you are a post-Marx, ‘vulgar-socialist;’
+        they call contributions to science, being in your own productive-ward
+        copy, and chores, or any welfare-innumerable, as leisure.
         <hr ref={this.props.newecon} />
-        <a href="https://vaults.biz/juris">target</a>{space}margin operations,{space}
+        <a href="https://vaults.biz/juris">target</a>
+        {space}margin operations,{space}
         <a href="https://magnate.company">breakloose</a>
         {space}
         <a href="https://vaults.biz/gmu">science</a>.<br />
@@ -6133,11 +6143,33 @@ class Archive extends React.Component {
         <a href="https://truncatedsalestax.com">lock em up</a>! led pipe guys,
         don't fine!
         <br />
+        <Cable
+          style={{
+            width: "200px",
+            height: "auto"
+          }}
+          img={true}
+          onError={handleScollImgError}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.dl.dropboxusercontent.com/s/e3k2hy1z1vo8scf/Screen%20Shot%202022-02-11%20at%207.05.41%20PM.png?dl=0"
+          }
+          float="left"
+          title="GBNews GDP growth"
+          scrolling={this.props.scrolling}
+          fwd={this.props["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
         {space}
-        <a href="https://fred.stlouisfed.org/graph/?g=L4PG">discount GDP/p tech deprecation for productivity GDP/hour for
+        <a href="https://fred.stlouisfed.org/graph/?g=L4PG">
+          discount GDP/p tech deprecation for productivity GDP/hour for
           efficient productivity
         </a>
-        {space}and{space}<a href="https://humanharvest.info/polio">antivaxx</a>{space}
+        {space}and{space}
+        <a href="https://humanharvest.info/polio">antivaxx</a>
+        {space}
         <span role="img" aria-label="copyright">
           ©
         </span>
@@ -7773,3 +7805,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
