@@ -1219,9 +1219,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Stop alimony to{space}<a href="https://nextdoor.com/p/gSknkSPp-t9C">get people on board</a>.
-          <br/>
-          <br/>
+          "
+          <a href="https://humanharvest.info/polio">
+            Natural immunity is broad, robust
+          </a>
+          ,{space}
+          <a href="https://vaults.biz/juris">and recurring</a>."
+          <br />
+          Stop alimony to{space}
+          <a href="https://nextdoor.com/p/gSknkSPp-t9C">get people on board</a>.
+          <br />
+          <br />
           GOP puts small business above labor, Dems government above equality,
           Labor above labor-equity (productivity-ward), Libertarians chaos above
           full voluntary supply equating demand (when price/quality fixing just
