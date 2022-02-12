@@ -1197,7 +1197,8 @@ export default class App extends React.Component {
           “Four states have publicly credited ID.me with stopping $210 billion
           in fraud. In Arizona, 99%+ of new claims were fraudulent before ID.me.
           From 570,400 new claims filed the week before to 6,700 the week after.
-          We have held the line for America, and to protect Americans.” - Blake Hall, ID.me
+          We have held the line for America, and to protect Americans.” - Blake
+          Hall, ID.me
           <br />
           <br />
           19% are disabled; aren’t they just old?
@@ -1209,6 +1210,22 @@ export default class App extends React.Component {
           Prize winners all disagree with eachother. Janet Yellen used to be a
           pretty decent fed chair; all due respecct, she is nuts." I would be
           ecstatic if Larry Kudlow died.
+          <br />
+          <br />
+          GDP is not actual demand “If you give people what they had to work for
+          before, you shouldn’t be surprised when they stop working.” Continuing
+          claims is normal, so are you talking about userer (insurer, landlord,
+          lender false bid pool loss) laborless-demand for GDP/hour-GDP/p? The
+          “Trump Level of Spending,” is $4t/yr 2010-3/2020 + 20%.
+          <br />
+          <br />
+          “Private sector incentives, let people keep more of what they earn. We
+          are going to out China, China, infrastructure by government can cause
+          competition is alien because it is trust-building, gentrification and
+          rent-seeking, instead of trade.”
+          <br />
+          <br />
+          "Yes sir,” what, do you feel bad now?
           <br />
           <br />
           "What is causing the current inflation?"
@@ -1223,11 +1240,20 @@ export default class App extends React.Component {
           a year, U.S.).
           <br />
           <br />
-          <br />
           Other causes are conflict of interest racketeering in minimal viable
           product duress beyond 11/12 industry permit, and free rider mutable
           tax, from outside the market or from bonds (made mutable, unequal
           Article 1.8 bond-tax oxymoron).
+          <br />
+          <br />
+          <a href="https://vaults.biz/gdp">Inflation is not caused by increased demand nor population</a>; people
+          consume the same year to year and labor is elastic (there are no
+          ‘fixed’ invariable costs, except resale premiums, if any). By voting
+          for the federal reserve, do you mean Saver rights over U.S.
+          state-lands (20%), made donee beneficiary in accrual+good will last
+          traded neighborhood value accounting? (cash/debt)*income every year
+          back, vote equal in receipt and scope Truncated Production Tax in
+          2025.
           <br />
           <br />
           False bid pool loss by insurance is donee beneficiary claimable, not
