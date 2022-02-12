@@ -1219,7 +1219,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          a doubtless conviction is not from reasonable doubt, that just acquits defense: reasoned doubt cannot convict, only acquit.<br/><br/>
+          the state is not{space}
+          <a href="https://qr.ae/pGjwpm">victimizable</a>
+          {/**concurrentable */}, so you cannot fine
+          <br />
+          a doubtless conviction is not from reasonable doubt, that just acquits
+          defense: reasoned doubt cannot convict, only acquit.
+          <br />
+          <br />
           "Assess emotions and danger to society, temp prison, NY is only state
           that doesn't allow this jurisdiction save prudence."
           <br />
@@ -1285,7 +1292,9 @@ export default class App extends React.Component {
           true and nominal, but collateralized; assets are good-will accrual).
           <br />
           <br />
-          The etymologist of baby boomers predicted Covid
+          The etymologist of{space}
+          <a href="https://qr.ae/pGjwpZ">baby boomers</a>
+          {space}predicted Covid
           <br />
           curencyComponentOfM1 Is checking, and that has hardly risen, so
           whenever supply don’t equate demand, that is when price and quality
