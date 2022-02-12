@@ -1253,7 +1253,8 @@ export default class App extends React.Component {
           </h1>
           knowingly-, non-biomedically-diminished
           <h2>Moving on nonsense. The bigger picture.</h2>
-          "Traumatized, demons, forever," it is a known hazard.
+          "Traumatized, demons, forever," it is a {space}
+          <a href="https://vaults.biz/insurance">known hazard</a>.
           <br />
           I said I couldn't concentrate to bag Ritalin 8hr ONE TIME.
           <br />
@@ -1534,7 +1535,8 @@ export default class App extends React.Component {
           <br />
           <br />
           False bid pool loss by insurance is donee beneficiary claimable, not
-          insulated nor concurrentable. In my book, this is illegal.
+          insulated nor concurrentable. In my book, this is{space}
+          <a href="https://vaults.biz/insurance">illegal</a>.
           <br />
           <br />
           “Leverage debt makes it cheap, use economic warfare.” Former NEC
@@ -3877,7 +3879,14 @@ export default class App extends React.Component {
             margin target operational monoplolies, laborless-demand implausible
             rental-income use cap by units or days
           </h2>
-          <h3 ref={this.insurance}>unknown hazard liability</h3>
+          <h3 ref={this.insurance}>
+            unknown{space}
+            <a href="https://www.krasnolaw.com/articles/workers-compensation-arthritis-and-degenerative-disc-disease">
+              hazard
+            </a>
+            {space}liability
+          </h3>
+          <h2>warning, tort, jail</h2>
           "A workers’ comp plan that works for me to grow the company, without
           breaking the bank."
           {/*"before being raisen from dead, phil robertson, 'forgive them'" */}
@@ -3891,9 +3900,12 @@ export default class App extends React.Component {
           The NRA got into trouble with New York State for selling coverage for
           legal costs related to gun crimes."
           <br />
-          If it is a damage that is a known hazard, then it isn’t liable; so,
-          necessarily, all workplace torts (that are valid) are meant to punish
-          to fix an operational problem.
+          If it is a damage that is a{space}
+          <a href="https://www.krasnolaw.com/articles/workers-compensation-arthritis-and-degenerative-disc-disease">
+            known hazard
+          </a>
+          , then it isn’t liable; so, necessarily, all workplace torts (that are
+          valid) are meant to punish to fix an operational problem.
           <br />
           <Cable
             onError={handleScollImgError}
