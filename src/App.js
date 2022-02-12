@@ -1193,6 +1193,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Pharmacies should have to pay for commercial leases and prescriptions for doctors," Bill O'Reilly, why?<br/><br/>
           First Dr. Mccullough said mortality is increasing because of the
           virion, now because of the vaccines!
           <br />
