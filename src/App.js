@@ -1203,7 +1203,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "<a href="https://qr.ae/pGj5N0">Borrow or print to send people</a>
+          <h2>"no immediate existential risk"</h2>
+          <h3>if you dissolve the state you get land</h3>
+          cpi should include homes and poverty, labor/assets, like economists
+          expect serfdom and employables, forever.
+          <br />"
+          <a href="https://qr.ae/pGj5N0">Borrow or print to send people</a>
           {space}checks (
           <a href="https://fred.stlouisfed.org/graph/?g=M24t">not checking</a>),
           is the same; still surprised the fed.{space}
@@ -5932,4 +5937,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
