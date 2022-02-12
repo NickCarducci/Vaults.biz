@@ -1203,6 +1203,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <a href="https://vaults.biz/gdp">GDP</a>/yr=mv1==mv2, is fraud<br/>
           mb=pq or y is real GDP that discounts material+rent, not labor, hours, nor homes/IP!<br/><br/>
           ChooseVa.gov commercial on 77WABC: "we gentrify home contracting."
           <br />
@@ -5958,4 +5959,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
