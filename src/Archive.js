@@ -2651,11 +2651,23 @@ class Archive extends React.Component {
         linked to crime and that is linked to illegal immigration.
         <br />
         <hr ref={this.props.immi} />
-        *Politics by  double speak to continue with no doubt (one thing in common, absolutely)<br/>
-        immigration scapegoat for pharmacies & doctors<br/>
+        *Politics by double speak to continue with no doubt (one thing in
+        common,{space}
+        <a href="https://vaults.biz/statistic">absolutely</a>)<br />
+        immigration scapegoat for pharmacies & doctors
+        <br />
         apprehension fentanyl schedule 1 drug prescription only - HALT FENTANYL
-        ACT,{space}<a href="https://qr.ae/pGj5JS">penalties* is conflict of interest if monetary</a>, not jail, or fixing
-        the known hazard, like prescriptions and closed ingredient lists.
+        ACT,{space}
+        <a href="https://qr.ae/pGj5JS">
+          penalties* is conflict of interest if monetary
+        </a>
+        , not jail, or fixing the known hazard, like prescriptions and closed
+        ingredient lists. "Miguel aliman, 200 families men women and children,
+        the most violent, they were told this is what they do, piso _ tax, pass
+        people off stashhouse to stashhouse before they make it into the U.S. as
+        working age for labor-shortage by laborless-demand of userers: insurers,
+        lenders and landlords, where poverty is equality, tech advancement,
+        Expected early retirement, and GDP/hour-GDP/p."
         <h3>
           backing false bid pool loss legal v illegal what is the problem??
         </h3>
