@@ -112,6 +112,8 @@ export default class App extends React.Component {
     this.renewables = React.createRef();
     this.drugs = React.createRef();
     this.jews = React.createRef();
+    this.inflation = React.createRef();
+    //this.warfare = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -399,6 +401,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.menger.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/inflation") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.inflation.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/randpaul") {
           this.setState(
@@ -820,6 +827,8 @@ export default class App extends React.Component {
         inSection("jews");
       } else if (construct(true, this.menger.current) < tryy) {
         inSection("menger");
+      } else if (construct(true, this.inflation.current) < tryy) {
+        inSection("inflation");
       } else if (construct(true, this.juris.current) < tryy) {
         inSection("juris");
       } else if (construct(true, this.rights.current) < tryy) {
@@ -1194,6 +1203,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "<a href="https://qr.ae/pGj5N0">Borrow or print to send people</a>
+          {space}checks (
+          <a href="https://fred.stlouisfed.org/graph/?g=M24t">not checking</a>),
+          is the same; still surprised the fed.{space}
+          <a href="https://qr.ae/pGj5N4">Raising ingerest rates</a>
+          {space}is the only thing they can do. You need interest rates to be
+          higher than commodities." John Cockrin, Grump Economist, Hoover Inst.
+          <br />
+          <br />
           “Four states have publicly credited ID.me with stopping $210 billion
           in fraud. In Arizona, 99%+ of new claims were fraudulent before ID.me.
           From 570,400 new claims filed the week before to 6,700 the week after.
@@ -1225,6 +1243,7 @@ export default class App extends React.Component {
           rent-seeking, instead of trade.”
           <br />
           <br />
+          <hr ref={this.inflation} />
           "Yes sir,” what, do you feel bad now?
           <br />
           <br />
@@ -1246,10 +1265,12 @@ export default class App extends React.Component {
           Article 1.8 bond-tax oxymoron).
           <br />
           <br />
-          <a href="https://vaults.biz/gdp">Inflation is not caused by increased demand nor population</a>; people
-          consume the same year to year and labor is elastic (there are no
-          ‘fixed’ invariable costs, except resale premiums, if any). By voting
-          for the federal reserve, do you mean Saver rights over U.S.
+          <a href="https://vaults.biz/gdp">
+            Inflation is not caused by increased demand nor population
+          </a>
+          ; people consume the same year to year and labor is elastic (there are
+          no ‘fixed’ invariable costs, except resale premiums, if any). By
+          voting for the federal reserve, do you mean Saver rights over U.S.
           state-lands (20%), made donee beneficiary in accrual+good will last
           traded neighborhood value accounting? (cash/debt)*income every year
           back, vote equal in receipt and scope Truncated Production Tax in
@@ -5501,6 +5522,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/health`}
             >
               health
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("inflation") }}
+              href={`${window.location.origin}/inflation`}
+            >
+              inflation
             </a>
             {space}
             <a
