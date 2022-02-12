@@ -980,7 +980,7 @@ export default class App extends React.Component {
 
       <div
         style={{
-          userSelect:"none",
+          userSelect: "none",
           marginLeft: "62px",
           backgroundColor: "rgb(160,70,180)",
           width: "600px",
@@ -1194,8 +1194,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Why is Trump so fucking racist about aliens?<br/>
-          "Pharmacies should have to pay for commercial leases and prescriptions for doctors," Bill O'Reilly, why?<br/><br/>
+          "Crisis in their community, Houston, Baltimore, local taxpayers will
+          educate and 'provide social service' from the general revenue forced
+          investment bank, gentrify/rent-seek them too! Spread all over."
+          anything washes. Aren't you harming yourselves by doing that?
+          <br />
+          <br />
+          "So Mexico feels economic pain, and Mexico Artice 1.10." Pretty sure
+          'invasion' is armed, they are{space}
+          <a href="https://vaults.biz/immi">clearly</a>
+          {space}more peaceful than current citizens.
+          <br />
+          Why is Trump so fucking racist about aliens?
+          <br />
+          "Pharmacies should have to pay for commercial leases and prescriptions
+          for doctors," Bill O'Reilly, why?
+          <br />
+          <br />
           First Dr. Mccullough said mortality is increasing because of the
           virion, now because of the vaccines!
           <br />
