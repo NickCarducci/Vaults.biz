@@ -1219,6 +1219,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          reciprocation, not escalation, is fair enough
           <h2>
             "You are ruining a book I want to write, open now on our first
             show,” the{space}
@@ -6226,4 +6227,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
