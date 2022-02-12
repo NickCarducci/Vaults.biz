@@ -1194,6 +1194,41 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Emergency Saver Spedning was needed under Trump, not under Biden; injecting new money
+          into the economy m2, not checking, 44%/2years. Phil Gram, distiguished
+          academic is going to weight in. Billiant Nobel Prize winners all
+          disagree with eachother. Janet Yellen used to be a pretty decent fed
+          chair; all due respecct, she is nuts." I would be ecstatic if Larry
+          Kudlow died.
+          <br />
+          <br />
+          "What is causing the current inflation?"
+          <br />
+          Nick Carducci - Founder at Froth.app - Analysis, Micro-Theory.com, and
+          SaverParty.xyz (2018–present)
+          <br />
+          Always is it debt, landlording above 5 units and false bid pool loss
+          insurance, that raises material+rent, PCE (this excludes structures
+          that also aggregate in BEA’s GDP, which isgrows at twice the inflation
+          rate, and 2/3 the rate of debt and money, $12k/64 debt/cash per person
+          a year, U.S.).
+          <br />
+          <br />
+          <br />
+          Other causes are conflict of interest racketeering in minimal viable
+          product duress beyond 11/12 industry permit, and free rider mutable
+          tax, from outside the market or from bonds (made mutable, unequal
+          Article 1.8 bond-tax oxymoron).
+          <br />
+          <br />
+          False bid pool loss by insurance is donee beneficiary claimable, not
+          insulated nor concurrentable. In my book, this is illegal.
+          <br />
+          <br />
+          “Leverage debt makes it cheap, use economic warfare.” Former NEC
+          Director under Trump
+          <br />
+          <br />
           "Crisis in their community, Houston, Baltimore, local taxpayers will
           educate and 'provide social service' from the general revenue forced
           investment bank, gentrify/rent-seek them too! Spread all over."
