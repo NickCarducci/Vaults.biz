@@ -2651,6 +2651,10 @@ class Archive extends React.Component {
         linked to crime and that is linked to illegal immigration.
         <br />
         <hr ref={this.props.immi} />
+        immigration scapegoat for pharmacies & doctors<br/>
+        apprehension fentanyl schedule 1 drug prescription only - HALT FENTANYL
+        ACT, penalties is conflict of interest if monetary, not jail, or fixing
+        the known hazard, like prescriptions and closed ingredient lists.
         <h3>
           backing false bid pool loss legal v illegal what is the problem??
         </h3>
