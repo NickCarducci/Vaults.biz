@@ -1219,6 +1219,27 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>poverty=equality</h1>
+          <h2>
+            cornering by labor cost skew, for sure, (material+rent)/income
+          </h2>
+          <h3>
+            2008- truncated national household income reporting{space}
+            <a href="https://vaults.biz/party">$100k to $200k</a>
+          </h3>
+          GDP/hour-GDP/p econ welfare, productive efficiency,
+          transaction-fee0-based-royalty-max-1/12-industry-type-reverse-outstanding-(cash/debt)*every-year-back-equal-in-receipt-and-scope-tax-2025.
+          <h2>
+            “Are{space}
+            <a href="https://www.africanexponent.com/post/7633-150b-reserves-and-0-debt-gaddafis-vision-for-a-debt-free-africa">
+              we
+            </a>
+            {space}making this more of a frenzy than Ukraine themselves is?”
+          </h2>
+          Bottom-left is anti debt and pro-
+          <a href="htts://vaults.biz/juris">consensus</a>-
+          <a href="https://vaults.biz/science">science</a>
+          <br />
           "Historic levels of sanctions, unite with NATO countries with a real
           stand for consequences and make a lot of good reasons for Putin to not
           take those steps and reach of his Authoritarian regime. We are doing
@@ -3917,7 +3938,7 @@ export default class App extends React.Component {
             margin target operational monoplolies, laborless-demand implausible
             rental-income use cap by units or days
           </h2>
-          “I have a lot of experience in assessing peoples competency['volatile
+          “I have a lot of experience in assessing peoples' competency['volatile
           emotional state,' 'inappropriate comments,' 'cannot juggle a lot of
           thoughts at the same time'] for Capitis Diminutio, because I have
           looked at parents to see if they were of sound mind when creating a
