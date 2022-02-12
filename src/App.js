@@ -1219,11 +1219,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "Traumatized, demons, forever," it is a known hazard.<br/>
-          I said I couldn't concentrate to bag Ritalin 8hr ONE TIME.<br/>
-          “I was going crazy, I was going through some stuff, harming my own campaign.” - Anthony Weiner.
+          "Traumatized, demons, forever," it is a known hazard.
+          <br />
+          I said I couldn't concentrate to bag Ritalin 8hr ONE TIME.
+          <br />
+          “I was going crazy, I was going through some stuff, harming my own
+          campaign.” - Anthony Weiner. "I wanted people to say nice things, so I
+          did the crazy things - the Weinerbot 2000: I have a problem in front
+          of me, and figure out how to solve it." Now that is crazy.
           <h3>
-          “We think Powell can fix the business cycle, we need a humble economics.” - David Bahnsen.</h3>
+            “We think Powell can fix the business cycle, we need a humble
+            economics.” - David Bahnsen.
+          </h3>
           I’m the only one who have enumerated acting rationally, GDP/hour-GDP/p
           <br />
           <br />
