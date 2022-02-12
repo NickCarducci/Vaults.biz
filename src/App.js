@@ -1152,7 +1152,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h1 ref={this.jews} >“Radical left perverts.”</h1>
+          I would not allow{space}
+          <a href="https://thumbprint.us/payments">terrorists</a>
+          {space}to raise funds, as I do not accept credit. I would not prosecute them with such a{space}
+          <a href="https://vaults.biz/govtech">
+            tortious appealable judicial greivance
+          </a>
+          .<br />
+          <h1 ref={this.jews}>“Radical left perverts.”</h1>
           do battle with academics, as the stormclouds of war form ourside out
           border, and canadian and U.S. trucker fines, illegal aliens aren't the
           only source of fentanyl. Open source and login.gov marijuana producers
@@ -1266,9 +1273,9 @@ export default class App extends React.Component {
           <br />
           <br />
           Median (order) normalizes a nominal skew, and is exclusively captured
-          by your cross or time (still-cross) section, n{">"}100 random or n{">"}1/100
-          testing shuffled population. Normalizing a nominal is always still the
-          first derivative, but not change/change by section;
+          by your cross or time (still-cross) section, n{">"}100 random or n
+          {">"}1/100 testing shuffled population. Normalizing a nominal is
+          always still the first derivative, but not change/change by section;
           factoral-exogeneity is solved-for by the second, discounting
           coincidence/necessary-endogeneity; for instance, education/employment
           is unearthed (hard to find employment by education, just per
