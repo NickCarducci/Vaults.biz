@@ -1219,6 +1219,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          I said I couldn't concentrate to bag Ritalin 8hr ONE TIME.<br/>
           “I was going crazy, I was going through some stuff, harming my own campaign.” - Anthony Weiner.
           <h3>
           “We think Powell can fix the business cycle, we need a humble economics.” - David Bahnsen.</h3>
@@ -6152,3 +6153,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
