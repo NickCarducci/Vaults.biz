@@ -1219,6 +1219,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          I’m the only one who have enumerated acting rationally, GDP/hour-GDP/p
+          <br />
+          <br />
           Bob Payne: "Ensure you contribute to trust-building, to keep your
           child competitive with those that you invest in." 'Inflation' adjusted
           assets is not zero.
@@ -2696,7 +2699,8 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
-          Not bivariate, but problem-solution:<br/>
+          Not bivariate, but problem-solution:
+          <br />
           N is not a prospective, it is an indication (and used to deflate
           Pearson correlation) of relevance, and variance is indicated after it
           reaches 100 randomly-selected, or 1/100 population-shuffled. Never
@@ -6145,3 +6149,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
