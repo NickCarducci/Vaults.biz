@@ -2143,7 +2143,9 @@ export default class App extends React.Component {
           <h2 ref={this.govtech}>
             geohash/mo equal in receipt and scope truncated production tax 2025
           </h2>
-          Public is science, not rent-seeking operational monopolies. 40% debt
+          sewage police lawsuits free rider immutable, operational monopoly - target margin
+          <h3>Hold corrective appeal to account, with fines on SUCH lower-court judges.</h3>
+          'Public' is to ward science, not rent-seeking operational monopolies. 40% debt
           spending is Savers’ land exploration rights, donee claimable. First
           mover, in the public interest?
           <br />
