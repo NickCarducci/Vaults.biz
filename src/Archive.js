@@ -2675,6 +2675,7 @@ class Archive extends React.Component {
         Brian Kilmeade, you just let in wealth instead of productive-efficiency,
         GDP/hour-GDP/p.
         <br />
+        legal junkies, imagine that?
         <Cable
           style={{ width: "100%", height: "auto" }}
           onError={handleScollImgError}
@@ -2685,13 +2686,13 @@ class Archive extends React.Component {
               : "https://www.dl.dropboxusercontent.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?dl=0"
           }
           float="left"
-          title="Philadelphia Chlorine water treatment -Typhoid deaths in Philadelphia drastically dropped after city-wide water filtration (1912) and chlorination (1913). Data from the Philadelphia Water Department Collection"
+          title="https://www.pnas.org/content/117/51/32340/tab-figures-data"
           scrolling={this.props.scrolling}
           fwd={this.props["scrollImg" + scrollnum()]}
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
           scrollTop={this.props.scrollTop}
         />
-        Illegal crime - 213k/9m, .2367%
+        Illegal crime -{space}<a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">213k</a>/9m, .2367%
         <br />
         Legal crime - 539.5k/40m, 1.3489%
         <br />
