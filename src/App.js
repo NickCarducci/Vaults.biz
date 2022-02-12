@@ -1154,7 +1154,8 @@ export default class App extends React.Component {
         >
           I would not allow{space}
           <a href="https://thumbprint.us/payments">terrorists</a>
-          {space}to raise funds, as I do not accept credit. I would not prosecute them with such a{space}
+          {space}to raise funds, as I do not accept credit. I would not
+          prosecute them with such a{space}
           <a href="https://vaults.biz/govtech">
             tortious appealable judicial greivance
           </a>
@@ -2143,11 +2144,15 @@ export default class App extends React.Component {
           <h2 ref={this.govtech}>
             geohash/mo equal in receipt and scope truncated production tax 2025
           </h2>
-          sewage police lawsuits free rider immutable, operational monopoly - target margin
-          <h3>Hold corrective appeal to account, with fines on SUCH lower-court judges.</h3>
-          'Public' is to ward science, not rent-seeking operational monopolies. 40% debt
-          spending is Savers’ land exploration rights, donee claimable. First
-          mover, in the public interest?
+          sewage police lawsuits free rider immutable, operational monopoly -
+          target margin
+          <h3>
+            Hold corrective appeal to account, with fines on SUCH lower-court
+            judges.
+          </h3>
+          'Public' is to ward science, not rent-seeking operational monopolies.
+          40% debt spending is Savers’ land exploration rights, donee claimable.
+          First mover, in the public interest?
           <br />
           <br />
           Tax-payers are not paying for vaults.biz/immi competitive
@@ -2854,12 +2859,27 @@ export default class App extends React.Component {
           economics."
           <br />
           <br />
-          <hr ref={this.menger} />I would describe your view as Mises and
-          Rothbard - I look at the **practical, -applied economics**. You can
-          describe my point of view as *bona fide cash accounting, microeconomic
-          Supply and Demand*, with the view that *dead-weight-box is ****not
-          only**** descriptive of government*, on the economic welfare x-axis,
-          (*that I define as
+          <hr ref={this.menger} />
+          *Marxists* like *deflation*, **Austrian Economists** call good-will
+          **numerable && true** albeit *non-concurrentable*, **albeit never
+          actually traded**, $170t:$2t, velocity of CurrencyComponentOfM1 is
+          unknown,{space}<a href="https://fred.stlouisfed.org/graph/?g=LjGf">mv1===mv2==GDP/yr</a>{space}
+          shouldn’t equate, GDP*(M2/currencyComponentOfM1) is
+          11/cash-accounting.
+          <br />
+          <br />
+          Austrian Economists, at least espoused by Rothbard and Mises, think
+          deflation is bad, -<a href="https://vaults.biz/gdp">GDP/p</a>, but microeconomists
+          (Supply and Demand, Pareto) and Marxists think that is tech
+          advancement, deflator of **<a href="https://fred.stlouisfed.org/graph/?g=Llrn">GDP/hour-GDP/p**</a>
+          ** productive-efficiency,
+          “economic welfare,” *****enumerated***.
+          <br />
+          <br />I would describe your view as Mises and Rothbard - I look at the
+          **practical, -applied economics**. You can describe my point of view
+          as *bona fide cash accounting, microeconomic Supply and Demand*, with
+          the view that *dead-weight-box is ****not only**** descriptive of
+          government*, on the economic welfare x-axis, (*that I define as
           <a href="https://fred.stlouisfed.org/graph/?g=Llrn">
             **GDP/hour-GDP/p**
           </a>{" "}
