@@ -683,10 +683,11 @@ export default class App extends React.Component {
             clearTimeout(this.dragEnd);
             this.dragEnd = setTimeout(
               () => {
-                window.removeEventListener(listener, onMouseMove);
-                window.removeEventListener(overMouseDrag, overIt);
                 this.setState({ offScroll: false, noscroll: false }, () => {
                   this.label(topProgress);
+                  window.removeEventListener(onUpEnd, ifEnded);
+                  window.removeEventListener(listener, onMouseMove);
+                  window.removeEventListener(overMouseDrag, overIt);
                 });
               },
               noTime ? 0 : 300
@@ -734,6 +735,46 @@ export default class App extends React.Component {
     if (touch) {
       this.setState({ noscroll: true }, move);
     } else move();
+  };
+
+  touche = (ev, touch, direction) => {
+    if (this.state.offScroll) return null;
+
+    ev.preventDefault();
+    ev.stopPropagation();
+    //console.log("touche");
+    //const listener = touch ? "touchmove" : "mousemove";
+    const overMouseDrag = touch ? "touchenter" : "dragover";
+    const onUpEnd = touch ? "touchend" : "mouseup";
+    const overIt = (event) => event.preventDefault();
+    window.addEventListener(overMouseDrag, overIt);
+    this.saveListeners(overMouseDrag, overIt);
+    const ifEnded = () => 
+    this.setState({ offScroll: false }, () => {
+      clearInterval(this.countmove);
+      //window.removeEventListener(listener, ifEnded);
+      window.removeEventListener(onUpEnd, ifEnded);
+      //window.removeEventListener(listener, onMouseMove);
+      window.removeEventListener(overMouseDrag, overIt);
+    });
+    const onMouseMove = (ev) => {
+      //console.log(window.scrollY + (direction === "up" ? -20 : 20));
+      window.scroll(0, window.scrollY + (direction === "up" ? -20 : 20));
+    };
+    //window.addEventListener(listener, ifEnded, false);
+    window.addEventListener(onUpEnd, ifEnded, false);
+    this.saveListeners(onUpEnd, ifEnded);
+    this.setState({ offScroll: true }, () => {
+      clearInterval(this.countmove);
+      this.countmove = setInterval(
+        onMouseMove,
+
+        100
+      );
+
+      // window.addEventListener(listener, onMouseMove);
+      // this.saveListeners(listener, onMouseMove);
+    });
   };
   label = (topProgress) => {
     /*const inSection = (path) => {
@@ -986,7 +1027,7 @@ export default class App extends React.Component {
             //onTouchEnd={() => this.handleMove(null, true, true)}
             onDragStart={() => false}
             onMouseDown={this.handleMove} //onDrag
-            onTouchStart={(e) => this.handleMove(e, true)}
+            //onTouchStart={(e) => this.handleMove(e, true)}**
             style={{
               right: "10px",
               backgroundColor: "white",
@@ -2863,17 +2904,23 @@ export default class App extends React.Component {
           *Marxists* like *deflation*, **Austrian Economists** call good-will
           **numerable && true** albeit *non-concurrentable*, **albeit never
           actually traded**, $170t:$2t, velocity of CurrencyComponentOfM1 is
-          unknown,{space}<a href="https://fred.stlouisfed.org/graph/?g=LjGf">mv1===mv2==GDP/yr</a>{space}
+          unknown,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">
+            mv1===mv2==GDP/yr
+          </a>
+          {space}
           shouldn’t equate, GDP*(M2/currencyComponentOfM1) is
           11/cash-accounting.
           <br />
           <br />
           Austrian Economists, at least espoused by Rothbard and Mises, think
-          deflation is bad, -<a href="https://vaults.biz/gdp">GDP/p</a>, but microeconomists
-          (Supply and Demand, Pareto) and Marxists think that is tech
-          advancement, deflator of **<a href="https://fred.stlouisfed.org/graph/?g=Llrn">GDP/hour-GDP/p**</a>
-          ** productive-efficiency,
-          “economic welfare,” *****enumerated***.
+          deflation is bad, -<a href="https://vaults.biz/gdp">GDP/p</a>, but
+          microeconomists (Supply and Demand, Pareto) and Marxists think that is
+          tech advancement, deflator of **
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">
+            GDP/hour-GDP/p**
+          </a>
+          ** productive-efficiency, “economic welfare,” *****enumerated***.
           <br />
           <br />I would describe your view as Mises and Rothbard - I look at the
           **practical, -applied economics**. You can describe my point of view
@@ -5627,6 +5674,96 @@ export default class App extends React.Component {
           </div>
         </div>
         <div
+          style={{
+            userSelect: "none",
+            position: "fixed",
+            bottom: "0px",
+            right: 0 /* 600 -( !isNaN(this.state.width)
+              ? Math.min(600, this.state.width)
+              : 0),*/,
+            backgroundColor: "rgba(240,240,240,.6)",
+            //padding: "6px 10px",
+            borderTopLeftRadius: "25px",
+            borderTop: "2px solid rgba(100,200,250,.6)",
+            borderLeft: "2px solid rgba(200,100,250,.6)"
+          }}
+        >
+          <div
+            onMouseEnter={() =>
+              this.setState({ hoverUpPager: true }, () => {
+                clearTimeout(this.upPager);
+                this.upPager = setTimeout(
+                  () => this.setState({ hoverUpPager: false }),
+                  300
+                );
+              })
+            }
+            draggable={true}
+            onDragStart={() => false}
+            onMouseDown={(e) => this.touche(e, null, "up")} //onDrag
+            onTouchStart={(e) => this.touche(e, true, "up")}
+            /*onMouseUp={() =>
+              this.state.scrollTop !== 0 && window.scroll(0, window.scrollY - 2)
+            }*/
+            style={{
+              cursor: "n-resize",
+              backgroundColor: this.state.hoverUpPager
+                ? "rgba(240,240,240,1)"
+                : "",
+              userSelect: "none",
+              WebkitTextStroke: "2px rgb(100,200,140)",
+              fontSize: "26px",
+              fontWeight: "bold",
+              color: "black",
+              padding: "6px 10px",
+              borderTopLeftRadius: "25px"
+            }}
+          >
+            ^
+          </div>
+          <div
+            onMouseEnter={() =>
+              this.setState({ hoverDwnPager: true }, () => {
+                clearTimeout(this.dwnPager);
+                this.dwnPager = setTimeout(() => {
+                  this.setState({ hoverDwnPager: false });
+                }, 300);
+              })
+            }
+            draggable={true}
+            onDragStart={() => false}
+            onMouseDown={(e) => this.touche(e, null, "down")} //onDrag
+            onTouchStart={(e) => this.touche(e, true, "down")}
+            /*onClick={() =>
+              this.state.scrollTop !== window.scrollY &&
+              window.scroll(0, window.scrollY + 2)
+            }*/
+            style={{
+              cursor: "s-resize",
+              backgroundColor: this.state.hoverDwnPager
+                ? "rgba(240,240,240,1)"
+                : "",
+              transform: "rotate(180deg)",
+              userSelect: "none",
+              WebkitTextStroke: "2px rgb(100,200,140)",
+              fontSize: "26px",
+              fontWeight: "bold",
+              color: "black",
+              padding: "6px 10px"
+              //borderTopLeftRadius: "25px",
+            }}
+          >
+            ^
+          </div>
+        </div>
+        <hr ref={this.bottom} />
+      </div>
+    );
+  }
+}
+
+/**
+ * <div
           onClick={
             () =>
               this.state.scrollTop !== 0 && !this.state.footer
@@ -5637,11 +5774,6 @@ export default class App extends React.Component {
                 ? this.setState({ footer: false })
                 : window.scrollBy(0, this.bottom.current.offsetTop) //this.state.pageYOffset)
 
-            /*({
-              top: 0,
-              left: 0,
-              behavior: "smooth"
-            })*/
           }
           style={{
             userSelect: "none",
@@ -5659,9 +5791,6 @@ export default class App extends React.Component {
             color: "black",
             position: "fixed",
             bottom: "0px",
-            right: 0 /* 600 -( !isNaN(this.state.width)
-              ? Math.min(600, this.state.width)
-              : 0),*/,
             padding: "6px 10px",
             backgroundColor: "rgba(240,240,240,.6)",
             borderTopLeftRadius: "25px",
@@ -5671,8 +5800,4 @@ export default class App extends React.Component {
         >
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
-        <hr ref={this.bottom} />
-      </div>
-    );
-  }
-}
+ */
