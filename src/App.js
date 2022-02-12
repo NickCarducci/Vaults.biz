@@ -1219,7 +1219,35 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          reciprocation, not escalation, is fair enough
+          "Historic levels of sanctions, unite with NATO countries with a real
+          stand for consequences and make a lot of good reasons for Putin to not
+          take those steps and reach of his Authoritarian regime. We are doing
+          everything we can to avoid this amount of consternation and bloodshed.
+          Blueberries, cranberries, eggplants We subsidized the Twinkie, not the
+          apple, 20% are subsidized, have has diabetes or pre-diabetes, produce
+          going out of biz 3x suicide, consolidate in almost a monopolistic
+          fashion, and raising livestock like a moral incursion, antibiotic
+          strains are injected before sick and 10ks Americans die because of
+          those biotic mutations and darwinian evolution. Faster in multifamily
+          or where children live with local leaders in Newark. I have a great
+          job and I am so happy NJ voters have allows me to do it."
+          <h2>reciprocation - not escalation, is fair enough</h2>
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/mj7kr1fzorkc8db/Screen%20Shot%202022-02-12%20at%204.42.03%20PM.png?dl=0"
+            }
+            float="left"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           <h2>
             "You are ruining a book I want to write, open now on our first
             show,” the{space}
