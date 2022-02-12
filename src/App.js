@@ -1211,7 +1211,10 @@ export default class App extends React.Component {
           {space}is the only thing they can do. You need interest rates to be
           higher than commodities." John Cockrin, Grump Economist, Hoover Inst.
           "If you borrow, you weaken the principal you owe, to overcome the harm
-          done." I don't see it. 1/12 industry-type max-royalty is fine.
+          done." I don't see it. 1/12 industry-type max-royalty is fine. "I
+          think we all want a low Black unemployment rate," I want people to
+          retire, not busy-work. That is the point of microeconomic Supply and
+          Demand: tech advancement...
           <br />
           <br />
           “Four states have publicly credited ID.me with stopping $210 billion
@@ -5212,8 +5215,8 @@ export default class App extends React.Component {
             width: this.state.footer
               ? "min-content"
               : this.state.height < 700
-              ? "56px"
-              : "56px", //,"calc(100% - 6px)",
+              ? "48px"
+              : "48px", //,"calc(100% - 6px)",
             //height:this.state.width<400?"50px":"0px",
             transition: ".3s ease-in",
             border: "3px solid",
@@ -5929,3 +5932,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
