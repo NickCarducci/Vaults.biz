@@ -1197,7 +1197,9 @@ export default class App extends React.Component {
           virion, now because of the vaccines!
           <br />
           <br />I would not allow{space}
-          <a href="https://thumbprint.us/payments">terrorists (blocking trade)</a>
+          <a href="https://thumbprint.us/payments">
+            terrorists (blocking trade)
+          </a>
           {space}to raise funds, as I do not accept credit. I would not
           prosecute them with such a{space}
           <a href="https://vaults.biz/govtech">
@@ -5692,15 +5694,17 @@ export default class App extends React.Component {
           }}
         >
           <div
-            onMouseEnter={() =>
+            onMouseEnter={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
               this.setState({ hoverUpPager: true }, () => {
                 clearTimeout(this.upPager);
                 this.upPager = setTimeout(
                   () => this.setState({ hoverUpPager: false }),
                   300
                 );
-              })
-            }
+              });
+            }}
             draggable={true}
             onDragStart={() => false}
             onMouseDown={(e) => this.touche(e, null, "up")} //onDrag
@@ -5725,14 +5729,16 @@ export default class App extends React.Component {
             ^
           </div>
           <div
-            onMouseEnter={() =>
+            onMouseEnter={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
               this.setState({ hoverDwnPager: true }, () => {
                 clearTimeout(this.dwnPager);
                 this.dwnPager = setTimeout(() => {
                   this.setState({ hoverDwnPager: false });
                 }, 300);
-              })
-            }
+              });
+            }}
             draggable={true}
             onDragStart={() => false}
             onMouseDown={(e) => this.touche(e, null, "down")} //onDrag
