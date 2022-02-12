@@ -4193,6 +4193,11 @@ export default class App extends React.Component {
             }}
             ref={this.education}
           >
+            Is employment rising because of education, or because employment in
+            policy- and deregulation-based education receipts? Class size has
+            remained the same.
+            <br />
+            <br />
             Anything washes bond good will, even teachers. They say employment
             haha same per capita rise as education but not emp-rate/edu-rate
             (second derivative, useful when the factors are endogenous of one
