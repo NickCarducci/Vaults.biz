@@ -1211,15 +1211,30 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          the etymologist of baby boomers predicted Covid<br/>
+          Bob Payne: "Ensure you contribute to trust-building, to keep your
+          child competitive with those that you invest in." 'Inflation' adjusted
+          assets is not zero.
+          <br />
+          You need to be out of your mind to trust{space}
+          <a href="https://vaults.biz/trading">people on wall st</a>, or you
+          aren't aware that your portfolio isn't anonymous and only aggregate,
+          not by uuid.
+          <br />
+          An investment in knowledge, pays the best interest.” Not{space}
+          <a href="https://vaults.biz/education">Expected Sum</a>.
+          <br />
+          <br />
+          The etymologist of baby boomers predicted Covid
+          <br />
           curencyComponentOfM1 Is checking, and that has hardly risen, so
           whenever supply don’t equate demand, that is when price and quality
           controls work, like false bid pool loss, 19% disabled population just
           being old.
-          <br/>Donee surrendered freedom savers’ land exploration rights
-          attenuate by 1/12 industry-type max-royalty after (cash/debt)*income
-          every year back so we all paid what we would have without debt as it
-          would be impossibly take 44 years using current income on debt if made
+          <br />
+          Donee surrendered freedom savers’ land exploration rights attenuate by
+          1/12 industry-type max-royalty after (cash/debt)*income every year
+          back so we all paid what we would have without debt as it would be
+          impossibly take 44 years using current income on debt if made
           general-income payday, and truncated production tax with your pay tech
           reporting a monthly geohash in transaction lines, that you can spoof
           to protest for something in your precinct. PPP gave money to all these
