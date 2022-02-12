@@ -1227,6 +1227,11 @@ export default class App extends React.Component {
           campaign.” - Anthony Weiner. "I wanted people to say nice things, so I
           did the crazy things - the Weinerbot 2000: I have a problem in front
           of me, and figure out how to solve it." Now that is crazy.
+          "Politicians want stuff done,{space}
+          <a href="https://youtu.be/kDq6_dAZsBo">reasonable schools</a>, no
+          tree-job too small." Why do you need to tax and share-split Savers?
+          That is not reasonable because it is free rider mutable, so it is
+          elastic.
           <h3>
             “We think Powell can fix the business cycle, we need a humble
             economics.” - David Bahnsen.
@@ -6161,4 +6166,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
