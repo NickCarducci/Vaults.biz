@@ -1211,9 +1211,20 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          PPP gave money to all these businesses, a loan program, 100%
-          fraudulent, nobody cares, ho hum, the '
-          <a href="https://qr.ae/pGj59F">cost of doing business</a>.' All these
+          the etymologist of baby boomers predicted Covid<br/>
+          curencyComponentOfM1 Is checking, and that has hardly risen, so
+          whenever supply don’t equate demand, that is when price and quality
+          controls work, like false bid pool loss, 19% disabled population just
+          being old.
+          <br/>Donee surrendered freedom savers’ land exploration rights
+          attenuate by 1/12 industry-type max-royalty after (cash/debt)*income
+          every year back so we all paid what we would have without debt as it
+          would be impossibly take 44 years using current income on debt if made
+          general-income payday, and truncated production tax with your pay tech
+          reporting a monthly geohash in transaction lines, that you can spoof
+          to protest for something in your precinct. PPP gave money to all these
+          businesses, a loan program, 100% fraudulent, nobody cares, ho hum, the
+          '<a href="https://qr.ae/pGj59F">cost of doing business</a>.' All these
           vital programs:
           <br />
           DO NOT MAKE MY MOTHER PAYEE
