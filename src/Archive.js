@@ -2692,7 +2692,11 @@ class Archive extends React.Component {
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
           scrollTop={this.props.scrollTop}
         />
-        Illegal crime -{space}<a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">213k</a>/9m, .2367%
+        Illegal crime -{space}
+        <a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">
+          213k
+        </a>
+        /9m, .2367%
         <br />
         Legal crime - 539.5k/40m, 1.3489%
         <br />
@@ -6152,6 +6156,11 @@ class Archive extends React.Component {
         they call contributions to science, being in your own productive-ward
         copy, and chores, or any welfare-innumerable, as leisure.
         <hr ref={this.props.newecon} />
+        GDP/hour-GDP/p still captures that of which is not captured (leisure:
+        chorers, scientific contributions, your own copyright; userers:
+        insurers, landlords, lenders) - unprinted, certified crazy advanced
+        econ, enumerated "economic welfare," Supply and Demand, microeconomics.
+        <br />
         <a href="https://vaults.biz/juris">target</a>
         {space}margin operations,{space}
         <a href="https://magnate.company">breakloose</a>
@@ -7823,4 +7832,3 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
-
