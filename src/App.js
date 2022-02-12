@@ -1203,6 +1203,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          mb=pq or y is real GDP that discounts material+rent, not labor, hours, nor homes/IP!<br/><br/>
           ChooseVa.gov commercial on 77WABC: "we gentrify home contracting."
           <br />
           Price controls only work if coming off an operational monopoly where
