@@ -1219,6 +1219,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          a doubtless conviction is not from reasonable doubt, that just acquits defense: reasoned doubt cannot convict, only acquit.<br/><br/>
           "Assess emotions and danger to society, temp prison, NY is only state
           that doesn't allow this jurisdiction save prudence."
           <br />
