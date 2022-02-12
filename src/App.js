@@ -114,6 +114,7 @@ export default class App extends React.Component {
     this.jews = React.createRef();
     this.inflation = React.createRef();
     //this.warfare = React.createRef();
+    this.leisure = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -381,6 +382,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.jews.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/leisure") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.leisure.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/drugs") {
           this.setState(
@@ -825,6 +831,8 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
+      } else if (construct(true, this.leisure.current) < tryy) {
+        inSection("leisure");
       } else if (construct(true, this.menger.current) < tryy) {
         inSection("menger");
       } else if (construct(true, this.inflation.current) < tryy) {
@@ -1203,6 +1211,55 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <hr ref={this.leisure} />
+          'Unemployment' (people looking for work, not choring, copyrighting,
+          nor leisure) is caused by the discretion to NOT HIRE. We must starve
+          producers of profits by withholding outlays to labor, flaccid
+          corporate , false bid pool loss
+          <br />
+          <br />
+          "What are the advantages of monetary policies, and what are some
+          examples?"
+          <br />
+          Nick Carducci - BA Political Science & Economics, Johns Hopkins
+          University (2015)
+          <br />
+          Vault-share or transaction-fee-based-sdr (security depositary receipt
+          or special-drawing-rights) is the most secure. No false bid pool loss.
+          <br />
+          <br />
+          Saver land rights (20% of U.S. is dissolved)? (cash/debt)*income every
+          year back, 44 years to payday current debt on income (impossibly).
+          Canceling or writing down allows the producer to keep the contractor
+          donee beneficiary invocations.
+          <br />
+          <br />
+          Qualitative easing is buying whatever, not ‘new’ issues, but long term
+          bonds, required, to make the other investable disposable wealth into
+          all{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">
+            2/3 private debt level
+          </a>
+          , at a target interest rate.
+          <br />
+          <br />
+          <a href="https://fred.stlouisfed.org/graph/?g=LZrq">
+            Federal Reserve
+          </a>
+          {space}($b) balance,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LOyP">
+            debt to checking
+          </a>
+          .
+          <br />
+          <br />“<a href="https://qr.ae/pGEZyS">Unemployment</a>
+          {space}compensation may be gone, but we are still{space}
+          <a href="https://qr.ae/pGEZyS">paying people not to work</a>. People
+          who work are healthier, more financially secure,” homes are actually
+          worth 1/44 what they are now, so Savers are better financially, in my
+          book.
+          <br />
+          <br />
           The Man's Neighbor - "So another words were fukked ?"
           <br />
           Nick Carducci - (cash/debt)*income every year out, equal in receipt
@@ -4612,7 +4669,7 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           (20% of U.S. is Savers' land and resources) green climate slush fund"
-          science is a liesure activity to the economic science, like Frank
+          science is a leisure activity to the economic science, like Frank
           Morano.
           <h1>
             third party donee invoking duress loitering and borrower implausibly
@@ -4768,7 +4825,7 @@ export default class App extends React.Component {
           take advantage of that hazard with false bid pool loss claims, a
           pyramid scheme ('name-your-price-tool').
           <h1>
-            the point of tech advancement is unemployment, liesure, choring
+            the point of tech advancement is unemployment, leisure, choring
             copyrighting and contributions, retard
           </h1>
           Mr. Soto, FL: "
@@ -5491,6 +5548,14 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("leisure") }}
+              href={`${window.location.origin}/leisure`}
+            >
+              leisure
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("china") }}
               href={`${window.location.origin}/china`}
             >
@@ -5986,4 +6051,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
