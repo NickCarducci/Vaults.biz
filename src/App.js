@@ -3890,9 +3890,10 @@ export default class App extends React.Component {
             rental-income use cap by units or days
           </h2>
           “I have a lot of experience in assessing peoples competency['volatile
-          emotional state,' 'inappropriate comments'] for Capitis Diminutio,
-          because I have looked at parents to see if they were of sound mind
-          when creating a will, for instance.”
+          emotional state,' 'inappropriate comments,' 'cannot juggle a lot of
+          thoughts at the same time'] for Capitis Diminutio, because I have
+          looked at parents to see if they were of sound mind when creating a
+          will, for instance.”
           <h3 ref={this.insurance}>
             unknown{space}
             <a href="https://www.krasnolaw.com/articles/workers-compensation-arthritis-and-degenerative-disc-disease">
