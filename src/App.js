@@ -1210,6 +1210,8 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGj5N4">Raising ingerest rates</a>
           {space}is the only thing they can do. You need interest rates to be
           higher than commodities." John Cockrin, Grump Economist, Hoover Inst.
+          "If you borrow, you weaken the principal you owe, to overcome the harm
+          done." I don't see it. 1/12 industry-type max-royalty is fine.
           <br />
           <br />
           “Four states have publicly credited ID.me with stopping $210 billion
