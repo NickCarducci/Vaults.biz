@@ -1219,6 +1219,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h3>
+          “We think Powell can fix the business cycle, we need a humble economics.” - David Bahnsen.</h3>
           I’m the only one who have enumerated acting rationally, GDP/hour-GDP/p
           <br />
           <br />
