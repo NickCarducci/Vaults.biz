@@ -5863,6 +5863,14 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("accounting") }}
+              href={`${window.location.origin}/accounting`}
+            >
+              accounting
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("party") }}
               href={`${window.location.origin}/party`}
             >
