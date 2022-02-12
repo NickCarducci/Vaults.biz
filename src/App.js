@@ -113,6 +113,7 @@ export default class App extends React.Component {
     this.drugs = React.createRef();
     this.jews = React.createRef();
     this.inflation = React.createRef();
+    this.accounting = React.createRef();
     //this.warfare = React.createRef();
     this.leisure = React.createRef();
     const entries = new Map([
@@ -397,6 +398,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.rights.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/accounting") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.accounting.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/psych") {
           this.setState(
@@ -831,6 +837,8 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
+      } else if (construct(true, this.accounting.current) < tryy) {
+        inSection("accounting");
       } else if (construct(true, this.leisure.current) < tryy) {
         inSection("leisure");
       } else if (construct(true, this.menger.current) < tryy) {
@@ -1220,8 +1228,14 @@ export default class App extends React.Component {
           aren't aware that your portfolio isn't anonymous and only aggregate,
           not by uuid.
           <br />
+          <hr ref={this.accounting} />
           An investment in knowledge, pays the best interest.” Not{space}
-          <a href="https://vaults.biz/education">Expected Sum</a>.
+          <a href="https://vaults.biz/education">Expected Sum</a>. if you
+          consider that debts are used to pay for tuition, of the material+rent
+          inflation basket, excluding assets, profits, and labor. 1/12
+          industry-type max-royalty, borrower defense (force majeure implausible
+          deniable intent repo par-timeLeft good-will, not cash, liabilities are
+          true and nominal, but collateralized; assets are good-will accrual).
           <br />
           <br />
           The etymologist of baby boomers predicted Covid
