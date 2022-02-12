@@ -1219,8 +1219,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h1>Anthony Weiner, Democrat Party Spokesperson:
-          "Jobs and stock market ask gud."</h1>
+          What’sup guys inflation is because of the covid crisis jamming up from
+          pandemic, container thru the Panama Canal, the marketplace says this
+          is bureaucracy, Trumpo for no USPTO gain, just rent seeking and
+          racism, scapegoating punishment outside the ‘crime’ GDP/p 1800-1913
+          inflation, $2t currency, we work twice as much per capita, and
+          significance from mean cannot be assumed by a sample of less than 100.
+          <h1>
+            Anthony Weiner, Democrat Party Spokesperson: "Jobs and stock market
+            ask gud."
+          </h1>
           knowingly-, non-biomedically-diminished
           <h2>Moving on nonsense. The bigger picture.</h2>
           "Traumatized, demons, forever," it is a known hazard.
@@ -1239,7 +1247,7 @@ export default class App extends React.Component {
           or family as a part of his job. How he is supporting himself - we need
           to ensure he is working for the free rider immutable sewage police
           lawsuit service, not conflict of interest bond loss profit. For
-          GDP/hour-GDP/p, not your reality, OUR rent-soaken-science." 
+          GDP/hour-GDP/p, not your reality, OUR rent-soaken-science."
           <h3>
             “We think Powell can fix the business cycle, we need a humble
             economics.” - David Bahnsen.
