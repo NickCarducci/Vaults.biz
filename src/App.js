@@ -1219,6 +1219,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Traumatized, demons, forever," it is a known hazard.<br/>
           I said I couldn't concentrate to bag Ritalin 8hr ONE TIME.<br/>
           “I was going crazy, I was going through some stuff, harming my own campaign.” - Anthony Weiner.
           <h3>
