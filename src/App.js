@@ -3208,6 +3208,13 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          Significance from mean abount n{"<"}100 random lest 1/100 shuffled if
+          known shan’t **declude** mean nor median of order and matter (
+          <a href="https://qr.ae/pGjUQY">spherical diameter</a>) of significance
+          from mean is assuming 100 years. Only then can significance from mean
+          be correlated, authoritatively.
+          <br />
+          <br />
           expected value or consecutive probability? depends on if you count
           order as unique or doesn't matter.
           <br />
