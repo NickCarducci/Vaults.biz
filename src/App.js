@@ -1219,7 +1219,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "
+          Judges determine conviction, not danger.
+          <br />
+          <br />"
           <a href="https://humanharvest.info/polio">
             Natural immunity is broad, robust
           </a>
@@ -6297,3 +6299,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
