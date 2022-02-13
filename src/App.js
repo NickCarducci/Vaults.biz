@@ -114,7 +114,7 @@ export default class App extends React.Component {
     this.jews = React.createRef();
     this.inflation = React.createRef();
     this.accounting = React.createRef();
-    this.poverty = React.createRef()
+    this.poverty = React.createRef();
     //this.warfare = React.createRef();
     this.leisure = React.createRef();
     const entries = new Map([
@@ -425,7 +425,7 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.poverty.current.offsetTop) //offsetTop
           );
-        }else if (this.props.pathname === "/randpaul") {
+        } else if (this.props.pathname === "/randpaul") {
           this.setState(
             { planner: true },
             () => pager(true, this.randpaul.current.offsetTop) //offsetTop
@@ -845,7 +845,7 @@ export default class App extends React.Component {
         inSection("jews");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
-      }else if (construct(true, this.accounting.current) < tryy) {
+      } else if (construct(true, this.accounting.current) < tryy) {
         inSection("accounting");
       } else if (construct(true, this.leisure.current) < tryy) {
         inSection("leisure");
@@ -1227,8 +1227,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <hr ref={this.poverty}/>
-          fight poverty = inequality<br/>
+          "We would never have to revisit the issue if we tied{space}
+          <a href="https://vaults.biz/inflation">minimum wage</a>
+          {space}to inflation as we do to COLA Social Security, 19% are
+          disabled, aren't they just old???"
+          <br />
+          Minimum wage just causes market concentration.
+          <br />
+          Social security is{space}
+          <a href="https://www.ssa.gov/OACT/TRSUM/2020/tr20summary.pdf#page=17">
+            44% general revenue
+          </a>
+          {space}
+          or stock sales, that which has driven the bull market over currency
+          since 1937; abject market concentration.
+          <hr ref={this.poverty} />
+          fight poverty = inequality
+          <br />
           Judges determine conviction, not danger.
           <br />
           <br />"<a href="https://humanharvest.info/polio">Natural immunity</a>
