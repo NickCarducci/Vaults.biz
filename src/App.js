@@ -1235,7 +1235,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          perversion of order as matter, anything washes, "item-issues," free by
+          {space}
+          <a href="https://vaults.biz/statistic">section</a>
           <h1>destroy the institutions</h1>
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">
+            GDP/yr=mv1==mv2
+          </a>
+          {space}is fraudulent;{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LZrq">fed balance</a>
+          ($b);
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">GDP/hour-GDP/p</a>
+          {space}economic welfare productive efficiency, -
+          <a href="https://vaults.biz/gdp">GDP/p</a>
+          {space}tech advancement, GDP/hour, “productivity” deflated;
+          poverty=((material+rent)/income)=equality.
+          <br />
+          <br />
           Capitalists view poverty as inequality, when it is actually equality,
           material over income, made such a way when material doesn’t include
           rent to corner the market by assets/equity/productivity-ward. Marxists
