@@ -1241,6 +1241,22 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+           <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/lzfxqgxwe4xyfbh/Screen%20Shot%202022-02-13%20at%201.44.48%20PM.png?dl=0"
+            }
+            float="left"
+            title="google mention word, 'kike' 1868 for Jewish person."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           production insurance false bid pool loss of known hazard? cindy adams you kike<br/><br/>
           Multifaith Alliance for Syrian Refugees
           <br />
