@@ -1227,6 +1227,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          People who go to the gas station, how about{space}
+          <a href="https://vaults.biz/inflation">kids whom chore</a>? It is who
+          whom isn't.
+          <br />
+          <br />
           "We would never have to revisit the issue if we tied{space}
           <a href="https://vaults.biz/inflation">minimum wage</a>
           {space}to inflation as we do to COLA Social Security, 19% are
