@@ -53,7 +53,7 @@ class Arcs extends React.Component {
             : "17px"
         }}
       >
-        <hr ref={this.props.woke}/>
+        <hr ref={this.props.woke} />
         "wealthy must pay taxes to benefit those more vulnerable in society."
         Mark Dolan, tax from outside the market, or
         bond-tax/large-item-sales/estate-tax is{space}
@@ -268,6 +268,41 @@ class Arcs extends React.Component {
         <br />
         <br />
         <hr ref={this.props.marx} />
+        <Cable
+          style={{
+            height: "380px"
+          }}
+          onError={handleScollImgError}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.dropbox.com/s/airyagbikqd2czg/Screen%20Shot%202022-02-13%20at%209.09.53%20AM.png?dl=0"
+          }
+          float="left"
+          title="Ryan Zinke says Maos' red book against landlords caused expected excess deaths of 15m with life exp 35 already"
+          scrolling={this.props.scrolling}
+          fwd={this.props["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
+        "If you question the science, you are{space}
+        <a href="https://vaults.biz/juris">harassed</a>, like Maos’ little red
+        book."
+        <br />
+        <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+          <a href="https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm">
+            Vulgar socialism
+          </a>
+          and from it in turn a section of the democrats) has taken over from
+          the bourgeois economists the consideration and treatment of
+          distribution as independent of the mode of production and hence the
+          presentation of socialism as turning principally on distribution.
+          After the real relation has long been made clear, why{space}
+          <a href="https://vaults.biz/inflation">retrogress</a>
+          {space}
+          again?
+        </div>
+        28 years earlier:
         <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
           *Communism* deprives no man of the power to appropriate the products
           of society; all that it does is to deprive him of the power to
