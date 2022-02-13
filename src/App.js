@@ -117,7 +117,7 @@ export default class App extends React.Component {
     this.poverty = React.createRef();
     //this.warfare = React.createRef();
     this.leisure = React.createRef();
-    this.russia=React.createRef()
+    this.russia = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -510,7 +510,7 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.russia.current.offsetTop) //content,comms
           );
-        }else if (this.props.pathname === "/con") {
+        } else if (this.props.pathname === "/con") {
           this.setState(
             { planner: true },
             () => pager(true, this.con.current.offsetTop) //content,comms
@@ -849,7 +849,7 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.russia.current) < tryy) {
         inSection("russia");
-      } else   if (construct(true, this.jews.current) < tryy) {
+      } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
@@ -1235,6 +1235,35 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>destroy the institutions</h1>
+          Capitalists view poverty as inequality, when it is actually equality,
+          material over income, made such a way when material doesn’t include
+          rent to corner the market by assets/equity/productivity-ward. Marxists
+          view this as{space}
+          <a href="https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm">
+            absurd
+          </a>
+          :
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            Vulgar socialism (and from it in turn a section of the democrats)
+            has taken over from the bourgeois economists the consideration and
+            treatment of distribution as independent of the mode of production
+            and hence the presentation of socialism as turning principally on
+            distribution. After the real relation has long been made clear, why
+            retrogress again?
+          </div>
+          28 years{space}
+          <a href="https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch02.htm#:~:text=From%20the%20moment%20when%20labour%20can%20no%20longer%20be%20converted%20into%20capital">
+            prior
+          </a>
+          :
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            Communism deprives no man of the power to appropriate the products
+            of society; all that it does is to deprive him of the power to
+            subjugate the labour of others by means of such appropriations.
+          </div>
+          <br />
+          <br />
           Cross referenced means you can reverse the phenomena, replicated
           necessarily, too.
           <br />
@@ -6440,3 +6469,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
