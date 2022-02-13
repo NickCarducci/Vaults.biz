@@ -1261,7 +1261,9 @@ export default class App extends React.Component {
           <a href="https://vaults.biz/insurance">false bid pool loss</a>
           {space}of{space}
           <a href="https://vaults.biz/juris">known</a>
-          {space}hazard? cindy adams you kike
+          {space}hazard? cindy adams you kike. - "'next block, and if you make
+          it, you are there;'" good will assets numbers like liability when
+          foreclosed.
           <br />
           <br />
           Multifaith Alliance for Syrian Refugees
@@ -1293,9 +1295,7 @@ export default class App extends React.Component {
             51% protesting does something
           </a>
           , ...a bit like the Brexit vote.”
-          <br />
-          borrowers loiter, cancellers keep
-          <br />
+          <h2>borrowers loiter, cancellers keep</h2>
           Obamacare
           <br />
           Problems wouldn’t exist without a solution
