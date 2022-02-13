@@ -370,6 +370,24 @@ export default class MoldMask extends React.Component {
           >
             back to vaults.biz{lastPath}
           </div>
+          The common cold project (dirty, jk, hotel rooms) counts onset virion
+          presentation of sickness, but cause may be of placebo discussed to be
+          of 20%, onset, or warning mechanism; still presents the case of
+          non-all-incidence artifact of sickness.
+          <br />
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            <a href="https://www.cmu.edu/common-cold-project/">
+              https://www.cmu.edu/common-cold-project/
+            </a>
+          </div>
+          In the Kulak ‘crisis,’ average death age existed, pop growth lifetime
+          length prior 1931-32 matches ‘excess’ deaths, year to year… without
+          discount as to basis, why. 1951–53 excess matches lifetime population
+          of today’s multiple sclerosis (all-type) 2.5m population. The Great
+          Leap Forward 1958–62 collecting grain tax for ghost cities, ‘killing’
+          landlords instead of capping by unit; and the Great Terror 1m+, 1938.
+          <br />
+          <br />
           <Cable
             style={{ width: "300px", height: "230px" }}
             onError={handleScollImgError}
