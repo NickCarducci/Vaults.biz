@@ -2911,6 +2911,10 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          expected value or consecutive probability? depends on if you count
+          order as unique or doesn't matter.
+          <br />
+          <br />
           Not bivariate, but problem-solution:
           <br />
           N is not a prospective, it is an indication (and used to deflate
