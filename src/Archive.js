@@ -7062,6 +7062,8 @@ class Archive extends React.Component {
           otherwise you would have to start with equal distribution/per
           capita/average
         </h2>
+
+        "50m owns Bitcoin, 250m wallets."
         <h3>"London School Econ and MIT: '.01% 27% of bitcoin,'" Ari Juels.</h3>
         U.S. Energy and Commerce, 'The Energy Impacts of Blockchains:' "There is
         infinite of capital being invested in green RPS, billions in U.S.
@@ -7846,4 +7848,3 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
-
