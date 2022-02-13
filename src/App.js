@@ -1235,6 +1235,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Ask the right, what{space}
+          <a href="https://constitutioncenter.org/interactive-constitution/article/article-iv#article-section-4">
+            they
+          </a>
+          {space}think about{space}
+          <a href="https://qr.ae/pGjOL1">domestic Violence</a>
           <h2>
             inherited wealth by actual work after (cash/debt)*income every year
             back is pro-labor-equity, etymologically
