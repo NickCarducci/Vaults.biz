@@ -1266,7 +1266,7 @@ export default class App extends React.Component {
           <br />
           Support and role model for afro boys, leading to poverty and equality,
           no role model for afro boys, and poverty. Dems are raising afro me ccc
-          bbb ppp trust
+          bbb ppp trust - “Obviously, it is against the law to break the law.”
           <br />
           <br />
           <a href="https://humanharvest.info/polio">
