@@ -1701,16 +1701,6 @@ export default class App extends React.Component {
           First Dr. Mccullough said mortality is increasing because of the
           virion, now because of the vaccines!
           <br />
-          <br />I would not allow{space}
-          <a href="https://thumbprint.us/payments">
-            terrorists (blocking trade)
-          </a>
-          {space}to raise funds, as I do not accept credit. I would not
-          prosecute them with such a{space}
-          <a href="https://vaults.biz/govtech">
-            tortious appealable judicial greivance
-          </a>
-          .<br />
           <h1 ref={this.jews}>“Radical left perverts.”</h1>
           do battle with academics, as the stormclouds of war form ourside out
           border, and canadian and U.S. trucker fines, illegal aliens aren't the
@@ -1760,6 +1750,17 @@ export default class App extends React.Component {
           virion infection, and Hadley Cells handle fulcrum heat/(density) of
           bacteria riding spittle in a{space}
           <a href="https://vaults.biz/moldmask">matter of seconds</a>.
+          <br />
+          <br />I would not allow{space}
+          <a href="https://thumbprint.us/payments">
+            terrorists (blocking trade)
+          </a>
+          {space}to raise funds, as I do not accept credit. I would not
+          prosecute them with such a{space}
+          <a href="https://vaults.biz/govtech">
+            tortious appealable judicial greivance
+          </a>
+          .<br />
           <h2 ref={this.juris}>
             <a href="https://saverparty.xyz/jesus">
               He’s come to take the Sins from the world, have mercy on us, bra
