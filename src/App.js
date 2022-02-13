@@ -1285,6 +1285,11 @@ export default class App extends React.Component {
           poverty=((material+rent)/income)=equality.
           <br />
           <br />
+          "Can capitalism help workers to live better?"
+          <br />
+          Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+          University (Graduated 2015)
+          <br />
           Capitalists view poverty as inequality, when it is actually equality,
           material over income, made such a way when material doesn’t include
           rent to corner the market by assets/equity/productivity-ward. Marxists
