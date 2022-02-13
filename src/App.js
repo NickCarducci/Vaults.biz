@@ -5819,10 +5819,11 @@ export default class App extends React.Component {
               height: this.state.footer ? "" : "0px"
             }}
           >
-            truncated production tax purple carpet false bid pool insualted
-            loss-vice
-            <br />
-            Immunity is proven to not be correlated with per capita sickness, so
+            equal in receipt and scope truncated production tax{space}
+            <span style={{ textDecoration: "line-through" }}>
+              purple carpet
+            </span>
+            {space}false bid pool insulated loss (vice, not donee bene deeds) ok
           </div>
           <div
             style={{
@@ -5831,6 +5832,12 @@ export default class App extends React.Component {
               height: this.state.footer ? "" : "0px"
             }}
           >
+            <a href="https://qr.ae/pGjwup" style={{ color: "black" }}>
+              If covid is asymptomatic does that mean it is uncorrelated
+            </a>
+            ?
+            <br />
+            Immunity is proven to not be correlated with per capita sickness, so
             <a style={{ color: "black" }} href="https://paydayt.com">
               take care of eachother
             </a>
