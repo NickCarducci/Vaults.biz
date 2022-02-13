@@ -1227,6 +1227,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Too much money chasing too few goods," you are discussing m2, not
+          money.
+          <br />
+          <br />
+          The root cause is not share split nor accrual, it is the way and above
+          fair value because of implausible deniablly impossible false bid pool
+          loss.
+          <br />
+          <br />
           People who go to the gas station, how about{space}
           <a href="https://vaults.biz/inflation">kids whom chore</a>? It is who
           whom isn't.
