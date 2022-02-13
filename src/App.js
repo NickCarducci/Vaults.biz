@@ -1235,6 +1235,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          19% population disabled, or just ugly?<br/>
           borrowers loiter, cancellers keep<br/>
           Obamacare
           <br />
