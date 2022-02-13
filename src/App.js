@@ -1235,12 +1235,34 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            inherited wealth by actual work after (cash/debt)*income every year
+            back is pro-labor-equity, etymologically
+          </h2>
+          "Is it possible to have negative inflation for this year in the US?"
+          <br />
+          Yes, especially if **(cash/debt)*income every year back** is taken up
+          prior to my Truncated Production Tax 2025 run. Inflation wouldn’t
+          *require a market crash* so much as banning{space}
+          <a href="https://vaults.biz/gdp">userers</a>
+          : insurers, landlords and lenders.
+          <br />
+          1/12 industry-type max-royalty, equal in receipt and scope truncated
+          production tax geohash/month from your paytech of choice with ability
+          to spoof for something in your precinct sewage police lawsuits,
+          transaction-fee-based-sdr, Savers’ land-exploration rights (20% of
+          U.S.).
+          <br />
+          <br />
           "providing healthcare," is market concentration, gentrification and
-          rent seeking: Social security is 44% general revenue
-          (https://www.ssa.gov/OACT/TRSUM/2020/tr20summary.pdf#page=17) or stock
-          sales, that which has driven the bull market over currency since 1937;
-          abject market concentration. take the word populist and marx out of
-          your chode-hole.
+          rent seeking: Social security is{space}
+          <a href="https://www.ssa.gov/OACT/TRSUM/2020/tr20summary.pdf#page=17">
+            44% general revenue
+          </a>
+          {space}
+          or stock sales, that which has driven the bull market over currency
+          since 1937; abject market concentration. take the word populist and
+          marx out of your chode-hole.
           <br />
           workers are not just those that take money for copy, chore and
           science, tar-face-cunt.
@@ -6496,3 +6518,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
