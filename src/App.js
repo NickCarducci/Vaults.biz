@@ -1244,7 +1244,8 @@ export default class App extends React.Component {
           Resale premium, indurability-absconded - “It is funny that the soap
           says, ‘this will cure your mental illness.’”{space}
           <a href="https://vaults.biz/gmu">General Maintenance Unit</a>
-          {space}nowhere to be found.
+          {space}nowhere to be found. “If saw we were buying his paintings for
+          $45m, he would call us all crazy, so let’s buy the Soap.”
           <h2>
             Motor Vehicle NFC automatic toll & login intranet - warn, tort, jail
             - no fines...
