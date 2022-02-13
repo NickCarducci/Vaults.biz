@@ -276,7 +276,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dropbox.com/s/airyagbikqd2czg/Screen%20Shot%202022-02-13%20at%209.09.53%20AM.png?dl=0"
+              : "https://www.dl.dropboxusercontent.com/s/airyagbikqd2czg/Screen%20Shot%202022-02-13%20at%209.09.53%20AM.png?dl=0"
           }
           float="left"
           title="Ryan Zinke says Maos' red book against landlords caused expected excess deaths of 15m with life exp 35 already"
