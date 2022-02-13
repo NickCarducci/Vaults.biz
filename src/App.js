@@ -1235,8 +1235,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <a href="https://teapharmacy.party/drugs">Business guys</a>
-          <br/>
+          <a href="https://humanharvest.info/polio">
+            ‘Excess’ deaths and hospitalizations
+          </a>
+          {space}were expected (significance from mean single year{space}
+          <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm">
+            specific
+          </a>
+          {space}death rate is not with standing n{"<"}100), and virion aren’t
+          even correlated as the artifact.
+          <br />
+          {/**lunch dioxine, our treat, Ukrainians stood buy dshenko */}
           <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
@@ -1244,7 +1253,33 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                :"https://www.dl.dropboxusercontent.com/s/wiy635x44eo5cje/Screen%20Shot%202022-02-13%20at%2011.37.03%20AM.png?dl=0"
+                : "https://www.dl.dropboxusercontent.com/s/g21qlcxmvh4uvu8/Screen%20Shot%202022-02-13%20at%2012.13.41%20PM.png?dl=0"
+            }
+            float="right"
+            title="1933 + 1937 trust"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          <br />
+          <br />
+          <h2>Smart capable and good, sinful pride</h2>
+          <h3>
+            gulag 1931-32 38 great terror 1m+ Anyone that complained about food,
+            mothers literally eating their babies, of thousands of reports to
+            that effect. affect.
+          </h3>
+          <a href="https://teapharmacy.party/drugs">Business guys</a>
+          <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/wiy635x44eo5cje/Screen%20Shot%202022-02-13%20at%2011.37.03%20AM.png?dl=0"
             }
             float="left"
             title="Can capitalism help workers to live better? - https://qr.ae/pGjUTr"
@@ -1253,8 +1288,8 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
-          <br/>
-          <br/>
+          <br />
+          <br />
           Should have had another young euro american on
           <br />
           "keep this country together," Nigger word salad retard
@@ -6570,3 +6605,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
