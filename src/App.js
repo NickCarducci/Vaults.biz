@@ -1235,6 +1235,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          take the word populist and marx out of your chode-hole.<br/>
+          workers are not just those that take money for copy, chore and science, tar-face-cunt.<br/><br/>
           perversion of order as matter, anything washes, "item-issues," free by
           {space}
           <a href="https://vaults.biz/statistic">section</a>
