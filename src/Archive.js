@@ -4120,6 +4120,7 @@ class Archive extends React.Component {
         socialism distributes that earned instead of productivity.
         <br />
         <br />
+        <hr ref={this.props.devil}/>
         "Get everyone (70%) vaccinated, and it is looking good. insurance
         companies have to test for rapid tests." - Dr. Michalos
         <h1>Asymptomatic means uncorrelated</h1>
@@ -7764,6 +7765,7 @@ export default React.forwardRef((props, ref) => {
     "chapter2",
     "sci",
     "trust",
+    "devil",
     "medical",
     "rec",
     "homelessness",
@@ -7848,3 +7850,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
