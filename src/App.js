@@ -1236,9 +1236,15 @@ export default class App extends React.Component {
           }}
         >
           <h1>Go to Hell</h1>
-          Savers' land<br/>
-          19% population disabled, or just ugly?<br/>
-          borrowers loiter, cancellers keep<br/>
+          Savers' land
+          <br />
+          19% population disabled, or it{space}
+          <a href="https://www.linkedin.com/posts/profgalloway_via-the-new-yorker-activity-6898374657855361025-Ofca">
+            just ugly
+          </a>
+          ?<br />
+          borrowers loiter, cancellers keep
+          <br />
           Obamacare
           <br />
           Problems wouldn’t exist without a solution
@@ -1252,7 +1258,10 @@ export default class App extends React.Component {
           <br />
           and order matters
           <br />
-          To watch ice on body heat in a matter of seconds
+          To watch ice on body{space}
+          <a href="https://vaults.biz/moldmask">heat</a>
+          {space}in a{space}
+          <a href="https://magnate.company">matter of seconds</a>.
           <br />
           Truncated Production Tax for not to be Sales as to
           {space}
@@ -6640,4 +6649,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
