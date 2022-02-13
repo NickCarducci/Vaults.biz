@@ -1604,6 +1604,19 @@ export default class App extends React.Component {
           {space}by 44 fold.
           <br />
           <br />
+          Demand pull inflation happens by people++ but supply as well, unless
+          there is laborless-demand, then supply’s movement, like userer:
+          insurer, lender, landlord, is represented by a dead weight box, and
+          only then wouldn’t increased demand coincide with increased supply
+          (along x economic welfare,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LmzU">GDP/hour-GDP/p</a>
+          ) keeping prices y the same.
+          <br />
+          <br />
+          <a href="https://qr.ae/pGjOsP">Putin wants to destroy the dollar</a>
+          {/**rob o'neil */}
+          <br />
+          <br />
           "What is causing the current inflation?"
           <br />
           Nick Carducci - Founder at Froth.app - Analysis, Micro-Theory.com, and
@@ -6323,4 +6336,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
