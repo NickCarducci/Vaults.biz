@@ -1235,6 +1235,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          borrowers loiter, cancellers keep<br/>
           Obamacare
           <br />
           Problems wouldn’t exist without a solution
@@ -6636,5 +6637,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
 
