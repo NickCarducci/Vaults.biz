@@ -3161,6 +3161,11 @@ export default class App extends React.Component {
           order as unique or doesn't matter.
           <br />
           <br />
+          Mean (Expected value) to user when outliers, but not abnormal-skew
+          (consecutive probability) depends on if you count order as unique, -
+          lest doesn't matter.
+          <br />
+          <br />
           Not bivariate, but problem-solution:
           <br />
           N is not a prospective, it is an indication (and used to deflate
@@ -6516,6 +6521,10 @@ export default class App extends React.Component {
             . “Lives AND livelihoods.” Bar-association. Ban licenses. Open
             ingredient lists.
           </div>
+          <a href="https://vaults.biz/statistic">Alright</a>
+          {space}
+          <a href="https://qr.ae/pGjU9D">altruism</a>
+          {space}voluntary Tranquil transaction-fee-based-sdr/vault-share
         </div>
         <div
           style={{
