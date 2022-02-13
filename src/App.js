@@ -1266,7 +1266,7 @@ export default class App extends React.Component {
           <br />
           <h2>Smart capable and good, sinful pride</h2>
           <h3>
-            gulag 1931-32 38 great terror 1m+ Anyone that complained about food,
+            kulak gulag 1931-32 38 great terror 1m+ Anyone that complained about food,
             mothers literally eating their babies, of thousands of reports to
             that effect. affect.
           </h3>
