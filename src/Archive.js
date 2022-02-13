@@ -6158,7 +6158,7 @@ class Archive extends React.Component {
         Capitalists measure success by GDP/p or worse, GDP, and certainly not
         tech advancement -GDP/p, unless you are a post-Marx, ‘vulgar-socialist;’
         they call contributions to science, being in your own productive-ward
-        copy, and chores, or any welfare-innumerable, as leisure.
+        copy, and chores, or any welfare-innumerable, as leisure (sci, copy, chore).
         <hr ref={this.props.newecon} />
           Demand pull inflation happens by people++ but supply as well, unless
           there is laborless-demand, then supply’s movement, like userer:
