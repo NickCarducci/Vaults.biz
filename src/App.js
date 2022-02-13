@@ -6497,34 +6497,38 @@ export default class App extends React.Component {
             wwii
             <br />
             <br />
-          </div>
-          <div
-            style={{
-              overflow: "hidden",
-              //color: !this.state.footer ? "rgb(180,180,250)" : "black",
-              height: this.state.footer ? "" : "0px"
-            }}
-          >
-            the demand is legit{/**historically */}
-            <br />
-            The{space}
-            <a
+            <div
               style={{
-                color: "black",
-                fontSize: "9px",
-                backgroundColor: "hotpink"
+                overflow: "hidden",
+                //color: !this.state.footer ? "rgb(180,180,250)" : "black",
+                height: this.state.footer ? "" : "0px"
               }}
-              href="https://magnate.company"
             >
-              anti-nuclear reactor, torus-magnetic engine
+              the demand is legit{/**historically */}
+              <br />
+              The{space}
+              <a
+                style={{
+                  color: "black",
+                  fontSize: "9px",
+                  backgroundColor: "hotpink"
+                }}
+                href="https://magnate.company"
+              >
+                anti-nuclear reactor, torus-magnetic engine
+              </a>
+              . “Lives AND livelihoods.” Bar-association. Ban licenses. Open
+              ingredient lists.
+            </div>
+            <a href="https://vaults.biz/statistic" style={{ color: "black" }}>
+              Alright
             </a>
-            . “Lives AND livelihoods.” Bar-association. Ban licenses. Open
-            ingredient lists.
+            {space}
+            <a href="https://qr.ae/pGjU9D" style={{ color: "black" }}>
+              altruism
+            </a>
+            {space}voluntary Tranquil transaction-fee-based-sdr/vault-share
           </div>
-          <a href="https://vaults.biz/statistic">Alright</a>
-          {space}
-          <a href="https://qr.ae/pGjU9D">altruism</a>
-          {space}voluntary Tranquil transaction-fee-based-sdr/vault-share
         </div>
         <div
           style={{
@@ -6658,3 +6662,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
