@@ -92,6 +92,7 @@ export default class App extends React.Component {
     this.calc = React.createRef();
     this.sci = React.createRef();
     this.con = React.createRef();
+    this.devil = React.createRef();
     this.trust = React.createRef();
     this.sdr = React.createRef();
     this.bottom = React.createRef();
@@ -139,6 +140,7 @@ export default class App extends React.Component {
       ["newecon", this.newecon],
       ["trade", this.trade],
       ["china", this.china],
+      ["devil", this.devil], //jynx apprentice executioner
       ["intllaw", this.intllaw],
       ["obamacare", this.obamacare],
       //
@@ -577,6 +579,8 @@ export default class App extends React.Component {
           pager(null, this.newecon.current.offsetTop);
         } else if (this.props.pathname === "/sci") {
           pager(null, this.sci.current.offsetTop); //costing lives' Salcedo
+        } else if (this.props.pathname === "/devil") {
+          pager(null, this.devil.current.offsetTop);
         } else if (this.props.pathname === "/sdr") {
           pager(null, this.sdr.current.offsetTop);
         } else if (["/receipts", "/rec"].includes(this.props.pathname)) {
@@ -917,7 +921,9 @@ export default class App extends React.Component {
         inSection("geohash");
       } else if (construct("arc", this.marx.current) < tryy) {
         inSection("marx");
-      } else if (construct(null, this.bitcongress.current) < tryy) {
+      } else if (construct(null, this.devil.current) < tryy) {
+        inSection("devil");
+      } else if (construct(null, this.crypto.current) < tryy) {
         inSection("crypto");
       } else if (construct(null, this.bitcongress.current) < tryy) {
         inSection("bitcongress");
@@ -1235,6 +1241,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          health plan from the union with the sunshine bis, prisoner of second
+          happening, and the ritz: investment banking!
           <h1>Go to Hell</h1>
           Savers' land
           <br />
@@ -6321,6 +6329,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/sdr`}
             >
               sdr
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("devil") }}
+              href={`${window.location.origin}/devil`}
+            >
+              devil
             </a>
             {space}
             <a
