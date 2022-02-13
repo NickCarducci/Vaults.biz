@@ -1241,7 +1241,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-           <Cable
+          <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
             img={true}
@@ -1257,11 +1257,18 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
-          production insurance false bid pool loss of known hazard? cindy adams you kike<br/><br/>
+          production insurance{space}
+          <a href="https://vaults.biz/insurance">false bid pool loss</a>
+          {space}of{space}
+          <a href="https://vaults.biz/juris">known</a>
+          {space}hazard? cindy adams you kike
+          <br />
+          <br />
           Multifaith Alliance for Syrian Refugees
           <br />
-          this world is not what it seems, and it shows its face when people laugh and show teeth
-          <br/>
+          this world is not what it seems, and it shows its face when people
+          laugh and show teeth
+          <br />
           health plan from the union with the sunshine bis, prisoner of second
           happening, and the ritz: investment banking and beyond 1/12 industry
           vertical production before invariable cost resale but for premium of
