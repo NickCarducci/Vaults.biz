@@ -1376,8 +1376,9 @@ export default class App extends React.Component {
           <br />
           "We would never have to revisit the issue if we tied{space}
           <a href="https://vaults.biz/inflation">minimum wage</a>
-          {space}to inflation as we do to COLA Social Security, 19% are
-          disabled, aren't they just old???"
+          {space}to inflation as we do to{space}
+          <a href="https://qr.ae/pGjoS6">COLA</a>
+          {space}Social Security, 19% are disabled, aren't they just old???"
           <br />
           Minimum wage just causes market concentration.
           <br />
