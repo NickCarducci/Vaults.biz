@@ -1227,6 +1227,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “Let’s mortgage the future, so we can hold the trophy tonight.”
+          <br />
+          Loitering on a par-timeLeft false bid pool{space}<a href="https://vaults.biz/accounting">loss</a>.
+          <br />
+          <br />
           "Too much money chasing too few goods," you are discussing m2, not
           money.
           <br />
@@ -1237,7 +1242,7 @@ export default class App extends React.Component {
           <br />
           <br />
           People who go to the gas station, how about{space}
-          <a href="https://vaults.biz/inflation">kids whom chore</a>? It is who
+          <a href="https://vaults.biz/newecon">kids whom chore</a>? It is who
           whom isn't.
           <br />
           <br />
