@@ -1235,6 +1235,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <a href="https://teapharmacy.party/drugs">Business guys</a>
+          <br/>
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                :"https://www.dl.dropboxusercontent.com/s/wiy635x44eo5cje/Screen%20Shot%202022-02-13%20at%2011.37.03%20AM.png?dl=0"
+            }
+            float="left"
+            title="Can capitalism help workers to live better? - https://qr.ae/pGjUTr"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          <br/>
+          <br/>
           Should have had another young euro american on
           <br />
           "keep this country together," Nigger word salad retard
