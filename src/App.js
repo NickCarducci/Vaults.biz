@@ -1221,12 +1221,10 @@ export default class App extends React.Component {
         >
           Judges determine conviction, not danger.
           <br />
-          <br />"
-          <a href="https://humanharvest.info/polio">
-            Natural immunity is broad, robust
-          </a>
-          ,{space}
+          <br />"<a href="https://humanharvest.info/polio">Natural immunity</a>
+          {space}is broad, robust ,{space}
           <a href="https://vaults.biz/juris">and recurring</a>."
+          <br />
           <br />
           Stop alimony to{space}
           <a href="https://nextdoor.com/p/gSknkSPp-t9C">get people on board</a>.
@@ -1578,6 +1576,32 @@ export default class App extends React.Component {
           <br />
           <hr ref={this.inflation} />
           "Yes sir,” what, do you feel bad now?
+          <br />
+          <br />
+          "What are some causes of inflation?"
+          <br />
+          Inflation is **material**+**rent**;{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M3ca">it is not</a>
+          {space}*unconcurrentable* **assets**, *good will* that which is not
+          actual nominal numbers like *liabilities* are, until *foreclosure*,
+          and *collateralization* folds over *fair value*, furthermore. Neither
+          is inflation **labor**, **profits**, **scientific contributions**,
+          **chores** nor **ones’ own copyrights**, counted, nor **hours** or
+          **quality**, that which goes to find GDP/hour-
+          <a href="https://vaults.biz/gdp">GDP/p</a>
+          {space}productive-efficiency.
+          <br />
+          <br />
+          The cause is exclusively debts, although economists say it is
+          exclusively share-split, nor accrual, they will say inflation will pay
+          off their debts (collateral and price diagnosis), but the premium of
+          debts, fractional reserve and counterfeit in contract versus
+          CurrencyComponentOfM1 creation is 102%, compared to 4400%
+          debt/chequeing, a{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LAg4">
+            greater harbinger
+          </a>
+          {space}by 44 fold.
           <br />
           <br />
           "What is causing the current inflation?"
