@@ -48,6 +48,10 @@ class Archive extends React.Component {
         $2-3.5m christian giving site, in a few days, for Ottowa terrorists,
         "not-anti-vaxx, but pro-freedom"
         <hr ref={this.props.obamacare} />
+        Whenever supply doesn’t equate demand is when price and quality controls
+        work.
+        <br />
+        <br />
         <a
           style={{
             shapeOutside: "rect()",
@@ -6156,14 +6160,13 @@ class Archive extends React.Component {
         they call contributions to science, being in your own productive-ward
         copy, and chores, or any welfare-innumerable, as leisure.
         <hr ref={this.props.newecon} />
-
         Demand pull inflation happens by people++ but supply as well, unless
-          there is laborless-demand, then supply’s movement, like userer:
-          insurer, lender, landlord, is represented by a dead weight box, and
-          only then wouldn’t increased demand coincide with increased supply
-          (along x economic welfare, GDP/hour-GDP/p) keeping prices y the same.
-          <br />
-          <br />
+        there is laborless-demand, then supply’s movement, like userer: insurer,
+        lender, landlord, is represented by a dead weight box, and only then
+        wouldn’t increased demand coincide with increased supply (along x
+        economic welfare, GDP/hour-GDP/p) keeping prices y the same.
+        <br />
+        <br />
         GDP/hour-GDP/p still captures that of which is not captured (leisure:
         chorers, scientific contributions, your own copyright; userers:
         insurers, landlords, lenders) - unprinted, certified crazy advanced
@@ -7841,4 +7844,3 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
-
