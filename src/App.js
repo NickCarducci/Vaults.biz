@@ -117,6 +117,7 @@ export default class App extends React.Component {
     this.poverty = React.createRef();
     //this.warfare = React.createRef();
     this.leisure = React.createRef();
+    this.russia=React.createRef()
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -504,7 +505,12 @@ export default class App extends React.Component {
           this.setState({ planner: true }, () =>
             pager(true, this.trading.current.offsetTop)
           );
-        } else if (this.props.pathname === "/con") {
+        } else if (this.props.pathname === "/russia") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.russia.current.offsetTop) //content,comms
+          );
+        }else if (this.props.pathname === "/con") {
           this.setState(
             { planner: true },
             () => pager(true, this.con.current.offsetTop) //content,comms
@@ -841,7 +847,9 @@ export default class App extends React.Component {
         return (name = nae);
       };
       // if (this.state.planner) {//(chapter1 refs)
-      if (construct(true, this.jews.current) < tryy) {
+      if (construct(true, this.russia.current) < tryy) {
+        inSection("russia");
+      } else   if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
@@ -1227,9 +1235,40 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Cross referenced means you can reverse the phenomena, replicated
+          necessarily, too.
+          <br />
+          <br />
+          Homelessness is because of userers: insurers, lenders and landlords,
+          not mental illness slander, non-biomedical, nor can CT scan diagnose
+          homelessness.
+          <br />
+          <br />
+          (cash/debt)*income every year back.
+          <br />
+          1/12 industry-type max-royalty, equal in receipt and scope truncated
+          production tax geohash/month from your paytech of choice with ability
+          to spoof for something in your precinct sewage police lawsuits,
+          transaction-fee-based-sdr, Savers’ land-exploration rights (20% of
+          U.S.).
+          <hr ref={this.russia} />
+          The moral incursion here is operational monopsony, where supply
+          doesn’t equate demand and price or quality controls actually work, not
+          in that order. Known hazards permit warning, tort, jail, not ever a
+          state settlement, and these blind trust deals over currency that is
+          actually Savers’ land exploration rights, being 20% of the lands,
+          donee beneficiary false bid pools, a mortgaged future to loiter on the
+          trophy now, is intent to compete with consumers, lowering tech
+          advancement and extending Expected retirement, GDP/hour-GDP/p and 19%
+          disabled, aren’t they just old, n{"<"}100 cannot draw a distribution
+          to assume its variance from a population mean, especially if 1/100
+          population is unknown, shuffled you need to try randomly select.
+          <br />
+          <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
           <br />
-          Loitering on a par-timeLeft false bid pool{space}<a href="https://vaults.biz/accounting">loss</a>.
+          Loitering on a par-timeLeft false bid pool{space}
+          <a href="https://vaults.biz/accounting">loss</a>.
           <br />
           <br />
           "Too much money chasing too few goods," you are discussing m2, not
@@ -5782,6 +5821,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/monopoly`}
             >
               monopoly
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("russia") }}
+              href={`${window.location.origin}/russia`}
+            >
+              russia
             </a>
             {space}
             <a
