@@ -1237,7 +1237,7 @@ export default class App extends React.Component {
         >
           Should have had another young euro american on
           <br />
-          Nigger word salad retard
+          "keep this country together," Nigger word salad retard
           <br />
           All good things, poignant epitaphs for bona fide intents, and faux
           paux of the left and
