@@ -1235,6 +1235,36 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Obamacare
+          <br />
+          Problems wouldn’t exist without a solution
+          <br />
+          The dog house, absolutely from mean the wrong way is still true
+          <br />
+          <br />
+          If you have n{"<"}100
+          <br />
+          Or 1/100 is shuffleable
+          <br />
+          and order matters
+          <br />
+          To watch ice on body heat in a matter of seconds
+          <br />
+          Truncated Production Tax for not to be Sales as to
+          {space}
+          <a href="https://teapharmacy.party/drugs">teapharmacy.party/drugs</a>
+          <br />
+          It’s not that black men do not like clyburn in saying feminists are
+          mutually exclusive to supply and{space}
+          <a href="https://vaults.biz/inflation">labor-borne-demand</a>; black
+          men are forced to be entrepreneurs, evidently (
+          <a href="https://vaults.biz/education">employment by race</a>)?
+          <br />
+          Support and role model for afro boys, leading to poverty and equality,
+          no role model for afro boys, and poverty. Dems are raising afro me ccc
+          bbb ppp trust
+          <br />
+          <br />
           <a href="https://humanharvest.info/polio">
             ‘Excess’ deaths and hospitalizations
           </a>
@@ -1262,12 +1292,14 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
-          <h1><a href="https://vaults.biz/obamacare">Obamacare</a></h1>
+          <h1>
+            <a href="https://vaults.biz/obamacare">Obamacare</a>
+          </h1>
           <h2>Smart capable and good, sinful pride</h2>
           <h3>
-            kulak gulag 1931-32 38 great terror 1m+ Anyone that complained about food,
-            mothers literally eating their babies, of thousands of reports to
-            that effect. affect.
+            kulak gulag 1931-32 38 great terror 1m+ Anyone that complained about
+            food, mothers literally eating their babies, of thousands of reports
+            to that effect. affect.
           </h3>
           <a href="https://teapharmacy.party/drugs">Business guys</a>
           <br />
@@ -6604,4 +6636,5 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
 
