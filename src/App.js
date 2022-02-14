@@ -1272,7 +1272,10 @@ export default class App extends React.Component {
           <br />
           Get healthcare out of investment banking beyond 1/12 vertical.
           <br />
-          Open Ingredient Lists - Scale Science.
+          Open Ingredient Lists -{space}
+          <a href="https://qr.ae/pGjS4p">Scale</a>
+          {space}
+          <a href="https://qr.ae/pGjS4s">Science</a>.
           <br />
           1942 etymologist ‘baby boomer’ laughing.
           <br />
@@ -7245,3 +7248,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
