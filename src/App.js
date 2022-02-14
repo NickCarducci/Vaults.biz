@@ -1241,6 +1241,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Intelligent right wing get better jobs, and the left wing become
+          teachers, which is best addressed by doing all we can to get science
+          out of the business of trade, good will, and especially industry of
+          other industry, said collateral being good will of land or IP at
+          science and operational monopoly or duress in Tranquil trade, too
+          broad, off-message for GDP/hour-GDP/p, early Expected retirement, and
+          tech advancement for that.
+          <h1>Quit the good jobs and join the ranks of children</h1>
+          <h2>loiterers borrowing and burrowing</h2>
+          Battery stuff wasn’t in the script - Household home contractor choring
+          bookkeeping.
+          <br />
           Resale premium, indurability-absconded - “It is funny that the soap
           says, ‘this will cure your mental illness.’”{space}
           <a href="https://vaults.biz/gmu">General Maintenance Unit</a>
