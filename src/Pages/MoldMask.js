@@ -216,6 +216,7 @@ export default class MoldMask extends React.Component {
         this.setState({ serviceCancelingImages: true });
       }
     };
+    const space = " ";
     return (
       <div
         style={{
@@ -370,13 +371,89 @@ export default class MoldMask extends React.Component {
           >
             back to vaults.biz{lastPath}
           </div>
+          Now, **virion presentation** is *not even* correlated per
+          **sickness**, nor per **death** per **capita** (if meaningless); basis
+          must measure each artifact.
+          <br />
+          <a
+            href="https://www.cdc.gov/nchs/products/databriefs/db427.htm#:~:text=Did%20age-specific"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            Significance
+          </a>
+          {space}from mean abount n{"<"}100 random lest 1/100 shuffled if known
+          shan’t **declude** mean nor median of order and matter (
+          <a
+            href="https://www.quora.com/Is-E-mc-2-because-we-live-in-three-dimensions"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            spherical diameter
+          </a>
+          ) of significance from mean, as such assumes 100 years. Only then can
+          significance from mean **coincidence** be correlated, authoritatively.
+          <br />(
+          <a
+            href="https://www.color.com/blog/new-covid-19-test-data-majority-of-people-who-test-positive-for-covid-19-have-mild-symptoms-or-are-asymptomaticN=43,448"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            November 14, 2020
+          </a>
+          ),{space}
+          <a
+            href="https://www.fda.gov/media/144245/download#page=42"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            Pfizer
+          </a>
+          :
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            Among 3410 total cases of suspected but unconfirmed COVID-19 in the
+            overall study population, 1594 occurred in the vaccine group vs.
+            1816 in the placebo group. Suspected COVID-19 cases that occurred
+            within 7 days after any vaccination were 409 in the vaccine group
+            vs. 287 in the placebo group.
+          </div>
+          <br />
+          That is, 409+1594 vaxxed, 287+1816 not, 409,287 presenting virion &&
+          1594,1816 sick, of 43448.
+          <br />
+          Bacteria acute diagnosis viral version,{space}
+          <a
+            href="https://www.pfizer.com/news/articles/viral_vs_bacterial_pneumonia_understanding_the_difference"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            Pfizer
+          </a>
+          ,{space}
+          <a
+            href="https://wyss.harvard.edu/news/the-secret-life-of-bacteria-revealed/"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            Harvard
+          </a>
+          .
+          <br />
+          1.5/100 deaths/cases, is about the per capita death rate, but
+          asymptomatic cases are binary{space}
+          <a
+            href="https://www.color.com/blog/new-covid-19-test-data-majority-of-people-who-test-positive-for-covid-19-have-mild-symptoms-or-are-asymptomatic"
+            style={{ color: "rgb(90, 120, 185)" }}
+          >
+            feels
+          </a>
+          .
+          <br />
+          <br />
           The common cold project (dirty, jk, hotel rooms) counts onset virion
           presentation of sickness, but cause may be of placebo discussed to be
           of 20%, onset, or warning mechanism; still presents the case of
           non-all-incidence artifact of sickness.
           <br />
           <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
-            <a href="https://www.cmu.edu/common-cold-project/">
+            <a
+              href="https://www.cmu.edu/common-cold-project/"
+              style={{ color: "rgb(90, 120, 185)" }}
+            >
               https://www.cmu.edu/common-cold-project/
             </a>
           </div>
