@@ -23,7 +23,6 @@ export default class App extends React.Component {
       //fraudChoice: 4,
       ios: name.includes("Safari"),
       iosNoPhoto: name.includes("Safari"),
-      noyoutube: name.includes("Safari"),
       openForm: true,
       //settleDropboxFree: true,
       browser: name,
@@ -1536,7 +1535,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/zuojbcf3n6k5zpc/Screen%20Shot%202022-02-14%20at%208.34.01%20AM.png?dl=0"
             }
@@ -1667,7 +1666,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/nvfra2pkmrgvuj8/Screen%20Shot%202022-02-13%20at%207.21.34%20PM.png?dl=0"
             }
@@ -1735,7 +1734,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/lzfxqgxwe4xyfbh/Screen%20Shot%202022-02-13%20at%201.44.48%20PM.png?dl=0"
             }
@@ -1834,7 +1833,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/g21qlcxmvh4uvu8/Screen%20Shot%202022-02-13%20at%2012.13.41%20PM.png?dl=0"
             }
@@ -1861,7 +1860,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/wiy635x44eo5cje/Screen%20Shot%202022-02-13%20at%2011.37.03%20AM.png?dl=0"
             }
@@ -2098,7 +2097,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/mj7kr1fzorkc8db/Screen%20Shot%202022-02-12%20at%204.42.03%20PM.png?dl=0"
             }
