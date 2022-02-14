@@ -1981,6 +1981,10 @@ class Archive extends React.Component {
         <br />
         <br />
         <hr ref={this.props.nato} />
+        Anything washes, “it is amazing how much we are letting the Germans get
+        away with undermining NATO over the pipeline,” warmongers Ric Grenell
+        and Chris Salcedo.
+        <br />
         like a bad non-rollover insurance{space}
         <span
           style={{
