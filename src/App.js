@@ -23,6 +23,7 @@ export default class App extends React.Component {
       //fraudChoice: 4,
       ios: name.includes("Safari"),
       iosNoPhoto: name.includes("Safari"),
+      noyoutube: name.includes("Safari"),
       openForm: true,
       //settleDropboxFree: true,
       browser: name,
@@ -1359,7 +1360,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/b4dkpbzaiunc8x7/aint%20nobody%20time.gif?dl=0"
             }
@@ -1444,7 +1445,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/7iyleyc7czcfi6r/Screen%20Shot%202022-02-14%20at%209.43.17%20AM.png?dl=0"
             }
@@ -1475,7 +1476,7 @@ export default class App extends React.Component {
             onError={handleScollImgError}
             img={true}
             src={
-              this.state.noyoutube
+              this.state.noyout
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/zfp42qteh8rldra/Screen%20Shot%202022-02-14%20at%209.24.04%20AM.png?dl=0"
             }
