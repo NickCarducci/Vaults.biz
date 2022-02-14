@@ -104,6 +104,7 @@ export default class App extends React.Component {
     this.redistricting = React.createRef();
     this.psych = React.createRef();
     this.obamacare = React.createRef();
+    this.nato = React.createRef();
     this.intllaw = React.createRef();
     this.monopoly = React.createRef();
     this.juris = React.createRef();
@@ -139,6 +140,7 @@ export default class App extends React.Component {
       ["bitcongress", this.bitcongress],
       ["newecon", this.newecon],
       ["trade", this.trade],
+      ["nato", this.nato],
       ["china", this.china],
       ["devil", this.devil], //jynx apprentice executioner
       ["intllaw", this.intllaw],
@@ -567,6 +569,8 @@ export default class App extends React.Component {
           pager(null, this.calc.current.offsetTop);
         } else if (this.props.pathname === "/obamacare") {
           pager(null, this.obamacare.current.offsetTop);
+        } else if (this.props.pathname === "/nato") {
+          pager(null, this.nato.current.offsetTop);
         } else if (this.props.pathname === "/first") {
           pager(null, this.first.current.offsetTop);
         } else if (this.props.pathname === "/voting") {
@@ -929,6 +933,8 @@ export default class App extends React.Component {
         inSection("bitcongress");
       } else if (construct(null, this.homelessness.current) < tryy) {
         inSection("homelessness");
+      } else if (construct(null, this.nato.current) < tryy) {
+        inSection("nato");
       } else if (construct(null, this.sdr.current) < tryy) {
         inSection("sdr");
       } else if (construct(null, this.calc.current) < tryy) {
@@ -1241,7 +1247,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          you need to solve the deficit to say new itemized isn't part of it, douche.<br/>
+          <h2>
+            Don't need to gentrify nor make another investment bank for
+            operational monopolies or supply!==demand, spectrum/bridges/
+            <a href="https://vaults.biz/nato">pipelines</a>
+            {space}- just target margin and 11/12 industry
+          </h2>
+          you need to solve the deficit to say new itemized isn't part of it,
+          douche.
+          <br />
           "A lot of body and fender." is that cop code for torture? Lying under
           duress for state vic has nothing to do with the other way around
           fuckers. Death To America.
@@ -6906,6 +6920,15 @@ export default class App extends React.Component {
               // onClick={() => console.log("trr")}
             >
               immigration
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("nato") }}
+              href={`${window.location.origin}/nato`}
+              // onClick={() => console.log("trr")}
+            >
+              nato
             </a>
             {space}
             <a
