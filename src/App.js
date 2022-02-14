@@ -1241,6 +1241,32 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Operational monopsony target margin equal in receipt and scope
+          truncated production tax 2025; transction-based-fee-sdr,
+          (cash/debt)*income every year back, not income, nor hours, nor
+          material, nor good will assets nor collateral, 1/12 industry
+          max-royalty - geohash/month precinct spoof protest sewage police
+          lawsuits (conflict of interest by bonds or plantiff/ state as
+          "public," Saving America 20% donee beneficiary foreseen contractor
+          liability as "Save America..." you know you are incurring tortious
+          costs as you persist thru my holds?).
+          <br />
+          <Cable
+            style={{ width: "100%", maxWidth: "400px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/zfp42qteh8rldra/Screen%20Shot%202022-02-14%20at%209.24.04%20AM.png?dl=0"
+            }
+            float="left"
+            title=" "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           "Why can the US impose economic sanctions on other countries?"
           <br />
           Nick Carducci - Some credits in International Law (college major) &
