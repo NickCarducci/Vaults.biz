@@ -1241,8 +1241,19 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "What is schizo-economics?"
+          <br />
+          Nick Carducci - Injured yet labeled schizophrenic for boycott credit
+          income
+          <br />
+          Poverty=equality. Are we talking about the faux change between{space}
+          <a href="http://www3.law.columbia.edu/bharcourt/documents/harcourt-jls-final-2011.pdf">
+            conviction on evidence and slander
+          </a>
+          ?
+          <br />
           <Cable
-            style={{ width:"100%",maxWidth: "400px", height: "auto" }}
+            style={{ width: "100%", maxWidth: "400px", height: "auto" }}
             onError={handleScollImgError}
             img={true}
             src={
