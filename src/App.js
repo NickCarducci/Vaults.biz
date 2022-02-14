@@ -1247,6 +1247,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          I finally understand why I am somewhat of a bipolar, all cheap cameras
+          under duress: 50% don’t vote, sayers of "Thanks Sarah adleson and
+          Shawn neesee" do not speak for us.
+          <br />
           Is this just another mean inflation price fix for insurance false bid
           pool loss supply!=demand.
           <br />
@@ -7225,3 +7229,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
