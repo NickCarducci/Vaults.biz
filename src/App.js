@@ -1241,7 +1241,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          artifact per capitis<br/>
+          <h3>
+            artifact per capitis - deaths{space}
+            <span
+              style={{
+                textDecoration: "line-through"
+              }}
+            >
+              by
+            </span>
+            {space}per covid per deaths per population
+          </h3>
+          <br />
           pennywise margin target to inflation mean material+rent WORKS because
           false bid pool loss supply!==demand without labor makes dead weight
           box, deprecating GDP/hour-GDP/p, econ welfare/output enumerated.
@@ -1477,9 +1488,13 @@ export default class App extends React.Component {
           beknowst.
           <h2>
             “The most important thing is so that people don’t think there is
-            fraud,{space}<a href="https://vaults.biz/trading">than prevent it</a>.”
+            fraud,{space}
+            <a href="https://vaults.biz/trading">than prevent it</a>.”
           </h2>
-          <h3>Prices are ask bid mean, not positions - they would just spoof to themselves anon uuid anyway.</h3>
+          <h3>
+            Prices are ask bid mean, not positions - they would just spoof to
+            themselves anon uuid anyway.
+          </h3>
           The ref didn’t call that, someone refs don’t like is heavy on the rams
           (uuid random with standing/disparate receipts).
           <br />
