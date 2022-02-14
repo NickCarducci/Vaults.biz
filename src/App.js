@@ -1241,6 +1241,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+             <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/7iyleyc7czcfi6r/Screen%20Shot%202022-02-14%20at%209.43.17%20AM.png?dl=0"
+            }
+            float="left"
+            title=" (GBNews) methane fracking"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          <h2>
+            "We are sitting on a ton of methane frackable (invisible fire),"
+            Savers’ land-deeds… those Euros/Rubles/Yen/Dollars are per diem{" "}
+          </h2>
           Operational monopsony target margin equal in receipt and scope
           truncated production tax 2025; transction-based-fee-sdr,
           (cash/debt)*income every year back, not income, nor hours, nor
@@ -1261,7 +1281,7 @@ export default class App extends React.Component {
                 : "https://www.dl.dropboxusercontent.com/s/zfp42qteh8rldra/Screen%20Shot%202022-02-14%20at%209.24.04%20AM.png?dl=0"
             }
             float="left"
-            title=" "
+            title=" Putin thru the years (AFP)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
@@ -6989,3 +7009,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
