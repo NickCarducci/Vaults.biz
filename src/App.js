@@ -1247,6 +1247,57 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Is this just another mean inflation price fix for insurance false bid
+          pool loss supply!=demand.
+          <br />
+          Get healthcare out of investment banking beyond 1/12 vertical.
+          <br />
+          Open Ingredient Lists - Scale Science.
+          <br />
+          1942 etymologist ‘baby boomer’ laughing.
+          <br />
+          19% disabled just old - delinquent.
+          <br />
+          Particularly on seniors, because they spend so much by
+          ‘name-your-price’ non-rollover insurance. No demand, still a waste of
+          our sweat.
+          <br />
+          Supply!=demand when insurance, prescription costs, invoice donee bene
+          and free rider mutable untruncated production tax.
+          <br />
+          pennywise only, they don’t want to ban invoices, insurance, nor
+          prescriptions outright.
+          <br />
+          Alexa Folsom doctors do that, government don’t allow invoices nor
+          insurance.
+          <br />
+          Poverty=equality because labor costs are used to corner the market by
+          gov hospital funds general revenue trust.
+          <br />
+          Literally target margin and open source, don’t make another investment
+          bank over the currency.
+          <br />
+          CBO said Obamacare saved money compared to insurance damages by price
+          fix.
+          <br />
+          Assets $170t aren’t real! Only liabilities, until the clawbacks of
+          collateral kept down payments before par-timeLeft good will last
+          traded neighborhood price $2t.
+          <br />
+          We need ROLLOVER insurance - not gentrification and trust
+          <br />
+          NFL redraft all non-concurrentable hours every year, like docs and
+          nannies.
+          <br />
+          Transaction-fee-based-sdr means no scripts per diem. Like Dollars is
+          land-deeds.
+          <br />
+          False bid pool loss, whistleblowers off jury 11/12 industry type.
+          <br />
+          44% of $829.5b/yr Medicare $$1.2t/yr of $4t/yr fed spend 40% debt
+          spend, 19% disabled, all just old, stock sales.
+          <br />
+          Laborless-demand is dead weight box upon GDP/hour-GDP/p
           <h2>
             Don't need to gentrify nor make another investment bank for
             operational monopolies or supply!==demand, spectrum/bridges/
@@ -1416,7 +1467,8 @@ export default class App extends React.Component {
           lawsuits (conflict of interest by bonds or plantiff/ state as
           "public," Saving America 20% donee beneficiary foreseen contractor
           liability as "Save America..." you know you are incurring tortious
-          costs as you persist thru my holds?).
+          costs as you persist thru my holds?). Kill America what else for me,
+          desist-gov? Not descriptive, but broad.
           <br />
           <Cable
             style={{ width: "100%", maxWidth: "400px", height: "auto" }}
