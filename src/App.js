@@ -1241,7 +1241,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h1>Lidia Curanai, what do you even do? "People kill people tht they are mentally deranged, they need medicine." No they need jail</h1>
+          <Cable
+            style={{ width:"100%",maxWidth: "400px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/zuojbcf3n6k5zpc/Screen%20Shot%202022-02-14%20at%208.34.01%20AM.png?dl=0"
+            }
+            float="left"
+            title="Schizo-Economics - https://qr.ae/pGjeZ2"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          <h1>
+            Lidia Curanai, what do you even do? "People kill people tht they are
+            mentally deranged, they need medicine." No they need jail
+          </h1>
           19% disabled, but they are just old - that is good will and
           collateralized loitering and market concentration over the currency,
           either you are for your good will market capitalization, or you are
