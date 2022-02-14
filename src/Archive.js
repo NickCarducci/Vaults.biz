@@ -1980,8 +1980,17 @@ class Archive extends React.Component {
         matter his interest lost.
         <br />
         <br />
-        Putin pushing the west around, with pipelines, for NATO aggression,
-        without accountability,
+        <hr ref={this.props.nato} />
+        like a bad non-rollover insurance{space}
+        <span
+          style={{
+            textDecoration: "line-through"
+          }}
+        >
+          deal
+        </span>
+        {space}false bid pool loss Putin pushing the west around, with
+        pipelines, for NATO aggression, without accountability,
         <br />
         How would a NATO response be triggered without award nor penalty that is
         not SURRENDERING OTHERS’ FREEDOMS (EULA).
@@ -7803,6 +7812,7 @@ export default React.forwardRef((props, ref) => {
     "first",
     "china",
     "intllaw",
+    "nato",
     "obamacare",
     ...dynamic1
   );
