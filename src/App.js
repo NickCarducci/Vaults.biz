@@ -1247,6 +1247,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          A jurisdiction that relies on appeals to lessen their cost is just as
+          damaging to the Public as outright trust by state victimization
+          instead of warning, personal-tort (without false-bid-pool loss) and jail.
+          <h2>Fine lower judges for appealed convictions of higher courts, make them accountable.</h2>
           The right calls "mvp duress, no surrendered-freedoms of others,
           prevention of domestic Violence, '
           <a href="https://vaults.biz/gmu">micro-managing</a>.'"
@@ -7252,3 +7256,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
