@@ -1241,6 +1241,20 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Why can the US impose economic sanctions on other countries?"
+          <br />
+          Nick Carducci - Some credits in International Law (college major) &
+          Computer Science, Monmouth University (Graduated 2014)
+          <br />
+          I don’t believe economic warfare is legal international law as towards
+          reciprocation, and subjugation or competing with consumers, nor is it
+          useful, as science should be open ingredient list anyway, and
+          GDP/hour-GDP/p forlorn.
+          <br />
+          KYC for terrorists, even prohibiting trade, albeit with reason of
+          malfeasant juris, does have some grounds to prohibit trade, back?
+          <br />
+          <br />
           I have a point that disproves the pandemic, excess deaths is expected,
           and age specific death rate cannot be made significant with a sample
           of 2
