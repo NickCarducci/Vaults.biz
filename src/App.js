@@ -1241,6 +1241,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "How serious a problem is unemployment in the U.S.?"
+          <br />
+          Nick Carducci - CEO & Founder at Thumbprint.us - Social Calendar
+          (2012–present)
+          <br />
+          Not very serious, in fact technologically we strive for unemployment.
+          <h3>poverty leads to less suffering</h3>
+          Amazing that poverty=(material+rent)/income, and that coincides with
+          equality, likely from labor skew-normalization. And education keeps to
+          class size and per capita hasn’t increased employment? Makes sense,
+          because most jobs don’t require education! I can say poverty=equality
+          as much as I can say Alzheimer=goodSewage.
+          <br />
+          <br />
+          "Veganism is just one step above the food chain, lost 7lbs and my
+          personality. milk doesn't grow, cow does, seed germinates, CO2 in the
+          atmosphere in the atmosphere Hadley cells instead of the ground is bad
+          for the ground." Leo Kearse.
+          <br />
+          <br />
           Why is Congress allowed to kill over foreign construction but{space}
           <a href="https://www2.census.gov/library/publications/decennial/1950/population-volume-4/41601751v4p1.pdf#page=14">
             I’m not
