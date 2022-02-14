@@ -1261,6 +1261,9 @@ export default class App extends React.Component {
           for the ground." Leo Kearse.
           <br />
           <br />
+          national gallery is not a copy holy shit -
+          never trust a person with three names.
+          <br/>
           Why is Congress allowed to kill over foreign construction but{space}
           <a href="https://www2.census.gov/library/publications/decennial/1950/population-volume-4/41601751v4p1.pdf#page=14">
             I’m not
