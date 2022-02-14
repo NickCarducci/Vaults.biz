@@ -1241,7 +1241,64 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-             <Cable
+          "What is the importance of income elasticity of the demand concept in
+          business economics?"
+          <br />
+          Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+          University (Graduated 2015)
+          <br />
+          Income is an input cost of supply as demand, or, demand pull - causes
+          a dead-weight-box - if income is “subsidized or stimulated” by
+          share-split, accrual (good will last traded neighborhood value) and/or
+          collateralization, it causes laborless-demand. Hardly is all but
+          material+rent counted in input costs, and invariable or fixed startup
+          structural investment costs still depend on labors’ competitive
+          elasticity. On the other hand, elasticity of labor in another state,
+          counteracts scarcity by the same mechanism, modal, -flator, by
+          competition.
+          <br />
+          There must be an index like poverty=((material+rent)/income)=equality,
+          with material inflation, income and hours, rather than average income
+          or some other perverse measure of equality, good, comparative
+          advantage, competition, tech advancement -GDP/p, early Expected
+          retirement, and productive-efficiency or economic-welfare,
+          GDP/hour-GDP/p.
+          <br />
+          Demand pull caused by labor (and thereby population, not nominal money
+          capacity) would actually pull supply as well, being borne of the same
+          people, wheretherebyfor supply==demand.
+          <h2>
+            security of supply for your own national resources, energy needs are
+            important, so then warehouse transaction fee
+          </h2>
+          whim of states and ... aggregate individual owners of oil? stinks of
+          sleaze alan mendoza. "methane binding on my table"
+          <br />
+          <br />
+          "In what way can you address the problems in trade and economic
+          policies?"
+          <br />
+          Nick Carducci - Chairperson at Saver Party (2020–present)
+          <br />
+          Social Security support - trust market concentration over currency.
+          <br />
+          Most alarmingly and fundamentally, juris dictation is not prudent in
+          duress of a minimal viable product, determined by a jury of 11/12
+          industry. I can operate a General Maintenance Unit of polling costs
+          for business permitting to these ends, with public review of the
+          evidence so the multiple of 11/12 is conviction, working from apparent
+          mvp without conflict of interest. For partial{space}
+          <a href="https://nextdoor.com/p/yJhWyXgPTdNG">example</a>
+          , see this poll, although capping rent by 5 units (storefronts or
+          condominiums) is basic mvp, the consensus of 11/12 is not variable
+          enough for more than 1/12 profit from duress beyond minimal viable
+          product (not trade).
+          <br />
+          No reason for sanctions except KYC, nor USPTO,
+          non-scientific-consensus (all industries, open ingredient lists &
+          banned licensures).
+          <br />
+          <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
             img={true}
@@ -7009,4 +7066,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
