@@ -1241,6 +1241,31 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>
+            intersectionality, forms of oppression hitting in more than one
+            factor, like calculus. the sexual politics of meat
+          </h1>
+          How do you know the animal would have chosen you to eat their corpse?
+          If there is another that has an unbridled opportunity - baiting soy
+          boys is neonazi cuckolding.
+          <br />
+          <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/nvfra2pkmrgvuj8/Screen%20Shot%202022-02-13%20at%207.21.34%20PM.png?dl=0"
+            }
+            float="left"
+            title=" "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           Intelligent right wing get better jobs, and the left wing become
           teachers, which is best addressed by doing all we can to get science
           out of the business of trade, good will, and especially industry of
