@@ -1248,7 +1248,10 @@ export default class App extends React.Component {
           }}
         >
           "Inflation with equal labor, profits, and assets over the currency is
-          stasis," 45books.com our jouney to hell.
+          stasis," 45books.com our jouney to hell. That is laborless-demand,
+          GDP/hour-GDP/p down, Trump did NOthing forseeable impossible is not
+          protection for borrower and donee defense, youo just want tranche
+          pittance class resolution precedence malfeasance for bar-racketeering.
           <br />
           I finally understand why I am something of a bipolar, all cheap
           cameras under duress: 50% don’t vote, sayers of "Thanks Sarah adleson
