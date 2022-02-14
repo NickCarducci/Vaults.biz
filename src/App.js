@@ -1241,9 +1241,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Pamolina, when you wen to Iceland at 21 was it with your mom’s “money?”
-          <br/>
-          <br/>
+          No position to account for themselves, you want the parents to be able
+          to take care of them, so you share-split their money.
+          <br />
+          <br />
+          Pamolina, when you wen to Iceland at 21 was it with your mom’s
+          “money?”
+          <br />
+          <br />
           Bill O'Reilly: "Every dollar you’ve 'earned' of $170t good will and
           collateralized 'value,' $2t checking, Savers’ donee beneficiary
           land-exploration rights (20% of U.S.). Is competitiveness how much you
