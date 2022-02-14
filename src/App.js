@@ -1241,6 +1241,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Average GDP/p made fine for inflation mesur.
+          <br />
+          Since it is Valentines' Day, International trade begrets -GDP/p, and I
+          buy inflation discounted quantity, so I am not impacted!
           <h3>Does less GDP/p make you angry, 'Grow Guy?'</h3>
           Facemask then push out, one to put them ove 10-13 to 17, quick kick
           before the refs on the field but the box and Caesars sportsbook
@@ -6849,3 +6853,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
