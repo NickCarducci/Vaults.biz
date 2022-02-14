@@ -1247,6 +1247,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          The right calls "mvp duress, no surrendered-freedoms of others,
+          prevention of domestic Violence, '
+          <a href="https://vaults.biz/gmu">micro-managing</a>.'"
+          <br />
           7% NYC voter turnout, education pipeline has no purpose, rob kim, you
           cannmot impose your self-objectified inaquedacies. Just jail people
           that stab people, it has nothing to do with CT scans. I'll kill you
@@ -7248,4 +7252,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
