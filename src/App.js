@@ -1241,6 +1241,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Itemized conflict of interest is nothing like known variance of juris.
+          An activist/whistleblower is not a conflict of interest.
           <h3>
             artifact per capitis - deaths{space}
             <span
@@ -1252,7 +1254,8 @@ export default class App extends React.Component {
             </span>
             {space}per covid per deaths per population. High per accident per
             pot-user per population, n=100 can take A per B, to find normalcy,
-            if random or 1/100 shuffled, if known. Asymptomatic is normal sniffles.
+            if random or 1/100 shuffled, if known. Asymptomatic is normal
+            sniffles.
           </h3>
           <br />
           pennywise margin target to inflation mean material+rent WORKS because
