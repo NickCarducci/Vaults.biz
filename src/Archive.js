@@ -2918,6 +2918,28 @@ class Archive extends React.Component {
         numbers)… they are less of a business and more of a
         counterfeit-in-contract non-profit (making money; net negative **cash**
         assets, as good will value of **accrual**/bond assets do not count).
+        <br />
+        <br />
+        "How expensive is healthcare in Afghanistan under the Taliban?"
+        <br />
+        Nick Carducci - Statistician, Historian of Markets and Propaganda
+        (2012–present)
+        <br />
+        Afghanistan doesn’t have donee invoking debt nor false bid pool loss
+        investment bank insurance, while the West and Asia gentrify “healthcare”
+        with the promise to tie it to “mean inflation.”
+        <br />
+        Deflating the balance of trade not from a series or single year
+        inflation (excludes assets, profits, labor), but assets/(income/hours),
+        might show a balance of trade if 0, although nominally for Afghanistan
+        it is likely sanctioned by many, for to them (and Saver Party), credit
+        is haram (and self-deprecating).
+        <br />
+        How many folds cheaper is Afghanistan healthcare for quality and
+        currency nominal count of healthcare expenditure, $2.7t/yr in U.S.
+        (albeit good will accrual, last traded neighborhood price and
+        collateralized, not actual chequeing velocity) is probably the same
+        calculation.
         <h2 ref={this.props.trade}>
           "a strong dollar means it is cheaper to buy foreign goods, so a weak
           dollar means less exports."
@@ -4120,7 +4142,7 @@ class Archive extends React.Component {
         socialism distributes that earned instead of productivity.
         <br />
         <br />
-        <hr ref={this.props.devil}/>
+        <hr ref={this.props.devil} />
         "Get everyone (70%) vaccinated, and it is looking good. insurance
         companies have to test for rapid tests." - Dr. Michalos
         <h1>Asymptomatic means uncorrelated</h1>
@@ -6159,15 +6181,16 @@ class Archive extends React.Component {
         Capitalists measure success by GDP/p or worse, GDP, and certainly not
         tech advancement -GDP/p, unless you are a post-Marx, ‘vulgar-socialist;’
         they call contributions to science, being in your own productive-ward
-        copy, and chores, or any welfare-innumerable, as leisure (sci, copy, chore).
+        copy, and chores, or any welfare-innumerable, as leisure (sci, copy,
+        chore).
         <hr ref={this.props.newecon} />
-          Demand pull inflation happens by people++ but supply as well, unless
-          there is laborless-demand, then supply’s movement, like userer:
-          insurer, lender, landlord, is represented by a dead weight box, and
-          only then wouldn’t increased demand coincide with increased supply
-          (along x economic welfare,{space}
-          <a href="https://fred.stlouisfed.org/graph/?g=LmzU">GDP/hour-GDP/p</a>
-          ) keeping prices y the same.
+        Demand pull inflation happens by people++ but supply as well, unless
+        there is laborless-demand, then supply’s movement, like userer: insurer,
+        lender, landlord, is represented by a dead weight box, and only then
+        wouldn’t increased demand coincide with increased supply (along x
+        economic welfare,{space}
+        <a href="https://fred.stlouisfed.org/graph/?g=LmzU">GDP/hour-GDP/p</a>
+        ) keeping prices y the same.
         <br />
         <br />
         GDP/hour-GDP/p still captures that of which is not captured (leisure:
@@ -7063,7 +7086,6 @@ class Archive extends React.Component {
           otherwise you would have to start with equal distribution/per
           capita/average
         </h2>
-
         "50m owns Bitcoin, 250m wallets."
         <h3>"London School Econ and MIT: '.01% 27% of bitcoin,'" Ari Juels.</h3>
         U.S. Energy and Commerce, 'The Energy Impacts of Blockchains:' "There is
@@ -7850,4 +7872,3 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
-
