@@ -1478,6 +1478,7 @@ export default class App extends React.Component {
             “The most important thing is so that people don’t think there is
             fraud,{space}<a href="https://vaults.biz/trading">than prevent it</a>.”
           </h2>
+          <h3>Prices are ask bid mean, not positions.</h3>
           The ref didn’t call that, someone refs don’t like is heavy on the rams
           (uuid random with standing/disparate receipts).
           <br />
