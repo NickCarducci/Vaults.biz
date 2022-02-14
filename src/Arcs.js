@@ -6808,6 +6808,31 @@ class Arcs extends React.Component {
         <br />
         {/**capitalism */}
         <h1 ref={this.props.sdr}>transaction-based-sdr</h1>
+        "What kinds of things would become currency if society were to break
+        down? "
+        <br />
+        Nick Carducci - Legal Writer & Software Engineer at Vaults.biz
+        (2020–present)
+        <br />
+        Salts, coffee, maybe lumber, any non-unique nor perishable, and
+        concurrentable units:
+        <br />
+        as opposed to good will, expiring premiums, estimated claims, invoices,
+        accrual and donee invocations.
+        <br />
+        Operationally, a local bookie (with grades, ask and bid, guess and
+        check) would facilitate a vault share with transaction fees. Do not let
+        anyone tell you, “sdr requires debt.”
+        <br />
+        Put dollars v bonds in court and I swear to G-d and you that Savers will
+        take all of U.S. state lands and resources (20%).
+        <br />
+        Max-royalty and Truncated Production Tax will replace debts, after
+        well-medicated (cash/debt)*income every year back so that we all paid
+        what we would have without surrendered freedom of contractor liability
+        implied by EULA, Tranquil and voluntary trade.
+        <br />
+        <br />
         max-royalty 1/12 industry{space}&bull;{space}
         Truncated sales Tax Free Rider Immutable sewage police lawsuits geohash
         transaction line, congress only needs to see sum per month
