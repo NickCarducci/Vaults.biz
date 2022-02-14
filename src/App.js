@@ -1250,7 +1250,9 @@ export default class App extends React.Component {
             >
               by
             </span>
-            {space}per covid per deaths per population
+            {space}per covid per deaths per population. High per accident per
+            pot-user per population, n=100 can take A per B, to find normalcy,
+            if random or 1/100 shuffled, if known. Asymptomatic is normal sniffles.
           </h3>
           <br />
           pennywise margin target to inflation mean material+rent WORKS because
