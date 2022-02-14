@@ -1247,6 +1247,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Dog bite illegals, doing their job."<br/>
           "Inflation with equal labor, profits, and assets over the currency is
           stasis," 45books.com our jouney to hell. That is laborless-demand,
           GDP/hour-GDP/p down, Trump did NOthing forseeable impossible is not
