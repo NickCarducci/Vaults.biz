@@ -1241,6 +1241,20 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Bigger than myself? I’m the biggest fucking thing in the world. Coding
+          statistician?
+          <br />
+          <br />
+          "Is it common that people with bipolar disorder think that they are
+          smart?"
+          <br />
+          Nick Carducci - 13 days for elope chem therapy, saying ‘rollover
+          insurance.’
+          <br />
+          ’Bizarre’ is a term used to diagnose bipolar as well as new science,
+          and psychosis is not biomedical CT scan either, to boot.
+          <br />
+          <br />
           "What is schizo-economics?"
           <br />
           Nick Carducci - Injured yet labeled schizophrenic for boycott credit
@@ -1268,6 +1282,8 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
+          <br/>
+          or "Technological-advancement (-GDP/p) requires medication."
           <h1>
             Lidia Curanai, what do you even do? "People kill people tht they are
             mentally deranged, they need medicine." No they need jail
