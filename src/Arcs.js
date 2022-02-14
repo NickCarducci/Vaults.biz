@@ -4918,6 +4918,13 @@ class Arcs extends React.Component {
         />
         "Domestic terrorism is being infected with a virus."
         <br />
+        <br />
+
+        censorship beyond 11/12 industry General Maintenance Unit minimal
+          viable product duress multiple permit is Capitalism, not
+          Microeconomics/Marxism Labor-Borne-Supply and -Demand, with grounds to
+          margin target operational monopolies, free rider mutable, for economic
+          welfare, GDP/hour-GDP/p enumerated.
         <h3 ref={this.props.gmu}>
           General Maintenance Unit: Unbiased Polling to define science testing
           and randomness or variance, sometimes of disparate expected values
