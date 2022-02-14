@@ -1241,6 +1241,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>Lidia Curanai, what do you even do? "People kill people tht they are mentally deranged, they need medicine." No they need jail</h1>
           19% disabled, but they are just old - that is good will and
           collateralized loitering and market concentration over the currency,
           either you are for your good will market capitalization, or you are
