@@ -1241,6 +1241,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          artifact per capitis<br/>
           pennywise margin target to inflation mean material+rent WORKS because
           false bid pool loss supply!==demand without labor makes dead weight
           box, deprecating GDP/hour-GDP/p, econ welfare/output enumerated.
