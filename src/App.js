@@ -1241,6 +1241,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Is the UK like the USA, but less rich?"
+          <br />
+          Nick Carducci - Legal Writer & Software Engineer at Vaults.biz
+          (2020-present)
+          <br />
+          Rich per capita, or by land, are two different questions.
+          <br />
+          The currency is land-deeds, *yet it could be
+          transaction-fee-based-sdr, with truncated production tax free rider
+          immutable sewage police lawsuits and 1/12 industry max-royalty*.
+          <br />
+          Rich in such debasement, *by assets’ collateral and good will last
+          traded neighborhood price, non-concurrentable $170t/$2t*, is not
+          really rich. **To be rich is to live in a decreasing GDP/p**.
+          <br />
+          **Moreover, I think it is a fallacy to say a country is rich**, as is
+          *delusion of the parts or average per capita, -GDP/p, tech
+          advancement*. This is attained by exclusively-labor-demand==supply,
+          absence of userers (insurers, lenders, landlords); **the UK is like
+          the USA** in these said metrics, **but ****smaller**.
           <h1>GENOCIDE THE SLAVE-OWNERS</h1>
           Itemized conflict of interest is nothing like known variance of juris.
           An activist/whistleblower is not a conflict of interest.
@@ -1259,6 +1279,22 @@ export default class App extends React.Component {
             sniffles.
           </h3>
           <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/b4dkpbzaiunc8x7/aint%20nobody%20time.gif?dl=0"
+            }
+            float="left"
+            title=" ain't nobody got time for that"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           pennywise margin target to inflation mean material+rent WORKS because
           false bid pool loss supply!==demand without labor makes dead weight
           box, deprecating GDP/hour-GDP/p, econ welfare/output enumerated.
