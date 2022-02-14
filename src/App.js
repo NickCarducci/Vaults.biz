@@ -1240,7 +1240,7 @@ export default class App extends React.Component {
                 ? "21px"
                 : "17px"
           }}
-        >Facemask then push out, quick kick before the refs on the field but the box and Caesars sportsbook beknowst.<br/>
+        >Facemask then push out, one to put them ove 10-13 to 17, quick kick before the refs on the field but the box and Caesars sportsbook beknowst.<br/>
           The ref didn’t call that, someone refs don’t like is heavy on the rams (uuid random with standing/disparate receipts).
           <br/>
           <br/>
@@ -6843,3 +6843,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
