@@ -1241,6 +1241,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          I have a point that disproves the pandemic, excess deaths is expected,
+          and age specific death rate cannot be made significant with a sample
+          of 2
+          <br />
+          <br />
           Bigger than myself? I’m the biggest fucking thing in the world. Coding
           statistician?
           <br />
@@ -1282,7 +1287,7 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
-          <br/>
+          <br />
           or "Technological-advancement (-GDP/p) requires medication."
           <h1>
             Lidia Curanai, what do you even do? "People kill people tht they are
