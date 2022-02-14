@@ -1241,6 +1241,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          pennywise margin target to inflation mean material+rent WORKS because
+          false bid pool loss supply!==demand without labor makes dead weight
+          box, deprecating GDP/hour-GDP/p, econ welfare/output enumerated.
           <h2>
             hawks take care of bonds, not equal in receipt and scope tax: free
             rider mutable gentrification
