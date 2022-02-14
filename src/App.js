@@ -1247,7 +1247,16 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "Dog bite illegals, doing their job."<br/>
+          7% NYC voter turnout, education pipeline has no purpose, rob kim, you
+          cannmot impose your self-objectified inaquedacies. Just jail people
+          that stab people, it has nothing to do with CT scans. I'll kill you
+          first. "Pretrial, before you commit a crime, hey you are aa ticking
+          time bomb, you don't belong here." Go out to sea faggot. "Mental
+          Hygine threat to yourself or others, civilly committed for observation
+          and treatment."
+          <br />
+          "Dog bite illegals, doing their job."
+          <br />
           "Inflation with equal labor, profits, and assets over the currency is
           stasis," 45books.com our jouney to hell. That is laborless-demand,
           GDP/hour-GDP/p down, Trump did NOthing forseeable impossible is not
@@ -7236,4 +7245,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
