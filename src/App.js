@@ -1241,6 +1241,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Bill O'Reilly: "Every dollar you’ve 'earned' of $170t good will and
+          collateralized 'value,' $2t checking, Savers’ donee beneficiary
+          land-exploration rights (20% of U.S.).
+          <br />
+          <br />
           Average GDP/p made fine for inflation mesur.
           <br />
           Since it is Valentines' Day, International trade begrets -GDP/p, and I
@@ -6853,4 +6858,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
