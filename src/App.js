@@ -1241,6 +1241,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          19% disabled, but they are just old - that is good will and
+          collateralized loitering and market concentration over the currency,
+          either you are for your good will market capitalization, or you are
+          for the dollar, $2 checking and $170t for pensions, Medicare $800b/yr
+          and Social Security $1.2t/yr, you douches don’t even know how that
+          matches $4t/yr fed spending 40% debt spending.
+          <br />
+          <br />
           10% of the truckers make the virus, or vaccines never worked.
           <br />
           Douche says kids shouldn’t be masked but you are still terrorizing
@@ -1248,7 +1256,8 @@ export default class App extends React.Component {
           <br />
           Does good sewage cause Alzheimer’s? Why don’t you pricks eat my ass
           <br />
-          I’ve got a joke,{space}<a href="https://qr.ae/pGjeZ2">douche says what</a>?
+          I’ve got a joke,{space}
+          <a href="https://qr.ae/pGjeZ2">douche says what</a>?
           <h1>how many more you got, fatass?</h1>
           Suit for surrogacy and she is claiming emotional distress? That isn’t
           tortious…
