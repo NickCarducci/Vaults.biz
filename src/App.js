@@ -1241,6 +1241,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Why is Congress allowed to kill over foreign construction but{space}
+          <a href="https://www2.census.gov/library/publications/decennial/1950/population-volume-4/41601751v4p1.pdf#page=14">
+            I’m not
+          </a>
+          ? Just because you?
           <h1>
             intersectionality, forms of oppression hitting in more than one
             factor, like calculus. the sexual politics of meat
