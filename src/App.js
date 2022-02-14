@@ -1241,8 +1241,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          I can just post to my site rather than call, thanks.<br/><br/>
           No position to account for themselves, you want the parents to be able
-          to take care of them, so you share-split their money.
+          to take care of them, so you share-split their money. :She should know
+          that someone whe is with would be abusive with her son, but 32 years
+          is a bridge to far, and because the judges prodit per annum. I agree
+          with the law, not the sentence,” makes no sense.
           <br />
           <br />
           Pamolina, when you wen to Iceland at 21 was it with your mom’s
