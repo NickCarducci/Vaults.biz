@@ -1241,6 +1241,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "A lot of body and fender." is that cop code for torture? Lying under
+          duress for state vic has nothing to do with the other way around
+          fuckers. Death To America.
+          <br />
+          <br />
           "Is the UK like the USA, but less rich?"
           <br />
           Nick Carducci - Legal Writer & Software Engineer at Vaults.biz
@@ -1261,7 +1266,11 @@ export default class App extends React.Component {
           advancement*. This is attained by exclusively-labor-demand==supply,
           absence of userers (insurers, lenders, landlords); **the UK is like
           the USA** in these said metrics, **but ****smaller**.
-          <h1>GENOCIDE THE SLAVE-OWNERS</h1>
+          <h1>
+            GENOCIDE THE SLAVE-OWNERS
+            {/**proof livlihood is grounds, historically, 
+          per American Revolution was not a war crime */}
+          </h1>
           Itemized conflict of interest is nothing like known variance of juris.
           An activist/whistleblower is not a conflict of interest.
           <h3>
