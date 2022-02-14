@@ -1247,9 +1247,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          I finally understand why I am something of a bipolar, all cheap cameras
-          under duress: 50% don’t vote, sayers of "Thanks Sarah adleson and
-          Shawn neesee" do not speak for us.
+          "Inflation with equal labor, profits, and assets over the currency is
+          stasis," 45books.com our jouney to hell.
+          <br />
+          I finally understand why I am something of a bipolar, all cheap
+          cameras under duress: 50% don’t vote, sayers of "Thanks Sarah adleson
+          and Shawn neesee" do not speak for us.
           <br />
           Is this just another mean inflation price fix for insurance false bid
           pool loss supply!=demand.
