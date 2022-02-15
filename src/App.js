@@ -1279,6 +1279,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          rollover insurance, warranty is estimate scope of requirements, ...but
+          not yet a scope of work.
+          <h3>
+            $10k + $7k + used, carshield saved nothing by false bid pool loss.
+            They can only charge per ware, not invoices.
+          </h3>
           James Klug: "
           <a href="https://vaults.biz/fines">
             dollar amount bribe jail{/**james */}
@@ -1293,7 +1299,11 @@ export default class App extends React.Component {
           Medicare pennywise of $2.7t/yr "healthcare;" $1.8t/yr Share-split
           collateral (credit/debt-spending), $2.2t/yr federal spending). $12k/yr
           debt total.
-          <h2><a href="https://qr.ae/pGjmlD">borrower, intent and donee defense</a></h2>
+          <h2>
+            <a href="https://qr.ae/pGjmlD">
+              borrower, intent and donee defense
+            </a>
+          </h2>
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
           punching. Show the tapes, Stuart Varney.
           <br />
