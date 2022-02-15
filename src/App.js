@@ -1041,7 +1041,7 @@ export default class App extends React.Component {
 
       <div
         style={{
-          userSelect:!this.state.ios?"auto": "none",
+          userSelect: !this.state.ios ? "auto" : "none",
           marginLeft: "62px",
           backgroundColor: "rgb(160,70,180)",
           width: "600px",
@@ -1067,7 +1067,7 @@ export default class App extends React.Component {
         <div
           style={{
             color: this.state.scrolling ? "white" : "",
-            userSelect:!this.state.ios?"auto": "none",
+            userSelect: !this.state.ios ? "auto" : "none",
             top: this.state.offScroll
               ? 0
               : Math.min(
@@ -1095,7 +1095,7 @@ export default class App extends React.Component {
               backgroundColor: "white",
               borderRadius: "12px",
               padding: "10px",
-              userSelect:!this.state.ios?"auto": "none",
+              userSelect: !this.state.ios ? "auto" : "none",
               cursor:
                 this.state.scrollTop !== 0 && !this.state.footer
                   ? "pointer"
@@ -1121,7 +1121,7 @@ export default class App extends React.Component {
           >
             <span
               style={{
-                userSelect:!this.state.ios?"auto": "none",
+                userSelect: !this.state.ios ? "auto" : "none",
                 right: "0px",
                 fontWeight: "bolder",
                 fontSize: "30px",
@@ -1135,7 +1135,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                userSelect:!this.state.ios?"auto": "none",
+                userSelect: !this.state.ios ? "auto" : "none",
                 borderRadius: "10px",
                 border: "5px solid rgb(5,5,5)",
                 width: "30px",
@@ -1149,7 +1149,7 @@ export default class App extends React.Component {
             />
             <div
               style={{
-                userSelect:!this.state.ios?"auto": "none",
+                userSelect: !this.state.ios ? "auto" : "none",
                 backgroundColor: "black",
                 width: "10px",
                 position: "absolute",
@@ -1255,6 +1255,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          crime is because the ccc is gone? because of implausible use
+          rental-income. This is to ween off rent, not actual work
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
@@ -3821,6 +3823,26 @@ export default class App extends React.Component {
           2019-2020…
           <br />
           <br />
+          <Cable
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+              width: "300px"
+            }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.props.nofred
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/czp5lgef8og7iwb/IMG_2977.jpeg?dl=0"
+            }
+            float={"right"}
+            title="5x5 and single year population and mortality poistive correlation https://humanharvest.info/polio"
+            scrolling={this.props.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           Mean is Expected when outliers, but not abnormal-skew. Median (order)
           normalizes a nominal skew, and is exclusively captured by your cross
           or time (still-cross) section, n{">"}100 random or n{">"}1/100 testing
@@ -6562,7 +6584,7 @@ export default class App extends React.Component {
             <div
               onClick={() => this.setState({ footer: false })}
               style={{
-                userSelect:!this.state.ios?"auto": "none",
+                userSelect: !this.state.ios ? "auto" : "none",
                 cursor: "pointer",
                 WebkitTextStroke: "2px rgb(100,200,140)",
                 fontSize: "26px",
@@ -7199,7 +7221,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            userSelect:!this.state.ios?"auto": "none",
+            userSelect: !this.state.ios ? "auto" : "none",
             position: "fixed",
             bottom: "0px",
             right: 0 /* 600 -( !isNaN(this.state.width)
@@ -7236,7 +7258,7 @@ export default class App extends React.Component {
               backgroundColor: this.state.hoverUpPager
                 ? "rgba(240,240,240,1)"
                 : "",
-              userSelect:!this.state.ios?"auto": "none",
+              userSelect: !this.state.ios ? "auto" : "none",
               WebkitTextStroke: "2px rgb(100,200,140)",
               fontSize: "26px",
               fontWeight: "bold",
@@ -7272,7 +7294,7 @@ export default class App extends React.Component {
                 ? "rgba(240,240,240,1)"
                 : "",
               transform: "rotate(180deg)",
-              userSelect:!this.state.ios?"auto": "none",
+              userSelect: !this.state.ios ? "auto" : "none",
               WebkitTextStroke: "2px rgb(100,200,140)",
               fontSize: "26px",
               fontWeight: "bold",
@@ -7329,4 +7351,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
