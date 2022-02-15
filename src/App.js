@@ -124,6 +124,7 @@ export default class App extends React.Component {
     this.c1775 = React.createRef();
     this.chang = React.createRef();
     this.rcv = React.createRef();
+    this.debt = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -394,6 +395,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.jews.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/debt") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.debt.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/chang") {
           this.setState(
@@ -879,6 +885,8 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.russia.current) < tryy) {
         inSection("russia");
+      } else if (construct(true, this.debt.current) < tryy) {
+        inSection("debt");
       } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
       } else if (construct(true, this.chang.current) < tryy) {
@@ -1429,7 +1437,8 @@ export default class App extends React.Component {
           pennywise only, they don’t want to ban invoices, insurance, nor
           prescriptions outright.
           <br />
-          Alexa Folsom doctors do that, government don’t allow invoices nor
+          <hr ref={this.debt}/>
+         ...doctors do that, government don’t allow invoices nor
           insurance.
           <br />
           Poverty=equality because labor costs are used to corner the market by
@@ -1480,6 +1489,7 @@ export default class App extends React.Component {
           <br />
           Rich per capita, or by land, are two different questions.
           <br />
+          
           The currency is land-deeds, *yet it could be
           transaction-fee-based-sdr, with truncated production tax free rider
           immutable sewage police lawsuits and 1/12 industry max-royalty*.
@@ -7299,6 +7309,15 @@ export default class App extends React.Component {
               // onClick={() => console.log("trr")}
             >
               renewables
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("debt") }}
+              href={`${window.location.origin}/debt`}
+              // onClick={() => console.log("trr")}
+            >
+              debt
             </a>
             <br />
             <br />
