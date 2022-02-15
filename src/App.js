@@ -120,6 +120,7 @@ export default class App extends React.Component {
     //this.warfare = React.createRef();
     this.leisure = React.createRef();
     this.russia = React.createRef();
+    this.rent = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -479,6 +480,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.juris.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/rent") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.rent.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/crime") {
           this.setState(
@@ -885,6 +891,8 @@ export default class App extends React.Component {
         inSection("psych");
       } else if (construct(true, this.govtech.current) < tryy) {
         inSection("govtech");
+      } else if (construct(true, this.rent.current) < tryy) {
+        inSection("rent");
       } else if (construct(true, this.redistricting.current) < tryy) {
         inSection("redistricting");
       } else if (construct(true, this.monopoly.current) < tryy) {
@@ -1247,10 +1255,45 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          A jurisdiction that relies on appeals to lessen their cost is just as
-          damaging to the Public as outright trust by state victimization
-          instead of warning, personal-tort (without false-bid-pool loss) and jail.
-          <h2>Fine lower judges for appealed convictions of higher courts, make them accountable.</h2>
+          <hr ref={this.rent} />
+          I've{space}
+          <a href="https://nextdoor.com/p/yJhWyXgPTdNG">found</a>
+          {space}the only way for rental-income cap by 5 storefronts or
+          condominiums is to make half the no's, FEEL BAD, for prices (fairer
+          tho).
+          <br />
+          <br />
+          Rental-income by unit cap isn't a dishwashing cap. Don't be scared. We
+          don't need rent to operate, although we have never settled.
+          <br />
+          <br />
+          Higher wages better healthcare per invoice and productivity-ward
+          (home)
+          <br />
+          …More pay per hour per home
+          <br />
+          …(income/hour)/home
+          <br />
+          …Not false bid pool loss!
+          <br />
+          Poverty=(inflation/income)=equality? 19% disabled; just old!
+          Delinquents tbqh!
+          <br />
+          <br />
+          Bill O’Reilly: “Drug addicted forced cold turkey 9m 17 younger live
+          with 1 parent addicted to substance, needles, drugs: narcotics or
+          alcohol. You go ahead steal prostitute yourself, spread disease, that
+          is the far left view, 0-5 60% foster children of addicts, harm
+          reduction, mandatory rehabilitation.”
+          <br />
+          <br />A jurisdiction that relies on appeals to lessen their cost is
+          just as damaging to the Public as outright trust by state
+          victimization instead of warning, personal-tort (without
+          false-bid-pool loss) and jail.
+          <h2>
+            Fine lower judges for appealed convictions of higher courts, make
+            them accountable.
+          </h2>
           The right calls "mvp duress, no surrendered-freedoms of others,
           prevention of domestic Violence, '
           <a href="https://vaults.biz/gmu">micro-managing</a>.'"
@@ -7256,4 +7299,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
