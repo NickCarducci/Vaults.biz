@@ -1513,20 +1513,6 @@ export default class App extends React.Component {
           </h1>
           Itemized conflict of interest is nothing like known variance of juris.
           An activist/whistleblower is not a conflict of interest.
-          <h3>
-            artifact per capitis - deaths{space}
-            <span
-              style={{
-                textDecoration: "line-through"
-              }}
-            >
-              by
-            </span>
-            {space}per covid per deaths per population. High per accident per
-            pot-user per population, n=100 can take A per B, to find normalcy,
-            if random or 1/100 shuffled, if known. Asymptomatic is normal
-            sniffles.
-          </h3>
           <br />
           <Cable
             style={{ width: "200px", height: "auto" }}
@@ -4095,6 +4081,38 @@ export default class App extends React.Component {
             Pfizer and Harvard wyss says bacterial cause is acute version of
             virion.
           </h2>
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dropbox.com/s/hnj9kt2dlc3jl6u/Screen%20Shot%202022-02-15%20at%203.08.15%20PM.png?dl=0"
+            }
+            float="left"
+            title="American Agenda (Newsmax) - David Samadi"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          "You don’t need a medical degree to understand that the numbers are
+          going down."
+          <h3>
+            artifact per capitis - deaths{space}
+            <span
+              style={{
+                textDecoration: "line-through"
+              }}
+            >
+              by
+            </span>
+            {space}per covid per deaths per population. High per accident per
+            pot-user per population, n=100 can take A per B, to find normalcy,
+            if random or 1/100 shuffled, if known. Asymptomatic is normal
+            sniffles.
+          </h3>
           "What are the actual benefits of inflation?"
           <br />
           *Relative to labor costs*, it may be, but only if inequality lessens
