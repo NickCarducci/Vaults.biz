@@ -957,7 +957,9 @@ export default class App extends React.Component {
         inSection("devil");
       } else if (construct(null, this.china.current) < tryy) {
         inSection("china");
-      } else if (construct(null, this.crypto.current) < tryy) {
+      } else if (construct(null, this.rcv.current) < tryy) {
+        inSection("rcv");
+      }else if (construct(null, this.crypto.current) < tryy) {
         inSection("crypto");
       } else if (construct(null, this.bitcongress.current) < tryy) {
         inSection("bitcongress");
