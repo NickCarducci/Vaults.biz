@@ -1298,7 +1298,7 @@ export default class App extends React.Component {
           disabled), I don’t make it about me ($1.2t/yr SSA + $829.5b/yr
           Medicare pennywise of $2.7t/yr "healthcare;" $1.8t/yr Share-split
           collateral (credit/debt-spending), $2.2t/yr federal spending). $12k/yr
-          debt total.
+          debt total. So, you are telling me that credit is being reloaned 187.5x/yr?
           <h2>
             <a href="https://qr.ae/pGjmlD">
               borrower, intent and donee defense
