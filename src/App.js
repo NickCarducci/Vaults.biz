@@ -1266,8 +1266,8 @@ export default class App extends React.Component {
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
           punching. Show the tapes, Stuart Varney.
           <br />
-          crime is because the ccc parent-trust is gone? because of implausible use
-          rental-income. This is to ween off rent, not actual work
+          crime is because the ccc parent-trust is gone? because of implausible
+          use rental-income. This is to ween off rent, not actual work
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
@@ -6708,6 +6708,31 @@ export default class App extends React.Component {
               Obamacare
             </a>
             <br />
+            conservative responsibility surrendered pussy-cucks on the right
+            <a
+              style={{ color: "black" }}
+              href={`${window.location.origin}/gmu`}
+            >
+              utility
+            </a>
+            {space}
+            <a style={{ color: "black" }} href="https://3under2.us">
+              3under2
+            </a>
+            {space}
+            <a
+              style={{ color: "black" }}
+              href={`${window.location.origin}/immi`}
+            >
+              borders
+            </a>
+            {space}
+            <a
+              style={{ color: "black" }}
+              href="https://teapharmacy.party/drugs"
+            >
+              fentanyl
+            </a>
             <a
               onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("homelessness") }}
