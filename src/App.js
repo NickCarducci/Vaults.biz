@@ -3823,6 +3823,16 @@ export default class App extends React.Component {
           2019-2020…
           <br />
           <br />
+          Mean is Expected when outliers, but not abnormal-skew. Median (order)
+          normalizes a nominal skew, and is exclusively captured by your cross
+          or time (still-cross) section, n{">"}100 random or n{">"}1/100 testing
+          shuffled population. Normalizing a nominal is always still the first
+          derivative, but not change/change by section; factoral-exogeneity is
+          solved-for by the second, discounting
+          coincidence/necessary-endogeneity; for instance, education/employment
+          is unearthed (hard to find employment by education, just per
+          capita/average of each, or preferably,
+          <br />
           <Cable
             style={{
               maxWidth: "100%",
@@ -3843,17 +3853,12 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
-          Mean is Expected when outliers, but not abnormal-skew. Median (order)
-          normalizes a nominal skew, and is exclusively captured by your cross
-          or time (still-cross) section, n{">"}100 random or n{">"}1/100 testing
-          shuffled population. Normalizing a nominal is always still the first
-          derivative, but not change/change by section; factoral-exogeneity is
-          solved-for by the second, discounting
-          coincidence/necessary-endogeneity; for instance, education/employment
-          is unearthed (hard to find employment by education, just per
-          capita/average of each, or preferably, Single year age-SPECIFIC, not
-          “adjusted”-rate (an average). In this way, derivatives define
-          endogenous factors of a given Pearson correlation.
+          Single year age-SPECIFIC, not “adjusted”-rate (an average). In this
+          way, derivatives define endogenous factors of a given Pearson
+          correlation (r=(1/n)Sum(x,mean,deviation)), if n btwn [0,1], imo, and
+          was actually population/sample size, so that the correlation is
+          deflated by inaccuracy of randomness/shuffling-known-populations, as order
+          matters.
           <br />
           <br />
           Alzheimer's is caused by sewage, in a cross-section of 2/100 with
@@ -7351,3 +7356,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
