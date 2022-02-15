@@ -3772,9 +3772,29 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/fp45znfkhu0vxhn/Screen%20Shot%202022-02-15%20at%2010.21.21%20AM.png?dl=0"
+            }
+            float="left"
+            title="CEDC Archive Lesson 3 Principles of Epidimeology  Age Specific Mortality - https://www.cdc.gov/csels/dsepd/ss1978/Lesson3/Section3.html#_ref8"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           Correlation of significance is reflexive - how far off is the mean of
-          the distribution (e.g. age-specific death rates), of a sample of a
-          population or all-time? n=100 is required, or 1/100 known, to answer.
+          the distribution (e.g. age-
+          <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm">
+            specific
+          </a>{" "}
+          death rates), of a sample of a population or all-time? n=100 is
+          required, or 1/100 known, to answer.
           <br />
           <br />
           Significance from mean abount n{"<"}100 random lest 1/100 shuffled if
@@ -7309,3 +7329,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
