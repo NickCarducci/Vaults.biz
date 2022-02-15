@@ -1041,7 +1041,7 @@ export default class App extends React.Component {
 
       <div
         style={{
-          userSelect: "none",
+          userSelect:!this.state.ios?"auto": "none",
           marginLeft: "62px",
           backgroundColor: "rgb(160,70,180)",
           width: "600px",
@@ -1067,7 +1067,7 @@ export default class App extends React.Component {
         <div
           style={{
             color: this.state.scrolling ? "white" : "",
-            userSelect: "none",
+            userSelect:!this.state.ios?"auto": "none",
             top: this.state.offScroll
               ? 0
               : Math.min(
@@ -1095,7 +1095,7 @@ export default class App extends React.Component {
               backgroundColor: "white",
               borderRadius: "12px",
               padding: "10px",
-              userSelect: "none",
+              userSelect:!this.state.ios?"auto": "none",
               cursor:
                 this.state.scrollTop !== 0 && !this.state.footer
                   ? "pointer"
@@ -1121,7 +1121,7 @@ export default class App extends React.Component {
           >
             <span
               style={{
-                userSelect: "none",
+                userSelect:!this.state.ios?"auto": "none",
                 right: "0px",
                 fontWeight: "bolder",
                 fontSize: "30px",
@@ -1135,7 +1135,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                userSelect: "none",
+                userSelect:!this.state.ios?"auto": "none",
                 borderRadius: "10px",
                 border: "5px solid rgb(5,5,5)",
                 width: "30px",
@@ -1149,7 +1149,7 @@ export default class App extends React.Component {
             />
             <div
               style={{
-                userSelect: "none",
+                userSelect:!this.state.ios?"auto": "none",
                 backgroundColor: "black",
                 width: "10px",
                 position: "absolute",
@@ -6562,7 +6562,7 @@ export default class App extends React.Component {
             <div
               onClick={() => this.setState({ footer: false })}
               style={{
-                userSelect: "none",
+                userSelect:!this.state.ios?"auto": "none",
                 cursor: "pointer",
                 WebkitTextStroke: "2px rgb(100,200,140)",
                 fontSize: "26px",
@@ -7199,7 +7199,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            userSelect: "none",
+            userSelect:!this.state.ios?"auto": "none",
             position: "fixed",
             bottom: "0px",
             right: 0 /* 600 -( !isNaN(this.state.width)
@@ -7236,7 +7236,7 @@ export default class App extends React.Component {
               backgroundColor: this.state.hoverUpPager
                 ? "rgba(240,240,240,1)"
                 : "",
-              userSelect: "none",
+              userSelect:!this.state.ios?"auto": "none",
               WebkitTextStroke: "2px rgb(100,200,140)",
               fontSize: "26px",
               fontWeight: "bold",
@@ -7272,7 +7272,7 @@ export default class App extends React.Component {
                 ? "rgba(240,240,240,1)"
                 : "",
               transform: "rotate(180deg)",
-              userSelect: "none",
+              userSelect:!this.state.ios?"auto": "none",
               WebkitTextStroke: "2px rgb(100,200,140)",
               fontSize: "26px",
               fontWeight: "bold",
@@ -7304,7 +7304,7 @@ export default class App extends React.Component {
 
           }
           style={{
-            userSelect: "none",
+            userSelect:!this.state.ios?"auto": "none",
             cursor:
               this.state.scrollTop !== 0 && !this.state.footer
                 ? "pointer"
