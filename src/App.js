@@ -126,6 +126,8 @@ export default class App extends React.Component {
     this.rcv = React.createRef();
     this.debt = React.createRef();
     this.democrats = React.createRef();
+    this.cancel = React.createRef();
+    this.price = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -416,6 +418,16 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.leisure.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/cancel") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.cancel.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/price") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.price.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/drugs") {
           this.setState(
@@ -931,11 +943,15 @@ export default class App extends React.Component {
         inSection("redistricting");
       } else if (construct(true, this.monopoly.current) < tryy) {
         inSection("monopoly");
-      } else if (construct(true, this.c1775.current) < tryy) {
+      } else if (construct(true, this.cancel.current) < tryy) {
+        inSection("cancel");
+      }else if (construct(true, this.c1775.current) < tryy) {
         inSection("c1775");
       } else if (construct(true, this.sci.current) < tryy) {
         inSection("sci");
-      } else if (construct(true, this.insurance.current) < tryy) {
+      } else if (construct(true, this.price.current) < tryy) {
+        inSection("price");
+      }  else if (construct(true, this.insurance.current) < tryy) {
         inSection("insurance");
       } else if (construct(true, this.education.current) < tryy) {
         inSection("education");
@@ -1295,6 +1311,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Transaction-fee-based-sdr (security deposit receipt, vault share,
+          special drawing rights) no debt! 1/12 industry type max-royalty.
+          Cancel is{space}
+          <a href="https://vaults.biz/cancel">university boogie</a>.
+          (Cash/debt)*income every year back. Amortize the debt as a bad thing
+          damage and harm, donee bene and borrower defense liable contractor.
+          Those land exploration rights are depositary for dollars.
+          <br />
+          <br />
           Suck my balls bitch, with standing. Just Do it{/**Ann, hold */}
           <br />
           which pain?
@@ -3851,6 +3876,7 @@ export default class App extends React.Component {
           instead of Truncated Produyction Tax 2025 is retarded.
           <br />
           <br />
+          <hr ref={this.cancel}/>
           Universities would rather cancel than reverse borrower defense
           (impossible) nor donee invocations of Savers’.
           <br />
@@ -4679,6 +4705,19 @@ export default class App extends React.Component {
           of dollars over bonds’ of state-lands and “exploration” resources.
           <br />
           <br />
+          <hr ref={this.price}/>
+          <a href="https://vaults.biz/inflation">Inflation</a>{space}is materials+rents, that which deals in chequeing,
+          {space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LZrq">
+            currencyComponentOfM1
+          </a>
+          ($b), not{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">m2</a>
+          {space}good-will collateralized and last-traded-neighborhood price
+          REFLECTION.
+          <br />
+          <br />
+          Cutting costs work when supply!= demand!<br/><br/>
           competing with consumers not only is not surprising, but it is
           retarded for bunting GDP/hour-GDP/p
           <h1>Jump! Go ahead, jump!</h1>
@@ -7132,11 +7171,33 @@ export default class App extends React.Component {
               onMouseEnter={hoverpathe}
               style={{
                 color: "black",
+                border: scrollPath("cancel")
+              }}
+              href={`${window.location.origin}/cancel`}
+            >
+              cancel
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{
+                color: "black",
                 border: scrollPath("insurance")
               }}
               href={`${window.location.origin}/insurance`}
             >
               insurance
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{
+                color: "black",
+                border: scrollPath("price")
+              }}
+              href={`${window.location.origin}/price`}
+            >
+              price
             </a>
             {space}
             <a
