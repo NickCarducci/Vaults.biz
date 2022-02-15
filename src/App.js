@@ -1279,7 +1279,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h1>Consider Your Man Card Reissued, PUSSY-ASS-BITCH</h1>
+          <h1>
+            Consider Your Man Card Reissued, PUSSY-ASS-BITCH - TAKE CONTROL
+            TODAY{space}
+            <span role="img" aria-label="gun">
+              🔫
+            </span>
+          </h1>
           Request for proposals, scope of requirements then scope of work,
           itemized timeclock and material, logging and mining until resale,
           variable.
