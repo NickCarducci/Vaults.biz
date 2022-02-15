@@ -6724,7 +6724,10 @@ export default class App extends React.Component {
             CEO Bridgewater, 8/10 paycheck to paycheck, infaltion Dave
             McCorrmick, inflation is poverty when relative to labor, and that
             makes for equality. so,{space}
-            <a href="https://fred.stlouisfed.org/graph/?g=M7kx">
+            <a
+              href="https://fred.stlouisfed.org/graph/?g=M7mh"
+              style={{ color: "black" }}
+            >
               (income/hours)/homes
             </a>
             {space}invisible-methane frackers PA net energy importers in one
