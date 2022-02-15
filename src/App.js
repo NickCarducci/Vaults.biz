@@ -125,6 +125,7 @@ export default class App extends React.Component {
     this.chang = React.createRef();
     this.rcv = React.createRef();
     this.debt = React.createRef();
+    this.democrats = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -396,7 +397,12 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.jews.current.offsetTop) //offsetTop
           );
-        } else if (this.props.pathname === "/debt") {
+        } else if (this.props.pathname === "/democrats") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.democrats.current.offsetTop) //offsetTop
+          );
+        }else if (this.props.pathname === "/debt") {
           this.setState(
             { planner: true },
             () => pager(true, this.debt.current.offsetTop) //offsetTop
@@ -885,7 +891,9 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.russia.current) < tryy) {
         inSection("russia");
-      } else if (construct(true, this.debt.current) < tryy) {
+      } else if (construct(true, this.democrats.current) < tryy) {
+        inSection("democrats");
+      }  else if (construct(true, this.debt.current) < tryy) {
         inSection("debt");
       } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
@@ -1344,6 +1352,7 @@ export default class App extends React.Component {
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
           punching. Show the tapes, Stuart Varney.
           <br />
+          <hr ref={this.democrats}/>
           crime is because the ccc parent-trust is gone? because of implausible
           use rental-income. This is to ween off rent, not actual work
           {/*Like with econometrics, significance and truth cannot be found, only
@@ -7351,6 +7360,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/air`}
             >
               air
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("democrats") }}
+              href={`${window.location.origin}/democrats`}
+            >
+              democrats
             </a>
             {space}
             <a
