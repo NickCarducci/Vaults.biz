@@ -4090,7 +4090,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://www.dropbox.com/s/hnj9kt2dlc3jl6u/Screen%20Shot%202022-02-15%20at%203.08.15%20PM.png?dl=0"
             }
-            float="left"
+            float="right"
             title="American Agenda (Newsmax) - David Samadi"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
