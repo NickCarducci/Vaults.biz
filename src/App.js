@@ -1279,21 +1279,32 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Donating shares to a charity for a tax break.
+          <br />
+          Borrowing for a tax-break.
+          <br />
+          <a href="https://www.quora.com/Would-anyone-care-to-explain-why-the-actual-interest-expenses-are-not-included-in-the-APV-method-if-the-intention-is-to-isolate-and-illustrate-the-total-effect-of-debt/answer/Nick-Carducci">
+            Most borrowing doesn’t
+          </a>
+          .
+          <br />
+          <br />
           anything washes
           <h1>
             Consider Your Man Card Reissued, PUSSY-ASS-BITCH - TAKE CONTROL
             TODAY{space}
             <span role="img" aria-label="gun">
               🔫
-            </span>{/**but for no female unchaos - J. Peterson */}
+            </span>
+            {/**but for no female unchaos - J. Peterson */}
           </h1>
           Request for proposals, scope of requirements then scope of work,
           itemized timeclock and material (sprint - NJ Consumer Fraud Act),
           logging and mining until resale, variable. Are you drinking or not?
           <br />
           <br />
-          rollover insurance, (home-) warranty is estimate scope of requirements, ...but
-          not yet a scope of work.
+          rollover insurance, (home-) warranty is estimate scope of
+          requirements, ...but not yet a scope of work.
           <h3>
             $10k + $7k + used, carshield saved nothing by false bid pool loss.
             They can only charge per ware, not invoices.
@@ -7505,3 +7516,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
