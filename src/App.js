@@ -1287,8 +1287,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Suck my balls bitch, with standing. Just Do it{/**Ann, hold */}<br/>
-          which pain?<br/>
+          Suck my balls bitch, with standing. Just Do it{/**Ann, hold */}
+          <br />
+          which pain?
+          <br />
           Donating shares to a charity for a tax break.
           <br />
           Borrowing for a tax-break.
@@ -1437,9 +1439,8 @@ export default class App extends React.Component {
           pennywise only, they don’t want to ban invoices, insurance, nor
           prescriptions outright.
           <br />
-          <hr ref={this.debt}/>
-         ...doctors do that, government don’t allow invoices nor
-          insurance.
+          <hr ref={this.debt} />
+          ...doctors do that, government don’t allow invoices nor insurance.
           <br />
           Poverty=equality because labor costs are used to corner the market by
           gov hospital funds general revenue trust.
@@ -1489,10 +1490,12 @@ export default class App extends React.Component {
           <br />
           Rich per capita, or by land, are two different questions.
           <br />
-          
-          The currency is land-deeds, *yet it could be
-          transaction-fee-based-sdr, with truncated production tax free rider
-          immutable sewage police lawsuits and 1/12 industry max-royalty*.
+          <a href="https://fred.stlouisfed.org/graph/?g=Lznz">
+            The currency is land-deeds
+          </a>
+          , *yet it could be transaction-fee-based-sdr, with truncated
+          production tax free rider immutable sewage police lawsuits and 1/12
+          industry max-royalty*.
           <br />
           Rich in such debasement, *by assets’ collateral and good will last
           traded neighborhood price, non-concurrentable $170t/$2t*, is not
@@ -6861,6 +6864,7 @@ export default class App extends React.Component {
             >
               fentanyl
             </a>
+            <br />
             <a
               onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("homelessness") }}
