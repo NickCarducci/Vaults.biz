@@ -1279,6 +1279,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          anything washes
           <h1>
             Consider Your Man Card Reissued, PUSSY-ASS-BITCH - TAKE CONTROL
             TODAY{space}
