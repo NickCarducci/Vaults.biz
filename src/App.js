@@ -1279,6 +1279,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Request for proposals, scope of requirements then scope of work,
+          itemized timeclock and material, logging and mining until resale,
+          variable.
+          <br />
+          <br />
           rollover insurance, warranty is estimate scope of requirements, ...but
           not yet a scope of work.
           <h3>
@@ -1298,7 +1303,8 @@ export default class App extends React.Component {
           disabled), I don’t make it about me ($1.2t/yr SSA + $829.5b/yr
           Medicare pennywise of $2.7t/yr "healthcare;" $1.8t/yr Share-split
           collateral (credit/debt-spending), $2.2t/yr federal spending). $12k/yr
-          debt total. So, you are telling me that credit is being reloaned 187.5x/yr?
+          debt total. So, you are telling me that credit is being reloaned
+          187.5x/yr?
           <h2>
             <a href="https://qr.ae/pGjmlD">
               borrower, intent and donee defense
