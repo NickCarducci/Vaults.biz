@@ -1279,6 +1279,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          which pain?<br/>
           Donating shares to a charity for a tax break.
           <br />
           Borrowing for a tax-break.
@@ -7516,4 +7517,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
