@@ -145,13 +145,13 @@ class Cable extends React.Component {
           //if (Object.keys(page.children).length !== 0 /*page.innerHTML !== ""*/)
           //return (page.innerHTML = "");
           // this.setState({ mount: false });
-        } else if (page.innerHTML === "") {
-          console.log("reloading");
+        } /*if (page.innerHTML === "") */ else {
           const children = [...page.children];
           if (
             cache &&
             (children.length === 0 || !children.find((x) => x === cache))
           ) {
+            console.log("reloading");
             //console.log("replenishing, new scroll", cache);
             return (page.innerHTML = this.state.cache);
           }
