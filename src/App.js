@@ -129,6 +129,7 @@ export default class App extends React.Component {
     this.cancel = React.createRef();
     this.price = React.createRef();
     this.awareness = React.createRef();
+    this.okboomer = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -405,12 +406,17 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.democrats.current.offsetTop) //offsetTop
           );
+        } else if (this.props.pathname === "/okboomer") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.okboomer.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/awareness") {
           this.setState(
             { planner: true },
             () => pager(true, this.awareness.current.offsetTop) //offsetTop
           );
-        }else if (this.props.pathname === "/debt") {
+        } else if (this.props.pathname === "/debt") {
           this.setState(
             { planner: true },
             () => pager(true, this.debt.current.offsetTop) //offsetTop
@@ -911,7 +917,9 @@ export default class App extends React.Component {
         inSection("russia");
       } else if (construct(true, this.awareness.current) < tryy) {
         inSection("awareness");
-      }  else if (construct(true, this.democrats.current) < tryy) {
+      } else if (construct(true, this.okboomer.current) < tryy) {
+        inSection("okboomer");
+      } else if (construct(true, this.democrats.current) < tryy) {
         inSection("democrats");
       } else if (construct(true, this.debt.current) < tryy) {
         inSection("debt");
@@ -1319,6 +1327,70 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Which is worse, inflation or recession?"
+          <br />
+          Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+          University (Graduated 2015)
+          <br />
+          Inflation is laborless-demand and recession is technological
+          advancement, GDP/hour-GDP/p or (income/hour)/home, so
+          material+inflation even for income (less poverty) is worse.
+          <br />
+          <br />
+          "people want to go out and do things," $12k/64 debt/cash new per
+          person a year, I have a hole in my leg. I will not take credit as
+          income you fuking whale of a human, ugly greek. Buy a media company to
+          slander Truncated Production Tax to concentrate Sewage Police Lawsuits
+          on 3% under $2k, grocers, no more state-victimization and racketeering
+          for vig and nothing!
+          <br />
+          <br />
+          companies can raise their prices, profits are a cost,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">
+            supply!=demanded
+          </a>
+          .<br />
+          <hr ref={this.okboomer} />
+          "What is something that boomers do better?"
+          <br />
+          Nick Carducci - Statistician, Historian of Markets and Propaganda
+          (2012–present)
+          <br />
+          the ability to fudge the numbers -{space}
+          <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page%3D104">
+            19% of the U.S. is disabled
+          </a>
+          .
+          <br />
+          <br />
+          Prevalence is not causation, it isn't correnated, just normal
+          prevalence per artifact itself, death and sniffles. If it is, it could
+          be warning mechanism and garbage collection of normal output (common,
+          not contageous), of "more acute viral pneumonia," by
+          bacterial-reinfection.
+          <br />
+          <br />
+          "Is inflation one of the reasons that the Great Resignation is
+          happening?"
+          <br />
+          The{space}
+          <a href="https://www.bls.gov/news.release/jolts.t04.htm">
+            Great Resignation
+          </a>
+          {space}is a{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=H5XB">
+            misunderstanding
+          </a>
+          {space}, non-farm{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=Lwnb">
+            quits change-rate total deviation
+          </a>
+          .
+          <br />
+          <br />
+          “Legal crime is racketeering.”
+          <br />
+          <br />
           Transaction-fee-based-sdr (security deposit receipt, vault share,
           special drawing rights) no debt! 1/12 industry type max-royalty.
           Cancel is{space}
@@ -1424,7 +1496,9 @@ export default class App extends React.Component {
           Referenda/RCV will allow bipartisan plural minorities to win beyond a plural majority
           Party allows a plural majority to win without regard for bipartisan plural minorities
           In disregard of */}
-          I've{space}
+          Mommy, is going to pay, some day, with Savers' land-deeds laundered,
+          by collateralized loitering good will last traded neighborhood price
+          (market "cap"). I've{space}
           <a href="https://nextdoor.com/p/yJhWyXgPTdNG">found</a>
           {space}the only way for rental-income cap by 5 storefronts or
           condominiums is to make half the no's, FEEL BAD, for prices (fairer
@@ -1750,7 +1824,7 @@ export default class App extends React.Component {
           and psychosis is not biomedical CT scan either, to boot.
           <br />
           <br />
-          <hr ref={this.awareness}/>
+          <hr ref={this.awareness} />
           "What is schizo-economics?"
           <br />
           Nick Carducci - Injured yet labeled schizophrenic for boycott credit
@@ -7258,6 +7332,14 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("okboomer") }}
+              href={`${window.location.origin}/okboomer`}
+            >
+              okboomer
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("statistic") }}
               href={`${window.location.origin}/statistic`}
             >
@@ -7749,3 +7831,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
