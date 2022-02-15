@@ -1288,11 +1288,11 @@ export default class App extends React.Component {
             </span>
           </h1>
           Request for proposals, scope of requirements then scope of work,
-          itemized timeclock and material, logging and mining until resale,
-          variable.
+          itemized timeclock and material (sprint - NJ Consumer Fraud Act),
+          logging and mining until resale, variable.
           <br />
           <br />
-          rollover insurance, warranty is estimate scope of requirements, ...but
+          rollover insurance, (home-) warranty is estimate scope of requirements, ...but
           not yet a scope of work.
           <h3>
             $10k + $7k + used, carshield saved nothing by false bid pool loss.
