@@ -1327,6 +1327,22 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+                    <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/x95ezjugbkcexsb/Screen%20Shot%202022-02-15%20at%206.55.36%20PM.png?dl=0"
+            }
+            float="right"
+            title="Headliners (GBNews) - Roblox sex parties"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           "Which is worse, inflation or recession?"
           <br />
           Nick Carducci - BA in Political Science & Economics, Johns Hopkins
