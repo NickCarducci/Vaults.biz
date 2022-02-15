@@ -2606,7 +2606,30 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.inflation} />
+          "We can't afford that, there is just no time for that.ig you do
+          anything out of line with what they want," then give them nightmares.
+          {/**ann */}
+          <br />
+          <br />
           "Yes sir,” what, do you feel bad now?
+          <br />
+          <br />
+          Inflation is materials+rents, that which deals in chequeing,
+          {space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LZrq">
+            currencyComponentOfM1
+          </a>
+          ($b), not{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">m2</a>
+          {space}good-will collateralized and last-traded-neighborhood price
+          REFLECTION.
+          <br />
+          <br />
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">
+            (income/hour)/home
+          </a>
+          {space}is a different{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7Ku">story</a>.
           <br />
           <br />
           "What are some causes of inflation?"
@@ -7557,3 +7580,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
