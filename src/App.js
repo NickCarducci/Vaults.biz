@@ -402,7 +402,7 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.democrats.current.offsetTop) //offsetTop
           );
-        }else if (this.props.pathname === "/debt") {
+        } else if (this.props.pathname === "/debt") {
           this.setState(
             { planner: true },
             () => pager(true, this.debt.current.offsetTop) //offsetTop
@@ -893,7 +893,7 @@ export default class App extends React.Component {
         inSection("russia");
       } else if (construct(true, this.democrats.current) < tryy) {
         inSection("democrats");
-      }  else if (construct(true, this.debt.current) < tryy) {
+      } else if (construct(true, this.debt.current) < tryy) {
         inSection("debt");
       } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
@@ -1352,7 +1352,32 @@ export default class App extends React.Component {
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
           punching. Show the tapes, Stuart Varney.
           <br />
-          <hr ref={this.democrats}/>
+          responsible nationas around the world will not hesitate to respond.
+          <h2 ref={this.democrats}>Choose diplomacy</h2>
+          The United States will defend NATO country with full-force of NATO
+          powerr, to saveface ongoing expenses and vig reason for false bid pool
+          loss, donee invoking other consumers forelorn, unlike casinos' insular
+          house-win-fee. Transaction-fee-based-sdr, geohash/mo from paytech 3%
+          under $2k production not sales tax. Taking prices at the pump would
+          TREAT DOLLARS AS SAVERS' LAND DEEDS 20%. "Ukraine will prove to be a
+          self-inflicted wound. Power strength and universal appeal of shared
+          democratic values, what we want for the world, liberty and countries
+          choose destriny, and peoples futures, and borders deterring forces
+          exterior. The U.S. and the NATO is ready to impose sanctions unlike
+          Crimea in 2014, price controls IF Russia moves. When it comes to
+          Nordstream, if Russia encroached Ukraine, it will NEVER happen."
+          <br />
+          <br />
+          "Is the economy starting to fall because of Covid?"
+          <br />
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">-GDP/p</a>
+          {space}is not rising, nor is{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">
+            (income/hour)/home
+          </a>
+          .
+          <br />
+          <br />
           crime is because the ccc parent-trust is gone? because of implausible
           use rental-income. This is to ween off rent, not actual work
           {/*Like with econometrics, significance and truth cannot be found, only
@@ -7639,4 +7664,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
