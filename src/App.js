@@ -6708,8 +6708,13 @@ export default class App extends React.Component {
               Obamacare
             </a>
             <br />
-            conservative responsibility surrendered pussy-cucks on the right
-            <a
+            conservative responsibility surrendered pussy-cucks on the right.
+            CEO Bridgewater, 8/10 paycheck to paycheck, infaltion Dave
+            McCorrmick, inflation is poverty when relative to labor, and that
+            makes for equality. so, (income/hours)/homes invisible-methane
+            frackers PA net energy importers in one year fiscal stimulus, more
+            Saver land-deeds split. I'm going to kill him
+            <a //
               style={{ color: "black" }}
               href={`${window.location.origin}/gmu`}
             >
