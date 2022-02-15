@@ -300,6 +300,29 @@ class Archive extends React.Component {
         retards. special needs don't even need the pittance for equity
         colonialization. "Why does public bathroom cost so much?" Because
         laborless-demand, We need to kill financiers.
+        <br />
+        <br />
+        <Cable
+          onError={handleScollImgError}
+          //img={true}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.dl.dropboxusercontent.com/s/vzq4rqombnicpr3/Screen%20Shot%202022-02-15%20at%202.44.53%20PM.png?dl=0"
+          }
+          float="left"
+          title="Sliwa racket HACKENSACK MERIDIAN HEALTH RIVERVIEW MEDICAL CENTER -disparity crime vs penalty,  Mental health slander, zero evidence lest actual crime - https://youtu.be/AQ7h_U5G0fY"
+          scrolling={this.props.scrolling}
+          fwd={this.props["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+          scrollTop={this.props.scrollTop}
+        />
+        how can you be expected to not live with your parents, under 30 a
+        majority do These people are homeless, you need to be pretty much insane
+        to be living on the street, you don’t need to be all that to get a job
+        these days. If you are living on the street, there is something wrong
+        with you mentally - it is not your fault. We owe them and ourselves, not
+        them having to lie on the street.
         <h1 ref={this.props.homelessness}>
           "Mental health in hospitals, housing, need to be hospitalized,
           affordable housing, regular tenants, make sure peiople are taking
@@ -7910,3 +7933,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
