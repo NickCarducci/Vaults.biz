@@ -122,6 +122,7 @@ export default class App extends React.Component {
     this.russia = React.createRef();
     this.rent = React.createRef();
     this.c1775 = React.createRef();
+    this.rcv = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -391,6 +392,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.jews.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/rcv") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.rcv.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/leisure") {
           this.setState(
@@ -871,6 +877,8 @@ export default class App extends React.Component {
         inSection("russia");
       } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
+      } else if (construct(true, this.rcv.current) < tryy) {
+        inSection("rcv");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
       } else if (construct(true, this.accounting.current) < tryy) {
@@ -1271,6 +1279,10 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          {/**
+          Referenda/RCV will allow bipartisan plural minorities to win beyond a plural majority
+          Party allows a plural majority to win without regard for bipartisan plural minorities
+          In disregard of */}
           I've{space}
           <a href="https://nextdoor.com/p/yJhWyXgPTdNG">found</a>
           {space}the only way for rental-income cap by 5 storefronts or
@@ -6927,6 +6939,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/bitcongress`}
             >
               bitcongress
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("rcv") }}
+              href={`${window.location.origin}/rcv`}
+            >
+              rcv
             </a>
             {space}
             <a
