@@ -3850,6 +3850,9 @@ export default class App extends React.Component {
           Normal as a skew up to maximum 80, mean 78, as the number-x surmounts
           the level-y.
           <br />
+          distributional shift of {">"}.05, still requires 100 to materialize a
+          distribution, yet The reason we take the absolute is because an
+          endogenous factor.
           <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
@@ -3962,7 +3965,7 @@ export default class App extends React.Component {
           Jason Riley, Black Boom.
           <br />
           <br />
-          The reason we take the absolute is because an endogenous factor is.
+          The reason we take the absolute is because an endogenous factor, is.
           {/**"every advanage in life tends to have disadvantage, and that is 
           the problem, or the solution of those if altru. Hydrogen and water 
           and inert as H20, mito break carbon and extract energy, fungus 6, 36
@@ -7306,4 +7309,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
