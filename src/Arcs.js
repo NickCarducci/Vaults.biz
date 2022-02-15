@@ -4930,6 +4930,11 @@ class Arcs extends React.Component {
         Labor-Borne-Supply and -Demand, with grounds to margin target
         operational monopolies, free rider mutable, for economic welfare,
         GDP/hour-GDP/p enumerated.
+        <br />
+        <br />
+        Dying of covid and asymptomatic, n 2019-20 is 2 you can’t draw a normal
+        distribution on that, by that, for that - and say the sample is within
+        some variance, even either way.
         <h3 ref={this.props.gmu}>
           General Maintenance Unit: Unbiased Polling to define science testing
           and randomness or variance, sometimes of disparate expected values
