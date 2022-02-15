@@ -4352,6 +4352,11 @@ class Archive extends React.Component {
         In disregard of.
         <br />
         <br />
+        Saver Chair to McConnell: "You will have to join with the Dems to defeat
+        the anti-rent-seeker party by{space}
+        <a href="https://vaults.biz/gmu">duress minimal viable product</a>."
+        <br />
+        <br />
         <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.sfelections.org%2Fresults%2F20101102%2Fdata%2Fd10.html%3Ffbclid%3DIwAR0WAtRkjinTIvuKcK0OAtnhhTHjSCjasIu6QnMT7cznzf19H5uh8_bGhHQ&h=AT2LCGUbfKXpz8j_1CxlhRypEmxFamPhRO6JqkOGaijDByclEOEBukiZzQX6jnpbu9F4TAEYQMR-spntul9-tWQMOSnjr8nGpeeIhHNB4HNg_qsu80auyELQ30fYO4YgnDCj8cnmF8wu8Dx_Clw&__tn__=R]-R&c[0]=AT0zSPYT85bSze9DTt1vYePQop6t3XO7M1SoDaaciUP0kqX4dBdiO9F_l0H94yGPP01W0v5l1NDeckLevjHtQm3t4PK6yiei3xO7bApLCYcXQkmKGpL6Mc6gB2D_6TT2uYuElVjylpnVtg8lsGhEGy8kupxa4NZ5UZa-_AZ20GU6CJmZ">
           Ciarán Ó Doċartaiġ
         </a>
