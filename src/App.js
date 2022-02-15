@@ -1255,6 +1255,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          {/*Like with econometrics, significance and truth cannot be found, only
+          correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
           I've{space}
           <a href="https://nextdoor.com/p/yJhWyXgPTdNG">found</a>
@@ -3770,6 +3772,11 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          Correlation of significance is reflexive - how far off is the mean of
+          the distribution (e.g. age-specific death rates), of a sample of a
+          population or all-time? n=100 is required, or 1/100 known, to answer.
+          <br />
+          <br />
           Significance from mean abount n{"<"}100 random lest 1/100 shuffled if
           known shan’t **declude** mean nor median of order and matter (
           <a href="https://qr.ae/pGjUQY">spherical diameter</a>) of significance
@@ -7299,3 +7306,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
