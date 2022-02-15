@@ -1279,7 +1279,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Suck my balls bitch, with standing. Just Do it{/**Ann */}<br/>
+          Suck my balls bitch, with standing. Just Do it{/**Ann, hold */}<br/>
           which pain?<br/>
           Donating shares to a charity for a tax break.
           <br />
@@ -2323,6 +2323,22 @@ export default class App extends React.Component {
           significance from mean cannot be assumed by a sample of less than 100.
           "Pay a fine, get in line, criminals regardless of evidence, deport
           them $$$ anything washes.”
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/spnjociuz6lomoi/Screen%20Shot%202022-02-15%20at%201.49.43%20PM.png?dl=0"
+            }
+            float="left"
+            title="NYT - Weiner 18mo for 15yr old sexting (details miscellaneous)"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           <h1>
             Anthony Weiner, Democrat Party Spokesperson: "Jobs and stock market
             ask gud."
