@@ -121,6 +121,7 @@ export default class App extends React.Component {
     this.leisure = React.createRef();
     this.russia = React.createRef();
     this.rent = React.createRef();
+    this.c1775 = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -435,6 +436,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.randpaul.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/c1775") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.c1775.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/statistic") {
           this.setState(
@@ -897,6 +903,8 @@ export default class App extends React.Component {
         inSection("redistricting");
       } else if (construct(true, this.monopoly.current) < tryy) {
         inSection("monopoly");
+      } else if (construct(true, this.c1775.current) < tryy) {
+        inSection("c1775");
       } else if (construct(true, this.sci.current) < tryy) {
         inSection("sci");
       } else if (construct(true, this.insurance.current) < tryy) {
@@ -1410,7 +1418,7 @@ export default class App extends React.Component {
           advancement*. This is attained by exclusively-labor-demand==supply,
           absence of userers (insurers, lenders, landlords); **the UK is like
           the USA** in these said metrics, **but ****smaller**.
-          <h1>
+          <h1 ref={this.c1775}>
             GENOCIDE THE SLAVE-OWNERS
             {/**proof livlihood is grounds, historically, 
           per American Revolution was not a war crime */}
@@ -3857,8 +3865,8 @@ export default class App extends React.Component {
           way, derivatives define endogenous factors of a given Pearson
           correlation (r=(1/n)Sum(x,mean,deviation)), if n btwn [0,1], imo, and
           was actually population/sample size, so that the correlation is
-          deflated by inaccuracy of randomness/shuffling-known-populations, as order
-          matters.
+          deflated by inaccuracy of randomness/shuffling-known-populations, as
+          order matters.
           <br />
           <br />
           Alzheimer's is caused by sewage, in a cross-section of 2/100 with
@@ -6828,6 +6836,14 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("c1775") }}
+              href={`${window.location.origin}/c1775`}
+            >
+              c1775
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("china") }}
               href={`${window.location.origin}/china`}
             >
@@ -7356,4 +7372,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
