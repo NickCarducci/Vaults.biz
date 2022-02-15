@@ -945,13 +945,13 @@ export default class App extends React.Component {
         inSection("monopoly");
       } else if (construct(true, this.cancel.current) < tryy) {
         inSection("cancel");
-      }else if (construct(true, this.c1775.current) < tryy) {
+      } else if (construct(true, this.c1775.current) < tryy) {
         inSection("c1775");
       } else if (construct(true, this.sci.current) < tryy) {
         inSection("sci");
       } else if (construct(true, this.price.current) < tryy) {
         inSection("price");
-      }  else if (construct(true, this.insurance.current) < tryy) {
+      } else if (construct(true, this.insurance.current) < tryy) {
         inSection("insurance");
       } else if (construct(true, this.education.current) < tryy) {
         inSection("education");
@@ -1379,6 +1379,10 @@ export default class App extends React.Component {
           <br />
           responsible nationas around the world will not hesitate to respond.
           <h2 ref={this.democrats}>Choose diplomacy</h2>
+          $800b/yr residential structures and commercial, leases for the former
+          $2.7t/yr, the latter unknown.
+          <br />
+          <br />
           The United States will defend NATO country with full-force of NATO
           powerr, to saveface ongoing expenses and vig reason for false bid pool
           loss, donee invoking other consumers forelorn, unlike casinos' insular
@@ -3876,7 +3880,7 @@ export default class App extends React.Component {
           instead of Truncated Produyction Tax 2025 is retarded.
           <br />
           <br />
-          <hr ref={this.cancel}/>
+          <hr ref={this.cancel} />
           Universities would rather cancel than reverse borrower defense
           (impossible) nor donee invocations of Savers’.
           <br />
@@ -4705,8 +4709,9 @@ export default class App extends React.Component {
           of dollars over bonds’ of state-lands and “exploration” resources.
           <br />
           <br />
-          <hr ref={this.price}/>
-          <a href="https://vaults.biz/inflation">Inflation</a>{space}is materials+rents, that which deals in chequeing,
+          <hr ref={this.price} />
+          <a href="https://vaults.biz/inflation">Inflation</a>
+          {space}is materials+rents, that which deals in chequeing,
           {space}
           <a href="https://fred.stlouisfed.org/graph/?g=LZrq">
             currencyComponentOfM1
@@ -4717,7 +4722,9 @@ export default class App extends React.Component {
           REFLECTION.
           <br />
           <br />
-          Cutting costs work when supply!= demand!<br/><br/>
+          Cutting costs work when supply!= demand!
+          <br />
+          <br />
           competing with consumers not only is not surprising, but it is
           retarded for bunting GDP/hour-GDP/p
           <h1>Jump! Go ahead, jump!</h1>
