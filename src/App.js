@@ -1285,11 +1285,11 @@ export default class App extends React.Component {
             TODAY{space}
             <span role="img" aria-label="gun">
               🔫
-            </span>
+            </span>{/**but for no female unchaos - J. Peterson */}
           </h1>
           Request for proposals, scope of requirements then scope of work,
           itemized timeclock and material (sprint - NJ Consumer Fraud Act),
-          logging and mining until resale, variable.
+          logging and mining until resale, variable. Are you drinking or not?
           <br />
           <br />
           rollover insurance, (home-) warranty is estimate scope of requirements, ...but
