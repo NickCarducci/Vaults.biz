@@ -2776,6 +2776,14 @@ export default class App extends React.Component {
             tortious appealable judicial greivance
           </a>
           .<br />
+          Lying under oath is duress and moot.
+          <br />
+          State vic trust.
+          <br />
+          Bond laundering government gentrification population life expectancy
+          ago 19% disabled gerontocracy Saver land-deeds surrendered, contractor
+          liable.
+          <br />
           <h2 ref={this.juris}>
             <a href="https://saverparty.xyz/jesus">
               He’s come to take the Sins from the world, have mercy on us, bra
@@ -7614,5 +7622,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
 
