@@ -1362,6 +1362,34 @@ export default class App extends React.Component {
           </a>
           .
           <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/rb1ehdce3xk7e11/1950%20census.jpeg?dl=0"
+            }
+            float="left"
+            title=" 1950 decennial "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          wouldn’t they be called that for 1942 200k+/yr 10%/yr+? Population
+          growth then was 1.2m/yr+ (135m*.015), which is curiously not matching
+          even -deaths.
+          <br />
+          <br />
+          how is 19% disabled $1.2t/yr SSA $829.5b/yr Medicare of $2.7t/yr
+          “healthcare” false bid pool loss, “taking responsibility?” $2.7t/yr
+          again for implausible use landlording, commercial leases unknown, 65%
+          mortgage, 35% rent, the rest lend… -GDP/p is tech advancement and
+          (cash/debt)*income every year back then 1/12 industry-type max-royalty
+          not unequal in receipt and scope untruncated production bond-tax…
+          <br />
           <br />
           Prevalence is not causation, it isn't correnated, just normal
           prevalence per artifact itself, death and sniffles. If it is, it could
@@ -7831,4 +7859,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
