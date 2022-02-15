@@ -1272,8 +1272,9 @@ export default class App extends React.Component {
           }}
         >
           Bill O’Reilly: “$3.3k/yr inflation,” new $64/yr chequeing. I work for
-          science (plundercopy, chores and tech deprecation of the 19% disabled), I
-          don’t make it about me
+          science (plundercopy, chores and tech deprecation of the 19%
+          disabled), I don’t make it about me ($1.2t/yr SSA + $829.5b/yr
+          Medicare pennywise of $2.7t/yr "healthcare")
           <br />
           <br />
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
@@ -7438,3 +7439,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
