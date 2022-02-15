@@ -4088,7 +4088,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dropbox.com/s/hnj9kt2dlc3jl6u/Screen%20Shot%202022-02-15%20at%203.08.15%20PM.png?dl=0"
+                : "https://www.dl.dropboxusercontent.com/s/hnj9kt2dlc3jl6u/Screen%20Shot%202022-02-15%20at%203.08.15%20PM.png?dl=0"
             }
             float="right"
             title="American Agenda (Newsmax) - David Samadi"
@@ -4148,10 +4148,10 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/2yace5056svixj8/Screen%20Shot%202022-02-09%20at%2011.14.18%20AM.png?dl=0"
+                : "https://www.dl.dropboxusercontent.com/s/lrmf42dlvkuhynt/Screen%20Shot%202022-02-15%20at%203.13.32%20PM.png?dl=0"
             }
             float="left"
-            title="nextdoor.com implausible landlord use survey - https://nextdoor.com/p/yJhWyXgPTdNG"
+            title="hospitalizations - https://humanharvest.info/polio"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
@@ -4178,6 +4178,22 @@ export default class App extends React.Component {
             population, 5x?  */}
           <br />
           <br />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/2yace5056svixj8/Screen%20Shot%202022-02-09%20at%2011.14.18%20AM.png?dl=0"
+            }
+            float="right"
+            title="nextdoor.com implausible landlord use survey - https://nextdoor.com/p/yJhWyXgPTdNG"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           “Poverty (material+rent)/income lowered, under Trump; wages grew.”
           Jason Riley, Black Boom.
           <br />
@@ -7598,4 +7614,5 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
 
