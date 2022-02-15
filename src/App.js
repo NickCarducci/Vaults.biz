@@ -959,7 +959,7 @@ export default class App extends React.Component {
         inSection("china");
       } else if (construct(null, this.rcv.current) < tryy) {
         inSection("rcv");
-      }else if (construct(null, this.crypto.current) < tryy) {
+      } else if (construct(null, this.crypto.current) < tryy) {
         inSection("crypto");
       } else if (construct(null, this.bitcongress.current) < tryy) {
         inSection("bitcongress");
@@ -1279,14 +1279,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          James Klug: "
+          <a href="https://vaults.biz/fines">
+            dollar amount bribe jail{/**james */}
+          </a>
+          {space}that can actually do some damage to payout to the state trust."
+          That is what conservatives wants, to be gimps for the tight blue line.
+          <br />
+          <br />
           Bill O’Reilly: “$3.3k/yr inflation,” new $64/yr chequeing. I work for
           science (plundercopy, chores and tech deprecation of the 19%
           disabled), I don’t make it about me ($1.2t/yr SSA + $829.5b/yr
           Medicare pennywise of $2.7t/yr "healthcare;" $1.8t/yr Share-split
           collateral (credit/debt-spending), $2.2t/yr federal spending). $12k/yr
           debt total.
-          <br />
-          <br />
+          <h2><a href="https://qr.ae/pGjmlD">borrower, intent and donee defense</a></h2>
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
           punching. Show the tapes, Stuart Varney.
           <br />
