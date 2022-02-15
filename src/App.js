@@ -128,6 +128,7 @@ export default class App extends React.Component {
     this.democrats = React.createRef();
     this.cancel = React.createRef();
     this.price = React.createRef();
+    this.awareness = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -404,7 +405,12 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.democrats.current.offsetTop) //offsetTop
           );
-        } else if (this.props.pathname === "/debt") {
+        } else if (this.props.pathname === "/awareness") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.awareness.current.offsetTop) //offsetTop
+          );
+        }else if (this.props.pathname === "/debt") {
           this.setState(
             { planner: true },
             () => pager(true, this.debt.current.offsetTop) //offsetTop
@@ -903,7 +909,9 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.russia.current) < tryy) {
         inSection("russia");
-      } else if (construct(true, this.democrats.current) < tryy) {
+      } else if (construct(true, this.awareness.current) < tryy) {
+        inSection("awareness");
+      }  else if (construct(true, this.democrats.current) < tryy) {
         inSection("democrats");
       } else if (construct(true, this.debt.current) < tryy) {
         inSection("debt");
@@ -1742,6 +1750,7 @@ export default class App extends React.Component {
           and psychosis is not biomedical CT scan either, to boot.
           <br />
           <br />
+          <hr ref={this.awareness}/>
           "What is schizo-economics?"
           <br />
           Nick Carducci - Injured yet labeled schizophrenic for boycott credit
@@ -7453,6 +7462,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/air`}
             >
               air
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("awareness") }}
+              href={`${window.location.origin}/awareness`}
+            >
+              awareness
             </a>
             {space}
             <a
