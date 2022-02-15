@@ -122,6 +122,7 @@ export default class App extends React.Component {
     this.russia = React.createRef();
     this.rent = React.createRef();
     this.c1775 = React.createRef();
+    this.chang = React.createRef();
     this.rcv = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
@@ -144,6 +145,7 @@ export default class App extends React.Component {
       ["newecon", this.newecon],
       ["trade", this.trade],
       ["nato", this.nato],
+      ["rcv", this.rcv],
       ["china", this.china],
       ["devil", this.devil], //jynx apprentice executioner
       ["intllaw", this.intllaw],
@@ -393,10 +395,10 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.jews.current.offsetTop) //offsetTop
           );
-        } else if (this.props.pathname === "/rcv") {
+        } else if (this.props.pathname === "/chang") {
           this.setState(
             { planner: true },
-            () => pager(true, this.rcv.current.offsetTop) //offsetTop
+            () => pager(true, this.chang.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/leisure") {
           this.setState(
@@ -589,6 +591,8 @@ export default class App extends React.Component {
           pager(null, this.obamacare.current.offsetTop);
         } else if (this.props.pathname === "/nato") {
           pager(null, this.nato.current.offsetTop);
+        } else if (this.props.pathname === "/rcv") {
+          pager(null, this.rcv.current.offsetTop);
         } else if (this.props.pathname === "/first") {
           pager(null, this.first.current.offsetTop);
         } else if (this.props.pathname === "/voting") {
@@ -877,8 +881,8 @@ export default class App extends React.Component {
         inSection("russia");
       } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
-      } else if (construct(true, this.rcv.current) < tryy) {
-        inSection("rcv");
+      } else if (construct(true, this.chang.current) < tryy) {
+        inSection("chang");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
       } else if (construct(true, this.accounting.current) < tryy) {
@@ -951,6 +955,8 @@ export default class App extends React.Component {
         inSection("marx");
       } else if (construct(null, this.devil.current) < tryy) {
         inSection("devil");
+      } else if (construct(null, this.china.current) < tryy) {
+        inSection("china");
       } else if (construct(null, this.crypto.current) < tryy) {
         inSection("crypto");
       } else if (construct(null, this.bitcongress.current) < tryy) {
@@ -1274,7 +1280,9 @@ export default class App extends React.Component {
           Bill O’Reilly: “$3.3k/yr inflation,” new $64/yr chequeing. I work for
           science (plundercopy, chores and tech deprecation of the 19%
           disabled), I don’t make it about me ($1.2t/yr SSA + $829.5b/yr
-          Medicare pennywise of $2.7t/yr "healthcare")
+          Medicare pennywise of $2.7t/yr "healthcare;" $1.8t/yr Share-split
+          collateral (credit/debt-spending), $2.2t/yr federal spending). $12k/yr
+          debt total.
           <br />
           <br />
           Overnight {">"} unknown siringe {">"} elope & lie about kicking and
@@ -1989,6 +1997,23 @@ export default class App extends React.Component {
           <br />
           Improv is not politics
           <br />
+          <hr ref={this.chang} />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/epv7gzm6155hj48/Screen%20Shot%202022-02-15%20at%2012.20.00%20PM.png?dl=0"
+            }
+            float="right"
+            title="John Bachmann Now (Newsmax) - Gordon Chang"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           “Olympians forced to use glasses to leave cells around, China is DNA
           harvesting.”
           <br />
@@ -6911,6 +6936,14 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("chang") }}
+              href={`${window.location.origin}/chang`}
+            >
+              chang
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{
                 color: "black",
                 border: scrollPath("education")
@@ -7439,4 +7472,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
