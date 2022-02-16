@@ -846,24 +846,16 @@ export default class App extends React.Component {
     ev.preventDefault();
     ev.stopPropagation();
     //console.log("touche");
-    //const listener = touch ? "touchmove" : "mousemove";
+    const listener = touch ? "touchmove" : "mousemove";
     const overMouseDrag = touch ? "touchenter" : "dragover";
     const onUpEnd = touch ? "touchend" : "mouseup";
     const overIt = (event) => event.preventDefault();
     window.addEventListener(overMouseDrag, overIt);
     this.saveListeners(overMouseDrag, overIt);
-    const ifEnded = () =>
-      this.setState({ offScroll: false }, () => {
-        clearInterval(this.countmove);
-        //window.removeEventListener(listener, ifEnded);
-        window.removeEventListener(onUpEnd, ifEnded);
-        //window.removeEventListener(listener, onMouseMove);
-        window.removeEventListener(overMouseDrag, overIt);
-      });
-    const x = touch ? ev.touches[0].clientX : ev.clientX;
-    const onMouseMove = () => {
+    const onMouseMove = (ev) => {
       //console.log(window.scrollY + (direction === "up" ? -20 : 20));
-      console.log(x);
+    const x = touch ? ev.touches[0].clientX : ev.clientX;
+      //console.log(x);
       const speed =
         window.innerWidth - x < 100
           ? 20
@@ -876,16 +868,26 @@ export default class App extends React.Component {
           : 100;
       window.scroll(0, window.scrollY + (direction === "up" ? -speed : speed));
     };
+    const ifEnded = () =>
+      this.setState({ offScroll: false }, () => {
+        clearInterval(this.countmove);
+        //window.removeEventListener(listener, ifEnded);
+        window.removeEventListener(onUpEnd, ifEnded);
+        window.removeEventListener(listener, onMouseMove);
+        window.removeEventListener(overMouseDrag, overIt);
+      });
     //window.addEventListener(listener, ifEnded, false);
     window.addEventListener(onUpEnd, ifEnded, false);
     this.saveListeners(onUpEnd, ifEnded);
     this.setState({ offScroll: true }, () => {
-      clearInterval(this.countmove);
+      window.addEventListener(listener, onMouseMove);
+      this.saveListeners(listener, onMouseMove);
+      /*clearInterval(this.countmove);
       this.countmove = setInterval(
         onMouseMove,
 
         100
-      );
+      );*/
 
       // window.addEventListener(listener, onMouseMove);
       // this.saveListeners(listener, onMouseMove);
@@ -1347,6 +1349,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Bipartisan sanction possible terrorists.<br/>
           "I could clean up the subways in 5 days." - Bill O'Reilly.<br/>
           Don't blame anything washes on the news. McConnel is culpable.<br/>
           GDP by debasing m2 collateral - Mark Levin, finance donee beneficiary
@@ -7945,4 +7948,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
