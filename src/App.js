@@ -1360,7 +1360,10 @@ export default class App extends React.Component {
           userers: insurers, lenders, landlords. millions of lives lost is much
           less than expected by population growth a life expectancey ago.
           Inflation is 102% but debt price effect is 4400% homes over
-          labor-equity. Bipartisan sanction possible terrorists.
+          labor-equity. Bipartisan sanction possible terrorists. Scale science,
+          or invent a process; artifact per capitis, and repeatable,
+          withstanding reverseable: I get paid in science by tech advancement,
+          -GDP/p.
           <br />
           "I could clean up the subways in 5 days." - Bill O'Reilly. "'1000x
           crime and neglect more expensive than hoousing them.'{space}
