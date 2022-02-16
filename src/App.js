@@ -1363,7 +1363,7 @@ export default class App extends React.Component {
           }}
         >
           home title lock.com is retarded, saying warrantly scope of requirement
-          estimate is concurrentable, just false bid pool loss. Charlie Kirk is
+          estimate is concurrentable, just false bid pool loss investment bank. Charlie Kirk is
           a fox.
           <br />
           2/3 debt is private, $2.2t/yr tax pure elastic, $1.8t/yr my
