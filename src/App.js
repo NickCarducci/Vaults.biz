@@ -7999,6 +7999,15 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("crime") }}
+              href={`${window.location.origin}/crime`}
+              // onClick={() => console.log("trr")}
+            >
+              crime
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
               style={{ color: "black", border: scrollPath("renewables") }}
               href={`${window.location.origin}/renewables`}
               // onClick={() => console.log("trr")}
@@ -8248,5 +8257,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
-
