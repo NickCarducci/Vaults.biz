@@ -1547,6 +1547,7 @@ export default class App extends React.Component {
           .
           <br />
           <br />
+          <hr ref={this.nimby} />
           “Legal crime is racketeering.”
           <br />
           <br />
@@ -1645,13 +1646,39 @@ export default class App extends React.Component {
             (income/hour)/home
           </a>
           .
-          <br />
+          <h1>
+            <a href="https://fred.stlouisfed.org/graph/?g=M7mh">
+              wage growth lag
+            </a>
+            {space}-{space}
+            <a href="https://fred.stlouisfed.org/graph/?g=LmzU">farce</a>
+          </h1>
+          <h2>
+            <a href="https://fred.stlouisfed.org/graph/?g=M9j8">
+              [GDP, DEBT, Chequeing]/p
+            </a>
+            {space}-{space}
+            <a href="https://fred.stlouisfed.org/graph/?g=Lznz">
+              mv1===mv2==GDP/yr
+            </a>
+          </h2>
+          you do not get livable costs by gentrification of production, only
+          target margin or duress/quality by warning, tort and jail (not
+          state-vic conflict of interest free rider mutable racket trust for
+          collateralized good will basing++..).
           <br />
           crime is because the ccc parent-trust is gone? because of implausible
           use rental-income. This is to ween off rent, not actual work
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          "Is this simply{space}
+          <a href="https://qr.ae/pGjBQu">about</a>
+          {space}building more homes, Matthew?{space}
+          <a href="https://qr.ae/pGjBQu">It</a>
+          {space}cannot be NIMBYISM home-contractor gentrification, up and down
+          the country, is it?"
+          <br />
           {/**
           Referenda/RCV will allow bipartisan plural minorities to win beyond a plural majority
           Party allows a plural majority to win without regard for bipartisan plural minorities
@@ -8005,4 +8032,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
