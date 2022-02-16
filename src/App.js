@@ -1362,14 +1362,26 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          War becausse target-martgin truncates production tax relenting for
+          GDP/hour-GDP/p, (income/hour)/home.
+          <br />
+          Pfizer and Harvard Wyss says acute viral pneumonia is bacteria.
+          <br />
+          Sample of 2019-20 age specific death rates are not “significant from
+          mean, you need 100, and population growth life expectancy ago is 1942,
+          so average age at death lowered not because worse sewage this time,
+          but just average age, not exogeneity of artifact self mesur, con I
+          see.
+          <br />
+          <br />
           home title lock.com is retarded, saying warrantly scope of requirement
-          estimate is concurrentable, just false bid pool loss investment bank. Charlie Kirk is
-          a fox.
+          estimate is concurrentable, just false bid pool loss investment bank.
+          Charlie Kirk is a fox.
           <br />
           2/3 debt is private, $2.2t/yr tax pure elastic, $1.8t/yr my
-          chequeing-land-share-split over my dead body, 65% are in debt mortgage at 44x $2t
-          by $170t non-concurrentable ‘good-will,’ 35% rent of outstanding
-          home-contracting.
+          chequeing-land-share-split over my dead body, 65% are in debt mortgage
+          at 44x $2t by $170t non-concurrentable ‘good-will,’ 35% rent of
+          outstanding home-contracting.
           <br />
           “You can fax to confiscate the money supply,” that would go to the
           treasury, reset the currency, that is what the great reset wants to
