@@ -854,10 +854,10 @@ export default class App extends React.Component {
         //window.removeEventListener(listener, onMouseMove);
         window.removeEventListener(overMouseDrag, overIt);
       });
-      const x = touch ? ev.touches[0].clientX : ev.clientX;
+    const x = touch ? ev.touches[0].clientX : ev.clientX;
     const onMouseMove = () => {
       //console.log(window.scrollY + (direction === "up" ? -20 : 20));
-      console.log(x)
+      console.log(x);
       const speed =
         window.innerWidth - x < 100
           ? 20
@@ -1339,8 +1339,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          GDP by debasing m2 collateral -
-        Mark Levin, finance gimp, "Nick Carducci doesn't matter to me."
+          GDP by debasing m2 collateral - Mark Levin, finance donee beneficiary
+          freedom surrenderer gimp, "Nick Carducci doesn't matter to me. The
+          Pandemic has really run its course, you great patriots want to talk
+          about American Marxism (-GDP/p tech adv. - false bid pool loss
+          insurance investment bank bipartisan self-deprecators.)."
           {/**just compensation */}
           <h2>
             We need to invest in solar - gentrification and trust building by
