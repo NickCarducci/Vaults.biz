@@ -1363,8 +1363,12 @@ export default class App extends React.Component {
           }}
         >
           "BBB will make SOME people happy." STOP GENTRIFICATION FREE RIDER
-          MUTABLE SPECTRUM (PARENT STIMULOUS 19% DISABLED JUST OLD INVESTMENT
-          BANK OVER CHEQUEING)."
+          MUTABLE SPECTRUM/AUTO TOLL WITH LOGIN{">"}GOV INTRANET WITH MOTOR
+          VEHICLE (PARENT STIMULOUS 19% DISABLED JUST OLD{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M9Xw">
+            INVESTMENT BANK OVER CHEQUEING
+          </a>
+          )."
           <br />
           <br />
           IMO you can't hold suspect for a millisecond.
