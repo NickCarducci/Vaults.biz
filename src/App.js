@@ -1700,7 +1700,15 @@ export default class App extends React.Component {
           price, accrual accounting, FAKE{space}
           <a href="https://www.yardeni.com/pub/valcapsales.pdf">$170t</a>
           {space}NON-CONCURRENTABLE 'GOOD-WILL' && LABORLESS-DEMAND
-          ACCRUAL/COLLATERALIZATION IS NOT SUPPLY IT IS A DEAD WEIGHT BOX.
+          ACCRUAL/COLLATERALIZATION IS NOT SUPPLY IT IS A DEAD WEIGHT BOX. "They
+          have a legal mandate for 2%/yr+ inflation," why? GDP/p 1800-1913 was
+          0%... amongst 3%/yr+ population. Scarcity is a lie, Supply and Demand
+          curves are dictated by{space}
+          <a href="https://qr.ae/pGjE8d">
+            MARKET INCEPTION PROPENSITY TO SPEND INDIFFERENTLY FOR ONE UTILITY
+            OR ANOTHER
+          </a>
+          .
           <br />
           <br />
           "The majority of these people in this country own a home," 65%
@@ -8065,3 +8073,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
