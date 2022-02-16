@@ -5200,6 +5200,10 @@ export default class App extends React.Component {
           homicide (76%) correlation doesn't mean causation.
           <br />
           <br />
+          Ross Clark, "need consistency in your act of protest is terrorism or
+          defense of tea pharmacy tax."
+          <br />
+          <br />
           Jurisdiction imprudence causing trucker terror, 11/12 industry mvp
           duress permit is constitutional. “‘Freedom convoy,’ we (Newsmax, Greg
           Kelly) are glad you made the trip, keep us posted, but trump DID NOT
