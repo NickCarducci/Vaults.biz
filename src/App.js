@@ -1362,8 +1362,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          "I am the first one to take my gun and fight for my country, but who
-          are you killing?"
+          "I am the first one to take my gun and fight for my country," but who
+          are you killing?
           <br />
           “My job was to stop drug trafficking from Afghani pharmacists,” wow,
           “I would work with them, then arrest them.”
