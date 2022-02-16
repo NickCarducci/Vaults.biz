@@ -1672,6 +1672,10 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          "You need to pull the rug out of interest rates," so there is no
+          money? Just write down the fucking assets you giant douche!
+          <br />
+          <br />
           Wages are the ONLY cause of inflation, as even mining and logging are
           not fixed invariable startup (
           <a href="https://froth.app">structural</a>/equipment) costs.
@@ -8093,4 +8097,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
