@@ -1327,6 +1327,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>We need to invest in solar - gentrification and trust building by the left and right.</h2>
           You all are comrades for investment banks, I work for science. Either
           you scale science or invent a process. I'm on the edge of people with
           emotions. $6k/yr per person sounds right. M2 is 11x chequeing so I
