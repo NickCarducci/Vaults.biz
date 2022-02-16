@@ -850,10 +850,11 @@ export default class App extends React.Component {
     const listener = touch ? "touchmove" : "mousemove";
     const overMouseDrag = touch ? "touchenter" : "dragover";
     const onUpEnd = touch ? "touchend" : "mouseup";
-    var clientX = 0
-    const overIt = (event) => {event.preventDefault();
-      clientX = event.clientX
-    }
+    var clientX = 0;
+    const overIt = (event) => {
+      event.preventDefault();
+      clientX = event.clientX;
+    };
     window.addEventListener(overMouseDrag, overIt);
     this.saveListeners(overMouseDrag, overIt);
     const onMouseMove = (ev) => {
@@ -887,14 +888,15 @@ export default class App extends React.Component {
       clearInterval(this.countmove);
       this.countmove = setInterval(
         () => {
-      if(!touch){
-          window.addEventListener(listener, onMouseMove);
-          this.saveListeners(listener, onMouseMove);
-          clearTimeout(this.removeQuickTouche);
-          this.removeQuickTouche = setTimeout(
-            () => window.removeEventListener(listener, onMouseMove),
-            20
-          );}else onMouseMove({touches:[{clientX}]})
+          if (!touch) {
+            window.addEventListener(listener, onMouseMove);
+            this.saveListeners(listener, onMouseMove);
+            clearTimeout(this.removeQuickTouche);
+            this.removeQuickTouche = setTimeout(
+              () => window.removeEventListener(listener, onMouseMove),
+              20
+            );
+          } else onMouseMove({ touches: [{ clientX }] });
         },
 
         100
@@ -930,7 +932,7 @@ export default class App extends React.Component {
           : !planner
           ? this.chapter1.current.offsetHeight + current.offsetTop
           : current.offsetTop;
-      return Math.abs(offsetTop - topProgress)//topProgress - offsetTop <  window.innerHeight/2 ? Math.abs(offsetTop - topProgress) : 100000; //Math.abs(topProgress - offsetTop);
+      return Math.abs(offsetTop - topProgress); //topProgress - offsetTop <  window.innerHeight/2 ? Math.abs(offsetTop - topProgress) : 100000; //Math.abs(topProgress - offsetTop);
       /*this.state.scrollTop - window.innerHeight <
           Math.abs(current.offsetTop + current.offsetHeight) &&
         offsetTop(current)
@@ -1360,12 +1362,20 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          You can collateralize this book, not buy it (impossible to paytech without credit).
-          <br/>
-          <br/>
+          "I am the first one to take my gun and fight for my country, but who
+          are you killing?"
+          <br />
+          “My job was to stop drug trafficking from Afghani pharmacists,” wow,
+          “I would work with them, then arrest them.”
+          <br />
+          <br />
+          You can collateralize this book, not buy it (impossible to paytech
+          without credit).
+          <br />
+          <br />
           “Bail reform: hold people in jail without evidence” Peter King.
-          <br/>
-          <br/>
+          <br />
+          <br />
           "millions losing their jobs," is a good thing, expecially when you ban
           userers: insurers, lenders, landlords. millions of lives lost is much
           less than expected by population growth a life expectancey ago.
