@@ -130,6 +130,7 @@ export default class App extends React.Component {
     this.price = React.createRef();
     this.awareness = React.createRef();
     this.okboomer = React.createRef();
+    this.royalty = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -465,6 +466,11 @@ export default class App extends React.Component {
           this.setState(
             { planner: true },
             () => pager(true, this.menger.current.offsetTop) //offsetTop
+          );
+        } else if (this.props.pathname === "/royalty") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.royalty.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/inflation") {
           this.setState(
@@ -927,6 +933,8 @@ export default class App extends React.Component {
       // if (this.state.planner) {//(chapter1 refs)
       if (construct(true, this.russia.current) < tryy) {
         inSection("russia");
+      } else if (construct(true, this.royalty.current) < tryy) {
+        inSection("royalty");
       } else if (construct(true, this.awareness.current) < tryy) {
         inSection("awareness");
       } else if (construct(true, this.okboomer.current) < tryy) {
@@ -1339,6 +1347,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Don't blame anything washes on the news. McConnel is culpable.<br/>
           GDP by debasing m2 collateral - Mark Levin, finance donee beneficiary
           freedom surrenderer gimp, "Nick Carducci doesn't matter to me. The
           Pandemic has really run its course, you great patriots want to talk
@@ -4833,7 +4842,9 @@ export default class App extends React.Component {
           <a href="https://fred.stlouisfed.org/graph/?g=LOyP">
             Debt to checking
           </a>
-          . The collateral of currency, ostensibly either per capita or dollar
+          .
+          <hr ref={this.royalty} />
+          The collateral of currency, ostensibly either per capita or dollar
           U.S. Saver land exploration rights, third party donee beneficiary
           claimable. This is why I am Chair and Founder of{space}
           <a href="https://saverparty.quora.com/">Saver Party</a>
@@ -7542,6 +7553,14 @@ export default class App extends React.Component {
               href={`${window.location.origin}/sdr`}
             >
               sdr
+            </a>
+            {space}
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("royalty") }}
+              href={`${window.location.origin}/royalty`}
+            >
+              royalty
             </a>
             {space}
             <a
