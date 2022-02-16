@@ -1362,7 +1362,13 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          IMO you can't hold suspect for a millisecond.<br/>
+          "BBB will make SOME people happy." STOP GENTRIFICATION FREE RIDER
+          MUTABLE SPECTRUM (PARENT STIMULOUS 19% DISABLED JUST OLD INVESTMENT
+          BANK OVER CHEQUEING)."
+          <br />
+          <br />
+          IMO you can't hold suspect for a millisecond.
+          <br />
           Just garbage collection “bacteria is acute pneumonia.” Pfizer and
           Harvard Wyss say in unison. Never lab study D614G ACE2
           immunofluorescent microscopy. Don’t front run vaxxes.
@@ -1375,9 +1381,9 @@ export default class App extends React.Component {
           <br />
           Keep whistleblowers in the jury and good will out of the military, and
           the military out of pharmacy, and pharmacies out of “Death Valley.”
-          Open ingredients, ban invoices & insurance, no more pennywise
-          price fix. Just make the move for donee and borrower defense (force
-          majeure intent).
+          Open ingredients, ban invoices & insurance, no more pennywise price
+          fix. Just make the move for donee and borrower defense (force majeure
+          intent).
           <br />
           Alzheimer’s caused by good sewage according to this econometrist.
           <br />
@@ -1401,7 +1407,10 @@ export default class App extends React.Component {
           industry type max-royalty. Paytech forces credit now, impossible to
           BOYCOTT.
           <br />
-          Nuts!{space}<span role="img" aria-label="nuts squirrel">🥜🐿</span>
+          Nuts!{space}
+          <span role="img" aria-label="nuts squirrel">
+            🥜🐿
+          </span>
           <br />
           <br />
           We don’t know velocity/yr of CurrencyComponentOfM1 so we look at 1/11
@@ -8220,3 +8229,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
