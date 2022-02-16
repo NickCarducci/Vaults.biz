@@ -1356,7 +1356,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Bipartisan sanction possible terrorists.
+          "millions losing their jobs," is a good thing, expecially when you ban
+          userers: insurers, lenders, landlords. millions of lives lost is much
+          less than expected by population growth a life expectancey ago.
+          Inflation is 102% but debt price effect is 4400% homes over
+          labor-equity. Bipartisan sanction possible terrorists.
           <br />
           "I could clean up the subways in 5 days." - Bill O'Reilly. "'1000x
           crime and neglect more expensive than hoousing them.'{space}
@@ -7960,3 +7964,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
