@@ -854,9 +854,21 @@ export default class App extends React.Component {
         //window.removeEventListener(listener, onMouseMove);
         window.removeEventListener(overMouseDrag, overIt);
       });
-    const onMouseMove = (ev) => {
+      const x = touch ? ev.touches[0].clientX : ev.clientX;
+    const onMouseMove = () => {
       //console.log(window.scrollY + (direction === "up" ? -20 : 20));
-      window.scroll(0, window.scrollY + (direction === "up" ? -20 : 20));
+      console.log(x)
+      const speed =
+        window.innerWidth - x < 100
+          ? 20
+          : window.innerWidth - x < 200
+          ? 40
+          : window.innerWidth - x < 300
+          ? 60
+          : window.innerWidth - x < 400
+          ? 80
+          : 100;
+      window.scroll(0, window.scrollY + (direction === "up" ? -speed : speed));
     };
     //window.addEventListener(listener, ifEnded, false);
     window.addEventListener(onUpEnd, ifEnded, false);
@@ -1113,7 +1125,7 @@ export default class App extends React.Component {
 
       <div
         style={{
-          userSelect: !this.state.ios ? "auto" : "none",
+          userSelect: !this.state.ios ? "" : "none",
           marginLeft: "62px",
           backgroundColor: "rgb(160,70,180)",
           width: "600px",
@@ -1139,7 +1151,7 @@ export default class App extends React.Component {
         <div
           style={{
             color: this.state.scrolling ? "white" : "",
-            userSelect: !this.state.ios ? "auto" : "none",
+            userSelect: !this.state.ios ? "" : "none",
             top: this.state.offScroll
               ? 0
               : Math.min(
@@ -1167,7 +1179,7 @@ export default class App extends React.Component {
               backgroundColor: "white",
               borderRadius: "12px",
               padding: "10px",
-              userSelect: !this.state.ios ? "auto" : "none",
+              userSelect: !this.state.ios ? "" : "none",
               cursor:
                 this.state.scrollTop !== 0 && !this.state.footer
                   ? "pointer"
@@ -1193,7 +1205,7 @@ export default class App extends React.Component {
           >
             <span
               style={{
-                userSelect: !this.state.ios ? "auto" : "none",
+                userSelect: !this.state.ios ? "" : "none",
                 right: "0px",
                 fontWeight: "bolder",
                 fontSize: "30px",
@@ -1207,7 +1219,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                userSelect: !this.state.ios ? "auto" : "none",
+                userSelect: !this.state.ios ? "" : "none",
                 borderRadius: "10px",
                 border: "5px solid rgb(5,5,5)",
                 width: "30px",
@@ -1221,7 +1233,7 @@ export default class App extends React.Component {
             />
             <div
               style={{
-                userSelect: !this.state.ios ? "auto" : "none",
+                userSelect: !this.state.ios ? "" : "none",
                 backgroundColor: "black",
                 width: "10px",
                 position: "absolute",
@@ -1327,7 +1339,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          <h2>We need to invest in solar - gentrification and trust building by the left and right.</h2>
+        Mark Levin, finance gimp, "Nick Carducci doesn't matter to me."
+          {/**just compensation */}
+          <h2>
+            We need to invest in solar - gentrification and trust building by
+            the left and right.
+          </h2>
           You all are comrades for investment banks, I work for science. Either
           you scale science or invent a process. I'm on the edge of people with
           emotions. $6k/yr per person sounds right. M2 is 11x chequeing so I
@@ -7019,7 +7036,7 @@ export default class App extends React.Component {
             <div
               onClick={() => this.setState({ footer: false })}
               style={{
-                userSelect: !this.state.ios ? "auto" : "none",
+                userSelect: !this.state.ios ? "" : "none",
                 cursor: "pointer",
                 WebkitTextStroke: "2px rgb(100,200,140)",
                 fontSize: "26px",
@@ -7774,7 +7791,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            userSelect: !this.state.ios ? "auto" : "none",
+            userSelect: !this.state.ios ? "" : "none",
             position: "fixed",
             bottom: "0px",
             right: 0 /* 600 -( !isNaN(this.state.width)
@@ -7811,7 +7828,7 @@ export default class App extends React.Component {
               backgroundColor: this.state.hoverUpPager
                 ? "rgba(240,240,240,1)"
                 : "",
-              userSelect: !this.state.ios ? "auto" : "none",
+              userSelect: !this.state.ios ? "" : "none",
               WebkitTextStroke: "2px rgb(100,200,140)",
               fontSize: "26px",
               fontWeight: "bold",
@@ -7847,7 +7864,7 @@ export default class App extends React.Component {
                 ? "rgba(240,240,240,1)"
                 : "",
               transform: "rotate(180deg)",
-              userSelect: !this.state.ios ? "auto" : "none",
+              userSelect: !this.state.ios ? "" : "none",
               WebkitTextStroke: "2px rgb(100,200,140)",
               fontSize: "26px",
               fontWeight: "bold",
