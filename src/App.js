@@ -850,7 +850,10 @@ export default class App extends React.Component {
     const listener = touch ? "touchmove" : "mousemove";
     const overMouseDrag = touch ? "touchenter" : "dragover";
     const onUpEnd = touch ? "touchend" : "mouseup";
-    const overIt = (event) => event.preventDefault();
+    var clientX = 0
+    const overIt = (event) => {event.preventDefault();
+      clientX = event.clientX
+    }
     window.addEventListener(overMouseDrag, overIt);
     this.saveListeners(overMouseDrag, overIt);
     const onMouseMove = (ev) => {
@@ -884,13 +887,14 @@ export default class App extends React.Component {
       clearInterval(this.countmove);
       this.countmove = setInterval(
         () => {
+      if(!touch){
           window.addEventListener(listener, onMouseMove);
           this.saveListeners(listener, onMouseMove);
           clearTimeout(this.removeQuickTouche);
           this.removeQuickTouche = setTimeout(
             () => window.removeEventListener(listener, onMouseMove),
             20
-          );
+          );}else onMouseMove({touches:[{clientX}]})
         },
 
         100
@@ -7967,4 +7971,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
