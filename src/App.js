@@ -1360,6 +1360,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          “Bail reform: hold people in jail without evidence” Peter King.
+          <br/>
+          <br/>
           "millions losing their jobs," is a good thing, expecially when you ban
           userers: insurers, lenders, landlords. millions of lives lost is much
           less than expected by population growth a life expectancey ago.
@@ -7971,3 +7974,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
