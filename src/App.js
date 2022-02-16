@@ -1672,6 +1672,11 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          Wages are the ONLY cause of inflation, as even mining and logging are
+          not fixed invariable startup (
+          <a href="https://froth.app">structural</a>/equipment) costs.
+          <br />
+          <br />
           "Undoing inflation is going to be painful, there is no simple way of
           doing that, unfortunately." how is mediation of debt as money to a
           ratio of capacity of 1 cash/debt how painful, or unfortunate? Those
@@ -8088,3 +8093,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
