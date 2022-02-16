@@ -1362,9 +1362,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Why is the GOP spokesperson, Chris Salcedo, saying that a tax-credit is
-          something to, “take advantage of?” Or that, it is used to pay child costs?
-          Don't you have concern for the children?
+          Why is the GOP spokesperson, Chris Salcedo, saying that a tax-credit
+          is something to, “take advantage of?” Or that, it is used to pay child
+          costs? Don't you have concern for the children? "Tax-payers on the
+          hook," $1.8t/yr is paid for my Savers, and Tax-Payers pay $2.2t/yr,
+          but over time it is ONLY SAVERS. SOMEBODY CUT OFF HIS HEAD.
           <br />
           non-concurrentable & compound
           <h3>productive-ward for what?</h3>
