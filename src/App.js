@@ -1339,6 +1339,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          GDP by debasing m2 collateral -
         Mark Levin, finance gimp, "Nick Carducci doesn't matter to me."
           {/**just compensation */}
           <h2>
