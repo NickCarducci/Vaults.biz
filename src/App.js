@@ -1672,6 +1672,15 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          "Undoing inflation is going to be painful, there is no simple way of
+          doing that, unfortunately." how is mediation of debt as money to a
+          ratio of capacity of 1 cash/debt how painful, or unfortunate? Those
+          contractors lending, insuring and landlording are liable for
+          surrendering the freedoms, you are lucky we MIGHT not come after
+          damages for time loitering on the collateral, else the 'good-will'
+          last traded neighborhood price.
+          <br />
+          <br />
           "Lower wages is a lower quality of life," unless
           poverty=(cpi/income)==assetEquality=laborBorneDemand==laborEquity=productiveWard=economicWelfare=GDP/hour-GDP/p
           tech advancement by comparative advantage trade of MUI increases
