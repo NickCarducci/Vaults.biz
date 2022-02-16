@@ -1362,6 +1362,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          home title lock.com is retarded, saying warrantly scope of requirement
+          estimate is concurrentable, just false bid pool loss. Charlie Kirk is
+          a fox.
+          <br />
+          2/3 debt is private, $2.2t/yr tax pure elastic, $1.8t/yr my
+          chequeing-land-share-split over my dead body, 65% are in debt mortgage at 44x $2t
+          by $170t non-concurrentable ‘good-will,’ 35% rent of outstanding
+          home-contracting.
+          <br />
+          “You can fax to confiscate the money supply,” that would go to the
+          treasury, reset the currency, that is what the great reset wants to
+          achieve, (cash/debt)*income every year back. You would gain 100% your
+          purchasing power.
+          <br />
+          <br />
           "How can poverty be reduced in Afghanistan?"
           <br />
           Nick Carducci - BA in Political Science & Economics, Johns Hopkins
