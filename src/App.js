@@ -124,7 +124,7 @@ export default class App extends React.Component {
     this.c1775 = React.createRef();
     this.chang = React.createRef();
     this.rcv = React.createRef();
-    this.debt = React.createRef();
+    this.balance = React.createRef();
     this.democrats = React.createRef();
     this.cancel = React.createRef();
     this.price = React.createRef();
@@ -418,10 +418,10 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.awareness.current.offsetTop) //offsetTop
           );
-        } else if (this.props.pathname === "/debt") {
+        } else if (this.props.pathname === "/balance") {
           this.setState(
             { planner: true },
-            () => pager(true, this.debt.current.offsetTop) //offsetTop
+            () => pager(true, this.balance.current.offsetTop) //offsetTop
           );
         } else if (this.props.pathname === "/chang") {
           this.setState(
@@ -930,7 +930,7 @@ export default class App extends React.Component {
           : !planner
           ? this.chapter1.current.offsetHeight + current.offsetTop
           : current.offsetTop;
-      return topProgress - offsetTop <  window.innerHeight/2 ? Math.abs(offsetTop - topProgress) : 100000; //Math.abs(topProgress - offsetTop);
+      return Math.abs(offsetTop - topProgress)//topProgress - offsetTop <  window.innerHeight/2 ? Math.abs(offsetTop - topProgress) : 100000; //Math.abs(topProgress - offsetTop);
       /*this.state.scrollTop - window.innerHeight <
           Math.abs(current.offsetTop + current.offsetHeight) &&
         offsetTop(current)
@@ -954,8 +954,8 @@ export default class App extends React.Component {
         inSection("okboomer");
       } else if (construct(true, this.democrats.current) < tryy) {
         inSection("democrats");
-      } else if (construct(true, this.debt.current) < tryy) {
-        inSection("debt");
+      } else if (construct(true, this.balance.current) < tryy) {
+        inSection("balance");
       } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
       } else if (construct(true, this.chang.current) < tryy) {
@@ -1360,6 +1360,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          You can collateralize this book, not buy it (impossible to paytech without credit).
+          <br/>
+          <br/>
           “Bail reform: hold people in jail without evidence” Peter King.
           <br/>
           <br/>
@@ -1717,7 +1720,7 @@ export default class App extends React.Component {
           pennywise only, they don’t want to ban invoices, insurance, nor
           prescriptions outright.
           <br />
-          <hr ref={this.debt} />
+          <hr ref={this.balance} />
           ...doctors do that, government don’t allow invoices nor insurance.
           <br />
           Poverty=equality because labor costs are used to corner the market by
@@ -7734,11 +7737,11 @@ export default class App extends React.Component {
             {space}
             <a
               onMouseEnter={hoverpathe}
-              style={{ color: "black", border: scrollPath("debt") }}
-              href={`${window.location.origin}/debt`}
+              style={{ color: "black", border: scrollPath("balance") }}
+              href={`${window.location.origin}/balance`}
               // onClick={() => console.log("trr")}
             >
-              debt
+              balance
             </a>
             <br />
             <br />
@@ -7974,4 +7977,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
