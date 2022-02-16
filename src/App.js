@@ -1672,6 +1672,32 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/vxpuh3clv6ppo75/Screen%20Shot%202022-02-16%20at%2011.02.08%20AM.png?dl=0"
+            }
+            float="left"
+            title=" (GBNews) Matthew Lesh Head of Public Policy, Inst. of Economic Affairs"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          "Problems with house building is JUST NOT DOING monopsony by
+          $2.2ttax/$1.8taccrual from outside the market for government trust."
+          Matthew Lesh you fucking douche, 'cash' is not chequeing $2t in your
+          terms, currencyComponentOfM1 has not risen, it is only collateralized
+          price, accrual accounting, FAKE{space}
+          <a href="https://www.yardeni.com/pub/valcapsales.pdf">$170t</a>
+          {space}NON-CONCURRENTABLE 'GOOD-WILL' && LABORLESS-DEMAND
+          ACCRUAL/COLLATERALIZATION IS NOT SUPPLY IT IS A DEAD WEIGHT BOX.
+          <br />
+          <br />
           "The majority of these people in this country own a home," 65%
           mortgage (loitering), 35% rent (laundering), the rest lend
           (laborless-demand) or actually own it. "Is this simply{space}
