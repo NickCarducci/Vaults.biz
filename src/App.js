@@ -1362,6 +1362,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "What is meant by foreign employment? How does foreign employment help
+          to improve the economic condition of a nation?"
+          <br />
+          It may cheapen produce{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">if</a>
+          {space}there is low living costs, unless there is laborless demand,
+          and cause a negative nominal balance of trade, but not actual.
+          <br />
+          <br />
           "I am the first one to take my gun and fight for my country," but who
           are you killing?
           <br />
