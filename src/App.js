@@ -248,7 +248,7 @@ export default class App extends React.Component {
     );*/
     const scrollPlacementHeight = Math.round(
       (window.scrollY / document.documentElement.scrollHeight) *
-        (window.innerHeight - 115)
+        (window.innerHeight )
     );
     //console.log(window.scrollY);
     this.setState(
@@ -297,7 +297,7 @@ export default class App extends React.Component {
     );*/
     const { scrollPlacementHeight } = this.state;
     var topProgress = Math.round(
-      (scrollPlacementHeight / (window.innerHeight - 215)) *
+      (scrollPlacementHeight / (window.innerHeight - 70)) *
         document.documentElement.scrollHeight //window.scrollY   this.state.ternaryHeight //
     );
     this.label(topProgress);
@@ -772,7 +772,7 @@ export default class App extends React.Component {
         const scrollPlacementHeight = e - 55;
         this.setState({ scrollPlacementHeight, provisionalScroll: e }, () => {
           var topProgress = //Math.round(
-            (scrollPlacementHeight / (window.innerHeight - 215)) *
+            (scrollPlacementHeight / (window.innerHeight -70)) *
             document.documentElement.scrollHeight; //window.scrollY
           //);
           //console.log(document.documentElement.scrollHeight);
@@ -919,7 +919,7 @@ export default class App extends React.Component {
           : !planner
           ? this.chapter1.current.offsetHeight + current.offsetTop
           : current.offsetTop;
-      return Math.abs(topProgress - offsetTop);
+      return topProgress - offsetTop<0?offsetTop-topProgress :100000//Math.abs(topProgress - offsetTop);
       /*this.state.scrollTop - window.innerHeight <
           Math.abs(current.offsetTop + current.offsetHeight) &&
         offsetTop(current)
@@ -945,9 +945,9 @@ export default class App extends React.Component {
         inSection("democrats");
       } else if (construct(true, this.debt.current) < tryy) {
         inSection("debt");
-      } else if (construct(true, this.jews.current) < tryy) {
+      }else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
-      } else if (construct(true, this.chang.current) < tryy) {
+      }else if (construct(true, this.chang.current) < tryy) {
         inSection("chang");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
@@ -977,7 +977,7 @@ export default class App extends React.Component {
         inSection("govtech");
       } else if (construct(true, this.rent.current) < tryy) {
         inSection("rent");
-      } else if (construct(true, this.redistricting.current) < tryy) {
+      }else if (construct(true, this.redistricting.current) < tryy) {
         inSection("redistricting");
       } else if (construct(true, this.monopoly.current) < tryy) {
         inSection("monopoly");
@@ -1062,7 +1062,7 @@ export default class App extends React.Component {
       } //else inSection("saverparty.xyz");
       //  }
       // console.log(name);
-      tryy = tryy + 1000;
+      tryy = tryy + 100;
       //console.log(tryy);
       if (name /* && construct(true,this[name].current) < tryy*/) {
         //construct(true,this[name].current);
@@ -2034,6 +2034,27 @@ export default class App extends React.Component {
           Halfwise, antidepressant for entry, Eat my ass, Alzheimer == good
           sewage,{space}
           <a href="https://vaults.biz/gmu">etc</a>.
+
+          <hr ref={this.chang} />
+          <Cable
+            style={{ width: "200px", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/epv7gzm6155hj48/Screen%20Shot%202022-02-15%20at%2012.20.00%20PM.png?dl=0"
+            }
+            float="right"
+            title="John Bachmann Now (Newsmax) - Gordon Chang"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          “Olympians forced to use glasses to leave cells around, China is DNA
+          harvesting.”
+          <br />
           <h2>
             Never again will there be another super bowl, I mean thumbprint
           </h2>
@@ -2294,26 +2315,6 @@ export default class App extends React.Component {
           paux of the left and
           <br />
           Improv is not politics
-          <br />
-          <hr ref={this.chang} />
-          <Cable
-            style={{ width: "200px", height: "auto" }}
-            onError={handleScollImgError}
-            img={true}
-            src={
-              this.state.noyout
-                ? ""
-                : "https://www.dl.dropboxusercontent.com/s/epv7gzm6155hj48/Screen%20Shot%202022-02-15%20at%2012.20.00%20PM.png?dl=0"
-            }
-            float="right"
-            title="John Bachmann Now (Newsmax) - Gordon Chang"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
-          />
-          “Olympians forced to use glasses to leave cells around, China is DNA
-          harvesting.”
           <br />
           <br />
           Ask the right, what{space}
@@ -2584,7 +2585,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://www.dl.dropboxusercontent.com/s/spnjociuz6lomoi/Screen%20Shot%202022-02-15%20at%201.49.43%20PM.png?dl=0"
             }
-            float="left"
+            float="right"
             title="NYT - Weiner 18mo for 15yr old sexting (details miscellaneous)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
