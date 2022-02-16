@@ -1672,7 +1672,9 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
-          "Is this simply{space}
+          "The majority of these people in this country own a home," 65%
+          mortgage (loitering), 35% rent (laundering), the rest lend
+          (laborless-demand) or actually own it. "Is this simply{space}
           <a href="https://qr.ae/pGjBQu">about</a>
           {space}building more homes, Matthew?{space}
           <a href="https://qr.ae/pGjBQu">It</a>
@@ -8032,3 +8034,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
