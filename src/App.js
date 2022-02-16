@@ -1672,7 +1672,13 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
-          Workers have the right to negotiate a pay-rise,{space}
+          "Lower wages is a lower quality of life," unless
+          poverty=(cpi/income)==assetEquality=laborBorneDemand==laborEquity=productiveWard=economicWelfare=GDP/hour-GDP/p
+          tech advancement by comparative advantage trade of MUI increases
+          (science is open ingredient licensure)!
+          <br />
+          <br />
+          "Workers have the right to negotiate a pay-rise,"{space}
           <a href="https://vaults.biz/newecon">we</a>
           {space}have a right to reverse the shit, (cash/debt)*income every year
           back.
@@ -8073,4 +8079,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
