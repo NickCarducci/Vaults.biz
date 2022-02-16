@@ -926,7 +926,7 @@ export default class App extends React.Component {
           : !planner
           ? this.chapter1.current.offsetHeight + current.offsetTop
           : current.offsetTop;
-      return topProgress - offsetTop < 0 ? offsetTop - topProgress : 100000; //Math.abs(topProgress - offsetTop);
+      return topProgress - offsetTop <  window.innerHeight/2 ? Math.abs(offsetTop - topProgress) : 100000; //Math.abs(topProgress - offsetTop);
       /*this.state.scrollTop - window.innerHeight <
           Math.abs(current.offsetTop + current.offsetHeight) &&
         offsetTop(current)
