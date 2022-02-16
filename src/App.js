@@ -1362,6 +1362,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Why is the GOP spokesperson, Chris Salcedo, saying that a tax-credit is
+          something to, “take advantage of?” Or that, it is used to pay child costs?
+          Don't you have concern for the children?
+          <br />
           non-concurrentable & compound
           <h3>productive-ward for what?</h3>
           Attacking homelessness by gentrification benefits to stay in the
