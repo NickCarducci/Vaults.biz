@@ -1362,11 +1362,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h3>productive-ward for what?</h3>
+          Attacking homelessness by gentrification benefits to stay in the
+          Mental Institutions without evidence for one second, conflict of
+          interest. Medicare is investment bank, rollover 1/12 verticals, you’ve
+          gentrified yourselves this time.
+          <h2>
+            <a href="https://fred.stlouisfed.org/graph/?g=M9j8">
+              How can debt like this have no effect on GDP
+            </a>
+            ?
+          </h2>
           "Lowering good-will last traded neighborhood non-concurrentable
           prices? I worked to hard for that m2 based collateral." Dom Carter,
-          decennial-afro-city-hall-reporter. "BBB will make SOME people happy," delights Barney Snowflake.
-          STOP GENTRIFICATION FREE RIDER MUTABLE SPECTRUM/AUTO TOLL WITH LOGIN.GOV INTRANET WITH MOTOR VEHICLE (PARENT STIMULOUS 19% DISABLED
-          JUST OLD{space}
+          decennial-afro-city-hall-reporter. "BBB will make SOME people happy,"
+          delights Barney Snowflake. STOP GENTRIFICATION FREE RIDER MUTABLE
+          SPECTRUM/AUTO TOLL WITH LOGIN.GOV INTRANET WITH MOTOR VEHICLE (PARENT
+          STIMULOUS 19% DISABLED JUST OLD{space}
           <a href="https://fred.stlouisfed.org/graph/?g=M9Xw">
             INVESTMENT BANK OVER CHEQUEING
           </a>
