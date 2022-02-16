@@ -1362,6 +1362,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          non-concurrentable & compound
           <h3>productive-ward for what?</h3>
           Attacking homelessness by gentrification benefits to stay in the
           Mental Institutions without evidence for one second, conflict of
