@@ -1362,6 +1362,44 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "How can poverty be reduced in Afghanistan?"
+          <br />
+          Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+          University (Graduated 2015)
+          <br />
+          They would need to permit lending for asset-inequality, as poverty is
+          inflation/income.
+          <br />
+          <br />
+          "With the current economic retrogation, what are the possible majors
+          to restoring economic stability?"
+          <br />
+          Economic stability is a scientific process with zero upkeep, so
+          GDP/hour-GDP/p economic-welfare,
+          poverty=(inflation/income)==assetEquality=laborEquity
+          <br />
+          (income/hour)/home.
+          <br />
+          You can study any liberal art, English, read - econometrics,
+          statistics, calculus, the federal reserve and international law (it is
+          all fabricated reciprocity upon microeconomic reasoning if not self
+          bona fide good will altruism, for comparative advantage and
+          technological advancement -GDP/p is a good motive, of course, as life
+          accosts).
+          <br />
+          Education is trade secrets trust, as pharmacy can open ingredient
+          lists online, and as derivative change towards employment is negative
+          - while absolutely they remain the same, as Alzheimer’s presented upon
+          good sewage.
+          <br />
+          <br />
+          Charity time only IP to the state instead of science open ingredient
+          licensure. 10k.
+          <br />
+          Homes needed right now, then sell outright! Montana is ours.
+          <br />
+          <a href="https://Nria.net">18008001414</a>
+          <br />
           entertaining and cute but not that smart - doxxing scientasks
           (reguratist-scientists and from it the CDC NIH NSF, displaced progress
           with profits; after all these years of confirmation n, why would we
@@ -1676,7 +1714,9 @@ export default class App extends React.Component {
           money? Just write down the fucking assets you giant douche!
           "Employment," by busy-work elastic is not actually productive, it just
           makes us work more, lower GDP/hour-GDP/p economic-welfare,
-          productive-efficiency (q* of p* supply & demand microeconomics). "higher interest rates to put down inflation, a stick to stop debt," dude, just walk up to her.
+          productive-efficiency (q* of p* supply & demand microeconomics).
+          "higher interest rates to put down inflation, a stick to stop debt,"
+          dude, just walk up to her.
           <br />
           <br />
           Wages are the ONLY cause of inflation, as even mining and logging are
@@ -8100,3 +8140,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
