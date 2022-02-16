@@ -1327,6 +1327,21 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          You all are comrades for investment banks, I work for science. Either
+          you scale science or invent a process. I'm on the edge of people with
+          emotions. $6k/yr per person sounds right. M2 is 11x chequeing so I
+          must assume 1/11 GDP/yr is actually true. The right calls{space}
+          <a href="https://www.yardeni.com/pub/monetagg.pdf">m2 in banks</a>
+          {space}
+          unlent cause of inflation (material+rent), not assets, labor,
+          profits... (income/hour)/homes -5x or more{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7mh">
+            https://fred.stlouisfed.org/graph/?g=M7mh
+          </a>
+          . Relenting QE is not new issue but new outstanding to short term
+          TIPS, letting $2t chequeing capacity ask for more par value... Saver
+          land-deed laundered and loitered share-split actually{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M24t">THEN</a>.
           <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
