@@ -1674,6 +1674,9 @@ export default class App extends React.Component {
           <hr ref={this.rent} />
           "You need to pull the rug out of interest rates," so there is no
           money? Just write down the fucking assets you giant douche!
+          "Employment," by busy-work elastic is not actually productive, it just
+          makes us work more, lower GDP/hour-GDP/p economic-welfare,
+          productive-efficiency (q* of p* supply & demand microeconomics).
           <br />
           <br />
           Wages are the ONLY cause of inflation, as even mining and logging are
@@ -8097,3 +8100,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
