@@ -1327,7 +1327,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-                    <Cable
+          <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
             img={true}
@@ -1351,6 +1351,18 @@ export default class App extends React.Component {
           Inflation is laborless-demand and recession is technological
           advancement, GDP/hour-GDP/p or (income/hour)/home, so
           material+inflation even for income (less poverty) is worse.
+          <br />
+          <br />
+          chequeing,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LZrq">
+            currencyComponentOfM1
+          </a>
+          {space}
+          ($b), not{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LjGf">m2</a>
+          {space}
+          good-will collateralized and last-traded-neighborhood price
+          REFLECTION.
           <br />
           <br />
           "people want to go out and do things," $12k/64 debt/cash new per
