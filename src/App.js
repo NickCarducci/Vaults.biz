@@ -248,7 +248,7 @@ export default class App extends React.Component {
     );*/
     const scrollPlacementHeight = Math.round(
       (window.scrollY / document.documentElement.scrollHeight) *
-        (window.innerHeight )
+        window.innerHeight
     );
     //console.log(window.scrollY);
     this.setState(
@@ -333,6 +333,7 @@ export default class App extends React.Component {
     clearTimeout(this.resizeTimer);
     clearTimeout(this.moving);
     //clearInterval(this.set);
+          clearTimeout(this.removeQuickTouche)
     window.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener("resize", this.refresh);
     this.state.listeners.forEach((x) => {
@@ -772,7 +773,7 @@ export default class App extends React.Component {
         const scrollPlacementHeight = e - 55;
         this.setState({ scrollPlacementHeight, provisionalScroll: e }, () => {
           var topProgress = //Math.round(
-            (scrollPlacementHeight / (window.innerHeight -70)) *
+            (scrollPlacementHeight / (window.innerHeight - 70)) *
             document.documentElement.scrollHeight; //window.scrollY
           //);
           //console.log(document.documentElement.scrollHeight);
@@ -854,7 +855,7 @@ export default class App extends React.Component {
     this.saveListeners(overMouseDrag, overIt);
     const onMouseMove = (ev) => {
       //console.log(window.scrollY + (direction === "up" ? -20 : 20));
-    const x = touch ? ev.touches[0].clientX : ev.clientX;
+      const x = touch ? ev.touches[0].clientX : ev.clientX;
       //console.log(x);
       const speed =
         window.innerWidth - x < 100
@@ -880,14 +881,20 @@ export default class App extends React.Component {
     window.addEventListener(onUpEnd, ifEnded, false);
     this.saveListeners(onUpEnd, ifEnded);
     this.setState({ offScroll: true }, () => {
-      window.addEventListener(listener, onMouseMove);
-      this.saveListeners(listener, onMouseMove);
-      /*clearInterval(this.countmove);
+      clearInterval(this.countmove);
       this.countmove = setInterval(
-        onMouseMove,
+        () => {
+          window.addEventListener(listener, onMouseMove);
+          this.saveListeners(listener, onMouseMove);
+          clearTimeout(this.removeQuickTouche);
+         this.removeQuickTouche= setTimeout(
+            () => window.removeEventListener(listener, onMouseMove),
+            20
+          );
+        },
 
         100
-      );*/
+      );
 
       // window.addEventListener(listener, onMouseMove);
       // this.saveListeners(listener, onMouseMove);
@@ -919,7 +926,7 @@ export default class App extends React.Component {
           : !planner
           ? this.chapter1.current.offsetHeight + current.offsetTop
           : current.offsetTop;
-      return topProgress - offsetTop<0?offsetTop-topProgress :100000//Math.abs(topProgress - offsetTop);
+      return topProgress - offsetTop < 0 ? offsetTop - topProgress : 100000; //Math.abs(topProgress - offsetTop);
       /*this.state.scrollTop - window.innerHeight <
           Math.abs(current.offsetTop + current.offsetHeight) &&
         offsetTop(current)
@@ -945,9 +952,9 @@ export default class App extends React.Component {
         inSection("democrats");
       } else if (construct(true, this.debt.current) < tryy) {
         inSection("debt");
-      }else if (construct(true, this.jews.current) < tryy) {
+      } else if (construct(true, this.jews.current) < tryy) {
         inSection("jews");
-      }else if (construct(true, this.chang.current) < tryy) {
+      } else if (construct(true, this.chang.current) < tryy) {
         inSection("chang");
       } else if (construct(true, this.poverty.current) < tryy) {
         inSection("poverty");
@@ -977,7 +984,7 @@ export default class App extends React.Component {
         inSection("govtech");
       } else if (construct(true, this.rent.current) < tryy) {
         inSection("rent");
-      }else if (construct(true, this.redistricting.current) < tryy) {
+      } else if (construct(true, this.redistricting.current) < tryy) {
         inSection("redistricting");
       } else if (construct(true, this.monopoly.current) < tryy) {
         inSection("monopoly");
@@ -1349,9 +1356,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Bipartisan sanction possible terrorists.<br/>
-          "I could clean up the subways in 5 days." - Bill O'Reilly.<br/>
-          Don't blame anything washes on the news. McConnel is culpable.<br/>
+          Bipartisan sanction possible terrorists.
+          <br />
+          "I could clean up the subways in 5 days." - Bill O'Reilly.
+          <br />
+          Don't blame anything washes on the news. McConnel is culpable.
+          <br />
           GDP by debasing m2 collateral - Mark Levin, finance donee beneficiary
           freedom surrenderer gimp, "Nick Carducci doesn't matter to me. The
           Pandemic has really run its course, you great patriots want to talk
@@ -2034,7 +2044,6 @@ export default class App extends React.Component {
           Halfwise, antidepressant for entry, Eat my ass, Alzheimer == good
           sewage,{space}
           <a href="https://vaults.biz/gmu">etc</a>.
-
           <hr ref={this.chang} />
           <Cable
             style={{ width: "200px", height: "auto" }}
@@ -7949,3 +7958,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
