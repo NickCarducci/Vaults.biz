@@ -1362,6 +1362,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Minsk agreements, normally Normandy, concrete reciprocal, advance interests,
+          GDP/p investment bank, premium over training. RUSSIA CANNOT JOIN NATO
+          <br />
+          <br />
           That I don't take lightly, because of my genes, invented basing of
           war, manufactured provocations in theatre. We will glady take any
           criticism that anyone directs at us, I yield back, it's{space}
