@@ -1362,6 +1362,30 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Radio or music, coding?
+          <br />
+          Best selling at the cost of collective flaccid loss.
+          <br />
+          A joke or comparative innocence, duress?
+          <br />
+          "How do I draw a marginal cost curve?"
+          <br />
+          Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+          University (Graduated 2015)
+          <br />
+          As Demand does Marginal Revenue Product, Supply does Marginal Cost,
+          and this is why I describe laborless-demand as dead-weight-box of
+          {space}
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">GDP/hour-GDP/p</a>
+          , economic welfare.
+          <br />
+          Inception of market in order of propensity (Marginal Utility
+          Indifference) to cost, is elastic, so bottom-left, top-right, concave
+          down.
+          <br />
+          If order matters, then mean doesn’t.
+          <br />
+          <br />
           Liabilities values good will assets collateral basing GDP/yr by m2
           FRAUD
           <br />
