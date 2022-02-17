@@ -1352,7 +1352,7 @@ export default class App extends React.Component {
             fontFamily: "Nunito, sans-serif",
             textAlign: "center",
             transition: `.3s ease-in`,
-            color: `rgba(200,200,220,${this.state.scrolling ? 0.5 : 0.8})`,
+            color: `rgba(200,200,220,${this.state.scrolling ? 0.7 : 0.8})`,
             fontSize:
               /*this.state.offScroll
               ? "1px"
