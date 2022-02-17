@@ -1362,6 +1362,8 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Mandate Mental Health treatment for those whom we cannot convict,
+          only NYC doesn't."
           <h3>gerotocracy gentrification trust</h3>
           "HHS allocates $25.5 billion to cover financial losses from COVID-19."
           Just abject fraud, less than expected people died, and financial
