@@ -1362,8 +1362,15 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Minsk agreements, normally Normandy, concrete reciprocal, advance interests,
-          GDP/p investment bank, premium over training. RUSSIA CANNOT JOIN NATO
+          A lot of people are feeling the higher costs in the long run by debt
+          as good-will non-concurrentable assets, $170t, $167t unfunded
+          liabilities, and $2t currency (not “money” or collateralized assets).
+          <br />
+          <br />
+          {/**I'm a genius! */}
+          Minsk agreements, normally Normandy, concrete reciprocal, advance
+          interests, GDP/p investment bank, premium over training. RUSSIA CANNOT
+          JOIN NATO
           <br />
           <br />
           That I don't take lightly, because of my genes, invented basing of
@@ -7850,13 +7857,22 @@ export default class App extends React.Component {
               crypto
             </a>
             {space}
-            <a
-              onMouseEnter={hoverpathe}
-              style={{ color: "black", border: scrollPath("okboomer") }}
-              href={`${window.location.origin}/okboomer`}
-            >
-              okboomer
-            </a>
+            <div>
+              <a
+                onMouseEnter={hoverpathe}
+                style={{
+                  color: "black",
+                  display: "flex",
+                  flexDirection: "column",
+                  border: scrollPath("okboomer")
+                }}
+                href={`${window.location.origin}/okboomer`}
+              >
+                {"okboomer".split("").map((letter) => (
+                  <div>{letter}</div>
+                ))}
+              </a>
+            </div>
             {space}
             <a
               onMouseEnter={hoverpathe}
