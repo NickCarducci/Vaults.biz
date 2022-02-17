@@ -1362,6 +1362,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Liabilities values good will assets collateral basing GDP/yr by m2
+          FRAUD
+          <br />
+          <br />
           Nicholas Carducci -{space}
           <a href="https://vaults.biz/nimby">Bond-Zero</a>
           {space}LaborEquity.org, Magnate Auto, SaverParty.xyz, Scopebook,
