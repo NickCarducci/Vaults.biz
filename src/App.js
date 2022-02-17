@@ -1362,13 +1362,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Weiner discrimination by consumer surrogate, his topic is policy,
+          which does overlap with 15-yr old, sexting, quite a bit
+          <br />
+          <br />
           "2% of GDP is defense, to match NATO force training," Robert Wilke,
           {space}
           <a href="https://fred.stlouisfed.org/graph/?g=M9j8">
             do they have special uniforms
           </a>
           ?<br />
-          <br/>
+          <br />
           "people are still buying stuff even though it is costing more."
           <br />
           CPI doesn’t include labor, profits nor assets like structures,
@@ -8301,3 +8305,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
