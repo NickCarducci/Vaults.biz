@@ -1176,7 +1176,7 @@ export default class App extends React.Component {
             width: this.state.footer ? "100%" : "0%",
             height: this.state.footer ? "100%" : "0%"
           }}
-          //onClick={() => this.setState({ footer: false })}
+          onClick={() => this.setState({ footer: false })}
         ></div>
         <div
           style={{
