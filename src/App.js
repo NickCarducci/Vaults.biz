@@ -1362,6 +1362,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h3>gerotocracy gentrification trust</h3>
+          "HHS allocates $25.5 billion to cover financial losses from COVID-19."
+          Just abject fraud, less than expected people died, and financial
+          losses are of last traded neighborhood good-will (
+          <a href="https://qr.ae/pGj03s">non-concurrnentable</a>) and
+          collateralized price anyway.
+          <br />
+          How is share split of our own money relief? You are just helping home
+          loiterers continue to steal.
+          <br />
+          <br />
           Why is the GOP spokesperson, Chris Salcedo, saying that a tax-credit
           is something to, “take advantage of?” Or that, it is used to pay child
           costs? Don't you have concern for the children? "Tax-payers on the
