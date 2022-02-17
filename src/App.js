@@ -1362,12 +1362,27 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Nicholas Carducci -{space}
+          <a href="https://vaults.biz/nimby">Bond-Zero</a>
+          {space}LaborEquity.org, Magnate Auto, SaverParty.xyz, Scopebook,
+          Vaults.biz, Thumbprint.us
+          <br />
+          “Multifamily lending,” can exist within a 1/12, industry-vertical,
+          max-royalty, realm? Donee- and borrower-defense, by compound, or
+          general-income, is on the way. Any retorts?
+          <br />
+          <br />
+          “$167t unfunded liabilities,” has existed for decades,
+          (french4congress.us)
+          <br />
+          <br />
           $100k bail while they look into Louisville proof of ballistics, the
           weapon, tapes and/of the shirt-hole.
           <br />
           <br />
-          I need to use broadness to force the bad accountants’ hands. 1/11 chequeing/m2.
-          <br/>
+          I need to use broadness to force the bad accountants’ hands. 1/11
+          chequeing/m2.
+          <br />
           Weiner discrimination by consumer surrogate, his topic is policy,
           which does overlap with 15-yr old, sexting, quite a bit
           <br />
