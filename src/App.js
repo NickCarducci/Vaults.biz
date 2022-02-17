@@ -1373,7 +1373,8 @@ export default class App extends React.Component {
           <br />
           <br />
           “$167t unfunded liabilities,” has existed for decades,
-          (french4congress.us)
+          (french4congress.us) - sweet, sweet refined russians, pipelines thru
+          Savers' lands (20%/sqftTotal).
           <br />
           <br />
           $100k bail while they look into Louisville proof of ballistics, the
