@@ -1385,7 +1385,7 @@ export default class App extends React.Component {
           "HHS allocates $25.5 billion to cover financial losses from COVID-19."
           Just abject fraud, less than expected people died, and financial
           losses are of last traded neighborhood good-will (
-          <a href="https://qr.ae/pGj03s">non-concurrnentable</a>) and
+          <a href="https://qr.ae/pGj03s">non-concurrentable</a>) and
           collateralized price anyway.
           <br />
           How is share split of our own money relief? You are just helping home
