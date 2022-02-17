@@ -1199,9 +1199,6 @@ export default class App extends React.Component {
             //onTouchStart={(e) => this.handleMove(e, true)}**
             style={{
               right: "10px",
-              backgroundColor: "white",
-              borderRadius: "12px",
-              padding: "10px",
               userSelect: !this.state.ios ? "" : "none",
               cursor:
                 this.state.scrollTop !== 0 && !this.state.footer
@@ -1226,25 +1223,41 @@ export default class App extends React.Component {
               transition: `${this.state.offScroll ? 0.1 : 0.3}s ease-in`
             }}
           >
-            <span
+            <div
               style={{
+                transition: `.3s ease-in`,
+                backgroundColor:`rgba(255,255,255,${this.state.scrolling?1:.8})`,
+                borderRadius: "12px",
+                padding: "10px",
                 userSelect: !this.state.ios ? "" : "none",
                 right: "0px",
                 fontWeight: "bolder",
-                fontSize: "30px",
                 WebkitTextStroke: `1px rgba(10,70,120,${
                   this.state.scrolling ? 0.5 : 0.8
-                })`
+                })`,
+                display: this.state.width < 400 ? "block" : "flex",
+                fontSize: this.state.width < 400 ? 20 : 30,
+                flexDirection: "row"
               }}
             >
-              {this.state.scrollPath}
-            </span>
+              {this.state.scrollPath &&
+                this.state.scrollPath
+                  .split("")
+                  .map((letter) => <div>{letter}</div>)}
+            </div>
             <img
               alt=""
               style={{
+                transition: `${!this.state.scrolling ? 0.3 : 0.8}s ease-in`,
+                backgroundColor: !this.state.scrolling
+                  ? "rgb(5,5,5)"
+                  : "rgb(255,255,255)",
+                borderRadius: "12px",
+                padding: "10px",
                 userSelect: !this.state.ios ? "" : "none",
-                borderRadius: "10px",
-                border: "5px solid rgb(5,5,5)",
+                border: this.state.scrolling
+                  ? "5px solid rgb(30,40,100)"
+                  : "5px solid rgb(255,255,255)",
                 width: "30px",
                 height: "auto"
               }}
@@ -7867,22 +7880,13 @@ export default class App extends React.Component {
               crypto
             </a>
             {space}
-            <div>
-              <a
-                onMouseEnter={hoverpathe}
-                style={{
-                  color: "black",
-                  display: "flex",
-                  flexDirection: "column",
-                  border: scrollPath("okboomer")
-                }}
-                href={`${window.location.origin}/okboomer`}
-              >
-                {"okboomer".split("").map((letter) => (
-                  <div>{letter}</div>
-                ))}
-              </a>
-            </div>
+            <a
+              onMouseEnter={hoverpathe}
+              style={{ color: "black", border: scrollPath("okboomer") }}
+              href={`${window.location.origin}/okboomer`}
+            >
+              okboomer
+            </a>
             {space}
             <a
               onMouseEnter={hoverpathe}
