@@ -1362,6 +1362,23 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "people are still buying stuff even though it is costing more."
+          <br />
+          CPI doesn’t include labor, profits nor assets like structures,
+          equities, bonds. nor{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">homes</a>.
+          <br />
+          Being the largest factor in GDP, implied by all other goods and m2/yr
+          basing, yet not actually counted, you can see that prices rise
+          generally not because of population (e.g. 3%/yr+ 1800–1913 0%{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">GDP/p</a>), but
+          debt.
+          <br />
+          <br />
+          jobs are retarded, a sign of tech deprecation.
+          <br />
+          consumers aren't buying things, it is mostly credit.
+          <br />
           "Mandate Mental Health treatment for those whom we cannot convict,
           only NYC doesn't."
           <h3>gerotocracy gentrification trust</h3>
