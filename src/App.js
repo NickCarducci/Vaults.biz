@@ -1936,6 +1936,16 @@ export default class App extends React.Component {
           {/*Like with econometrics, significance and truth cannot be found, only
           correlations, with years as n. 65% mortgage, 35% rent, incredulous, the rest lend*/}
           <hr ref={this.rent} />
+          Beyond 'Plausible Use,' is grounds, by donee-invoking-leasi, as
+          contractor-liable-diligence-undue, for is the ability to buy them
+          competing with consumers prohibiting trade, the{space}
+          <a href="https://www.lawinsider.com/clause/no-surrender-of-others-freedom">
+            contractors' surrendered freedom of others
+          </a>
+          {space}- to boot with the microeconomic Supply and Demand output of
+          economic welfare, q*, GDP/hour-GDP/p.
+          <br />
+          <br />
           "You need to pull the rug out of interest rates," so there is no
           money? Just write down the fucking assets you giant douche!
           "Employment," by busy-work elastic is not actually productive, it just
