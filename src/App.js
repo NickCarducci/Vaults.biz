@@ -1363,7 +1363,9 @@ export default class App extends React.Component {
           }}
         >
           That I don't take lightly, because of my genes, invented basing of
-          war, manufactured provocations in theatre.
+          war, manufactured provocations in theatre. We will glady take any
+          criticism that anyone directs at us, I yield back, it's{space}
+          <a href="https://billbiden.org">your fucking honor</a>.
           <br />
           “King among equals,” poverty, inflation/income, as The Most
           Interesting Man in the World, by Good sewage, Anthony Tatum, brgd gen.
