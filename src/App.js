@@ -1362,6 +1362,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          That I don't take lightly, because of my genes, invented basing of
+          war, manufactured provocations in theatre.
+          <br />
           “King among equals,” poverty, inflation/income, as The Most
           Interesting Man in the World, by Good sewage, Anthony Tatum, brgd gen.
           <br />
