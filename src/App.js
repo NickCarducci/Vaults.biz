@@ -220,25 +220,32 @@ export default class App extends React.Component {
     this.ch2refs = immutable;
   }
   handleScroll = (e) => {
-    if (!this.state.offScroll) {
-      const scrollTop = window.scrollY;
-      this.setState(
-        {
-          scrolling: true,
-          scrollTop
-        },
-        () => {
-          this.getLabel(true);
-          clearTimeout(this.scrollTimeout);
-          this.scrollTimeout = setTimeout(() => {
-            this.getLabel();
-            this.setState({
-              scrolling: false
-            });
-          }, 900);
-        }
-      );
-    }
+    const scrollTop = !this.state.offScroll && window.scrollY;
+    this.setState(
+      {
+        footer: true
+      },
+      () =>
+        this.setState(
+          !scrollTop
+            ? { footer: false }
+            : {
+                scrolling: true,
+                scrollTop
+              },
+          () => {
+            this.getLabel(true);
+            clearTimeout(this.scrollTimeout);
+            this.scrollTimeout = setTimeout(() => {
+              this.getLabel();
+              this.setState({
+                footer: false,
+                scrolling: false
+              });
+            }, 900);
+          }
+        )
+    );
   };
   getLabel = (dont) => {
     /*const { scrollPlacementHeight } = this.state;
@@ -1169,7 +1176,7 @@ export default class App extends React.Component {
             width: this.state.footer ? "100%" : "0%",
             height: this.state.footer ? "100%" : "0%"
           }}
-          onClick={() => this.setState({ footer: false })}
+          //onClick={() => this.setState({ footer: false })}
         ></div>
         <div
           style={{
@@ -1226,7 +1233,9 @@ export default class App extends React.Component {
             <div
               style={{
                 transition: `.3s ease-in`,
-                backgroundColor:`rgba(255,255,255,${this.state.scrolling?1:.8})`,
+                backgroundColor: `rgba(255,255,255,${
+                  this.state.scrolling ? 1 : 0.8
+                })`,
                 borderRadius: "12px",
                 padding: "10px",
                 userSelect: !this.state.ios ? "" : "none",
