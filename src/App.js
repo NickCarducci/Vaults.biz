@@ -225,8 +225,8 @@ export default class App extends React.Component {
     const scrollTop = !this.state.offScroll && window.scrollY;
 
     if (this.state.footer)
-       (this.linksPage.current.scrollTop =
-        this.links.current.offsetTop + window.innerHeight / 2);
+      this.linksPage.current.scrollTop =
+        this.links.current.offsetTop + window.innerHeight / 2;
     this.setState(
       {
         footer: true
@@ -234,7 +234,7 @@ export default class App extends React.Component {
       () =>
         this.setState(
           !scrollTop
-            ? { }
+            ? {}
             : {
                 scrolling: true,
                 scrollTop
@@ -242,8 +242,8 @@ export default class App extends React.Component {
           () => {
             clearTimeout(this.scrolllTimeout);
             this.scrolllTimeout = setTimeout(() => {
-            this.getLabel();//true
-          }, 90);
+              this.getLabel(); //true
+            }, 90);
             clearTimeout(this.scrollTimeout);
             this.scrollTimeout = setTimeout(() => {
               this.setState({
@@ -5302,8 +5302,7 @@ export default class App extends React.Component {
           <a href="https://fred.stlouisfed.org/graph/?g=LOyP">
             Debt to checking
           </a>
-          .
-          <hr ref={this.royalty} />
+          .<h2 ref={this.royalty}>Boycott credit, donee; shakedown critic</h2>
           The collateral of currency, ostensibly either per capita or dollar
           U.S. Saver land exploration rights, third party donee beneficiary
           claimable. This is why I am Chair and Founder of{space}
