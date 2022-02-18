@@ -224,35 +224,36 @@ export default class App extends React.Component {
   handleScroll = (e) => {
     const scrollTop = !this.state.offScroll && window.scrollY;
 
-    if (this.state.footer)
-      this.linksPage.current.scrollTop =
-        this.links.current.offsetTop + window.innerHeight / 2;
+    clearTimeout(this.scrolllTimeout);
+    this.scrolllTimeout = setTimeout(() => {
+      this.getLabel(); //true
+      if (this.state.footer)
+        this.linksPage.current.scrollTop =
+          this.links.current.offsetTop + window.innerHeight / 2;
+      clearTimeout(this.footerHelpScroll);
+      this.footerHelpScroll = setTimeout(() => {
+        this.setState({
+          footer: true
+        });
+      }, 5000);
+    }, 90);
     this.setState(
-      {
-        footer: true
-      },
-      () =>
-        this.setState(
-          !scrollTop
-            ? {}
-            : {
-                scrolling: true,
-                scrollTop
-              },
-          () => {
-            clearTimeout(this.scrolllTimeout);
-            this.scrolllTimeout = setTimeout(() => {
-              this.getLabel(); //true
-            }, 90);
-            clearTimeout(this.scrollTimeout);
-            this.scrollTimeout = setTimeout(() => {
-              this.setState({
-                footer: false,
-                scrolling: false
-              });
-            }, 900);
-          }
-        )
+      !scrollTop
+        ? {}
+        : {
+            scrolling: true,
+            scrollTop
+          },
+      () => {
+        clearTimeout(this.scrollTimeout);
+        this.scrollTimeout = setTimeout(() => {
+          clearTimeout(this.footerHelpScroll);
+          this.setState({
+            footer: false,
+            scrolling: false
+          });
+        }, 900);
+      }
     );
   };
   getLabel = (dont) => {
@@ -338,6 +339,7 @@ export default class App extends React.Component {
     }
   };
   componentWillUnmount = () => {
+    clearTimeout(this.footerHelpScroll);
     clearTimeout(this.labelTimer);
     clearInterval(this.check);
     clearTimeout(this.moun);
@@ -8411,3 +8413,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
