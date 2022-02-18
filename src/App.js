@@ -14,7 +14,8 @@ export default class App extends React.Component {
     const name = parser.getBrowser().name;
     console.log(name);
     this.state = {
-      //offScroll: true,
+      windowScroll: 0,
+      scrollcount: 0, //offScroll: true,
       ternaryHeight: document.documentElement.scrollHeight,
       bar: 0,
       listeners: [],
@@ -222,39 +223,57 @@ export default class App extends React.Component {
     this.ch2refs = immutable;
   }
   handleScroll = (e) => {
-    const scrollTop = !this.state.offScroll && window.scrollY;
-
-    clearTimeout(this.scrolllTimeout);
-    this.scrolllTimeout = setTimeout(() => {
-      this.getLabel(); //true
-      if (this.state.footer)
-        this.linksPage.current.scrollTop =
-          this.links.current.offsetTop + window.innerHeight / 2;
-      clearTimeout(this.footerHelpScroll);
-      this.footerHelpScroll = setTimeout(() => {
-        this.setState({
-          footer: true
+    if (!this.state.footer) {
+      const scrollTop = !this.state.offScroll && window.scrollY;
+      clearTimeout(this.scrolllTimeout);
+      this.scrolllTimeout = setTimeout(() => {
+        this.getLabel(); //true
+        this.setState(
+          !scrollTop
+            ? {}
+            : {
+                scrolling: true,
+                scrollTop
+              },
+          () => {
+            clearTimeout(this.footerStopScroll);
+            this.footerStopScroll = setTimeout(() => {
+              this.setState({ keepFooterScroll: true });
+            }, 2400);
+            clearTimeout(this.scrollTimeout);
+            this.scrollTimeout = setTimeout(() => {
+              clearTimeout(this.footerStopScroll);
+              clearTimeout(this.footerHelpScroll);
+              this.setState({
+                scrollcount: 0,
+                footer: this.state.keepFooterScroll,
+                scrolling: false
+              });
+            }, 4800);
+          }
+        );
+      }, 90);
+      if (this.state.scrollcount < Math.abs(this.state.scrollTop - scrollTop)) {
+        console.log(
+          this.state.scrollcount,
+          Math.abs(this.state.scrollTop - scrollTop)
+        );
+        return this.setState({
+          scrollcount: this.state.scrollcount + 100
         });
-      }, 5000);
-    }, 90);
-    this.setState(
-      !scrollTop
-        ? {}
-        : {
-            scrolling: true,
-            scrollTop
-          },
-      () => {
-        clearTimeout(this.scrollTimeout);
-        this.scrollTimeout = setTimeout(() => {
-          clearTimeout(this.footerHelpScroll);
-          this.setState({
-            footer: false,
-            scrolling: false
-          });
-        }, 900);
       }
-    );
+      clearTimeout(this.footerHelpScroll);
+      if (!this.state.footer) {
+        this.footerHelpScroll = setTimeout(() => {
+          if (this.state.footer)
+            this.linksPage.current.scrollTop =
+              this.links.current.offsetTop + window.innerHeight / 2;
+          this.setState({
+            footer: true
+          });
+        }, 1200);
+      }
+    }
   };
   getLabel = (dont) => {
     /*const { scrollPlacementHeight } = this.state;
@@ -1188,7 +1207,13 @@ export default class App extends React.Component {
             width: this.state.footer ? "100%" : "0%",
             height: this.state.footer ? "100%" : "0%"
           }}
-          onClick={() => this.setState({ footer: false })}
+          onClick={() =>
+            this.setState({
+              footer: false,
+              keepFooterScroll: false,
+              scrollcount: 0
+            })
+          }
         ></div>
         <div
           style={{
@@ -8257,7 +8282,13 @@ export default class App extends React.Component {
           <br />
           {this.state.footer && (
             <div
-              onClick={() => this.setState({ footer: false })}
+              onClick={() =>
+                this.setState({
+                  footer: false,
+                  keepFooterScroll: false,
+                  scrollcount: 0
+                })
+              }
               style={{
                 userSelect: !this.state.ios ? "" : "none",
                 cursor: "pointer",
@@ -8413,4 +8444,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
