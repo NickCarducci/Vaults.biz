@@ -6052,6 +6052,8 @@ export default class App extends React.Component {
             redistricting can be by population density alone, (along lines of
             similar density)
           </h2>
+          Density and straight lines, cut and run for a deal, or spread out.<br/><br/>
+          51/48, 38/100 total
           Gordon G. Chang, "throw-away phones, targeting" can be found by who
           you communicate with. "strong possibility China made virus in a lab."
           <h2>
@@ -8521,3 +8523,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
