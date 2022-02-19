@@ -224,6 +224,57 @@ export default class App extends React.Component {
   }
   handleScroll = (e) => {
     if (!this.state.footer) {
+      /*clearTimeout(this.footerHelpScroll);
+      this.footerHelpScroll = setTimeout(() => {
+        if (this.state.footer)
+          this.linksPage.current.scrollTop =
+            this.links.current.offsetTop + window.innerHeight / 2;
+        this.setState({
+          footer: true
+        });
+      }, 1200);*/
+      const scrollTop = !this.state.offScroll && window.scrollY;
+      clearTimeout(this.scrolllTimeout);
+      this.scrolllTimeout = setTimeout(() => {
+        this.getLabel(); //true
+        this.setState(
+          !scrollTop
+            ? {}
+            : {
+                scrolling: true,
+                scrollTop
+              },
+          () => {
+            /*clearTimeout(this.footerStopScroll);
+            this.footerStopScroll = setTimeout(() => {
+              this.setState({ keepFooterScroll: true });
+            }, 2400);*/
+            clearTimeout(this.scrollTimeout);
+            this.scrollTimeout = setTimeout(() => {
+              clearTimeout(this.footerStopScroll);
+              clearTimeout(this.footerHelpScroll);
+              this.setState({
+                scrollcount: 0,
+               // footer: this.state.keepFooterScroll,
+                scrolling: false
+              });
+            }, 4800);
+          }
+        );
+      }, 90);
+      if (this.state.scrollcount < Math.abs(this.state.scrollTop - scrollTop)) {
+        console.log(
+          this.state.scrollcount,
+          Math.abs(this.state.scrollTop - scrollTop)
+        );
+        return this.setState({
+          scrollcount: this.state.scrollcount + 100
+        });
+      }
+    }
+  };
+  /*handleScroll = (e) => {
+    if (!this.state.footer) {
       const scrollTop = !this.state.offScroll && window.scrollY;
       clearTimeout(this.scrolllTimeout);
       this.scrolllTimeout = setTimeout(() => {
@@ -274,7 +325,7 @@ export default class App extends React.Component {
         }, 1200);
       }
     }
-  };
+  };*/
   getLabel = (dont) => {
     /*const { scrollPlacementHeight } = this.state;
     var topProgress = Math.round(
