@@ -102,7 +102,7 @@ export default class App extends React.Component {
     this.chapter3 = React.createRef();
     this.gmu = React.createRef();
     this.potholes = React.createRef();
-    this.plandemic = React.createRef();
+    this.pandemic = React.createRef();
     this.education = React.createRef();
     this.redistricting = React.createRef();
     this.psych = React.createRef();
@@ -134,6 +134,7 @@ export default class App extends React.Component {
     this.awareness = React.createRef();
     this.okboomer = React.createRef();
     this.royalty = React.createRef();
+    this.covid = React.createRef();
     const entries = new Map([
       ...genChildRefs2,
       /*ref: {
@@ -224,15 +225,17 @@ export default class App extends React.Component {
   }
   handleScroll = (e) => {
     if (!this.state.footer) {
-      /*clearTimeout(this.footerHelpScroll);
-      this.footerHelpScroll = setTimeout(() => {
-        if (this.state.footer)
-          this.linksPage.current.scrollTop =
-            this.links.current.offsetTop + window.innerHeight / 2;
-        this.setState({
-          footer: true
-        });
-      }, 1200);*/
+      if (!this.state.ios) {
+        clearTimeout(this.footerHelpScroll);
+        this.footerHelpScroll = setTimeout(() => {
+          if (this.state.footer)
+            this.linksPage.current.scrollTop =
+              this.links.current.offsetTop + window.innerHeight / 2;
+          this.setState({
+            footer: true
+          });
+        }, 3200);
+      }
       const scrollTop = !this.state.offScroll && window.scrollY;
       clearTimeout(this.scrolllTimeout);
       this.scrolllTimeout = setTimeout(() => {
@@ -245,20 +248,22 @@ export default class App extends React.Component {
                 scrollTop
               },
           () => {
-            /*clearTimeout(this.footerStopScroll);
-            this.footerStopScroll = setTimeout(() => {
-              this.setState({ keepFooterScroll: true });
-            }, 2400);*/
+            if (!this.state.ios) {
+              clearTimeout(this.footerStopScroll);
+              this.footerStopScroll = setTimeout(() => {
+                this.setState({ keepFooterScroll: true });
+              }, 5000);
+            }
             clearTimeout(this.scrollTimeout);
             this.scrollTimeout = setTimeout(() => {
               clearTimeout(this.footerStopScroll);
               clearTimeout(this.footerHelpScroll);
               this.setState({
                 scrollcount: 0,
-               // footer: this.state.keepFooterScroll,
+                footer: this.state.keepFooterScroll,
                 scrolling: false
               });
-            }, 4800);
+            }, 7500);
           }
         );
       }, 90);
@@ -517,6 +522,11 @@ export default class App extends React.Component {
             { planner: true },
             () => pager(true, this.chang.current.offsetTop) //offsetTop
           );
+        } else if (this.props.pathname === "/covid") {
+          this.setState(
+            { planner: true },
+            () => pager(true, this.covid.current.offsetTop) //offsetTop
+          );
         } else if (this.props.pathname === "/leisure") {
           this.setState(
             { planner: true },
@@ -679,10 +689,10 @@ export default class App extends React.Component {
           this.setState({ planner: true }, () =>
             pager(true, this.trust.current.offsetTop)
           );
-        } else if (this.props.pathname === "/plandemic") {
+        } else if (this.props.pathname === "/pandemic") {
           this.setState(
             { planner: true },
-            () => pager(true, this.plandemic.current.offsetTop) //content,comms
+            () => pager(true, this.pandemic.current.offsetTop) //content,comms
           );
         } else if (this.props.pathname === "/biz") {
           this.setState(
@@ -1065,8 +1075,8 @@ export default class App extends React.Component {
         inSection("juris");
       } else if (construct(true, this.rights.current) < tryy) {
         inSection("rights");
-      } else if (construct(true, this.plandemic.current) < tryy) {
-        inSection("plandemic");
+      } else if (construct(true, this.pandemic.current) < tryy) {
+        inSection("pandemic");
       } else if (construct(true, this.fines.current) < tryy) {
         inSection("fines");
       } else if (construct(true, this.randpaul.current) < tryy) {
@@ -1089,6 +1099,8 @@ export default class App extends React.Component {
         inSection("c1775");
       } else if (construct(true, this.sci.current) < tryy) {
         inSection("sci");
+      } else if (construct(true, this.covid.current) < tryy) {
+        inSection("covid");
       } else if (construct(true, this.price.current) < tryy) {
         inSection("price");
       } else if (construct(true, this.insurance.current) < tryy) {
@@ -1472,6 +1484,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <hr ref={this.covid} />
+          omicron is prevalent, not because of spread, but{space}
+          <a href="https://vautls.biz/statistic">test</a>: as artifact of none -
+          it is prevalent by derivation significant, not n=2019-20 specific-age.
+          <br />
+          <br />
           A lot of people are feeling the higher costs in the long run by debt
           as good-will non-concurrentable assets, $170t, $167t unfunded
           liabilities, and $2t currency (not “money” or collateralized assets).
@@ -5597,7 +5615,7 @@ export default class App extends React.Component {
             reductions that would be achieved by other aspects of the
             legislation.8
           </div>
-          <hr ref={this.plandemic} />
+          <hr ref={this.pandemic} />
           Dust is stopped with n95, spittle is larger, carrying virion …and
           bacteria, all else heat/(density) Hadley cells.
           <br />
@@ -7784,10 +7802,18 @@ export default class App extends React.Component {
           {space}
           <a
             onMouseEnter={hoverpathe}
-            style={{ color: "black", border: scrollPath("plandemic") }}
-            href={`${window.location.origin}/plandemic`}
+            style={{ color: "black", border: scrollPath("pandemic") }}
+            href={`${window.location.origin}/pandemic`}
           >
-            plandemic
+            pandemic
+          </a>
+          {space}
+          <a
+            onMouseEnter={hoverpathe}
+            style={{ color: "black", border: scrollPath("covid") }}
+            href={`${window.location.origin}/covid`}
+          >
+            covid
           </a>
           {space}
           <a
