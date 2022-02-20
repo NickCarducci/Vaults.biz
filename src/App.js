@@ -1484,6 +1484,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          how can you not conclude that it wasn't made in a lab, when it never has?<br/><br/>
           Endogenous is correlation to explain bivariate cause, as a solution.
           <br />
           <hr ref={this.covid} />
