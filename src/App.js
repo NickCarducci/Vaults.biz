@@ -1484,11 +1484,18 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          how can you not conclude that it wasn't made in a lab, when it never has?<br/><br/>
+          how can you not conclude that it wasn't made in a lab, when it never
+          has?
+          <br />
+          <br />
           Endogenous is correlation to explain bivariate cause, as a solution.
           <br />
-          <hr ref={this.covid} />
-          <br />
+          <h1 ref={this.covid}>
+            <a href="https://www.sciencedirect.com/science/article/pii/S1931312820303024">
+              Mitosis
+            </a>
+          </h1>
+          <hr />
           "How common are invisible illnesses?"
           <br />
           Nick Carducci - BA in Political Science & Economics, Johns Hopkins
