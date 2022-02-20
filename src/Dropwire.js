@@ -45,7 +45,7 @@ class Cable extends React.Component {
   };
   checkIfBetween = () => {
     const { frameheight, cache } = this.state;
-    const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
+    const { /*scrollTopAndHeight,*/ scrollTop, girth, timeout } = this.props;
     var girt =
       girth && !isNaN(girth)
         ? girth + 500
