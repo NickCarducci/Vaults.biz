@@ -1484,8 +1484,12 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          how can you not conclude that it wasn't made in a lab, when it never
-          has?
+          "it is like making a cleve horn and then finding a unicorn right
+          outside, the liklihood is sharp," not when the animal variance is a
+          millionth of the virion variance, and if you never made it in a lab,
+          why are you trying so hard to saveface a century of basis-rate-fallacy
+          over sewage all-cause? how can you not conclude that it wasn't made in
+          a lab, when it never has?
           <br />
           <br />
           Endogenous is correlation to explain bivariate cause, as a solution.
