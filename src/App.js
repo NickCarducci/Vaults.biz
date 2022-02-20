@@ -1484,10 +1484,113 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Endogenous is correlation to explain bivariate cause, as a solution.
+          <br />
           <hr ref={this.covid} />
+          <br />
+          "How common are invisible illnesses?"
+          <br />
+          Nick Carducci - BA in Political Science & Economics, Johns Hopkins
+          University (Graduated 2015)
+          <br />
+          Asymptomatic testing has proven that virion presentation is NOT
+          correlated with illness, deaths/hospitalizations per population,
+          matching per case (derivative/artifact per capita, not mere
+          correlation). Bacteria and garbage collection, lifetime by sewage
+          (Alzheimer’s is not caused by sewage).
+          <br />
+          Brain virus, paralytic polio, acute flaccid paralysis, all identify a
+          virion of choice, but we are just finding now that asymptomatic
+          infection may be so non-exclusive of an artifact by sickness as
+          virion, that it isn’t even an artifact anymore, and it was{space}
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">never vivo</a>
+          {space}(inception, not correlation nor derivative) proven, by
+          immunofluorescent microscopy nor otherwise.
+          <br />
+          Otherwise, if it is not even vitro biomedical, it is likely a racket,
+          amphetamine-rite-of-passage or exaggeration of a natural feeling, like
+          mental ‘illness.’
+          <br />
+          <br />
           omicron is prevalent, not because of spread, but{space}
           <a href="https://vautls.biz/statistic">test</a>: as artifact of none -
           it is prevalent by derivation significant, not n=2019-20 specific-age.
+          <br />
+          <br />
+          Now, **virion presentation** is *not even* correlated per
+          **sickness**, nor per **death** per **capita** (if meaningless); basis
+          must measure each artifact.
+          <br />
+          <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm#:~:text=Did%20age-specific">
+            Significance
+          </a>
+          {space}from mean abount n{"<"}100 random lest 1/100 shuffled if known
+          shan’t **declude** mean nor median of order and matter (micron:{" "}
+          <a href="https://www.quora.com/Is-E-mc-2-because-we-live-in-three-dimensions">
+            spherical diameter
+          </a>
+          ) of significance from mean, as such assumes 100 years. Only then can
+          significance from mean **coincidence** be correlated, authoritatively.
+          <br />(
+          <a href="https://www.color.com/blog/new-covid-19-test-data-majority-of-people-who-test-positive-for-covid-19-have-mild-symptoms-or-are-asymptomaticN=43,448">
+            November 14, 2020
+          </a>
+          ),{space}
+          <a href="https://www.fda.gov/media/144245/download#page=42">Pfizer</a>
+          :
+          <br />
+          <div style={{ marginLeft: "5px", borderLeft: "3px white solid" }}>
+            Among 3410 total cases of suspected but unconfirmed COVID-19 in the
+            overall study population, 1594 occurred in the vaccine group vs.
+            1816 in the placebo group. Suspected COVID-19 cases that occurred
+            within 7 days after any vaccination were 409 in the vaccine group
+            vs. 287 in the placebo group.
+          </div>
+          <br />
+          That is, 409+1594 vaxxed, 287+1816 not, 409,287 presenting virion &&
+          1594,1816 sick, of 43448.
+          <br />
+          Bacteria acute diagnosis viral version,{space}
+          <a href="https://www.pfizer.com/news/articles/viral_vs_bacterial_pneumonia_understanding_the_difference">
+            Pfizer
+          </a>
+          ,{space}
+          <a href="https://wyss.harvard.edu/news/the-secret-life-of-bacteria-revealed/">
+            Harvard
+          </a>
+          .
+          <br />
+          1.5/100 deaths/cases, is about the per capita death rate, but
+          asymptomatic cases are binary{" "}
+          <a href="https://www.color.com/blog/new-covid-19-test-data-majority-of-people-who-test-positive-for-covid-19-have-mild-symptoms-or-are-asymptomatic">
+            feels
+          </a>
+          . non-biomedical scapegoating juris handling home-contractor
+          gentrification
+          <h2>
+            Not forcibly, convince them to get the services they need.” I
+            abject, as a home-contractor choring bookkeeper.
+            <br />
+            FDA 5% suspected.
+            <br />
+            One day there will be a great accounting
+          </h2>
+          The common cold project (dirty, jk, hotel rooms) counts onset virion
+          presentation of sickness, but cause may be of placebo discussed to be
+          of 20%, onset, or warning mechanism; still presents the case of
+          non-all-incidence{space}
+          <a href="https://www.cmu.edu/common-cold-project/">
+            artifact of sickness
+          </a>
+          .
+          <br />
+          <br />
+          In the Kulak ‘crisis,’ average death age existed, pop growth lifetime
+          length prior 1931-32 matches ‘excess’ deaths, year to year… without
+          discount as to basis, why. 1951–53 excess matches lifetime population
+          of today’s multiple sclerosis (all-type) 2.5m population. The Great
+          Leap Forward 1958–62 collecting grain tax for ghost cities, ‘killing’
+          landlords instead of capping by unit; and the Great Terror 1m+, 1938.
           <br />
           <br />
           A lot of people are feeling the higher costs in the long run by debt
@@ -6052,10 +6155,12 @@ export default class App extends React.Component {
             redistricting can be by population density alone, (along lines of
             similar density)
           </h2>
-          Density and straight lines, cut and run for a deal, or spread out.<br/><br/>
-          51/48, 38/100 total
-          Gordon G. Chang, "throw-away phones, targeting" can be found by who
-          you communicate with. "strong possibility China made virus in a lab."
+          Density and straight lines, cut and run for a deal, or spread out.
+          <br />
+          <br />
+          51/48, 38/100 total Gordon G. Chang, "throw-away phones, targeting"
+          can be found by who you communicate with. "strong possibility China
+          made virus in a lab."
           <h2>
             Trucker freedom rally is terrorism and like a union barrier to
             entry... just quit and admit that you think the pandemic isn't real
