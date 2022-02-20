@@ -2003,7 +2003,10 @@ class Archive extends React.Component {
         matter his interest lost.
         <br />
         <br />
-        <hr ref={this.props.nato} />
+        <h2 ref={this.props.nato}>
+          "treaty obligation, we can compete with Russia on Savers' land-deeds'
+          exploration rights surrendered (20% of U.S.), today!"
+        </h2>
         Anything washes, “it is amazing how much we are letting the Germans get
         away with undermining NATO over the pipeline,” warmongers Ric Grenell
         and Chris Salcedo.
