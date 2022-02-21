@@ -268,6 +268,47 @@ class Arcs extends React.Component {
         <br />
         <br />
         <hr ref={this.props.marx} />
+        "What's the capitalist equivalent of the communist manifesto?"
+        <br />
+        Nick Carducci - BA Political Science & Economics, Johns Hopkins
+        University (2015)
+        <br />
+        Just read **Joseph Schumpeter**, *Capitalism, Socialism and Democracy*,
+        although many might consider **Austrian Economics** founder *Charles
+        Menger* on name alone, to be as epochal episcopal as Karl Marx, never
+        the governor, mind you. By my surmise, Schumpeter directed bona fide
+        Capitalists to *apply competition* when Supply !== Demand, as to *target
+        margin and quality or duress*, then:
+        <br />
+        1. see, by any means, 1y/0x elasticity of economic welfare of Supply and
+        Demand, Microeconomics, Marginal Utility Indifference propensities, be
+        minimized for equality (often, inflation/income poverty) of
+        asset-inequality, productive-ward, for competition, efficiency
+        {space}
+        <a href="https://fred.stlouisfed.org/graph/?g=M7mh">
+          (income/hour)/home
+        </a>
+        {space}and
+        {space}
+        <a href="https://fred.stlouisfed.org/graph/?g=LmzU">GDP/hour-GDP/p</a>
+        {space}productivity, withstanding.
+        <br />
+        Schumpeter talks about{space}
+        <a href="https://qr.ae/pGjAXR">Marx</a>
+        {space}and{space}
+        <a href="https://qr.ae/pGQo4J">Engels</a>
+        {space}
+        from a capitalists perspective, written in 1942.
+        <br />
+        How I apply Competition:
+        <br />* 11/12 (industry-variance) jury, whistleblowers withstanding,
+        minimal viable product duress Tranquil and voluntary trade.
+        <br />* Article 1.8 equal in receipt and scope (sewage, police,
+        lawsuits, free rider mutable, not gentrification, rent-seeking trust
+        hypocrisy, nor investment bank “general revenue” welfare…) truncated
+        production tax.
+        <br />
+        <br />
         Socialist NEP is not KYC marx. {/** ezra charlie kirk*/}censorship
         beyond 11/12 industry General Maintenance Unit minimal viable product
         duress multiple permit is Capitalism, not Microeconomics/Marxism
@@ -4935,6 +4976,13 @@ class Arcs extends React.Component {
         Dying of covid and asymptomatic, n 2019-20 is 2 you can’t draw a normal
         distribution on that, by that, for that - and say the sample is within
         some variance, even either way.
+        <br />
+        <br />
+        <a href="https://www.quora.com/What-is-schizo-economics/answer/Nick-Carducci">
+          Bookkeeper at Household Chores (2006–present)
+        </a>
+        "Suspension is just as prohibitive as any trade of minimal viable
+        product without duress."
         <h3 ref={this.props.gmu}>
           General Maintenance Unit: Unbiased Polling to define science testing
           and randomness or variance, sometimes of disparate expected values
