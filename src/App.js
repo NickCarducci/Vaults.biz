@@ -1482,9 +1482,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-          Bookkeeper is cash flow and accounting is amortization. I have NO IDEA what accrual is
-          <br/>
-          <br/>
+          Bookkeeper is cash flow and accounting is amortization. I have NO IDEA
+          what accrual is
+          <br />
+          <br />
           "Why doesn't one announcement lead to prosperity for everyone?"
           <br />
           Nick Carducci - BA Political Science & Economics, Johns Hopkins
@@ -6340,6 +6341,19 @@ export default class App extends React.Component {
           thoughts at the same time'] for Capitis Diminutio, because I have
           looked at parents to see if they were of sound mind when creating a
           will, for instance.”
+          <br />
+          <br />
+          All torts are punitive in reprimand, they are not separate in practice
+          by reprimand and stopping a hazard from happening again by subject or
+          object, but not disparaging for state as "Public," only ever science
+          and $0:$0 balance sheet (value of actual cash not extrapolated "good
+          will" by the neighborhood non-concurrentable $170t:$2t 1/3 share
+          mortgage, treasury & corporate brand-IP), victim and criminal from
+          remediated-wares and ward if the state is malfeasant, and never for
+          per diem incarceration by then state of said bond-index-funds, basing
+          m2 and GDP/yr= velocity* of{space}
+          <a href="https://froth.app">PCE (CPI) + Structures</a>, not commercial
+          leasing..?
           <h3 ref={this.insurance}>
             unknown{space}
             <a href="https://www.krasnolaw.com/articles/workers-compensation-arthritis-and-degenerative-disc-disease">
@@ -8878,4 +8892,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
