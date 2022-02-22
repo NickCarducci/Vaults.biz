@@ -224,16 +224,18 @@ export default class App extends React.Component {
     this.ch2refs = immutable;
   }
   handleScroll = (e) => {
-    if (!this.state.footer) {
-      if (!this.state.ios) {
+    const { scrollcount, footer, ios } = this.state;
+    if (!footer) {
+      if (!ios) {
         clearTimeout(this.footerHelpScroll);
         this.footerHelpScroll = setTimeout(() => {
           if (this.state.footer)
             this.linksPage.current.scrollTop =
               this.links.current.offsetTop + window.innerHeight / 2;
-          this.setState({
-            footer: true
-          });
+          if (scrollcount > window.innerHeight * 3)
+            this.setState({
+              footer: true
+            });
         }, 3200);
       }
       const scrollTop = !this.state.offScroll && window.scrollY;
@@ -248,7 +250,7 @@ export default class App extends React.Component {
                 scrollTop
               },
           () => {
-            if (!this.state.ios) {
+            if (!ios && footer) {
               clearTimeout(this.footerStopScroll);
               this.footerStopScroll = setTimeout(() => {
                 this.setState({ keepFooterScroll: true });
@@ -267,13 +269,9 @@ export default class App extends React.Component {
           }
         );
       }, 90);
-      if (this.state.scrollcount < Math.abs(this.state.scrollTop - scrollTop)) {
-        console.log(
-          this.state.scrollcount,
-          Math.abs(this.state.scrollTop - scrollTop)
-        );
+      if (scrollcount < Math.abs(this.state.scrollTop - scrollTop)) {
         return this.setState({
-          scrollcount: this.state.scrollcount + 100
+          scrollcount: scrollcount + 100
         });
       }
     }
@@ -309,13 +307,13 @@ export default class App extends React.Component {
           }
         );
       }, 90);
-      if (this.state.scrollcount < Math.abs(this.state.scrollTop - scrollTop)) {
+      if (scrollcount < Math.abs(this.state.scrollTop - scrollTop)) {
         console.log(
-          this.state.scrollcount,
+          scrollcount,
           Math.abs(this.state.scrollTop - scrollTop)
         );
         return this.setState({
-          scrollcount: this.state.scrollcount + 100
+          scrollcount: scrollcount + 100
         });
       }
       clearTimeout(this.footerHelpScroll);
