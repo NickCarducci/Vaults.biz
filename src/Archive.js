@@ -356,6 +356,9 @@ class Archive extends React.Component {
         Poverty (inflation/income) normally coincides with inequality, for
         assets excluded from the measure are productive-ward concentration,
         cornering the market with labor skew.
+        <br/>
+        <br/>
+        "that money is supposed to go to home-contractor gentrification"
         <h1 ref={this.props.homelessness}>
           "Mental health in hospitals, housing, need to be hospitalized,
           affordable housing, regular tenants, make sure peiople are taking
