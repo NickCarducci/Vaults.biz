@@ -1482,6 +1482,17 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          "Why doesn't one announcement lead to prosperity for everyone?"
+          <br />
+          Nick Carducci - BA Political Science & Economics, Johns Hopkins
+          University (2015)
+          <br />
+          Prosperity for everyone is average and without skew, labor (higher
+          poverty inflation/income), for laborless-demand aggravates consumption
+          costs of GDP/p living, which surely does count homes and IP-collateral
+          for compound and general-income by basing-m2, that which is GDP/yr=
+          (velocity/yr)*m2, ‘money and savings,’ not chequeing, fungible for 20%
+          of the U.S.
           <h2>
             <a href="https://twitter.com/viathumbprint/status/1413909110140149768">
               The emergency is over
