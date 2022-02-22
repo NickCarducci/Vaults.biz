@@ -323,6 +323,39 @@ class Archive extends React.Component {
         these days. If you are living on the street, there is something wrong
         with you mentally - it is not your fault. We owe them and ourselves, not
         them having to lie on the street.
+        <br />
+        <br />
+        when you have homelessness, you have mentally-ill and
+        emotionally-disturbed people.
+        <br />
+        <br />{/**
+        Nick Carducci
+        Chairperson at Saver Party (2020–present)5m
+        How could capitalism be improved to prevent inequality? */}
+        Of legal and productivity and efficiency reasons, competition by
+        equality is granted by Tranquil and voluntary trade, without partial
+        duress beyond 11/12 industry-jury permit (whistleblowers with standing)
+        for minimal viable product and operational monopsony designation, 1/12
+        industry-vertical max-royalty (before
+        donee-beneficiary-surrendered-freedom), reverse amortization as to
+        deflate income by *(cash/debt) every year back (instead of
+        cancel/forgive that which allows producers to keep the
+        loitered-collateral down payments upon repossession), equal in receipt
+        and scope truncated production tax, and cap rental-income at 5
+        storefronts and condominiums.
+        <br />
+        This will remove laborless-demand (insurers, lenders, landlords),
+        thereby raising efficiency{space}
+        <a href="https://fred.stlouisfed.org/graph/?g=Llrn">GDP/hour-GDP/p</a>
+        and productivity{space}
+        <a href="https://fred.stlouisfed.org/graph/?g=M7KY">
+          (income/hour)/home
+        </a>
+        .
+        <br />
+        Poverty (inflation/income) normally coincides with inequality, for
+        assets excluded from the measure are productive-ward concentration,
+        cornering the market with labor skew.
         <h1 ref={this.props.homelessness}>
           "Mental health in hospitals, housing, need to be hospitalized,
           affordable housing, regular tenants, make sure peiople are taking
@@ -4365,7 +4398,9 @@ class Archive extends React.Component {
         misunderstood, grade is relative to goal-oriented time series, not
         variance. That made me assume you were presenting a subset.
         <h2>concurrentable</h2>
-        make sure the units we contribute are as ready as can be as possible
+        make sure the units we contribute are as ready as can be as possible.
+        "First past the post," is needed for bipartisan issues, illigitimate if
+        not.
         <h1 ref={this.props.rcv}>
           Don’t you understand that with rcv a plural majority cannot win?
         </h1>
@@ -7936,4 +7971,3 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
-
