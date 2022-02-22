@@ -5077,6 +5077,10 @@ export default class App extends React.Component {
           <br />
           <br />
           <hr ref={this.statistic} />
+          Order is why 100 n or 1/100 instance how do they interoperate or your
+          concern?the coin is improper to exponent n unless order matters
+          <br />
+          <br />
           <Cable
             style={{ width: "200px", height: "auto" }}
             onError={handleScollImgError}
@@ -8892,3 +8896,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
