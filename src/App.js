@@ -1484,6 +1484,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          assets priced by liabilities: accrual accounting - that which cash
+          accountants amortize to $0:$0 balance efficiency positive nominal
+          balance upon equal actual.
           <h3>
             "I’ve certainly had cases of defamation," well not yet. Income
             damages only, not good-will last traded neighborhood price - last
@@ -3173,6 +3176,9 @@ export default class App extends React.Component {
           consumers (**of intermediate material or just living as Labor**, which
           does include assets, as opposed to inflation or poverty,
           inflation/labor, and by labor skew cornering market, equality).
+          <br />
+          <br />
+          Rental-income is possible when you allow others to store your equity.
           <br />
           <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
