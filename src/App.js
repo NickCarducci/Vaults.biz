@@ -3221,7 +3221,24 @@ export default class App extends React.Component {
           not an opinion, doesn’t account for unknown alternatives.
           <br />
           <br />
-          Do your job, get people out of work
+          Do your job, get people out of work. Strategically located land and IP
+          for copy before{space}
+          <a href="https://qr.ae/pGQtJs">kondratiev</a>
+          {space}makes science from jobs.
+          <br />
+          <a href="https://fred.stlouisfed.org/graph/?g=Mlsd">Ease</a>
+          {space}the supply chain, it is{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M9j8">
+            first-grade economics
+          </a>
+          . It is Supply, and Demand. That actually is a firesale, not
+          efficiency GDP/hour-GDP/p Savers’ donee-beneficiary
+          surrendered-freedom.{space}
+          <a href="https://humanharvest.info/polio">2m/yr illegals</a>
+          {space}(is{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7mh">productive</a>)
+          fentanyl (parcels unchecked) and crime (illegals are{space}
+          <a href="https://vaults.biz/immi">-1% criminal</a>).
           <br />
           <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
