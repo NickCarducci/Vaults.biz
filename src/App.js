@@ -225,13 +225,13 @@ export default class App extends React.Component {
   }
   handleScroll = (e) => {
     const { scrollcount, footer, ios } = this.state;
-    if (!footer) {
+    if (footer) {
+      this.linksPage.current.scrollTop =
+        this.links.current.offsetTop + window.innerHeight / 2;
+    } else {
       if (!ios) {
         clearTimeout(this.footerHelpScroll);
         this.footerHelpScroll = setTimeout(() => {
-          if (this.state.footer)
-            this.linksPage.current.scrollTop =
-              this.links.current.offsetTop + window.innerHeight / 2;
           if (scrollcount > window.innerHeight * 3)
             this.setState({
               footer: true
