@@ -3246,6 +3246,67 @@ export default class App extends React.Component {
           or stock sales, that which has driven the bull market over currency
           since 1937; abject market concentration.
           <hr ref={this.poverty} />
+          "How can we solve poverty related to inequality?"
+          <br />
+          Poverty is measured by inflation/income, and actually coincides with
+          as most false TEST null hypothesis, Redi experiment, chicken or egg,
+          doesn’t matter, Alzheimer’s upon sewage presentation, per capita
+          case-viral and normal artifact matches, and education with employment
+          per class size until the n=time-series is averaged to find econometric
+          correlation by derivative or comparison of indices change-rates, not
+          age-specific by 2019–20 either for significance p{"<"}.05 of normal
+          mean accuracy, with equality! That is because equality, not the gini
+          coefficient (according to my asking Ezra from historic.ly podcast.
+          Hardly any other sources as to calculations!), necessarily includes
+          assets of which cash accountants amortize to $0:$0, yet investment
+          banks measure them by their own liabilities - they do this to corner
+          the market by labor-skew, actually driving poverty-lower at the same
+          time! Obviously, we want demand to be borne of labor alone, so that is
+          why I measure productivity as{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=M7KY">
+            (income/hour)/home
+          </a>
+          , and{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=Llrn">GDP/hour-GDP/p</a>
+          as efficiency.
+          <br />
+          Insurance is now saying they save money by unbundling, they have
+          contradicted themselves and cannot say them both or suffer,
+          -tortiously, false advertisement damages - let alone their abject
+          damages as an investment bank, by public-currency (state-land-deeds,
+          20% of U.S.) or with house-win life-fee
+          donee-beneficiary-surrendered-freedom to bid, albeit for the false bid
+          pool.
+          <br />
+          Landlords beyond plausible use is laborless-demand and intentional
+          deduction, never to actually user, so userer. Cap rental-income at 5
+          storefronts and condominiums.
+          <br />
+          Lending borrower and donee-beneficiary-surrendered-freedom defense. If
+          loitering harm is notwithstanding, reduce by the actualized damages of
+          collateral (compound and general income), and shorten for down
+          payments to be paid (cash/debt)*income every year back. 1/12
+          industry-type “collateral,” instead of compound and general-income.
+          <br />
+          <br />
+          "Healthcare education immigration tech innovation and defense of
+          veterans new contract with America, investment bank Taking government
+          back from the elites and giving it to the American people.” Madison
+          Cawthorne.
+          <br />
+          <br />
+          "We fulfill your will, this is what you voted for," not excluding
+          debasement of "no-candidate"
+          <h2>
+            non-compete, redraft every year. free britney, rollover ours
+            donee-beneficiary-surrendered-freedom contractor-liable
+          </h2>
+          competition from equality of assets and productive-ward, labor- and
+          materials-variable (sprints are estimates, not property); damages are
+          last traded cash value for your putchase, not non-concurrentable last
+          traded 'good-will' of branded-IP/land neighborhood price.
+          <br />
+          <br />
           fight poverty = inequality
           <br />
           Judges determine conviction, not danger.
