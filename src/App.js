@@ -3090,7 +3090,7 @@ export default class App extends React.Component {
           U.S.).
           <hr ref={this.russia} />
           <Cable
-            style={{ width: "300px",maxWidth:"100%", height: "auto" }}
+            style={{ width: "300px", maxWidth: "100%", height: "auto" }}
             onError={handleScollImgError}
             img={true}
             src={
@@ -3118,6 +3118,47 @@ export default class App extends React.Component {
           population is unknown, shuffled you need to try randomly select.
           <br />
           <br />
+          <Cable
+            style={{ width: "300px", maxWidth: "100%", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dropbox.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?dl=0"
+            }
+            float="left"
+            title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
+          The{space}
+          <a href="https://www.imf.org/external/np/fin/tad/balmov2.aspx?type=TOTAL">
+            IMF
+          </a>
+          , in large part, lends - at the moment - to Ukraine, Tunisia, South
+          Africa, Pakistan, Nigeria, Morocco, Jordan, Kenya, Greece, Ghana,
+          Egypt, Ecuador, Cote d'Ivoire, Columbia, Argentina and Angola.
+          <br />
+          Lending is **laborless-demand**, and loitering, but primarily as a
+          free rider mutable even with operational monopsony, or past of such by
+          outstanding debt, is 1y/0x price-elastic per additional money - only
+          **Supply by Labor** can add efficiency, GDP/hour-GDP/p.
+          <br />
+          Alternatively, and mediatively favoring capital loss amortized to new
+          laborless-demand, (cash/debt)*income every year back makes it shorter
+          for down payments to be paid, reducing by the actualized damages of
+          collateral (compound and general income), alone, if loitering harm is
+          notwithstanding.
+          <br />
+          We call this general action gentrification, monopsony, competing with
+          consumers (**of intermediate material or just living as Labor**, which
+          does include assets, as opposed to inflation or poverty,
+          inflation/labor, and by labor skew cornering market, equality).
+          <br />
+          <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
           <br />
           Loitering on a par-timeLeft false bid pool{space}
@@ -3138,6 +3179,22 @@ export default class App extends React.Component {
           whom isn't.
           <br />
           <br />
+          <Cable
+            style={{ width: "300px", maxWidth: "100%", height: "auto" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.dropbox.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?dl=0"
+            }
+            float="left"
+            title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+            scrollTop={this.props.scrollTop}
+          />
           "We would never have to revisit the issue if we tied{space}
           <a href="https://vaults.biz/inflation">minimum wage</a>
           {space}to inflation as we do to{space}
