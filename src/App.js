@@ -6584,6 +6584,7 @@ export default class App extends React.Component {
             }}
             ref={this.education}
           >
+            the growth bar is lower? retard rechenberg, you know better. tard morals<br/>
             Is employment rising because of education, or because employment in
             policy- and deregulation-based education receipts? Class size has
             remained the same.
