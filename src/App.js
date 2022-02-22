@@ -1492,7 +1492,7 @@ export default class App extends React.Component {
           balance upon equal actual.
           <h3>
             "I’ve certainly had cases of defamation," well not yet. Income
-            damages only, not good-will last traded neighborhood price - last
+            damages only, not *good-will last traded neighborhood price - last
             price for YOUR HOME YOU CAN ACTUALLY GET! YOU CAN YELL FIRE IN A
             CROWDED THEATRE RTOGAN O'HANDLEY YOU POTATO GUZZLER
           </h3>
@@ -1516,6 +1516,13 @@ export default class App extends React.Component {
           <br />
           Endogenous is correlation to explain bivariate cause, as a solution.
           <br />
+          <br />
+          -ous: fully-exogenous cause, positive TEST. -iosity, -ocity:
+          fully-causal, exogeneously.
+          <br />
+          Reciprocity, hypocrisy, as legal-hold is just that, a critic of
+          anothers’ actions, then damages, capital loss inflation or income
+          loss, not good-will lnt*
           <h1 ref={this.covid}>
             <a href="https://www.sciencedirect.com/science/article/pii/S1931312820303024">
               Mitosis
@@ -8824,3 +8831,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
