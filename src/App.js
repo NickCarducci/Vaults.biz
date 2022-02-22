@@ -1483,7 +1483,15 @@ export default class App extends React.Component {
                 ? "21px"
                 : "17px"
           }}
-        >I’ve certainly had cases of defamation, well not yet.” Income damages only, not good-will last traded neighborhood price - last price for YOUR HOME YOU CAN ACTUALLY GET! YOU CAN YELL FIRE IN A CROWDED THEATRE RTOGAN O'HANDLEY YOU POTATO GUZZLER
+        >
+          <h3>
+            "I’ve certainly had cases of defamation," well not yet. Income
+            damages only, not good-will last traded neighborhood price - last
+            price for YOUR HOME YOU CAN ACTUALLY GET! YOU CAN YELL FIRE IN A
+            CROWDED THEATRE RTOGAN O'HANDLEY YOU POTATO GUZZLER
+          </h3>
+          disgusting prejudice - You can assume tards do harm themselves, but
+          never intentionally like a retard would
           <h1>
             loners are innovators, doctors aren't statisticians/saveface
             investment bank welfare 19% "disabled" but just old trust 1y/0x
@@ -8724,4 +8732,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
