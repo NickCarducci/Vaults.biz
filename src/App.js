@@ -1482,6 +1482,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          If you have no claims, why would you use insurance for{space}
+          <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
+          all known hazards? If you had known hazards and could use it, you
+          would be in jail; life is not a game, and bid is not of contractees'
+          freedom, actually donee-beneficiary surrendered, and contractor
+          (trypie.com) liable.
+          <br />
+          <br />
           Bookkeeper is cash flow and accounting is amortization. I have NO IDEA
           what accrual is
           <br />
@@ -8896,4 +8904,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
