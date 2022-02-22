@@ -3186,7 +3186,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dropbox.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?dl=0"
+                : "https://www.dl.dropboxusercontent.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?dl=0"
             }
             float="left"
             title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
