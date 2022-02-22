@@ -1482,6 +1482,11 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            <a href="https://twitter.com/viathumbprint/status/1413909110140149768">
+              The emergency is over
+            </a>
+          </h2>
           assets priced by liabilities: accrual accounting - that which cash
           accountants amortize to $0:$0 balance efficiency positive nominal
           balance upon equal actual.
