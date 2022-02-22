@@ -1484,6 +1484,14 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h1>
+            loners are innovators, doctors aren't statisticians/saveface
+            investment bank welfare 19% "disabled" but just old trust 1y/0x
+            elasticitous-tort without state victimization nor criminalization
+            fore per diem incarceration scapegoating, I am going to lock Dr.
+            David Samadi up if you vote me in. Nick Carducci 2025
+          </h1>
+          <br />
           "it is like making a cleve horn and then finding a unicorn right
           outside, the liklihood is sharp," not when the animal variance is a
           millionth of the virion variance, and if you never made it in a lab,
@@ -6584,7 +6592,9 @@ export default class App extends React.Component {
             }}
             ref={this.education}
           >
-            the growth bar is lower? retard rechenberg, you know better. tard morals<br/>
+            the growth bar is lower? retard rechenberg, you know better. tard
+            morals
+            <br />
             Is employment rising because of education, or because employment in
             policy- and deregulation-based education receipts? Class size has
             remained the same.
