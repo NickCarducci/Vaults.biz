@@ -3200,7 +3200,10 @@ export default class App extends React.Component {
           <br />
           <br />
           Capital loss deflation reverse amortize. I know it is a fact, so it is
-          not an opinion, doesn’t account for unknown alternatives
+          not an opinion, doesn’t account for unknown alternatives.
+          <br />
+          <br />
+          Do your job, get people out of work
           <br />
           <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
