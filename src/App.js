@@ -1482,6 +1482,9 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          Bookkeeper is cash flow and accounting is amortization. I have NO IDEA what accrual is
+          <br/>
+          <br/>
           "Why doesn't one announcement lead to prosperity for everyone?"
           <br />
           Nick Carducci - BA Political Science & Economics, Johns Hopkins
@@ -8875,3 +8878,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
