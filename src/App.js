@@ -1483,7 +1483,7 @@ export default class App extends React.Component {
                 ? "21px"
                 : "17px"
           }}
-        >
+        >I’ve certainly had cases of defamation, well not yet.” Income damages only, not good-will last traded neighborhood price - last price for YOUR HOME YOU CAN ACTUALLY GET! YOU CAN YELL FIRE IN A CROWDED THEATRE RTOGAN O'HANDLEY YOU POTATO GUZZLER
           <h1>
             loners are innovators, doctors aren't statisticians/saveface
             investment bank welfare 19% "disabled" but just old trust 1y/0x
