@@ -3107,7 +3107,11 @@ export default class App extends React.Component {
           to spoof for something in your precinct sewage police lawsuits,
           transaction-fee-based-sdr, Savers’ land-exploration rights (20% of
           U.S.).
-          <hr ref={this.russia} />
+          <h1 ref={this.russia}>
+            Nordstream 2 we need to put the squeeze on him, and people in Russia
+            will be frustrated if they feel the pain - confiscate Nordstream 2
+            or kill
+          </h1>
           <Cable
             style={{ width: "300px", maxWidth: "100%", height: "auto" }}
             onError={handleScollImgError}
@@ -3164,7 +3168,9 @@ export default class App extends React.Component {
           Lending is **laborless-demand**, and loitering, but primarily as a
           free rider mutable even with operational monopsony, or past of such by
           outstanding debt, is 1y/0x price-elastic per additional money - only
-          **Supply by Labor** can add efficiency, GDP/hour-GDP/p.
+          **Supply by Labor** can add efficiency,{space}
+          <a href="https://fred.stlouisfed.org/graph/?g=LmzU">GDP/hour-GDP/p</a>
+          .
           <br />
           Alternatively, and mediatively favoring capital loss amortized to new
           laborless-demand, (cash/debt)*income every year back makes it shorter
@@ -3179,6 +3185,15 @@ export default class App extends React.Component {
           <br />
           <br />
           Rental-income is possible when you allow others to store your equity.
+          <br />
+          <br />
+          Monopsony gentrification trust gerontocratically, often,
+          laborless-demand lowering-quality changes of economic welfare 0x/1y
+          dead-weight-box, GDP/hour-GDP/p.
+          <br />
+          Newsmax, Kilmany Newhard: “Ted Cruz wants preemptive sanctions, now it
+          won’t work, but it would have.” Emma Rechenberg: “All reactive,
+          instead of proactive.”
           <br />
           <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
@@ -8738,3 +8753,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
