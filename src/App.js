@@ -6772,6 +6772,13 @@ export default class App extends React.Component {
             }}
             ref={this.education}
           >
+            The open border is impacting schools, China, but only because you
+            allow the gentrification and monopsony, as a Republican.
+            <br />
+            Otherwise, working age, 16-19, is busy brushing the gout mistaken as
+            a bunion off of the Secretary of Trade Secrets’ feet.
+            <br />
+            <br />
             the growth bar is lower? retard rechenberg, you know better. tard
             morals
             <br />
@@ -8904,3 +8911,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
