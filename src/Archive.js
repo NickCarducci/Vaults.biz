@@ -328,7 +328,8 @@ class Archive extends React.Component {
         when you have homelessness, you have mentally-ill and
         emotionally-disturbed people.
         <br />
-        <br />{/**
+        <br />
+        {/**
         Nick Carducci
         Chairperson at Saver Party (2020–present)5m
         How could capitalism be improved to prevent inequality? */}
@@ -356,8 +357,8 @@ class Archive extends React.Component {
         Poverty (inflation/income) normally coincides with inequality, for
         assets excluded from the measure are productive-ward concentration,
         cornering the market with labor skew.
-        <br/>
-        <br/>
+        <br />
+        <br />
         "that money is supposed to go to home-contractor gentrification"
         <h1 ref={this.props.homelessness}>
           "Mental health in hospitals, housing, need to be hospitalized,
@@ -3941,6 +3942,16 @@ class Archive extends React.Component {
         claims responsibility of its sponsors for name your price false bid fool
         tool pool intent damage.
         <h2>Educators drill, journalists break, researchers archive</h2>
+        <a href="https://qr.ae/pGQtz9">1</a>
+        {space}
+        <a href="https://qr.ae/pGQihP">2</a>
+        {space}
+        <a href="https://qr.ae/pGQihM">
+          Is-it-true-that-more-lives-have-been-destroyed-under-capitalism-than-communism?
+        </a>
+        <a href="https://qr.ae/pGQih9">4</a>
+        {space}
+        <a href="https://qr.ae/pGQihV">5</a>
         <h3 ref={this.props.china}>
           "The U.S. juris is Moral with our promises and problems, issues," how
           many times non-compete nor concurrentable hours sold? Expiring
@@ -7974,3 +7985,4 @@ export default React.forwardRef((props, ref) => {
   );
 });
 */
+
