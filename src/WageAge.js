@@ -1292,22 +1292,22 @@ class WageAge extends React.Component {
         </div>
         <div
           style={{
-            right: "0px",
+            marginTop: "30px",
+            marginLeft: "20px",
             alignContent: "center",
             height: "70px",
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
-            width: "100%"
+            gridTemplateColumns: "repeat(auto-fit,  minmax(10px, 1fr))",
+            width: "calc(100% - 30px)"
           }}
         >
           {this.state.date.map((x) => (
             <div
               key={x}
               style={{
-                display: "flex",
                 fontWeight: "bolder",
-                fontSize: this.props.lastWidth < 300 ? "12px" : "16px",
-                transform: "rotate(40deg)",
+                fontSize: this.props.lastWidth < 300 ? "8px" : "14px",
+                transform: "rotate(-20deg)",
                 width: "min-content",
                 wordBreak: "none",
                 margin: "0px 0px"
@@ -1322,3 +1322,4 @@ class WageAge extends React.Component {
   }
 }
 export default WageAge;
+
