@@ -3016,6 +3016,13 @@ class Archive extends React.Component {
         (albeit good will accrual, last traded neighborhood price and
         collateralized, not actual chequeing velocity) is probably the same
         calculation.
+        <br />
+        <br />
+        <a href="https://qr.ae/pGQcaL">Balance of trade</a>
+        {space}actual is proper, and proves that a strong currency is efficient,
+        competitive, and draws a positive nominal balance of trade, even when
+        actually the goods are of same quality, &{space}
+        <a href="https://qr.ae/pGQZhf">quantity/skew</a>.
         <h2 ref={this.props.trade}>
           "a strong dollar means it is cheaper to buy foreign goods, so a weak
           dollar means less exports."
@@ -6294,7 +6301,13 @@ class Archive extends React.Component {
         they call contributions to science, being in your own productive-ward
         copy, and chores, or any welfare-innumerable, as leisure (sci, copy,
         chore).
-        <hr ref={this.props.newecon} />
+        <h1 ref={this.props.newecon}>
+          Supply==Labor-Demand without dead-weight-box efficiency
+        </h1>
+        (income/hour)/home,{space}
+        <a href="https://vaults.biz/trade">productivity</a>
+        <br />
+        <br />
         Demand pull inflation happens by people++ but supply as well, unless
         there is laborless-demand, then supply’s movement, like userer: insurer,
         lender, landlord, is represented by a dead weight box, and only then
@@ -6304,10 +6317,11 @@ class Archive extends React.Component {
         ) keeping prices y the same.
         <br />
         <br />
-        GDP/hour-GDP/p still captures that of which is not captured (leisure:
-        chorers, scientific contributions, your own copyright; userers:
-        insurers, landlords, lenders) - unprinted, certified crazy advanced
-        econ, enumerated "economic welfare," Supply and Demand, microeconomics.
+        GDP/hour-GDP/p, efficiency, still captures that of which is not captured
+        (leisure: chorers, scientific contributions, your own copyright;
+        userers: insurers, landlords, lenders) - unprinted, certified crazy
+        advanced econ, enumerated "economic welfare," Supply and Demand,
+        microeconomics.
         <br />
         <a href="https://vaults.biz/juris">target</a>
         {space}margin operations,{space}
