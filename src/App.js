@@ -3156,6 +3156,13 @@ export default class App extends React.Component {
           to spoof for something in your precinct sewage police lawsuits,
           transaction-fee-based-sdr, Savers’ land-exploration rights (20% of
           U.S.).
+          <br />
+          <br />
+          bound by treaty is like surrendering a third party donee-beneficiary, then paying debt off "being nice."<br/><br/>
+          -$16b balance of trade with Russia sanctions won’t do anything
+          especially when that sum is only nominal, and likely actually equal
+          except for input costs of inefficient home/(income/hour) and
+          counterproductive -GDP/p+GDP/hour U.S.
           <h1 ref={this.russia}>
             Nordstream 2 we need to put the squeeze on him, and people in Russia
             will be frustrated if they feel the pain - confiscate Nordstream 2
