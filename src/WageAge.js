@@ -1,5 +1,5 @@
 import React from "react";
-import { laborwagedata, yearlypop } from "./wagesdata";
+import { laborwagedata, yearlypop } from "./WageAgeData";
 
 export const linecss = {
   left: "0px",
