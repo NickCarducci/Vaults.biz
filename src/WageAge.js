@@ -1,5 +1,5 @@
 import React from "react";
-import { laborwagedata, yearlypop } from "./WageAgeData";
+import { laborwagedata, yearlypop } from "./wagesdata";
 
 export const linecss = {
   left: "0px",
@@ -506,14 +506,16 @@ class WageAge extends React.Component {
               const rnge = frequency(false, e, true)[0].split("-");
               //const diff = rnge[1] - rnge[0];
               var pop = 0;
-              for (let r = Number(rnge[0]); r < Number(rnge[1] + 1); r++) {
-                Object.keys(yearlypop[x]).forEach((y, i) => {
-                  //console.log(x,y)
-                  if (Number(y) === Number(r)) {
-                    pop = pop + Object.values(yearlypop[x])[i];
+              const population = yearlypop[x];
+              for (let r = Number(rnge[0]); r < Number(rnge[1] + 2); r++) {
+                Object.keys(population).forEach((y, i) => {
+                  //console.log(x, y);
+                  if (Number(y) === r) {
+                    pop = pop + Number(Object.values(population)[i]);
                   }
                 });
               }
+              // console.log(rnge, pop);
               return pop / 1000;
             };
             let totmO = 0;
@@ -781,160 +783,90 @@ class WageAge extends React.Component {
       margin: "2px"
     };
     //console.log(mortalEightyFiveNJData);
-
     return (
-      <div style={this.props.style}>
-        {/*<div
-          style={{
-            position
-            :"relative",
-            top
-            :"0px",
-            height
-            :"min-content",
-            flexWrap
-            :"wrap",
-            display
-            :"flex"
-          }}
-        >
-          {["New Jersey"].map((x, i) => {
-            return (
-              <div
-                key={i}
-                onMouseEnter={() =>
-                  this.setState({ () => {
-                    clearTimeout(,his.unHover);
-                    this.unHover = setTimeout(
-                      () => this.setState({ hoveredBtn: x }),
-                      200
-                    );
-                  })
-                }
-                style={{
-                  transition
-                  :".3s ease-in",
-                  boxShadow: `inset 0px 0px ${
-                    this.state.hoveredBtn === x ? 7 : 0
-                  }px  ${this.state.hoveredBtn === x ? 2 : 0.5}px black`,
-                  alignItems
-                  :"center",
-                  padding
-                  :"4px 7px",
-                  border: this.state.chosenState === x ? "1px solid black" : {1
-                  display
-                  :"flex",                }}
-              >
-                <div onClick={() => this.setState({ chosenState: x })}>{x}</div>
-                &nbsp;
-                {this.state.chosenState === x && (
-                  <button onClick={() => this.setState({ chosenState: null })}>
-                    &times;
-                  </button>
-                )}
-              </div>
-            );
-          })}
-        </div>*/}
-        <div style={{ width: "100%", minHeight: "230px" }}>
-          <div style={labelstyle}>
-            <div
-              style={buttonStyle}
-              onClick={() =>
-                this.setState(
-                  //{ chosenfrequency: !this.state.chosenfrequency }
-                  this.state.payOrEmploys && this.state.chosenfrequency
-                    ? { payOrEmploys: false, chosenfrequency: false }
-                    : !this.state.payOrEmploys
-                    ? { payOrEmploys: true }
-                    : { chosenfrequency: true }
-                )
-              }
-            >
-              {payOrEmploys ? "pay per " : "employment per "}
-            </div>
-            <button
-              style={buttonStyle}
-              onClick={() => {
-                this.setState({
-                  percapita: !this.state.percapita
-                });
-              }}
-            >
-              {this.state.percapita
-                ? payOrEmploys
-                  ? "employee"
-                  : "capita"
-                : this.state.chosenfrequency && !payOrEmploys
-                ? "high"
-                : "cohort"}
-            </button>
-            <div>
-              -&nbsp;
-              <br />
-              {
-                !this.state.percapita || payOrEmploys
-                  ? shortNumber(Math.round(this.state.highDeaths * 1000))
-                  : this.state.highDeaths * 100 /*/5 */
-              }
-            </div>
-            <div
-              style={{
-                top: "0px",
-                height: "min-content",
-                display: "flex",
-                position: "relative",
-                right: "0px"
-              }}
-            >
-              {lowDate}&nbsp;
-              {this.state.highDate}
-            </div>
-            <br />
-            {/* <div
-              style={{
-                textAlign
-                :"right",
-                top
-                :"0px",
-                height
-                :"min-content",
-                display
-                :"flex",
-                position
-                :"relative",
-                right
-                :"0px"
-              }}
-            >
-              {this.state.highlifetime} average
-            </div>
-            {/*<div
-              style={{
-                top
-                :"200px",
-                height
-                :"min-content",
-                display
-                :"flex",
-                position
-                :"absolute",
-                right
-                :"0px",
-                flexDirection
-                :"column"
-              }}
-            >
-              {this.state.lowDeaths}
-            </div>*/}
+      <div
+        style={{
+          width: "100%",
+          minHeight: "240px",
+          position: "relative",
+          backgroundColor: "rgb(190,150,180)"
+        }}
+      >
+        <div style={labelstyle}>
+          <div
+            style={buttonStyle}
+            onClick={() =>
+              this.setState(
+                //{ chosenfrequency: !this.state.chosenfrequency }
+                this.state.payOrEmploys && this.state.chosenfrequency
+                  ? { payOrEmploys: false, chosenfrequency: false }
+                  : !this.state.payOrEmploys
+                  ? { payOrEmploys: true }
+                  : { chosenfrequency: true }
+              )
+            }
+          >
+            {payOrEmploys ? "pay per " : "employment per "}
           </div>
-          <div style={{ transform: "translate(0px,200px)" }}>
-            <svg
-              className="all"
-              style={linecss}
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {noData.map(
+          <button
+            style={buttonStyle}
+            onClick={() => {
+              this.setState({
+                percapita: !this.state.percapita
+              });
+            }}
+          >
+            {this.state.percapita
+              ? payOrEmploys
+                ? "employee"
+                : "capita"
+              : this.state.chosenfrequency && !payOrEmploys
+              ? "high"
+              : "cohort"}
+          </button>
+          <div>
+            National Household Income
+            <br />
+            {payOrEmploys ? "$" : !this.state.percapita ? "" : ""}
+            {shortNumber(this.state.highDeaths * (payOrEmploys ? 1000 : 100)) +
+              (payOrEmploys || !this.state.percapita ? "" : "%")}
+          </div>
+          <div
+            style={{
+              backgroundColor: "rgba(255,255,255,.3)",
+              padding: "4px 8px",
+              position: "absolute",
+              right: "0px"
+            }}
+          >
+            {lowDate}&nbsp;
+            {this.state.highDate}
+          </div>
+        </div>
+        <div style={{ transform: "translate(0px,190px)" }}>
+          <svg
+            className="all"
+            style={linecss}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {noData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="rgb(230,230,230)"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+            {(!this.state.percapita || payOrEmploys) &&
+              mortalZeroNJData.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
                   !isNaN(y) && (
@@ -943,37 +875,20 @@ class WageAge extends React.Component {
                       y={y}
                       width={2}
                       height={2}
-                      stroke="rgb(230,230,230)"
+                      stroke="white"
                       fill="transparent"
                       strokeWidth={3}
                       key={i}
                     />
                   )
               )}
-              {(!this.state.percapita || payOrEmploys) &&
-                mortalZeroNJData.map(
-                  ([x, y], i) =>
-                    !isNaN(x) &&
-                    !isNaN(y) && (
-                      <rect
-                        x={x}
-                        y={y}
-                        width={2}
-                        height={2}
-                        stroke="white"
-                        fill="transparent"
-                        strokeWidth={3}
-                        key={i}
-                      />
-                    )
-                )}
-              {/*<BasisCurve
+            {/*<BasisCurve
               showPoints={false}
               strokeWidth={4}
               stroke="purple"
               data={mortalZeroNJData}
             />*/}
-              {/*mortalZeroNJDataAge.map(
+            {/*mortalZeroNJDataAge.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
                   !isNaN(y) && (
@@ -1053,24 +968,8 @@ class WageAge extends React.Component {
                     />
                   )
                   )*/}
-              {(!this.state.percapita || payOrEmploys) &&
-                mortalFiftyNJData.map(
-                  ([x, y], i) =>
-                    !isNaN(x) &&
-                    !isNaN(y) && (
-                      <rect
-                        x={x}
-                        y={y}
-                        width={2}
-                        height={2}
-                        stroke="purple"
-                        fill="transparent"
-                        strokeWidth={3}
-                        key={i}
-                      />
-                    )
-                )}
-              {mortalSixtyFiveNJData.map(
+            {(!this.state.percapita || payOrEmploys) &&
+              mortalFiftyNJData.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
                   !isNaN(y) && (
@@ -1079,218 +978,223 @@ class WageAge extends React.Component {
                       y={y}
                       width={2}
                       height={2}
-                      stroke="blue"
+                      stroke="purple"
                       fill="transparent"
                       strokeWidth={3}
                       key={i}
                     />
                   )
               )}
-              {mortalSeventyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="green"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalEightyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="orange"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalNinetyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="red"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalOneTenNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="black"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {averageLifetimeData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="black"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-            </svg>
-          </div>
-          <div style={{ position: "relative" }}>
+            {mortalSixtyFiveNJData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="blue"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalSeventyFiveNJData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="green"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalEightyFiveNJData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="orange"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalNinetyFiveNJData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="red"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalOneTenNJData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="black"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+            {averageLifetimeData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="black"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+          </svg>
+        </div>
+        <div style={labelstyle}>
+          <div
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "max-content"
+            }}
+          >
             <div
               style={{
-                display: "grid",
-                width: "100%",
-                gridTemplateColumns:
-                  "repeat(auto-fit,  minmax(10px, max-content))",
-                position: "absolute",
-                top: "14px"
+                width: "max-content"
               }}
             >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "white"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "white"
-                  }}
-                />
-                {frequency(this.state.chosenfrequency, 0, true)}&nbsp;&nbsp;
-              </div>
+              />
+              {frequency(this.state.chosenfrequency, 0, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "purple"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "purple"
-                  }}
-                />
-                {frequency(this.state.chosenfrequency, 1, true)}&nbsp;&nbsp;
-              </div>
+              />
+              {frequency(this.state.chosenfrequency, 1, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "blue"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "blue"
-                  }}
-                />
-                {frequency(this.state.chosenfrequency, 2, true)}&nbsp;&nbsp;
-              </div>
+              />
+              {frequency(this.state.chosenfrequency, 2, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "green"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "green"
-                  }}
-                />
-                {frequency(this.state.chosenfrequency, 3, true)}&nbsp;&nbsp;
-              </div>
+              />
+              {frequency(this.state.chosenfrequency, 3, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "orange"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "orange"
-                  }}
-                />
-                {frequency(this.state.chosenfrequency, 4, true)}&nbsp;&nbsp;
-              </div>
+              />
+              {frequency(this.state.chosenfrequency, 4, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "red"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "red"
-                  }}
-                />
-                {frequency(this.state.chosenfrequency, 5, true)}&nbsp;&nbsp;
-              </div>
+              />
+              {frequency(this.state.chosenfrequency, 5, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
               <div
                 style={{
-                  transform: "rotate(40deg)",
-                  width: "max-content"
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "black"
                 }}
-              >
-                <div
-                  style={{
-                    width: "5px",
-                    height: "5px",
-                    backgroundColor: "black"
-                  }}
-                />
-                {
-                  frequency(this.state.chosenfrequency, 6, true) //chosenfrequency, index, range defaults cohort
-                }
-                &nbsp;&nbsp;
-              </div>
+              />
+              {
+                frequency(this.state.chosenfrequency, 6, true) //chosenfrequency, index, range defaults cohort
+              }
+              &nbsp;&nbsp;
             </div>
           </div>
         </div>
-        <div
+        {/*<div
           style={{
             marginTop: "30px",
             marginLeft: "20px",
@@ -1316,10 +1220,9 @@ class WageAge extends React.Component {
               {x}
             </div>
           ))}
-        </div>
+        </div>*/}
       </div>
     );
   }
 }
 export default WageAge;
-
