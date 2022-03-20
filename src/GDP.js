@@ -594,18 +594,21 @@ class GDP extends React.Component {
     super(props);
     const popdatapre2010 = popdata.filter((x) => x.year < 2010);
     this.state = {
-      chosenDecade: 2000,
-      chosenDecadeInx: popdatapre2010.length,
+      chosenDecade: 1890,
+      chosenDecadeInx: popdatapre2010.length - 12,
       data: gdpdata
         .map((x) => {
           var foo = { ...x };
+          var b4Idx = null;
           var thisdecade = popdata.find(
             (p) => x.year - p.year < 10 && x.year - p.year > -1
           );
           if (foo.num) {
             foo.num = foo.num * 1000000000;
           }
-          var addi = thisdecade.pop * ((x.year - thisdecade.year) / 10);
+          var b4pop = popdata[b4Idx - 1] ? popdata[b4Idx - 1].pop : 0;
+          var b4year = popdata[b4Idx - 1] ? popdata[b4Idx - 1].year : 0;
+          var addi = (thisdecade.pop - b4pop) * ((x.year - b4year) / 10);
           foo.pop = thisdecade.pop + addi;
           return foo;
         })
