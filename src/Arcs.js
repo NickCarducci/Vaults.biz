@@ -142,7 +142,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/aqpw3n85vnk7678/Screen%20Shot%202022-01-18%20at%206.02.55%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/aqpw3n85vnk7678/Screen%20Shot%202022-01-18%20at%206.02.55%20PM.png?raw=1"
           }
           float="left"
           title="Spicer & co (Newsmax) - China virion found and claimed they made it, cause, no less, rsather than output of bacterial infection"
@@ -172,7 +172,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/fckwkvi1l8ln0gj/Screen%20Shot%202022-01-18%20at%206.53.38%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/fckwkvi1l8ln0gj/Screen%20Shot%202022-01-18%20at%206.53.38%20PM.png?raw=1"
           }
           float="right"
           title="https://humanharvest.info/polio"
@@ -323,7 +323,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/airyagbikqd2czg/Screen%20Shot%202022-02-13%20at%209.09.53%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/airyagbikqd2czg/Screen%20Shot%202022-02-13%20at%209.09.53%20AM.png?raw=1"
           }
           float="left"
           title="Ryan Zinke says Maos' red book against landlords caused expected excess deaths of 15m with life exp 35 already"
@@ -900,7 +900,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/x2jkgiidxhwhk4y/Screen%20Shot%202022-01-18%20at%202.43.45%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/x2jkgiidxhwhk4y/Screen%20Shot%202022-01-18%20at%202.43.45%20AM.png?raw=1"
           }
           float="left"
           title="https://vaults.biz/party"
@@ -1984,7 +1984,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/7qc1ycom0j51lvk/Screen%20Shot%202022-01-16%20at%206.38.18%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/7qc1ycom0j51lvk/Screen%20Shot%202022-01-16%20at%206.38.18%20PM.png?raw=1"
           }
           float="left"
           title="Headliners (GBNews) - a bit of a plea bar loss moot flop for hypocrisy v actually describing for informed intent and all-inclusive consent"
@@ -2381,7 +2381,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/kdj1410nxk629xp/main-qimg-bd259fa9094d791e38b484c1cd89d13d.jpeg?dl=0"
+              : "https://www.dropbox.com/s/kdj1410nxk629xp/main-qimg-bd259fa9094d791e38b484c1cd89d13d.jpeg?raw=1"
           }
           float="left"
           title="https://fred.stlouisfed.org/graph/?g=KKxy - https://vaults.biz/work"
@@ -2412,7 +2412,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/1y362v7d5irr6bg/us%20spending%20debt%20king%20trump.jpeg?dl=0"
+              : "https://www.dropbox.com/s/1y362v7d5irr6bg/us%20spending%20debt%20king%20trump.jpeg?raw=1"
           }
           float="right"
           title="Trump debt king 2017-2020 federal deficit spending - receipts, Free Rider mutable, beyond article 4 scope, sewage police lawsuits."
@@ -2650,7 +2650,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/itj6bvo9zvafvnx/Screen%20Shot%202022-01-15%20at%205.15.39%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/itj6bvo9zvafvnx/Screen%20Shot%202022-01-15%20at%205.15.39%20AM.png?raw=1"
           }
           float={null}
           title="RCV - https://vote.nyc/sites/default/files/pdf/election_results/2021/20210622Primary%20Election/rcv/DEM%20Mayor%20Citywide.pdf"
@@ -2668,7 +2668,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/gk78gobivw6t21t/Screen%20Shot%202022-01-15%20at%205.17.16%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/gk78gobivw6t21t/Screen%20Shot%202022-01-15%20at%205.17.16%20AM.png?raw=1"
           }
           float={null}
           title="General Mayoral 7% turnout - https://vote.nyc/sites/default/files/pdf/election_results/2021/20211102General%20Election/00000200000Citywide%20Mayor%20Citywide%20Recap.pdf"
@@ -3112,7 +3112,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/xresco45aev7fgj/Screen%20Shot%202022-01-14%20at%205.03.33%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/xresco45aev7fgj/Screen%20Shot%202022-01-14%20at%205.03.33%20PM.png?raw=1"
           }
           float="right"
           title="Appreciate America (Newsmax) - The Fifth Column (justice from liberty, unity, equality, and the fifth one), 'Red for courage, White for honor, Blue for justice.'"
@@ -3410,6 +3410,7 @@ class Arcs extends React.Component {
         <WageAge
           lastWidth={Math.min(600, this.props.lastWidth - 20)}
           style={{
+            width:"100%",
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
           }}
@@ -4457,7 +4458,7 @@ class Arcs extends React.Component {
           src={
             this.props.nofred
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/czp5lgef8og7iwb/IMG_2977.jpeg?dl=0"
+              : "https://www.dropbox.com/s/czp5lgef8og7iwb/IMG_2977.jpeg?raw=1"
           }
           float={"right"}
           title="5x5 and single year population and mortality poistive correlation https://humanharvest.info/polio"
@@ -4609,7 +4610,7 @@ class Arcs extends React.Component {
             src={
               this.props.nofred
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?dl=0"
+                : "https://www.dropbox.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?raw=1"
             }
             float={"left"}
             title="saver party squirrel - https://saverparty.xyz"
@@ -4719,7 +4720,7 @@ class Arcs extends React.Component {
           src={
             this.props.nofred
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/hgkwn82zqrexr7d/IMG_2957.jpeg?dl=0"
+              : "https://www.dropbox.com/s/hgkwn82zqrexr7d/IMG_2957.jpeg?raw=1"
           }
           float={"left"}
           title="PCE and 'fixed'/startup structural investment costs https://froth.app"
@@ -5932,7 +5933,7 @@ class Arcs extends React.Component {
             src={
               this.state.settleDropboxFree
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/q8n2wh39sk1u0me/Population-Pyramid-1950-to-2100-793x550.jpeg?dl=0"
+                : "https://www.dropbox.com/s/q8n2wh39sk1u0me/Population-Pyramid-1950-to-2100-793x550.jpeg?raw=1"
             }
             float="left"
             title="many 60+ now 5x than 1950, gradually"
@@ -7124,7 +7125,7 @@ class Arcs extends React.Component {
               <img
                 onClick={() => (window.location.href = "https://carducci.sh")}
                 style={{ width: "60px", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/eauftjactpq8rnz/me.png?dl=0"
+                src="https://www.dropbox.com/s/eauftjactpq8rnz/me.png?raw=1"
                 alt="https://carducci.sh"
               />
             </div>
@@ -7282,7 +7283,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/6sdb1ltl8dzknef/LinkedInFinancialGoober.png?dl=0"
+              : "https://www.dropbox.com/s/6sdb1ltl8dzknef/LinkedInFinancialGoober.png?raw=1"
           }
           float="left"
           title="bragging about stealing"
@@ -7309,7 +7310,7 @@ class Arcs extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/2vr9cl87evko2lq/LinkedInPirate.png?dl=0"
+              : "https://www.dropbox.com/s/2vr9cl87evko2lq/LinkedInPirate.png?raw=1"
           }
           float="right"
           title="not your money to promise"
@@ -7915,7 +7916,7 @@ class Arcs extends React.Component {
                 width: "100%",
                 height: "auto"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/bgzlmx15ozereze/Screen%20Shot%202021-03-08%20at%2010.52.36%20AM.png?dl=0"
+              src="https://www.dropbox.com/s/bgzlmx15ozereze/Screen%20Shot%202021-03-08%20at%2010.52.36%20AM.png?raw=1"
             />
           </a>
           <br />
@@ -7936,7 +7937,7 @@ class Arcs extends React.Component {
                 width: "100%",
                 height: "auto"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/8xrttviacyav71z/Screen%20Shot%202021-03-19%20at%205.57.16%20PM.png?dl=0"
+              src="https://www.dropbox.com/s/8xrttviacyav71z/Screen%20Shot%202021-03-19%20at%205.57.16%20PM.png?raw=1"
             />
           </a>
         </div>
@@ -7984,7 +7985,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/y4yhdgkjhcb8zyl/Mask1.png?dl=0"
+                : "https://www.dropbox.com/s/y4yhdgkjhcb8zyl/Mask1.png?raw=1"
             }
             float={null}
             title={
@@ -8003,7 +8004,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/dsre6z0rgc032bp/Mask2.png?dl=0"
+                : "https://www.dropbox.com/s/dsre6z0rgc032bp/Mask2.png?raw=1"
             }
             float={null}
             title={
@@ -8023,7 +8024,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/kdq5qf2slsw7kek/Mask3.png?dl=0"
+                : "https://www.dropbox.com/s/kdq5qf2slsw7kek/Mask3.png?raw=1"
             }
             float={null}
             title={
@@ -8042,7 +8043,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/qa8tm7uly5to71k/Mask4.png?dl=0"
+                : "https://www.dropbox.com/s/qa8tm7uly5to71k/Mask4.png?raw=1"
             }
             float={null}
             title={
@@ -8067,7 +8068,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/7s8n5k0dyhw63ep/Mask5.png?dl=0"
+                : "https://www.dropbox.com/s/7s8n5k0dyhw63ep/Mask5.png?raw=1"
             }
             float={null}
             title="Alan J Meunier 's source"
@@ -8083,7 +8084,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/306bf6rgivvm2oo/Mask6.jpeg?dl=0"
+                : "https://www.dropbox.com/s/306bf6rgivvm2oo/Mask6.jpeg?raw=1"
             }
             float={null}
             title={
@@ -8164,7 +8165,7 @@ class Arcs extends React.Component {
               src={
                 this.state.noyoutube
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/r58imis3omj3c1k/Screen%20Shot%202021-01-14%20at%209.41.55%20PM.png?dl=0"
+                  : "https://www.dropbox.com/s/r58imis3omj3c1k/Screen%20Shot%202021-01-14%20at%209.41.55%20PM.png?raw=1"
               }
               float="left"
               title="finance was public opinion not hair color"
@@ -8180,7 +8181,7 @@ class Arcs extends React.Component {
               src={
                 this.state.noyoutube
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/u72ru0ni4xobc6p/Screen%20Shot%202021-01-14%20at%209.42.07%20PM.png?dl=0"
+                  : "https://www.dropbox.com/s/u72ru0ni4xobc6p/Screen%20Shot%202021-01-14%20at%209.42.07%20PM.png?raw=1"
               }
               float="left"
               title="e=mc^2 is wrong"
@@ -8215,7 +8216,7 @@ class Arcs extends React.Component {
               src={
                 this.state.noyoutube
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/gq7be728ego5ct6/Screen%20Shot%202021-03-03%20at%209.18.59%20AM.png?dl=0"
+                  : "https://www.dropbox.com/s/gq7be728ego5ct6/Screen%20Shot%202021-03-03%20at%209.18.59%20AM.png?raw=1"
               }
               float="left"
               title=""
@@ -8298,7 +8299,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/xfz61waq7shmttm/Screen%20Shot%202021-02-24%20at%202.08.35%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/xfz61waq7shmttm/Screen%20Shot%202021-02-24%20at%202.08.35%20PM.png?raw=1"
             }
             float="left"
             title="intent to team with Twitter to ban civil rights activists? I don't know who TopHatRod is"
@@ -8314,7 +8315,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/r7z4sngevnt86is/Screen%20Shot%202021-02-24%20at%202.08.58%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/r7z4sngevnt86is/Screen%20Shot%202021-02-24%20at%202.08.58%20PM.png?raw=1"
             }
             float="right"
             title="stay on, after certified threat"
@@ -8330,7 +8331,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/m6gdg63it9s92ie/Screen%20Shot%202021-02-24%20at%201.58.55%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/m6gdg63it9s92ie/Screen%20Shot%202021-02-24%20at%201.58.55%20PM.png?raw=1"
             }
             float="left"
             title="liberty fraud, the response that I reported and Twitter certified as threat but allow him to keep account"
@@ -8346,7 +8347,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/52gxbd863g7tot3/Screen%20Shot%202021-02-24%20at%202.18.20%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/52gxbd863g7tot3/Screen%20Shot%202021-02-24%20at%202.18.20%20PM.png?raw=1"
             }
             float="right"
             title="Twitter certified as threat"
@@ -8378,7 +8379,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/4nmqqjh00vyl3b0/Screen%20Shot%202021-02-24%20at%202.02.53%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/4nmqqjh00vyl3b0/Screen%20Shot%202021-02-24%20at%202.02.53%20PM.png?raw=1"
             }
             float="right"
             title="fully-capable, self-harmer after complaining about misinformation about election being called at 61% on Election Day in NJ, causing voter supression"
@@ -8413,7 +8414,7 @@ class Arcs extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/x853k4en40bjf0r/Screen%20Shot%202021-02-24%20at%202.33.11%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/x853k4en40bjf0r/Screen%20Shot%202021-02-24%20at%202.33.11%20PM.png?raw=1"
             }
             float="left"
             title="listed statistical complaints about election calling on Election Day before being banned by Twitter"
