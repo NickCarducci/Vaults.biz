@@ -114,7 +114,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/8jpw51tzcd1tsmc/Screen%20Shot%202022-02-05%20at%201.20.41%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/8jpw51tzcd1tsmc/Screen%20Shot%202022-02-05%20at%201.20.41%20PM.png?raw=1"
           }
           float="right"
           title="Saturday Agenda (Newsmax) - NYU langone"
@@ -137,7 +137,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/pbrz6gdmm72svex/Screen%20Shot%202022-02-04%20at%202.42.50%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/pbrz6gdmm72svex/Screen%20Shot%202022-02-04%20at%202.42.50%20PM.png?raw=1"
           }
           float={null}
           title="https://humanharvest.info/polio"
@@ -168,7 +168,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/ooiyj6x2lplho6a/IMG_9369.PNG?dl=0"
+              : "https://www.dropbox.com/s/ooiyj6x2lplho6a/IMG_9369.PNG?raw=1"
           }
           float="left"
           title="Daily Wire (Facebook) - Psaki Press Conference"
@@ -209,7 +209,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/v94nqshd3bn0lke/Screen%20Shot%202022-02-08%20at%206.14.07%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/v94nqshd3bn0lke/Screen%20Shot%202022-02-08%20at%206.14.07%20PM.png?raw=1"
           }
           float="left"
           title="Change the Economic system - always middle ground NJ Constitutional Republicans, John Robert Carman"
@@ -308,7 +308,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/vzq4rqombnicpr3/Screen%20Shot%202022-02-15%20at%202.44.53%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/vzq4rqombnicpr3/Screen%20Shot%202022-02-15%20at%202.44.53%20PM.png?raw=1"
           }
           float="left"
           title="Sliwa racket HACKENSACK MERIDIAN HEALTH RIVERVIEW MEDICAL CENTER -disparity crime vs penalty,  Mental health slander, zero evidence lest actual crime - https://youtu.be/AQ7h_U5G0fY"
@@ -499,7 +499,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/ooiyj6x2lplho6a/IMG_9369.PNG?dl=0"
+              : "https://www.dropbox.com/s/ooiyj6x2lplho6a/IMG_9369.PNG?raw=1"
           }
           float="left"
           title="Daily Wire (Facebook) - Psaki Press Conference"
@@ -559,7 +559,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/20n0e4o1p97aa31/Screen%20Shot%202022-02-01%20at%202.02.37%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/20n0e4o1p97aa31/Screen%20Shot%202022-02-01%20at%202.02.37%20PM.png?raw=1"
           }
           float="left"
           title="Senate GOP (Facebook) - 'kill russians for oil, it has been our policy since 1930'"
@@ -655,7 +655,7 @@ class Archive extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/fbbjd1rfdfbz18d/Screen%20Shot%202022-02-01%20at%201.22.13%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/fbbjd1rfdfbz18d/Screen%20Shot%202022-02-01%20at%201.22.13%20PM.png?raw=1"
             }
             float="left"
             title="austinforarizona.com"
@@ -711,7 +711,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/m7q5xch06kakctg/Screen%20Shot%202022-02-01%20at%2012.48.52%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/m7q5xch06kakctg/Screen%20Shot%202022-02-01%20at%2012.48.52%20PM.png?raw=1"
           }
           float="left"
           title="austinforarizona.com"
@@ -807,7 +807,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/v3t56giugjhilu3/Screen%20Shot%202022-02-01%20at%2012.19.13%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/v3t56giugjhilu3/Screen%20Shot%202022-02-01%20at%2012.19.13%20PM.png?raw=1"
           }
           float="right"
           title="nj 101.5 - hackensack meridian"
@@ -1113,7 +1113,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/ji1fdwy2s803s7o/Screen%20Shot%202022-01-31%20at%208.52.09%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/ji1fdwy2s803s7o/Screen%20Shot%202022-01-31%20at%208.52.09%20PM.png?raw=1"
           }
           float="right"
           title="Do you believe Trump won the election of 2020, technologically? - https://qr.ae/pGEsT9"
@@ -1190,7 +1190,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/quufyiy76ux7r6g/Screen%20Shot%202022-01-31%20at%203.19.49%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/quufyiy76ux7r6g/Screen%20Shot%202022-01-31%20at%203.19.49%20PM.png?raw=1"
           }
           float="right"
           title="Jimmy Dore (Youtube) - "
@@ -1572,7 +1572,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/5h99fvv8xzx0t8x/butter.gif?dl=0"
+              : "https://www.dropbox.com/s/5h99fvv8xzx0t8x/butter.gif?raw=1"
           }
           float="right"
           title="Rick and Morty - pass-the-butter bot"
@@ -1656,7 +1656,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/jikbhg4e6w7mvfz/Screen%20Shot%202022-01-30%20at%207.04.13%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/jikbhg4e6w7mvfz/Screen%20Shot%202022-01-30%20at%207.04.13%20PM.png?raw=1"
           }
           float="left"
           title=""
@@ -1693,7 +1693,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/x2i79yv20zptnxs/Screen%20Shot%202022-01-30%20at%205.41.11%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/x2i79yv20zptnxs/Screen%20Shot%202022-01-30%20at%205.41.11%20PM.png?raw=1"
           }
           float="right"
           title="Trump in Texas (Newsmax)"
@@ -1734,7 +1734,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/xa9ghixl7gk4kk3/Screen%20Shot%202022-01-30%20at%203.18.57%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/xa9ghixl7gk4kk3/Screen%20Shot%202022-01-30%20at%203.18.57%20PM.png?raw=1"
           }
           float="left"
           title="Niel Young, Reprise Records (Facebook) - https://fb.watch/aSH8hY9iuA/"
@@ -1753,7 +1753,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/pt9e3gmovw4asms/Screen%20Shot%202022-01-30%20at%203.24.25%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/pt9e3gmovw4asms/Screen%20Shot%202022-01-30%20at%203.24.25%20PM.png?raw=1"
           }
           float="right"
           title="Niel Young, Reprise Records (Facebook) - https://fb.watch/aSH8hY9iuA/"
@@ -1779,7 +1779,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/esylhaqovkrn3pr/Screen%20Shot%202022-01-30%20at%2012.57.22%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/esylhaqovkrn3pr/Screen%20Shot%202022-01-30%20at%2012.57.22%20PM.png?raw=1"
           }
           float="left"
           title="Does being anti-property mean you're against private property? - https://qr.ae/pGENAO"
@@ -2541,7 +2541,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/h7scr55doa1xfqm/Screen%20Shot%202022-01-29%20at%2011.05.11%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/h7scr55doa1xfqm/Screen%20Shot%202022-01-29%20at%2011.05.11%20AM.png?raw=1"
           }
           float="right"
           title="'The object of my life is not to be on the side of the majority, but to escape, finding oneself in the ranks of the insane.' - Marcus Aurelius"
@@ -2622,7 +2622,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/hy5byh65a2uxnrb/Screen%20Shot%202022-01-29%20at%2011.09.09%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/hy5byh65a2uxnrb/Screen%20Shot%202022-01-29%20at%2011.09.09%20AM.png?raw=1"
           }
           float="left"
           title="If student loan debt does get forgiven, what happens to college students that come in after? - https://www.quora.com/If-student-loan-debt-does-get-forgiven-what-happens-to-college-students-that-come-in-after - https://qr.ae/pGERF3"
@@ -2713,7 +2713,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/0uchoj5sbaq1355/Screen%20Shot%202022-02-04%20at%204.40.02%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/0uchoj5sbaq1355/Screen%20Shot%202022-02-04%20at%204.40.02%20PM.png?raw=1"
           }
           float="right"
           title="Eric Bolling (Newsmax) - dog bite illegal working age labor shortage leg"
@@ -2763,7 +2763,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?raw=1"
           }
           float="left"
           title="https://www.pnas.org/content/117/51/32340/tab-figures-data"
@@ -2930,7 +2930,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/diqr5lp2a7ya6db/Screen%20Shot%202022-01-28%20at%202.52.52%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/diqr5lp2a7ya6db/Screen%20Shot%202022-01-28%20at%202.52.52%20PM.png?raw=1"
           }
           float="left"
           title="Philadelphia Chlorine water treatment -Typhoid deaths in Philadelphia drastically dropped after city-wide water filtration (1912) and chlorination (1913). Data from the Philadelphia Water Department Collection"
@@ -3073,7 +3073,7 @@ class Archive extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/npdy9l9ekbd78vh/Screen%20Shot%202022-01-28%20at%2011.17.30%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/npdy9l9ekbd78vh/Screen%20Shot%202022-01-28%20at%2011.17.30%20PM.png?raw=1"
             }
             float="left"
             title="quora misinformation, at least consistent, let alone I would need a desist order to report for ban in my policy. double consistence - https://www.quora.com/What-form-of-capitalism-do-you-think-would-be-most-suitable-for-workers/answer/Sharon-Williams-62"
@@ -3351,7 +3351,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/p2p57dtaxp7nzey/Screen%20Shot%202022-01-27%20at%2010.53.23%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/p2p57dtaxp7nzey/Screen%20Shot%202022-01-27%20at%2010.53.23%20AM.png?raw=1"
           }
           float="left"
           title="gmail for Healthcare CDL drivers to this former bartender, whom cannot, from monmouth county workforce development, after labeling me as psychiotic; I will not usurer and I cannot walk without pain and dysmorphia. I could even deny for not wanting to take income by credit at all, bartender is cash after all."
@@ -3912,7 +3912,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/vndizf41ilpz5ow/Screen%20Shot%202022-01-25%20at%204.34.20%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/vndizf41ilpz5ow/Screen%20Shot%202022-01-25%20at%204.34.20%20PM.png?raw=1"
           }
           float="left"
           title="https://www.quora.com/What-properties-require-flood-insurance/answer/Patricia-Kelchner"
@@ -4751,7 +4751,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/mvz956nm4cd999k/Screen%20Shot%202022-01-23%20at%205.04.14%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/mvz956nm4cd999k/Screen%20Shot%202022-01-23%20at%205.04.14%20PM.png?raw=1"
           }
           float="left"
           title="https://www.cbpp.org/disability-rates-rise-with-age-5"
@@ -4823,7 +4823,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/fibiuk9sdpjm6i0/Screen%20Shot%202022-01-24%20at%2012.39.47%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/fibiuk9sdpjm6i0/Screen%20Shot%202022-01-24%20at%2012.39.47%20PM.png?raw=1"
           }
           float="left"
           title="https://qr.ae/pGBwBc"
@@ -5337,7 +5337,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/0r2gvjjx53d99st/Screen%20Shot%202022-01-23%20at%201.46.30%20AM.png?dl=0"
+              : "https://www.dropbox.com/s/0r2gvjjx53d99st/Screen%20Shot%202022-01-23%20at%201.46.30%20AM.png?raw=1"
           }
           float="left"
           title="https://www.quora.com/topic/Political-Prisoners"
@@ -5753,7 +5753,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/4612nwtgvyneccp/Screen%20Shot%202022-01-22%20at%202.22.09%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/4612nwtgvyneccp/Screen%20Shot%202022-01-22%20at%202.22.09%20PM.png?raw=1"
           }
           float="left"
           title="Senate GOP (Facebook) - NYPD officer Jason Rivera https://www.facebook.com/photo?fbid=296827739145447&set=a.219846066843615"
@@ -6342,7 +6342,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/e3k2hy1z1vo8scf/Screen%20Shot%202022-02-11%20at%207.05.41%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/e3k2hy1z1vo8scf/Screen%20Shot%202022-02-11%20at%207.05.41%20PM.png?raw=1"
           }
           float="left"
           title="GBNews GDP growth"
@@ -6525,7 +6525,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/fvtz1lskkpepkxq/png-transparent-bitcoin-gold-cryptocurrency-bitcoin-medal-material-metal-thumbnail.png?dl=0"
+              : "https://www.dropbox.com/s/fvtz1lskkpepkxq/png-transparent-bitcoin-gold-cryptocurrency-bitcoin-medal-material-metal-thumbnail.png?raw=1"
           }
           float="left"
           title="bitcoin gold! huh?"
@@ -6770,7 +6770,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/1y362v7d5irr6bg/us%20spending%20debt%20king%20trump.jpeg?dl=0"
+              : "https://www.dropbox.com/s/1y362v7d5irr6bg/us%20spending%20debt%20king%20trump.jpeg?raw=1"
           }
           float="right"
           title="Trump debt king 2017-2020 federal deficit spending - receipts, Free Rider mutable, beyond article 4 scope, sewage police lawsuits."
@@ -7192,7 +7192,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/4te1zet9pwfs5ll/Screen%20Shot%202022-02-11%20at%202.57.32%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/4te1zet9pwfs5ll/Screen%20Shot%202022-02-11%20at%202.57.32%20PM.png?raw=1"
           }
           float="left"
           title="GBNews, Friday Fizz with Jennifer Arcuri!"
@@ -7507,7 +7507,7 @@ class Archive extends React.Component {
           src={
             this.state.noyoutube
               ? ""
-              : "https://www.dl.dropboxusercontent.com/s/ctj88ekih8d2es7/Screen%20Shot%202022-01-19%20at%206.09.30%20PM.png?dl=0"
+              : "https://www.dropbox.com/s/ctj88ekih8d2es7/Screen%20Shot%202022-01-19%20at%206.09.30%20PM.png?raw=1"
           }
           float="left"
           title="Spicer & co (Newsmax) - Langford sex offender voters - https://bjs.ojp.gov/content/pub/pdf/rsorp94.pdf"
