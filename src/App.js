@@ -13,7 +13,6 @@ export default class App extends React.Component {
     var parser = new UAParser();
     const name = parser.getBrowser().name;
     console.log(name);
-    document.cookie = "";
     this.state = {
       windowScroll: 0,
       scrollcount: 0, //offScroll: true,
@@ -1372,7 +1371,7 @@ export default class App extends React.Component {
               src={
                 this.state.nofred
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?dl=0"
+                  : "https://www.dropbox.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?raw=1"
               }
             />
             <div
@@ -1463,6 +1462,7 @@ export default class App extends React.Component {
         <div
           ref={this.chapter1}
           style={{
+            wordBreak:"break-word",
             width: "100%",
             height: "max-content",
             backgroundColor: "rgb(20,20,25)",
@@ -1482,7 +1482,7 @@ export default class App extends React.Component {
                 ? "21px"
                 : "17px"
           }}
-        >
+        >{/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
           all known hazards? If you had known hazards and could use it, you
@@ -1997,7 +1997,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/x95ezjugbkcexsb/Screen%20Shot%202022-02-15%20at%206.55.36%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/x95ezjugbkcexsb/Screen%20Shot%202022-02-15%20at%206.55.36%20PM.png?raw=1"
             }
             float="right"
             title="Headliners (GBNews) - Roblox sex parties"
@@ -2060,7 +2060,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/rb1ehdce3xk7e11/1950%20census.jpeg?dl=0"
+                : "https://www.dropbox.com/s/rb1ehdce3xk7e11/1950%20census.jpeg?raw=1"
             }
             float="left"
             title=" 1950 decennial "
@@ -2283,7 +2283,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/vxpuh3clv6ppo75/Screen%20Shot%202022-02-16%20at%2011.02.08%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/vxpuh3clv6ppo75/Screen%20Shot%202022-02-16%20at%2011.02.08%20AM.png?raw=1"
             }
             float="left"
             title=" (GBNews) Matthew Lesh Head of Public Policy, Inst. of Economic Affairs"
@@ -2493,7 +2493,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/b4dkpbzaiunc8x7/aint%20nobody%20time.gif?dl=0"
+                : "https://www.dropbox.com/s/b4dkpbzaiunc8x7/aint%20nobody%20time.gif?raw=1"
             }
             float="left"
             title=" ain't nobody got time for that"
@@ -2578,7 +2578,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/7iyleyc7czcfi6r/Screen%20Shot%202022-02-14%20at%209.43.17%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/7iyleyc7czcfi6r/Screen%20Shot%202022-02-14%20at%209.43.17%20AM.png?raw=1"
             }
             float="left"
             title=" (GBNews) methane fracking"
@@ -2609,7 +2609,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/zfp42qteh8rldra/Screen%20Shot%202022-02-14%20at%209.24.04%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/zfp42qteh8rldra/Screen%20Shot%202022-02-14%20at%209.24.04%20AM.png?raw=1"
             }
             float="left"
             title=" Putin thru the years (AFP)"
@@ -2670,7 +2670,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/zuojbcf3n6k5zpc/Screen%20Shot%202022-02-14%20at%208.34.01%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/zuojbcf3n6k5zpc/Screen%20Shot%202022-02-14%20at%208.34.01%20AM.png?raw=1"
             }
             float="left"
             title="Schizo-Economics - https://qr.ae/pGjeZ2"
@@ -2762,7 +2762,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/epv7gzm6155hj48/Screen%20Shot%202022-02-15%20at%2012.20.00%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/epv7gzm6155hj48/Screen%20Shot%202022-02-15%20at%2012.20.00%20PM.png?raw=1"
             }
             float="right"
             title="John Bachmann Now (Newsmax) - Gordon Chang"
@@ -2821,7 +2821,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/nvfra2pkmrgvuj8/Screen%20Shot%202022-02-13%20at%207.21.34%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/nvfra2pkmrgvuj8/Screen%20Shot%202022-02-13%20at%207.21.34%20PM.png?raw=1"
             }
             float="left"
             title=" "
@@ -2889,7 +2889,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/lzfxqgxwe4xyfbh/Screen%20Shot%202022-02-13%20at%201.44.48%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/lzfxqgxwe4xyfbh/Screen%20Shot%202022-02-13%20at%201.44.48%20PM.png?raw=1"
             }
             float="left"
             title="google mention word, 'kike' 1868 for Jewish person."
@@ -2988,7 +2988,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/g21qlcxmvh4uvu8/Screen%20Shot%202022-02-13%20at%2012.13.41%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/g21qlcxmvh4uvu8/Screen%20Shot%202022-02-13%20at%2012.13.41%20PM.png?raw=1"
             }
             float="right"
             title="1933 + 1937 trust"
@@ -3015,7 +3015,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/wiy635x44eo5cje/Screen%20Shot%202022-02-13%20at%2011.37.03%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/wiy635x44eo5cje/Screen%20Shot%202022-02-13%20at%2011.37.03%20AM.png?raw=1"
             }
             float="left"
             title="Can capitalism help workers to live better? - https://qr.ae/pGjUTr"
@@ -3082,7 +3082,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/bgy4lo29tyj3c2w/Screen%20Shot%202022-02-22%20at%201.14.17%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/bgy4lo29tyj3c2w/Screen%20Shot%202022-02-22%20at%201.14.17%20PM.png?raw=1"
             }
             float="left"
             title="(GBNews, Newsmax) - 'Could Trump handle Putin?'"
@@ -3176,7 +3176,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/7pbopwkgwd3tpki/eu%20oil.png?dl=0"
+                : "https://www.dropbox.com/s/7pbopwkgwd3tpki/eu%20oil.png?raw=1"
             }
             float="left"
             title="Who Supplies Europe's Oil? - Cambridge Econometrics https://magazine.2celsius.org/80-of-eu-oil-imports-supplied-by-non-european-companies/"
@@ -3205,7 +3205,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?raw=1"
             }
             float="right"
             title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
@@ -3304,7 +3304,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/9ksjlk4yq910d5y/Screen%20Shot%202022-02-22%20at%209.27.49%20AM.png?raw=1"
             }
             float="left"
             title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
@@ -3448,7 +3448,7 @@ export default class App extends React.Component {
             src={
               this.state.noyout
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/mj7kr1fzorkc8db/Screen%20Shot%202022-02-12%20at%204.42.03%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/mj7kr1fzorkc8db/Screen%20Shot%202022-02-12%20at%204.42.03%20PM.png?raw=1"
             }
             float="left"
             title=""
@@ -3501,7 +3501,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/spnjociuz6lomoi/Screen%20Shot%202022-02-15%20at%201.49.43%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/spnjociuz6lomoi/Screen%20Shot%202022-02-15%20at%201.49.43%20PM.png?raw=1"
             }
             float="right"
             title="NYT - Weiner 18mo for 15yr old sexting (details miscellaneous)"
@@ -4822,7 +4822,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/whj20plzuf24zqi/Screen%20Shot%202022-02-09%20at%2010.10.50%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/whj20plzuf24zqi/Screen%20Shot%202022-02-09%20at%2010.10.50%20PM.png?raw=1"
             }
             float="left"
             title="Rob Schmitt (Newsmax) - Crack child murder GTA 26%/yr+ 2019"
@@ -5104,7 +5104,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/fp45znfkhu0vxhn/Screen%20Shot%202022-02-15%20at%2010.21.21%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/fp45znfkhu0vxhn/Screen%20Shot%202022-02-15%20at%2010.21.21%20AM.png?raw=1"
             }
             float="left"
             title="CEDC Archive Lesson 3 Principles of Epidimeology  Age Specific Mortality - https://www.cdc.gov/csels/dsepd/ss1978/Lesson3/Section3.html#_ref8"
@@ -5167,7 +5167,7 @@ export default class App extends React.Component {
             src={
               this.props.nofred
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/czp5lgef8og7iwb/IMG_2977.jpeg?dl=0"
+                : "https://www.dropbox.com/s/czp5lgef8og7iwb/IMG_2977.jpeg?raw=1"
             }
             float={"right"}
             title="5x5 and single year population and mortality poistive correlation https://humanharvest.info/polio"
@@ -5230,7 +5230,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/vnw9r149t004yvp/Screen%20Shot%202022-02-09%20at%203.35.36%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/vnw9r149t004yvp/Screen%20Shot%202022-02-09%20at%203.35.36%20PM.png?raw=1"
             }
             float="left"
             title="https://humanharvest.info/polio"
@@ -5273,7 +5273,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/hnj9kt2dlc3jl6u/Screen%20Shot%202022-02-15%20at%203.08.15%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/hnj9kt2dlc3jl6u/Screen%20Shot%202022-02-15%20at%203.08.15%20PM.png?raw=1"
             }
             float="right"
             title="American Agenda (Newsmax) - David Samadi"
@@ -5333,7 +5333,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/lrmf42dlvkuhynt/Screen%20Shot%202022-02-15%20at%203.13.32%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/lrmf42dlvkuhynt/Screen%20Shot%202022-02-15%20at%203.13.32%20PM.png?raw=1"
             }
             float="left"
             title="hospitalizations - https://humanharvest.info/polio"
@@ -5370,7 +5370,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/2yace5056svixj8/Screen%20Shot%202022-02-09%20at%2011.14.18%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/2yace5056svixj8/Screen%20Shot%202022-02-09%20at%2011.14.18%20AM.png?raw=1"
             }
             float="right"
             title="nextdoor.com implausible landlord use survey - https://nextdoor.com/p/yJhWyXgPTdNG"
@@ -5418,7 +5418,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/4gcmden1eks46jt/Screen%20Shot%202022-02-08%20at%207.33.40%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/4gcmden1eks46jt/Screen%20Shot%202022-02-08%20at%207.33.40%20PM.png?raw=1"
             }
             float="left"
             title="Nigel Farage (GBNews, Youtube) - Peter carter, 'poverty is more rich material than assets'"
@@ -5685,7 +5685,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/itn1ms1mvpo7e2j/Screen%20Shot%202022-02-08%20at%2012.40.12%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/itn1ms1mvpo7e2j/Screen%20Shot%202022-02-08%20at%2012.40.12%20PM.png?raw=1"
             }
             float="left"
             title="Energy and Commerce (Youtube) - rent-seeking science and gentrification"
@@ -5898,7 +5898,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dropbox.com/s/sfs3pafxp3uiq5b/mario%20connect%20the%20dots.jpeg?dl=0"
+                : "https://www.dropbox.com/s/sfs3pafxp3uiq5b/mario%20connect%20the%20dots.jpeg?raw=1"
             }
             float="right"
             title="Bo Snerdley, 'connect the dots,' Mario coloring sheet"
@@ -6408,7 +6408,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/nk7ssj4p0kjqzp9/Screen%20Shot%202022-02-07%20at%2011.49.23%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/nk7ssj4p0kjqzp9/Screen%20Shot%202022-02-07%20at%2011.49.23%20AM.png?raw=1"
             }
             float="right"
             title="Carshield (Newsmax) - 'saves money' lie"
@@ -6665,7 +6665,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/pbrz6gdmm72svex/Screen%20Shot%202022-02-04%20at%202.42.50%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/pbrz6gdmm72svex/Screen%20Shot%202022-02-04%20at%202.42.50%20PM.png?raw=1"
             }
             float={null}
             title="https://humanharvest.info/polio"
@@ -6928,7 +6928,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/xm82a82r7w11c0a/pour%20on%20savings.jpeg?dl=0"
+                : "https://www.dropbox.com/s/xm82a82r7w11c0a/pour%20on%20savings.jpeg?raw=1"
             }
             float={null}
             title="pour on savings propaganda conflict of interest"
@@ -6957,7 +6957,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/wgijcheeuof0z4l/Screen%20Shot%202022-02-03%20at%209.06.44%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/wgijcheeuof0z4l/Screen%20Shot%202022-02-03%20at%209.06.44%20PM.png?raw=1"
             }
             float={null}
             title="30under5.us"
@@ -7139,7 +7139,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/gk78gobivw6t21t/Screen%20Shot%202022-01-15%20at%205.17.16%20AM.png?dl=0"
+                : "https://www.dropbox.com/s/gk78gobivw6t21t/Screen%20Shot%202022-01-15%20at%205.17.16%20AM.png?raw=1"
             }
             float={null}
             title="General Mayoral 7% turnout - https://vote.nyc/sites/default/files/pdf/election_results/2021/20211102General%20Election/00000200000Citywide%20Mayor%20Citywide%20Recap.pdf"
@@ -7327,7 +7327,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/tr1e169u4qolelp/Screen%20Shot%202022-02-02%20at%201.46.15%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/tr1e169u4qolelp/Screen%20Shot%202022-02-02%20at%201.46.15%20PM.png?raw=1"
             }
             float="left"
             title="https://fred.stlouisfed.org/graph/?g=Lzu0"
@@ -7508,7 +7508,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/1g2h4xn6w9s6ux5/Screen%20Shot%202022-02-02%20at%201.17.58%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/1g2h4xn6w9s6ux5/Screen%20Shot%202022-02-02%20at%201.17.58%20PM.png?raw=1"
             }
             float="right"
             title="Pandemic Profiteers: Legislation to Stop Corporate Price Gouging Energy and Commerce (Youtube) - https://youtu.be/L7nX0yUIRAk"
@@ -7535,7 +7535,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/eile44s5dnqd4s7/IMG_9517.PNG?dl=0"
+                : "https://www.dropbox.com/s/eile44s5dnqd4s7/IMG_9517.PNG?raw=1"
             }
             float="left"
             title=" - https://fred.stlouisfed.org/graph/?g=LxtV"
@@ -7636,7 +7636,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/fckwkvi1l8ln0gj/Screen%20Shot%202022-01-18%20at%206.53.38%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/fckwkvi1l8ln0gj/Screen%20Shot%202022-01-18%20at%206.53.38%20PM.png?raw=1"
             }
             float="right"
             title="https://humanharvest.info/polio"
@@ -7763,7 +7763,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/mue6qi0tqu1t2ow/IMG_9520.PNG?dl=0"
+                : "https://www.dropbox.com/s/mue6qi0tqu1t2ow/IMG_9520.PNG?raw=1"
             }
             float="left"
             title=" - "
@@ -7791,7 +7791,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/eile44s5dnqd4s7/IMG_9517.PNG?dl=0"
+                : "https://www.dropbox.com/s/eile44s5dnqd4s7/IMG_9517.PNG?raw=1"
             }
             float="left"
             title=" - https://fred.stlouisfed.org/graph/?g=LxtV"
@@ -7870,7 +7870,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/nt3nzt4okavnm6n/Screen%20Shot%202022-02-01%20at%207.31.56%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/nt3nzt4okavnm6n/Screen%20Shot%202022-02-01%20at%207.31.56%20PM.png?raw=1"
             }
             float="left"
             title="The SARS-CoV-2 envelope and membrane proteins modulate maturation and retention of the spike protein, allowing assembly of virus-like particles"
@@ -8919,3 +8919,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
