@@ -180,7 +180,7 @@ class Cable extends React.Component {
       });
     };
 
-    var optionalheight = "auto";
+    /*var optionalheight = "auto";
     var optionalwidth = 200;
     if (Style) {
       optionalheight =
@@ -192,7 +192,9 @@ class Cable extends React.Component {
           ? Style.height
           : "auto";
       optionalwidth = !stopfail && Style.width ? Style.width : 200;
-    }
+    }*/
+    const w = Style && Style.width;
+    const h = Style && Style.height;
     return (
       <div
         ref={this.page}
@@ -204,8 +206,8 @@ class Cable extends React.Component {
           shapeOutside: "rect()",
           float,
           overflow: "hidden",
-          height: optionalheight,
-          width: optionalwidth
+          height: h,
+          width: w
         }}
       >
         {src === "" || (!img && !mount) ? (
@@ -217,8 +219,24 @@ class Cable extends React.Component {
             style={{
               position: "relative",
               border: src === "" ? "2px gray solid" : 0,
-              height: Style && !isNaN(Style.width) ? "auto" : optionalheight,
-              width: Style && !isNaN(Style.height) ? "auto" : optionalwidth
+              height:
+                w &&
+                (!isNaN(w) ||
+                  ["px", "em"].includes(
+                    String(w).substring(w.length - 2, w.length)
+                  ))
+                  ? "auto"
+                  : h,
+              width:
+                h &&
+                (!isNaN(h) ||
+                  ["px", "em"].includes(
+                    String(h).substring(h.length - 2, h.length)
+                  ))
+                  ? "auto"
+                  : w
+                  ? w
+                  : 200
             }}
             ref={this.props.fwd}
             src={src}
@@ -231,8 +249,8 @@ class Cable extends React.Component {
             style={{
               position: "relative",
               border: 0,
-              height: optionalheight,
-              width: "100%"
+              height: h, //`calc(${optionalheight + 60})`,
+              width: w //"100%"
             }}
             ref={this.props.fwd}
             src={src}
