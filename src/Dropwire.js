@@ -205,9 +205,9 @@ class Cable extends React.Component {
           ...Style,
           shapeOutside: "rect()",
           float,
-          overflow: "hidden",
-          height: h,
-          width: w
+          //overflow: "auto",
+          height: h, //`calc(${h + 60})`,
+          width: "100%"
         }}
       >
         {src === "" || (!img && !mount) ? (
@@ -247,10 +247,11 @@ class Cable extends React.Component {
             onError={onError}
             title={title}
             style={{
+              overflow: "auto",
               position: "relative",
               border: 0,
-              height: `calc(${h + 60})`,
-              width: w //"100%"
+              height: h, //`calc(${h + 60})`,
+              width: "100%"
             }}
             ref={this.props.fwd}
             src={src}
