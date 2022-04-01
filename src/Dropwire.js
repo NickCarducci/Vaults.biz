@@ -249,7 +249,7 @@ class Cable extends React.Component {
             style={{
               position: "relative",
               border: 0,
-              height: h + 60, //`calc(${optionalheight + 60})`,
+              height: `calc(${h + 60})`,
               width: w //"100%"
             }}
             ref={this.props.fwd}
