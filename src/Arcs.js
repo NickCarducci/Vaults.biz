@@ -6401,7 +6401,7 @@ class Arcs extends React.Component {
           }}
         >
           <div
-            style={setting(this.state.fraudChoice)}
+            style={setting(this.state.fraudChoice===0)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
