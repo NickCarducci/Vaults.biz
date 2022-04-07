@@ -454,13 +454,13 @@ class GDPchild extends React.Component {
     };
     const noData = this.state.noData.map(([x, y]) => [
       ((x - this.state.lowDate) / this.state.xAxis) *
-        0.9 *
+        0.8 *
         this.props.lastWidth,
       0
     ]);
     const testingData = this.state.testingData.map(([x, y]) => [
       ((x - this.state.lowDate) / this.state.xAxis) *
-        0.9 *
+        0.8 *
         this.props.lastWidth,
       ((y - this.state.lowTesting) / this.state.yAxis) * 150
     ]);
@@ -668,7 +668,7 @@ class GDP extends React.Component {
     //if (this.state.chosenState === this.state.lastChosenState) {
     const popdatapre2010 = popdata.filter((x) => x.year < 2010);
     return (
-      <div>
+      <div style={{ width: this.props.lastWidth }}>
         cases to tests; mv1===mv2==GDP/yr&nbsp;
         <span role="img" aria-label="skull">
           💀
