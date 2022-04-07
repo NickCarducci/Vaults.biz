@@ -2519,7 +2519,7 @@ class Arcs extends React.Component {
         durable-trade.
         <hr ref={this.props.gdp} />
         <GDP
-          lastWidth={Math.min(600, this.props.lastWidth)}
+          lastWidth={Math.min(600, this.props.lastWidth - 20)}
           style={{
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
