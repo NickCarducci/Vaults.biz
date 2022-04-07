@@ -33,6 +33,14 @@ class Arcs extends React.Component {
     };
     const space = " ";
     //console.log(this.props.scrollTop)
+    const setting = (s) => {
+      return {
+        backgroundColor: "rgb(32, 22, 11)",
+        position: s ? "relative" : "fixed",
+        transform: `translateX(${s ? 0 : -100}%)`,
+        zIndex: s ? "0" : "-9999"
+      };
+    };
     return (
       <div
         ref={this.props.chapter3}
@@ -5825,11 +5833,7 @@ class Arcs extends React.Component {
           <h2>per hour price deflation spam</h2>
         </button>
         <div
-          style={{
-            zIndex: this.state.topShelf ? "0" : "-9999",
-            position: this.state.topShelf ? "relative" : "fixed",
-            width: "100%"
-          }}
+          style={setting(this.state.topShelf)}
         >
           <TwitterTweetEmbed
             style={{ float: "left", width: "300px", maxWidth: "100%" }}
@@ -5951,12 +5955,7 @@ class Arcs extends React.Component {
             monopsony
           </b>
           <div
-            style={{
-              backgroundColor: "rgba(100,150,255,.2)",
-              zIndex: this.state.openPower ? "0" : "-9999",
-              position: this.state.openPower ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.openPower)}
           >
             As a home-builder, I know access to housing is improved by
             market-liquidity 30under5.us and not of the harmful kind
@@ -6286,11 +6285,7 @@ class Arcs extends React.Component {
         </button>
         <br />
         <div
-          style={{
-            zIndex: this.state.gentrification ? "0" : "-9999",
-            position: this.state.gentrification ? "relative" : "fixed",
-            width: "100%"
-          }}
+          style={setting(this.state.gentrification)}
         >
           Omg Juliet Huddy, buying vaccines for people is useless price
           inelasticity and gentrification
@@ -6406,11 +6401,7 @@ class Arcs extends React.Component {
           }}
         >
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 0 ? "0" : "-9999",
-              position: this.state.fraudChoice === 0 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6465,11 +6456,7 @@ class Arcs extends React.Component {
             work deficit
           </div>
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 1 ? "0" : "-9999",
-              position: this.state.fraudChoice === 1 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice===1)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6514,11 +6501,7 @@ class Arcs extends React.Component {
             {/*<Fraud iframed={iframed} />*/}
           </div>
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 2 ? "0" : "-9999",
-              position: this.state.fraudChoice === 2 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice===2)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6544,11 +6527,7 @@ class Arcs extends React.Component {
             {/*<Fraud2 iframed={iframed} />*/}
           </div>
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 3 ? "0" : "-9999",
-              position: this.state.fraudChoice === 3 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice===3)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6572,11 +6551,7 @@ class Arcs extends React.Component {
             {/*<Fraud3 iframed={iframed} />*/}
           </div>
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 4 ? "0" : "-9999",
-              position: this.state.fraudChoice === 4 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice===4)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6639,11 +6614,7 @@ class Arcs extends React.Component {
             of change)
           </div>
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 5 ? "0" : "-9999",
-              position: this.state.fraudChoice === 5 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice===5)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6667,11 +6638,7 @@ class Arcs extends React.Component {
             {/*<Fraud5 iframed={iframed} />*/}
           </div>
           <div
-            style={{
-              zIndex: this.state.fraudChoice === 6 ? "0" : "-9999",
-              position: this.state.fraudChoice === 6 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.fraudChoice===6)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6738,11 +6705,7 @@ class Arcs extends React.Component {
             <a href="https://froth.app/stats">daddy</a>
           </div>
           {/*<div
-            style={{
-              zIndex: this.state.fraudChoice === 7 ? "0" : "-9999",
-              position: this.state.fraudChoice === 7 ? "relative" : "fixed",
-              width: "100%"
-            }}
+            style={setting(this.state.)}
           >
             <Cable
               style={{ width: "540px", height: "700px" }}
@@ -6776,11 +6739,7 @@ class Arcs extends React.Component {
         </button>
         <br />
         <div
-          style={{
-            zIndex: this.state.juryduty ? "0" : "-9999",
-            position: this.state.juryduty ? "relative" : "fixed",
-            width: "100%"
-          }}
+          style={setting(this.state.juryduty)}
         >
           no science monopoly! input goods & hours, play fantasy with
           "warehoused nannies"
@@ -7335,11 +7294,7 @@ class Arcs extends React.Component {
         </button>
         <br />
         <div
-          style={{
-            zIndex: this.state.ftccomplains ? "0" : "-9999",
-            position: this.state.ftccomplains ? "relative" : "fixed",
-            width: "100%"
-          }}
+          style={setting(this.state.ftccomplains)}
         >
           <div
             style={{
@@ -7897,11 +7852,7 @@ class Arcs extends React.Component {
         </button>
         <br />
         <div
-          style={{
-            zIndex: this.state.censorship ? "0" : "-9999",
-            position: this.state.censorship ? "relative" : "fixed",
-            width: "100%"
-          }}
+          style={setting(this.state.ftccomplains)}
         >
           <a
             style={{
@@ -8145,12 +8096,7 @@ class Arcs extends React.Component {
         </button>
         <br />
         <div
-          style={{
-            overflow: "hidden",
-            zIndex: this.state.wwii ? "0" : "-9999",
-            position: this.state.wwii ? "relative" : "fixed",
-            width: "100%"
-          }}
+          style={setting(this.state.wwii)}
         >
           financial crimes was public opinion, not brunettes that's crazy;
           unlike Jewish financial jihad cited in the Halakha, though financial
