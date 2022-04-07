@@ -195,6 +195,21 @@ class Cable extends React.Component {
     }*/
     const w = Style && Style.width;
     const h = Style && Style.height;
+    const usewidth =
+      w &&
+      (!isNaN(w) ||
+        ["px", "em", "vw"].includes(
+          String(w).substring(w.length - 2, w.length)
+        ) ||
+        ["%"].includes(String(w)[w.length]));
+    const useheight =
+      h &&
+      (!isNaN(h) ||
+        ["px", "em", "vh"].includes(
+          String(h).substring(h.length - 2, h.length)
+        ) ||
+        ["%"].includes(String(h)[h.length]));
+    const defaultOK = useheight && useheight;
     return (
       <div
         ref={this.page}
@@ -206,8 +221,8 @@ class Cable extends React.Component {
           shapeOutside: "rect()",
           float,
           //overflow: "auto",
-          height: h, //`calc(${h + 60})`,
-          width: "100%"
+          height: h //`calc(${h + 60})`,
+          //width: useheight ? "min-content" : "100%"
         }}
       >
         {src === "" || (!img && !mount) ? (
@@ -219,24 +234,8 @@ class Cable extends React.Component {
             style={{
               position: "relative",
               border: src === "" ? "2px gray solid" : 0,
-              height:
-                w &&
-                (!isNaN(w) ||
-                  ["px", "em"].includes(
-                    String(w).substring(w.length - 2, w.length)
-                  ))
-                  ? "auto"
-                  : h,
-              width:
-                h &&
-                (!isNaN(h) ||
-                  ["px", "em"].includes(
-                    String(h).substring(h.length - 2, h.length)
-                  ))
-                  ? "auto"
-                  : w
-                  ? w
-                  : 200
+              height: !defaultOK && usewidth ? "auto" : h,
+              width: !defaultOK && useheight ? "auto" : w ? w : 200
             }}
             ref={this.props.fwd}
             src={src}
@@ -383,3 +382,4 @@ export default React.forwardRef((props, ref) => <Cable fwd={ref} {...props} />);
   )
 }
   */
+
