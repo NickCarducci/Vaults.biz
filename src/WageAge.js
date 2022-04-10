@@ -1,15 +1,6 @@
 import React from "react";
 import { laborwagedata, yearlypop } from "./WageAgeData";
 
-export const linecss = {
-  left: "0px",
-  bottom: "0px",
-  display: "flex",
-  position: "absolute",
-  width: "100%",
-  height: "200px",
-  transform: "translate(0%,0%) scale(1,-1)"
-};
 export const shortNumber = (scler, notRound) => {
   var newnum = String(Math.round(scler));
   if (notRound) newnum = String(scler);
@@ -27,6 +18,9 @@ export const shortNumber = (scler, notRound) => {
   }
   return newnum + (decimal ? "." + decimal : "") + suff[app];
 };
+//industry by age
+//wages by age
+//wages by industry
 const frequency = (chosenfrequency, a, range) => {
   var frequency = null;
   if (!chosenfrequency && range) {
@@ -82,7 +76,7 @@ const frequency = (chosenfrequency, a, range) => {
   }
   return frequency;
 };
-class WageAge extends React.Component {
+class Wages extends React.Component {
   constructor(props) {
     super(props);
 
@@ -690,77 +684,96 @@ class WageAge extends React.Component {
   render() {
     const yaxis = /*this.state.yaxis ? */ this.state.yAxis; //: this.state.cappop;
     const { payOrEmploys, lowDate } = this.state;
+    const coefficience = (this.props.lastWidth - 80) / this.props.lastWidth;
     const noData = this.state.noData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
       0
     ]); /*
     const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / this.state.cappop) * 150
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+      ((y - this.state.lowDeaths) / this.state.cappop) *lineheight
     ]);
     const mortalFiftyNJDataAge = this.state.mortalFiftyNJDataAge.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+        ((y - this.state.lowDeaths) / this.state.cappop) *lineheight
       ]
     );
     const mortalSixtyFiveNJDataAge = this.state.mortalSixtyFiveNJDataAge.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+        ((y - this.state.lowDeaths) / this.state.cappop) *lineheight
       ]
     );
     const mortalSeventyFiveNJDataAge = this.state.mortalSeventyFiveNJDataAge.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+        ((y - this.state.lowDeaths) / this.state.cappop) *lineheight
       ]
     );
     const mortalEightyFiveNJDataAge = this.state.mortalEightyFiveNJDataAge.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+        ((y - this.state.lowDeaths) / this.state.cappop) *lineheight
       ]
     );*/
+    const lineheight = this.props.lineheight ? this.props.lineheight : 180;
+    const linecss = {
+      left: "0px",
+      bottom: "0px",
+      display: "flex",
+      position: "absolute",
+      width: "100%",
+      height: lineheight + 10,
+      transform: "translate(0%,0%) scale(1,-1)"
+    };
     const mortalZeroNJData = this.state.mortalZeroNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+      ((y - this.state.lowDeaths) / yaxis) * lineheight
     ]);
     const mortalFiftyNJData = this.state.mortalFiftyNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+      ((y - this.state.lowDeaths) / yaxis) * lineheight
     ]);
     const mortalSixtyFiveNJData = this.state.mortalSixtyFiveNJData.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((x - lowDate) / this.state.xAxis) *
+          this.props.lastWidth *
+          coefficience,
+        ((y - this.state.lowDeaths) / yaxis) * lineheight
       ]
     );
     const mortalSeventyFiveNJData = this.state.mortalSeventyFiveNJData.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((x - lowDate) / this.state.xAxis) *
+          this.props.lastWidth *
+          coefficience,
+        ((y - this.state.lowDeaths) / yaxis) * lineheight
       ]
     );
     const mortalEightyFiveNJData = this.state.mortalEightyFiveNJData.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((x - lowDate) / this.state.xAxis) *
+          this.props.lastWidth *
+          coefficience,
+        ((y - this.state.lowDeaths) / yaxis) * lineheight
       ]
     );
     const mortalNinetyFiveNJData = this.state.mortalNinetyFiveNJData.map(
       ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((x - lowDate) / this.state.xAxis) *
+          this.props.lastWidth *
+          coefficience,
+        ((y - this.state.lowDeaths) / yaxis) * lineheight
       ]
     );
     const mortalOneTenNJData = this.state.mortalOneTenNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+      ((y - this.state.lowDeaths) / yaxis) * lineheight
     ]);
     const averageLifetimeData = this.state.averageLifetimeData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - 0) / this.state.highlifetime) * 150
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * coefficience,
+      ((y - 0) / this.state.highlifetime) * lineheight
     ]);
     //console.log(this.state.xAxis);
     //const ite = { border: "1px grey dashed", width: "max-content" };
@@ -771,9 +784,10 @@ class WageAge extends React.Component {
       display: "flex",
       maxWidth: "100%",
       left: "2px",
-      flexWrap: "wrap"
+      alignItems: "center"
     };
     const buttonStyle = {
+      width: "max-content",
       userSelect: "none",
       border: "1px solid black",
       color: "black",
@@ -787,12 +801,34 @@ class WageAge extends React.Component {
       <div
         style={{
           width: "100%",
-          minHeight: "240px",
+          height: lineheight + 90,
           position: "relative",
           backgroundColor: "rgb(190,150,180)"
         }}
       >
         <div style={labelstyle}>
+          <span
+            style={{
+              color: "white",
+              fontSize: "12px",
+              wordWrap: "break-word"
+            }}
+          >
+            <a
+              style={{
+                color: "white"
+              }}
+              href="https://www.census.gov/data/tables/time-series/demo/income-poverty/cps-hinc/hinc-03.2014.html"
+            >
+              National Household Income
+            </a>
+            <br />
+            part time 30hr workweek
+            <br />
+            {payOrEmploys ? "$" : !this.state.percapita ? "" : ""}
+            {shortNumber(this.state.highDeaths * (payOrEmploys ? 1000 : 100)) +
+              (payOrEmploys || !this.state.percapita ? "" : "%")}
+          </span>
           <div
             style={buttonStyle}
             onClick={() =>
@@ -824,15 +860,9 @@ class WageAge extends React.Component {
               ? "high"
               : "cohort"}
           </button>
-          <div>
-            National Household Income
-            <br />
-            {payOrEmploys ? "$" : !this.state.percapita ? "" : ""}
-            {shortNumber(this.state.highDeaths * (payOrEmploys ? 1000 : 100)) +
-              (payOrEmploys || !this.state.percapita ? "" : "%")}
-          </div>
           <div
             style={{
+              bottom: "0px",
               backgroundColor: "rgba(255,255,255,.3)",
               padding: "4px 8px",
               position: "absolute",
@@ -842,13 +872,133 @@ class WageAge extends React.Component {
             {lowDate}&nbsp;
             {this.state.highDate}
           </div>
-        </div>
-        <div style={{ transform: "translate(0px,190px)" }}>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
+        </div>{" "}
+        <div
+          style={{
+            width: "100%",
+            height: "50px",
+            overflowX: "auto",
+            overflowY: "hidden",
+            position: "absolute"
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              position: "absolute"
+            }}
           >
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "white"
+                }}
+              />
+              {frequency(this.state.chosenfrequency, 0, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "purple"
+                }}
+              />
+              {frequency(this.state.chosenfrequency, 1, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "blue"
+                }}
+              />
+              {frequency(this.state.chosenfrequency, 2, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "green"
+                }}
+              />
+              {frequency(this.state.chosenfrequency, 3, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "orange"
+                }}
+              />
+              {frequency(this.state.chosenfrequency, 4, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "red"
+                }}
+              />
+              {frequency(this.state.chosenfrequency, 5, true)}&nbsp;&nbsp;
+            </div>
+            <div
+              style={{
+                width: "max-content"
+              }}
+            >
+              <div
+                style={{
+                  width: "5px",
+                  height: "5px",
+                  backgroundColor: "black"
+                }}
+              />
+              {
+                frequency(this.state.chosenfrequency, 6, true) //chosenfrequency, index, range defaults cohort
+              }
+              &nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+        <div
+          style={{
+            position: "relative",
+            height: lineheight,
+            marginTop: "30px"
+          }}
+        >
+          <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
             {noData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -1083,117 +1233,6 @@ class WageAge extends React.Component {
             )}
           </svg>
         </div>
-        <div style={labelstyle}>
-          <div
-            style={{
-              display: "flex",
-              position: "absolute",
-              width: "max-content"
-            }}
-          >
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "white"
-                }}
-              />
-              {frequency(this.state.chosenfrequency, 0, true)}&nbsp;&nbsp;
-            </div>
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "purple"
-                }}
-              />
-              {frequency(this.state.chosenfrequency, 1, true)}&nbsp;&nbsp;
-            </div>
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "blue"
-                }}
-              />
-              {frequency(this.state.chosenfrequency, 2, true)}&nbsp;&nbsp;
-            </div>
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "green"
-                }}
-              />
-              {frequency(this.state.chosenfrequency, 3, true)}&nbsp;&nbsp;
-            </div>
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "orange"
-                }}
-              />
-              {frequency(this.state.chosenfrequency, 4, true)}&nbsp;&nbsp;
-            </div>
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "red"
-                }}
-              />
-              {frequency(this.state.chosenfrequency, 5, true)}&nbsp;&nbsp;
-            </div>
-            <div
-              style={{
-                width: "max-content"
-              }}
-            >
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "black"
-                }}
-              />
-              {
-                frequency(this.state.chosenfrequency, 6, true) //chosenfrequency, index, range defaults cohort
-              }
-              &nbsp;&nbsp;
-            </div>
-          </div>
-        </div>
         {/*<div
           style={{
             marginTop: "30px",
@@ -1225,4 +1264,4 @@ class WageAge extends React.Component {
     );
   }
 }
-export default WageAge;
+export default Wages;
