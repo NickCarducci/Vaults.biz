@@ -1482,7 +1482,8 @@ export default class App extends React.Component {
                 ? "21px"
                 : "17px"
           }}
-        >{/*I'm a comedian like Zeli*/}
+        >
+        {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
           all known hazards? If you had known hazards and could use it, you
@@ -3274,7 +3275,7 @@ export default class App extends React.Component {
           {space}(is{space}
           <a href="https://fred.stlouisfed.org/graph/?g=M7mh">productive</a>)
           fentanyl (parcels unchecked) and crime (illegals are{space}
-          <a href="https://vaults.biz/immi">-1% criminal</a>).
+          <a href="https://vaults.biz/immi">+.1% criminal</a>).
           <br />
           <br />
           “Let’s mortgage the future, so we can hold the trophy tonight.”
