@@ -2776,7 +2776,7 @@ class Archive extends React.Component {
         <a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">
           213k
         </a>
-        /9m, 2.367%
+        /11.4m, 1.8684%
         <br />
         Legal crime - 539.5k/40m, 1.3489%
         <br />
