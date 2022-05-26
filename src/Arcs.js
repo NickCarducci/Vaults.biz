@@ -2519,7 +2519,7 @@ class Arcs extends React.Component {
         durable-trade.
         <hr ref={this.props.gdp} />
         <GDP
-          lastWidth={Math.min(600, this.props.lastWidth - 20)}
+          lastWidth={Math.min(600, this.props.lastWidth-20)}
           style={{
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
@@ -3414,6 +3414,9 @@ class Arcs extends React.Component {
         <br />
         <hr ref={this.props.party} />
         leisure by scientific contributions, chores and copy?
+        <br />
+        <a href="https://nonpros.quora.com">Non professional proprietors</a>{space}
+        for{space}<a href="https://livetaxfree.quora.com">proximity housing</a>
         <br />
         <WageAge
           lastWidth={Math.min(600, this.props.lastWidth - 20)}
