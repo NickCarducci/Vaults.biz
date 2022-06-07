@@ -2519,7 +2519,7 @@ class Arcs extends React.Component {
         durable-trade.
         <hr ref={this.props.gdp} />
         <GDP
-          lastWidth={Math.min(600, this.props.lastWidth-20)}
+          lastWidth={Math.min(600, this.props.lastWidth - 20)}
           style={{
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
@@ -3411,17 +3411,34 @@ class Arcs extends React.Component {
         and remove Iran from the UN. they are threatening us, deal with it,
         goodbye, if you are with these people you turn into them."
         <br />
-        <br />
-        <hr ref={this.props.party} />
+        <h3
+          ref={this.props.party}
+          style={{
+            color: "black",
+            backgroundColor: "white",
+            borderRadius: "15px"
+          }}
+        >
+          If you don’t include part time jobs, and count by employment per
+          capita,{space}
+          <a href="https://vaults.biz/work" style={{color:"navy"}}>
+            older people work less, and even still if you only count full-time
+          </a>
+          , so it is safe to say hours per capita presents 25-34/45-54 working
+          harder. The average pay of all workers per annum is $20k greater for
+          45-54, and the employment per capita is half of what 25-34 do.
+        </h3>
         leisure by scientific contributions, chores and copy?
         <br />
-        <a href="https://nonpros.quora.com">Non professional proprietors</a>{space}
-        for{space}<a href="https://livetaxfree.quora.com">proximity housing</a>
+        <a href="https://nonpros.quora.com">Non professional proprietors</a>
+        {space}
+        for{space}
+        <a href="https://livetaxfree.quora.com">proximity housing</a>
         <br />
         <WageAge
           lastWidth={Math.min(600, this.props.lastWidth - 20)}
           style={{
-            width:"100%",
+            width: "100%",
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
           }}
@@ -5835,9 +5852,7 @@ class Arcs extends React.Component {
         >
           <h2>per hour price deflation spam</h2>
         </button>
-        <div
-          style={setting(this.state.topShelf)}
-        >
+        <div style={setting(this.state.topShelf)}>
           <TwitterTweetEmbed
             style={{ float: "left", width: "300px", maxWidth: "100%" }}
             key="1429182687588278276"
@@ -5957,9 +5972,7 @@ class Arcs extends React.Component {
           >
             monopsony
           </b>
-          <div
-            style={setting(this.state.openPower)}
-          >
+          <div style={setting(this.state.openPower)}>
             As a home-builder, I know access to housing is improved by
             market-liquidity 30under5.us and not of the harmful kind
             foiegras.life
@@ -6287,9 +6300,7 @@ class Arcs extends React.Component {
           <h3>gentrification</h3>
         </button>
         <br />
-        <div
-          style={setting(this.state.gentrification)}
-        >
+        <div style={setting(this.state.gentrification)}>
           Omg Juliet Huddy, buying vaccines for people is useless price
           inelasticity and gentrification
           <br />
@@ -6403,9 +6414,7 @@ class Arcs extends React.Component {
             width: "100%"
           }}
         >
-          <div
-            style={setting(this.state.fraudChoice===0)}
-          >
+          <div style={setting(this.state.fraudChoice === 0)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6458,9 +6467,7 @@ class Arcs extends React.Component {
             innumerable loss of slavery, numbers for naught by plantation-owner
             work deficit
           </div>
-          <div
-            style={setting(this.state.fraudChoice===1)}
-          >
+          <div style={setting(this.state.fraudChoice === 1)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6503,9 +6510,7 @@ class Arcs extends React.Component {
             - ND)/P
             {/*<Fraud iframed={iframed} />*/}
           </div>
-          <div
-            style={setting(this.state.fraudChoice===2)}
-          >
+          <div style={setting(this.state.fraudChoice === 2)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6529,9 +6534,7 @@ class Arcs extends React.Component {
             NM - ND) / P) / currencyComponentOfM1
             {/*<Fraud2 iframed={iframed} />*/}
           </div>
-          <div
-            style={setting(this.state.fraudChoice===3)}
-          >
+          <div style={setting(this.state.fraudChoice === 3)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6553,9 +6556,7 @@ class Arcs extends React.Component {
             />
             {/*<Fraud3 iframed={iframed} />*/}
           </div>
-          <div
-            style={setting(this.state.fraudChoice===4)}
-          >
+          <div style={setting(this.state.fraudChoice === 4)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6616,9 +6617,7 @@ class Arcs extends React.Component {
             As many denominator, as much when fixed for ratio (diminishing rate
             of change)
           </div>
-          <div
-            style={setting(this.state.fraudChoice===5)}
-          >
+          <div style={setting(this.state.fraudChoice === 5)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6640,9 +6639,7 @@ class Arcs extends React.Component {
             />
             {/*<Fraud5 iframed={iframed} />*/}
           </div>
-          <div
-            style={setting(this.state.fraudChoice===6)}
-          >
+          <div style={setting(this.state.fraudChoice === 6)}>
             <Cable
               style={{ width: "540px", height: "700px" }}
               onError={handleScollImgError}
@@ -6741,9 +6738,7 @@ class Arcs extends React.Component {
           <h3>juryduty</h3>
         </button>
         <br />
-        <div
-          style={setting(this.state.juryduty)}
-        >
+        <div style={setting(this.state.juryduty)}>
           no science monopoly! input goods & hours, play fantasy with
           "warehoused nannies"
           <br />
@@ -7296,9 +7291,7 @@ class Arcs extends React.Component {
           <h3>ftccomplains</h3>
         </button>
         <br />
-        <div
-          style={setting(this.state.ftccomplains)}
-        >
+        <div style={setting(this.state.ftccomplains)}>
           <div
             style={{
               display: "block",
@@ -7854,9 +7847,7 @@ class Arcs extends React.Component {
           <h3>censorship</h3>
         </button>
         <br />
-        <div
-          style={setting(this.state.ftccomplains)}
-        >
+        <div style={setting(this.state.ftccomplains)}>
           <a
             style={{
               width: "100%",
@@ -8098,9 +8089,7 @@ class Arcs extends React.Component {
           <h3>wwii</h3>
         </button>
         <br />
-        <div
-          style={setting(this.state.wwii)}
-        >
+        <div style={setting(this.state.wwii)}>
           financial crimes was public opinion, not brunettes that's crazy;
           unlike Jewish financial jihad cited in the Halakha, though financial
           crashes is from any morsel of valuation respecting debt penalties as
