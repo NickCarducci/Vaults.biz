@@ -1497,6 +1497,10 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
+          <h2>
+            If the top 400 people have $4t, can we not assume they each have
+            $300m in checkable deposits?
+          </h2>
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
