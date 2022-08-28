@@ -1462,7 +1462,7 @@ export default class App extends React.Component {
         <div
           ref={this.chapter1}
           style={{
-            wordBreak:"break-word",
+            wordBreak: "break-word",
             width: "100%",
             height: "max-content",
             backgroundColor: "rgb(20,20,25)",
@@ -1483,7 +1483,7 @@ export default class App extends React.Component {
                 : "17px"
           }}
         >
-        {/*I'm a comedian like Zeli*/}
+          {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
           all known hazards? If you had known hazards and could use it, you
@@ -3160,7 +3160,10 @@ export default class App extends React.Component {
           U.S.).
           <br />
           <br />
-          bound by treaty is like surrendering a third party donee-beneficiary, then paying debt off "being nice."<br/><br/>
+          bound by treaty is like surrendering a third party donee-beneficiary,
+          then paying debt off "being nice."
+          <br />
+          <br />
           -$16b balance of trade with Russia sanctions won’t do anything
           especially when that sum is only nominal, and likely actually equal
           except for input costs of inefficient home/(income/hour) and
@@ -7974,10 +7977,19 @@ export default class App extends React.Component {
         />
         {/*</div>*/}
         <div
-          onClick={(e) => {
+          onMouseEnter={() => {
+            this.setState({ footer: true });
+
+            clearTimeout(this.openerMenu);
+            this.openerMenu = setTimeout(() => {
+              this.setState({ footer: false }); //Do economists declare utility as real productivity instead of leisure and ignore homemaking chores, or even less physical resource depletion?
+            }, 3000);
+          }}
+          /*onClick={(e) => {
             //e.preventDefault();
             e.stopPropagation();
-          }}
+            this.setState({ footer: true });
+          }}*/
           ref={this.linksPage}
           style={{
             paddingLeft: "2px",
@@ -8044,9 +8056,7 @@ export default class App extends React.Component {
               nuclear family
             </a>
           </div>
-          <h2 onClick={() => this.setState({ footer: true })}>
-            New technologies, on the market (not free)
-          </h2>
+          <h2>New technologies, on the market (not free)</h2>
           <div
             style={{
               overflow: "hidden",
