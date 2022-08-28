@@ -2519,7 +2519,10 @@ class Arcs extends React.Component {
         durable-trade.
         <hr ref={this.props.gdp} />
         <GDP
-          lastWidth={Math.min(600, this.props.lastWidth - 20)}
+          lastWidth={Math.min(
+            600,
+            (isNaN(this.props.lastWidth) ? 300 : this.props.lastWidth) - 20
+          )}
           style={{
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
@@ -3421,7 +3424,7 @@ class Arcs extends React.Component {
         >
           If you don’t include part time jobs, and count by employment per
           capita,{space}
-          <a href="https://vaults.biz/work" style={{color:"navy"}}>
+          <a href="https://vaults.biz/work" style={{ color: "navy" }}>
             older people work less, and even still if you only count full-time
           </a>
           , so it is safe to say hours per capita presents 25-34/45-54 working
