@@ -8003,7 +8003,7 @@ export default class App extends React.Component {
             wordWrap: "break-word",
             cursor: "pointer",
             zIndex: "9999",
-            opacity: !this.state.footer && this.state.scrollTop !== 0 ? 0.3 : 1,
+            opacity: !this.state.footer /*&& this.state.scrollTop !== 0*/ ? 0.3 : 1,
             maxHeight: "100%",
             height: "min-content",
             overflowY: "auto",
