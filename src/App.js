@@ -1498,6 +1498,15 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          Aaron "no one closer, if{space}
+          <a href="https://biology.stackexchange.com/questions/109143/applying-francisco-redi-s-logic-to-virus">
+            breakthrough
+          </a>
+          {space}does happen, lets not revise[ latches]"
+          <br />
+          "Rogan, "We know you can still get it, even if you are vaccinated" 78%
+          obese or old."{space}
+          <a href="https://humanharvest.info">the rest are normal</a>...
           <h2>
             If the top{space}
             <a href="https://www.quora.com/unanswered/Why-do-we-the-people-allow-loans-if-the-top-400-have-a-1-40-cash-debt-3-2t-worth-and-therefore-their-cash-is-200m-person">
@@ -8961,4 +8970,5 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
 
