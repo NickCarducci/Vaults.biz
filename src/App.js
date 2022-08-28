@@ -1494,12 +1494,17 @@ export default class App extends React.Component {
               : */ this
                 .state.width < 300
                 ? "21px"
-                : "17px"
+                : "17px" //Can you get the best deal by borrowing versus spending outright for non-expiring commodities?
+            //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
           <h2>
             If the top 400 people have $4t, can we not assume they each have
-            $300m in checkable deposits?
+            $300m in checkable deposits? (
+            <a href="https://fredaccount.stlouisfed.org/dashboard/83986">
+              $300k/1% or 3m
+            </a>
+            )
           </h2>
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
