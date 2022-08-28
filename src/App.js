@@ -1240,11 +1240,10 @@ export default class App extends React.Component {
         hoverPath: ev.target.href.split(`${window.location.origin}/`)[1]
       });
 
+    /*<div style={{
+      columnCount:""
+    }}>*/
     return (
-      /*<div style={{
-        columnCount:""
-      }}>*/
-
       <div
         style={{
           userSelect: !this.state.ios ? "" : "none",
@@ -7979,11 +7978,15 @@ export default class App extends React.Component {
         <div
           onMouseEnter={() => {
             this.setState({ footer: true });
-
-            clearTimeout(this.openerMenu);
-            this.openerMenu = setTimeout(() => {
-              this.setState({ footer: false }); //Do economists declare utility as real productivity instead of leisure and ignore homemaking chores, or even less physical resource depletion?
-            }, 3000);
+            const go = (stp) => {
+              stp && this.setState({ footer: false });
+              clearTimeout(this.openerMenu);
+              this.openerMenu = setTimeout(go, 3000);
+            };
+            if (this.props.scrolling) {
+              go();
+            } else go(true); //Do economists declare utility as real productivity instead of leisure
+            //and ignore homemaking chores, or even less physical resource depletion?
           }}
           /*onClick={(e) => {
             //e.preventDefault();
@@ -8930,4 +8933,5 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
 
