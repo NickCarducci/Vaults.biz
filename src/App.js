@@ -14,6 +14,7 @@ export default class App extends React.Component {
     const name = parser.getBrowser().name;
     console.log(name);
     this.state = {
+      footer: true,
       windowScroll: 0,
       scrollcount: 0, //offScroll: true,
       ternaryHeight: document.documentElement.scrollHeight,
@@ -27,7 +28,6 @@ export default class App extends React.Component {
       openForm: true,
       //settleDropboxFree: true,
       browser: name,
-      scrollTop: 0
     };
     let genChildRefs3 = [];
     for (let i = 620; i < 820; i++) {
@@ -8935,3 +8935,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
