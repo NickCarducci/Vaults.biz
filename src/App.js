@@ -1499,8 +1499,16 @@ export default class App extends React.Component {
           }}
         >
           <h2>
-            If the top 400 people have $4t, can we not assume they each have
-            $300m in checkable deposits? (
+            If the top{space}
+            <a href="https://www.quora.com/unanswered/Why-do-we-the-people-allow-loans-if-the-top-400-have-a-1-40-cash-debt-3-2t-worth-and-therefore-their-cash-is-200m-person">
+              400 people 'have' $4t
+            </a>
+            , can we not assume they each have
+            {space}
+            <a href="https://www.quora.com/Is-fraud-the-way-of-life-in-America">
+              $300m
+            </a>
+            {space}in checkable deposits? (
             <a href="https://fredaccount.stlouisfed.org/dashboard/83986">
               $300k/1% or 3m
             </a>
