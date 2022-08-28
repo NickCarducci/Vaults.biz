@@ -27,7 +27,7 @@ export default class App extends React.Component {
       iosNoPhoto: name.includes("Safari"),
       openForm: true,
       //settleDropboxFree: true,
-      browser: name,
+      browser: name
     };
     let genChildRefs3 = [];
     for (let i = 620; i < 820; i++) {
@@ -223,16 +223,16 @@ export default class App extends React.Component {
     //console.log(genChildRefs);
     this.ch2refs = immutable;
   }
-  openFooter = (close) => {
-    this.setState({ footer: true });
-    const go = (stp) => {
-      stp && this.setState({ footer: false });
-      clearTimeout(this.openerMenu);
-      this.openerMenu = setTimeout(() => go(), 3000);
+  stateInterval = (on, off, closeState) => {
+    this.setState(on);
+    var stoop = null;
+    const interval = (final, really) => {
+      really && this.setState(off);
+      stoop = final && true;
+      clearTimeout(this.openerMenu); //use the same this. component key to overwrite/reset
+      this.openerMenu = setTimeout(() => interval(null, stoop), 3000);
     };
-    if (!close && this.state.scrolling) {
-      go();
-    } else go(true); //Do economists declare utility as real productivity instead of leisure
+    interval(closeState); //Do economists declare utility as real productivity instead of leisure
     //and ignore homemaking chores, or even less physical resource depletion?
   };
   handleScroll = (e) => {
@@ -240,7 +240,7 @@ export default class App extends React.Component {
     if (footer) {
       this.linksPage.current.scrollTop =
         this.links.current.offsetTop + window.innerHeight / 2;
-      this.openFooter(true);
+      this.stateInterval({ footer: true }, { footer: false }, true);
     } else {
       if (!ios) {
         clearTimeout(this.footerHelpScroll);
@@ -1362,7 +1362,9 @@ export default class App extends React.Component {
               {this.state.scrollPath &&
                 this.state.scrollPath
                   .split("")
-                  .map((letter) => <div key={letter + "letter"}>{letter}</div>)}
+                  .map((letter, i) => (
+                    <div key={i + letter + "letter"}>{letter}</div>
+                  ))}
             </div>
             <img
               alt=""
@@ -7989,7 +7991,9 @@ export default class App extends React.Component {
         />
         {/*</div>*/}
         <div
-          onMouseEnter={() => this.openFooter()}
+          onMouseEnter={() =>
+            this.stateInterval({ footer: true }, { footer: false }, true)
+          }
           /*onClick={(e) => {
             //e.preventDefault();
             e.stopPropagation();
@@ -8003,7 +8007,9 @@ export default class App extends React.Component {
             wordWrap: "break-word",
             cursor: "pointer",
             zIndex: "9999",
-            opacity: !this.state.footer /*&& this.state.scrollTop !== 0*/ ? 0.3 : 1,
+            opacity: !this.state.footer /*&& this.state.scrollTop !== 0*/
+              ? 0.3
+              : 1,
             maxHeight: "100%",
             height: "min-content",
             overflowY: "auto",
