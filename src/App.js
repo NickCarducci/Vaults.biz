@@ -1523,8 +1523,11 @@ export default class App extends React.Component {
           (trypie.com) liable.
           <br />
           <br />
-          Bookkeeper is cash flow and accounting is amortization. I have NO IDEA
-          what accrual is
+          Bookkeeper is cash flow and accounting is{space}
+          <a href="https://www.quora.com/What-percentile-range-is-proper-to-define-the-middle-class-Is-it-a-deviation-a-third-or-something-else">
+            amortization
+          </a>
+          . I have NO IDEA what accrual is
           <br />
           <br />
           "Why doesn't one announcement lead to prosperity for everyone?"
