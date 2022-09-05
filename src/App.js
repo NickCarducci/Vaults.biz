@@ -4775,19 +4775,33 @@ export default class App extends React.Component {
           admitting it is a net loss, IN 2010. How can they allow this to happen
           in private?
           <br />
-          Curtis Sliwa got 37k/7m votes, that is .05% of eligible voters. 93%
-          voted, "no-candidate," but don't let the aldercocker Frank Morano cuck
-          speak another word, cut out his tongue.
+          <a href="https://electiontechnology.quora.com/Why-is-the-2021-NYC-mayoral-election-reported-to-be-77-turnout-when-the-archived-results-admitted-1-149-172-ballots-1">
+            Curtis Sliwa got 37k/7m votes, that is .05% of eligible voters. 93%
+            voted
+          </a>
+          , "no-candidate," but don't let the aldercocker{space}
+          <a href="https://www.quora.com/unanswered/How-can-one-be-sure-IQ-drops-10-for-smoking-weed-before-20-without-reliving-the-same-life">
+            Frank Morano
+          </a>
+          {space}cuck speak another word,{space}
+          <a href="https://commie.dev">cut out his tongue</a>.
           <br />
           <br />
-          Bail to keep people in jail? Isn’t that no evidence to hold and
-          review, and bribe/settlement for State v People/Saver?
+          Bail to keep people in{space}
+          <a href="https://www.quora.com/Is-saying-he-should-have-his-throat-cut-not-as-threatening-as-saying-he-should-drop-dead">
+            jail
+          </a>
+          ? Isn’t that no evidence to hold and review, and bribe/
+          <a href="https://www.quora.com/How-can-a-politician-legally-press-that-an-election-is-stolen-without-a-user-distributed-database-or-proof-of-the-difference-in-fraudulent-votes-audit/answer/Richard-Kinkade">
+            settlement
+          </a>
+          {space}for State v People/<a href="https://www.quora.com/Are-non-voters-arguably-not-people/answer/Bryan-Ekers">Saver</a>?
           <br />
           <br />
-          Bail or judge discretion to reoffend,” that is criminalizing before
+          Bail or judge{space}<a href="https://www.quora.com/Why-don-t-non-voters-vote/answer/Gerry-Langeler">discretion</a>{space}to reoffend,” that is criminalizing before
           crime, double jeopardy.
           <br />
-          “Meet bail or be remanded. Unless it is murder, judges don’t have
+          “Meet bail or be remanded.{space}<a href="https://www.quora.com/unanswered/Should-docket-or-industry-variable-consensus-not-already-be-civil-and-criminal-jurisprudences-qualification-for-standing-to-desist-and-permit">Unless it is murder</a>, judges don’t have
           discretion to hold, pre trial nor set bail-bribe. Misconduct.”
           <br />
           <br />
@@ -8970,5 +8984,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
 
