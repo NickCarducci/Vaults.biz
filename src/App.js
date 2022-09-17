@@ -1523,6 +1523,24 @@ export default class App extends React.Component {
             </a>
             )
           </h2>
+          <a href="https://fred.stlouisfed.org/graph/?g=TNQ2">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/1rmiuw1eq22zkxx/Screen%20Shot%202022-09-17%20at%2011.11.05%20AM.png?raw=1"
+              }
+              float="right"
+              title="'GDPI profits PI-PCE CPI' - https://fred.stlouisfed.org/graph/?g=TNQ2"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+              scrollTop={this.props.scrollTop}
+            />
+          </a>
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
@@ -4795,14 +4813,26 @@ export default class App extends React.Component {
           <a href="https://www.quora.com/How-can-a-politician-legally-press-that-an-election-is-stolen-without-a-user-distributed-database-or-proof-of-the-difference-in-fraudulent-votes-audit/answer/Richard-Kinkade">
             settlement
           </a>
-          {space}for State v People/<a href="https://www.quora.com/Are-non-voters-arguably-not-people/answer/Bryan-Ekers">Saver</a>?
+          {space}for State v People/
+          <a href="https://www.quora.com/Are-non-voters-arguably-not-people/answer/Bryan-Ekers">
+            Saver
+          </a>
+          ?
           <br />
           <br />
-          Bail or judge{space}<a href="https://www.quora.com/Why-don-t-non-voters-vote/answer/Gerry-Langeler">discretion</a>{space}to reoffend,” that is criminalizing before
-          crime, double jeopardy.
+          Bail or judge{space}
+          <a href="https://www.quora.com/Why-don-t-non-voters-vote/answer/Gerry-Langeler">
+            discretion
+          </a>
+          {space}to reoffend,” that is criminalizing before crime, double
+          jeopardy.
           <br />
-          “Meet bail or be remanded.{space}<a href="https://www.quora.com/unanswered/Should-docket-or-industry-variable-consensus-not-already-be-civil-and-criminal-jurisprudences-qualification-for-standing-to-desist-and-permit">Unless it is murder</a>, judges don’t have
-          discretion to hold, pre trial nor set bail-bribe. Misconduct.”
+          “Meet bail or be remanded.{space}
+          <a href="https://www.quora.com/unanswered/Should-docket-or-industry-variable-consensus-not-already-be-civil-and-criminal-jurisprudences-qualification-for-standing-to-desist-and-permit">
+            Unless it is murder
+          </a>
+          , judges don’t have discretion to hold, pre trial nor set bail-bribe.
+          Misconduct.”
           <br />
           <br />
           There is no accounting for taste if there is good will
