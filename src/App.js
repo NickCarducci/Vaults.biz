@@ -1541,6 +1541,27 @@ export default class App extends React.Component {
               scrollTop={this.props.scrollTop}
             />{/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
+
+          
+
+          <a href="https://fred.stlouisfed.org/graph/?g=TO0j">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/dtewyr1lfoad8pq/Screen%20Shot%202022-09-17%20at%201.52.17%20PM.png?raw=1"
+              }
+              float="right"
+              title="'continuing claims' - https://fred.stlouisfed.org/graph/?g=TO0j"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+              scrollTop={this.props.scrollTop}
+            />{/** Would cost to revenue alone not cause explicitly real growth? */}
+          </a>
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
