@@ -1523,7 +1523,7 @@ export default class App extends React.Component {
             </a>
             )
           </h2>
-          <a href="https://fred.stlouisfed.org/graph/?g=TNTH">
+          <a href="https://fred.stlouisfed.org/graph/?g=TNUE">
             <Cable
               style={{ width: "100%", height: "auto" }}
               onError={handleScollImgError}
@@ -1534,12 +1534,12 @@ export default class App extends React.Component {
                   : "https://www.dropbox.com/s/1rmiuw1eq22zkxx/Screen%20Shot%202022-09-17%20at%2011.11.05%20AM.png?raw=1"
               }
               float="right"
-              title="'GDPI profits PI-PCE CPI' - https://fred.stlouisfed.org/graph/?g=TNTH"
+              title="'GDPI profits PI-PCE CPI' - https://fred.stlouisfed.org/graph/?g=TNUE"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
               scrollTop={this.props.scrollTop}
-            />
+            />{/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
