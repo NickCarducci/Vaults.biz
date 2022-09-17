@@ -1523,7 +1523,7 @@ export default class App extends React.Component {
             </a>
             )
           </h2>
-          <a href="https://fred.stlouisfed.org/graph/?g=TNQ2">
+          <a href="https://fred.stlouisfed.org/graph/?g=TNQT">
             <Cable
               style={{ width: "100%", height: "auto" }}
               onError={handleScollImgError}
@@ -1534,7 +1534,7 @@ export default class App extends React.Component {
                   : "https://www.dropbox.com/s/1rmiuw1eq22zkxx/Screen%20Shot%202022-09-17%20at%2011.11.05%20AM.png?raw=1"
               }
               float="right"
-              title="'GDPI profits PI-PCE CPI' - https://fred.stlouisfed.org/graph/?g=TNQ2"
+              title="'GDPI profits PI-PCE CPI' - https://fred.stlouisfed.org/graph/?g=TNQT"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
