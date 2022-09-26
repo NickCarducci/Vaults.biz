@@ -860,18 +860,20 @@ class Wages extends React.Component {
               ? "high"
               : "cohort"}
           </button>
-          <div
-            style={{
-              bottom: "0px",
-              backgroundColor: "rgba(255,255,255,.3)",
-              padding: "4px 8px",
-              position: "absolute",
-              right: "0px"
-            }}
-          >
-            {lowDate}&nbsp;
-            {this.state.highDate}
-          </div>
+          <a href="https://fred.stlouisfed.org/graph/?g=Uclz">
+            <div
+              style={{
+                bottom: "0px",
+                backgroundColor: "rgba(255,255,255,.3)",
+                padding: "4px 8px",
+                position: "absolute",
+                right: "0px"
+              }}
+            >
+              {lowDate}&nbsp;
+              {this.state.highDate}
+            </div>
+          </a>
         </div>{" "}
         <div
           style={{
