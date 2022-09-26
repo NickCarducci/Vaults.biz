@@ -1562,6 +1562,26 @@ export default class App extends React.Component {
               scrollTop={this.props.scrollTop}
             />{/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
+
+          <a href="https://fred.stlouisfed.org/graph/?g=Ub14">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/yyo07pwy9enf7vw/Screen%20Shot%202022-09-26%20at%209.26.53%20AM.png?raw=1"
+              }
+              float="right"
+              title="'spending and money' - https://fred.stlouisfed.org/graph/?g=Ub14"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+              scrollTop={this.props.scrollTop}
+            />{/** Would cost to revenue alone not cause explicitly real growth? */}
+          </a>
+          commie.dev<br/>
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
@@ -9035,4 +9055,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
