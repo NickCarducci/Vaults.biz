@@ -1500,8 +1500,8 @@ export default class App extends React.Component {
         >
           Wow,{space}
           <a href="https://www.youtube.com/user/TYTComedy">you</a>
-          {space}can make him desist. “I didn’t recommend lockdowns [when people
-          were making{space}
+          {space}can make him desist (i.e. ex-public good will). “I didn’t
+          recommend lockdowns [when people were making{space}
           <a href="https://humanharvest.info">
             weapons outside of our buttholes
           </a>
@@ -9089,4 +9089,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
