@@ -1498,6 +1498,11 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          not only is there not enough, it would take 40 years after suspending
+          all debt to make it at all possible to pay back with current income
+          somehow ridiculously
+          <br />
+          <br />
           Aaron "no one closer, if{space}
           <a href="https://biology.stackexchange.com/questions/109143/applying-francisco-redi-s-logic-to-virus">
             breakthrough
@@ -1539,11 +1544,9 @@ export default class App extends React.Component {
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
               scrollTop={this.props.scrollTop}
-            />{/** Would cost to revenue alone not cause explicitly real growth? */}
+            />
+            {/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
-
-          
-
           <a href="https://fred.stlouisfed.org/graph/?g=TO0j">
             <Cable
               style={{ width: "100%", height: "auto" }}
@@ -1560,9 +1563,9 @@ export default class App extends React.Component {
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
               scrollTop={this.props.scrollTop}
-            />{/** Would cost to revenue alone not cause explicitly real growth? */}
+            />
+            {/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
-
           <a href="https://fred.stlouisfed.org/graph/?g=Ub14">
             <Cable
               style={{ width: "100%", height: "auto" }}
@@ -1579,9 +1582,11 @@ export default class App extends React.Component {
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
               scrollTop={this.props.scrollTop}
-            />{/** Would cost to revenue alone not cause explicitly real growth? */}
+            />
+            {/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
-          commie.dev<br/>
+          commie.dev
+          <br />
           {/*I'm a comedian like Zeli*/}
           If you have no claims, why would you use insurance for{space}
           <a href="https://vaults.biz/insurance">workers' comp</a>? Aren't they
