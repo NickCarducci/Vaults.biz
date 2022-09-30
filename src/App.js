@@ -1498,6 +1498,12 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          <h4>guns or butter</h4>
+          First we make them square. How many{space}
+          <a href="https://virtualid.quora.com">accounts per charter</a>. What
+          if default checking go to savings rigs.
+          <br />
+          <br />
           Wow,{space}
           <a href="https://www.youtube.com/user/TYTComedy">you</a>
           {space}can make him desist (i.e. ex-
