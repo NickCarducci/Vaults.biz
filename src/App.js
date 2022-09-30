@@ -1499,7 +1499,9 @@ export default class App extends React.Component {
           }}
         >
           <h4>guns or butter</h4>
-          First we make them square. How many{space}
+          First we make them{space}
+          <a href="https://reverseamortization.quora.com">square</a>. How many
+          {space}
           <a href="https://virtualid.quora.com">accounts per charter</a>. What
           if default checking go to savings rigs.
           <br />
