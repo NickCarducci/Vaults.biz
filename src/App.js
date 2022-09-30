@@ -1500,8 +1500,11 @@ export default class App extends React.Component {
         >
           Wow,{space}
           <a href="https://www.youtube.com/user/TYTComedy">you</a>
-          {space}can make him desist (i.e. ex-public good will). “I didn’t
-          recommend lockdowns [when people were making{space}
+          {space}can make him desist (i.e. ex-
+          <a href="https://generalmaintenanceunit.quora.com">
+            public good will
+          </a>
+          ). “I didn’t recommend lockdowns [when people were making{space}
           <a href="https://humanharvest.info">
             weapons outside of our buttholes
           </a>
@@ -1509,15 +1512,16 @@ export default class App extends React.Component {
           <br />
           <br />
           Real wages accumulate short term to long. We can't go back after
-          trickle down. Can't make a new account that is living all cost.
-          Feature based dynameic.
+          {space}
+          <a href="https://federalreserve.quora.com">trickle down</a>. Can't
+          make a new account that is living all cost. Feature based dynameic.
           <h2>
             feature-based{space}
             <a href="https://commie.dev">dynameism</a>: this week's growth is
             yesterday's inflation
           </h2>
           Investment banks and commercial banks glass{space}
-          <a href="htps://2024nj.com/oil">Steagall</a>
+          <a href="htps://2024nj.com/oil">Steagall</a>{space}
           &bull;&bull;&bull;&bull; the fdic debit note bond
           <br />
           <br />
