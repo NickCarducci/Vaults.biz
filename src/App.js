@@ -1498,6 +1498,35 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          Wow,{space}
+          <a href="https://www.youtube.com/user/TYTComedy">you</a>
+          {space}can make him desist. “I didn’t recommend lockdowns [when people
+          were making{space}
+          <a href="https://humanharvest.info">
+            weapons outside of our buttholes
+          </a>
+          ].”
+          <br />
+          <br />
+          Real wages accumulate short term to long. We can't go back after
+          trickle down. Can't make a new account that is living all cost.
+          Feature based dynameic.
+          <h2>
+            feature-based{space}
+            <a href="https://commie.dev">dynameism</a>: this week's growth is
+            yesterday's inflation
+          </h2>
+          Investment banks and commercial banks glass{space}
+          <a href="htps://2024nj.com/oil">Steagall</a>
+          &bull;&bull;&bull;&bull; the fdic debit note bond
+          <br />
+          <br />
+          exclusion of constant capital toward living labor not variable
+          {space}
+          <i>as ever</i>
+          {space}physical export nor service worker machine rent.
+          <br />
+          <br />
           not only is there not enough, it would take 40 years after suspending
           all debt to make it at all possible to pay back with current income
           somehow ridiculously
@@ -9060,3 +9089,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
