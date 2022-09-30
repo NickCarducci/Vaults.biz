@@ -1521,14 +1521,26 @@ export default class App extends React.Component {
             yesterday's inflation
           </h2>
           Investment banks and commercial banks glass{space}
-          <a href="htps://2024nj.com/oil">Steagall</a>{space}
+          <a href="htps://2024nj.com/oil">Steagall</a>
+          {space}
           &bull;&bull;&bull;&bull; the fdic debit note bond
           <br />
           <br />
-          exclusion of constant capital toward living labor not variable
+          exclusion of{space}
+          <a href="https://www.reddit.com/r/Marxism/comments/xs9mul/comment/iqjlpdd/">
+            constant capital toward living labor not variable
+          </a>
           {space}
           <i>as ever</i>
-          {space}physical export nor service worker machine rent.
+          {space}
+          <a href="https://www.quora.com/How-many-types-of-capital-are-there/answer/Nick-Carducci">
+            physical export
+          </a>
+          , nor service worker{space}
+          <a href="https://economicwelfare.quora.com/How-do-economists-measure-welfare-1">
+            machine
+          </a>
+          {space}rent.
           <br />
           <br />
           not only is there not enough, it would take 40 years after suspending
@@ -9093,3 +9105,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
