@@ -126,10 +126,10 @@ class GDP2 extends React.Component {
         ],
       currentRate = crate && crate[1];
     return (
-      <div style={{ width: "100%", minHeight: "230px", position: "relative" }}>
+      <div style={{ width: "100%", minHeight: "210px", position: "relative" }}>
         <div
           style={{
-            top: "60px",
+            top: "40px",
             display: "flex",
             position: "absolute",
             left: "0px",
@@ -275,7 +275,7 @@ class GDP2 extends React.Component {
             /person
           </div>
         </div>
-        <div style={{ transform: "translate(0px,220px)" }}>
+        <div style={{ transform: "translate(0px,200px)" }}>
           <svg
             className="all"
             style={linecss}
@@ -335,23 +335,22 @@ class GDP2 extends React.Component {
         </div>
         <div
           style={{
+            padding: "6px 0px",
             backgroundColor: "rgba(250,250,250,0.2)",
-            top: "10px",
-            height: "40px",
             display: "flex",
             position: "relative",
-            width: "100%",
-            left: "2px",
-            zIndex: "0",
-            overflowX: "auto",
-            overflowY: "hidden"
+            width: "100%"
           }}
         >
+          <a href="https://vau.money">
+            <div style={{ right: "0px", position: "absolute", float: "right" }}>
+              vau.money
+            </div>
+          </a>
           <div
             style={{
               fontSize: "15px",
               display: "flex",
-              position: "absolute",
               width: "max-content"
             }}
           >
