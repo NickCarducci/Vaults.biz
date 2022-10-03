@@ -357,7 +357,7 @@ class GDP2 extends React.Component {
             <a href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2018">
               2018 Real GDP per capita
             </a>
-            &nbsp;(Maddisen) tbd&nbsp;
+            &nbsp;(Maddisen - 2011 $v) tbd&nbsp;
             <a href="https://ourworldindata.org/grapher/population-since-1800?country=NOR~CHE~USA~NLD~DEU~JPN~FRA~GBR~CHL~ARG~BRA~CHN~IND">
               pop
             </a>
