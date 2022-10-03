@@ -90,9 +90,9 @@ class GDP2 extends React.Component {
     var countriesData = {};
 
     var highDate = 2000;
-    var lowTesting = 0;
+    var lowRate = 0;
     var lowDate = 1820;
-    var highTesting = 0;
+    var highRate = 0;
     Object.keys(this.state.countriesData).forEach((country) => {
       if (!countriesData[country]) countriesData[country] = [];
       countriesData[country] = this.state.countriesData[country]
@@ -106,20 +106,25 @@ class GDP2 extends React.Component {
         .filter((x) => x);
     });
     highDate = Math.max(...date);
-    lowTesting = Math.min(...testing);
+    lowRate = Math.min(...testing);
     lowDate = Math.min(...date);
-    highTesting = Math.max(...testing);
-    var yAxis = highTesting - lowTesting;
+    highRate = Math.max(...testing);
+    var yAxis = highRate - lowRate;
     var xAxis = highDate - lowDate;
 
     Object.keys(countriesData).forEach((country) => {
       countriesData[country] = countriesData[country].map(([x, y]) => {
         return [
           ((x - lowDate) / xAxis) * 0.8 * this.props.lastWidth,
-          ((y - lowTesting) / yAxis) * 150
+          ((y - lowRate) / yAxis) * 150
         ];
       });
     });
+    const crate =
+        countriesData[this.state.chosenCountry][
+          Math.round(countriesData[this.state.chosenCountry].length / 2)
+        ],
+      currentRate = crate && crate[1];
     return (
       <div style={{ width: "100%", minHeight: "230px", position: "relative" }}>
         <div
@@ -143,8 +148,10 @@ class GDP2 extends React.Component {
                 backgroundColor: "rgba(250,250,250,.2)"
               }}
             >
-              rGDP/p${Math.round(lowTesting * 100) / 100}/person -&nbsp;
-              <br />${Math.round(highTesting * 100) / 100}/person
+              rGDP/p${isFinite(lowRate) && Math.round(lowRate * 100) / 100}
+              /person -&nbsp;
+              <br />${isFinite(highRate) && Math.round(highRate * 100) / 100}
+              /person
             </div>
             <div
               style={{
@@ -171,9 +178,13 @@ class GDP2 extends React.Component {
               >
                 {"<"}
               </div>
-              {lowDate}
-              &nbsp;-&nbsp;
-              {highDate}
+              {isFinite(currentRate) && (
+                <div>
+                  {lowDate}
+                  &nbsp;-&nbsp;
+                  {highDate}
+                </div>
+              )}
               <div
                 style={{
                   border: "1px solid",
@@ -192,68 +203,76 @@ class GDP2 extends React.Component {
           </div>
           <div
             style={{
-              height: "min-content",
               margin: 5,
-              backgroundColor: "rgba(250,250,250,.2)",
-              display: "flex",
-              width: "70%",
-              justifyContent: "space-between"
+              height: "min-content",
+              backgroundColor: "rgba(250,250,250,.2)"
             }}
           >
             <div
               style={{
-                border: "1px solid",
-                padding: "4px",
-                userSelect: "none"
+                height: "min-content",
+                display: "flex",
+                width: "70%",
+                justifyContent: "space-between"
               }}
-              onClick={() =>
-                this.setState({
-                  chosenCountry: this.state.countryList[
-                    this.state.countryList.lastIndexOf(
-                      this.state.chosenCountry
-                    ) - 1
-                  ]
-                })
-              }
             >
-              {"<"}
+              <div
+                style={{
+                  border: "1px solid",
+                  padding: "4px",
+                  userSelect: "none"
+                }}
+                onClick={() =>
+                  this.setState({
+                    chosenCountry: this.state.countryList[
+                      this.state.countryList.lastIndexOf(
+                        this.state.chosenCountry
+                      ) - 1
+                    ]
+                  })
+                }
+              >
+                {"<"}
+              </div>
+              <select
+                style={{ width: "80px" }}
+                value={this.state.chosenCountry}
+                onChange={(e) =>
+                  this.setState({ chosenCountry: e.target.value }, () => {
+                    countriesData = Object.keys(countriesData)
+                      .sort((a, b) => a === this.state.chosenCountry)
+                      .reduce((obj, country) => {
+                        obj[country] = countriesData[country];
+                        return obj;
+                      }, {});
+                  })
+                }
+              >
+                {this.state.countryList.map((country) => {
+                  return <option key={country}>{country}</option>;
+                })}
+              </select>
+              <div
+                style={{
+                  border: "1px solid",
+                  padding: "4px",
+                  userSelect: "none"
+                }}
+                onClick={() =>
+                  this.setState({
+                    chosenCountry: this.state.countryList[
+                      this.state.countryList.lastIndexOf(
+                        this.state.chosenCountry
+                      ) + 1
+                    ]
+                  })
+                }
+              >
+                {">"}
+              </div>
             </div>
-            <select
-              style={{ width: "80px" }}
-              value={this.state.chosenCountry}
-              onChange={(e) =>
-                this.setState({ chosenCountry: e.target.value }, () => {
-                  countriesData = Object.keys(countriesData)
-                    .sort((a, b) => a === this.state.chosenCountry)
-                    .reduce((obj, country) => {
-                      obj[country] = countriesData[country];
-                      return obj;
-                    }, {});
-                })
-              }
-            >
-              {this.state.countryList.map((country) => {
-                return <option key={country}>{country}</option>;
-              })}
-            </select>
-            <div
-              style={{
-                border: "1px solid",
-                padding: "4px",
-                userSelect: "none"
-              }}
-              onClick={() =>
-                this.setState({
-                  chosenCountry: this.state.countryList[
-                    this.state.countryList.lastIndexOf(
-                      this.state.chosenCountry
-                    ) + 1
-                  ]
-                })
-              }
-            >
-              {">"}
-            </div>
+            ${isFinite(currentRate) && Math.round(currentRate * 100) / 100}
+            /person
           </div>
         </div>
         <div style={{ transform: "translate(0px,220px)" }}>
