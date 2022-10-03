@@ -7,6 +7,7 @@ import math from "./math.png";
 import TwitterTweetEmbed from "./TwitterTweetEmbed";
 import Cable from "./Dropwire";
 import GDP from "./GDP";
+import GDP2 from "./GDP2";
 
 class Arcs extends React.Component {
   constructor(props) {
@@ -2528,6 +2529,48 @@ class Arcs extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <GDP2
+          lastWidth={Math.min(
+            600,
+            (isNaN(this.props.lastWidth) ? 300 : this.props.lastWidth) - 20
+          )}
+          style={{
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <div>
+          Migrational timing of frequency comes to be the working-age 25-64
+          cohort the same with natural rate of population increase, half life
+          ago. Notwithstanding children, school-age, retired, and elderly
+          population growth nor an unnatural rate of employment,
+          {space}
+          <a
+            style={{
+              cursor: "pointer",
+              color: "rgb(230, 230, 170)"
+            }}
+            href="https://www.reddit.com/r/dataisbeautiful/comments/oa7lg4/oc_real_gdp_per_capita_in_2011_usd_since_1800_for/"
+          >
+            real GDP growth
+          </a>
+          {space}
+          only for the
+          {space}
+          <a
+            style={{
+              cursor: "pointer",
+              color: "rgb(230, 230, 170)"
+            }}
+            href="https://ourworldindata.org/grapher/population-since-1800?country=NOR~CHE~USA~NLD~DEU~JPN~FRA~GBR~CHL~ARG~BRA~CHN~IND"
+          >
+            population
+          </a>
+          {space}
+          and not dynamic inflationary nor square footage ΔrGDP{">"}ΔrGDP/p
+          -productivity.
+        </div>
+        <br />
         In GDP/hour-GDP/p GDP is a rate, so it is not exactly unchanging, 1, but
         1/y if x is money velocity over time, and then a graphical
         representation of GDP/hour is A derivative is a rate of x hour per y
