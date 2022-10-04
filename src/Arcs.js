@@ -2539,6 +2539,12 @@ class Arcs extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <a href="https://realecon.quora.com/Isnt-real-growth-short-term-inflation-but-for-square-footage-Isnt-that-finite">
+          <h4 style={{ textAlign: "left", color: "white" }}>
+            Isn't real growth short-term inflation but for square footage? Isn't
+            that finite? in Real Economics
+          </h4>
+        </a>
         <div>
           Migrational timing of frequency comes to be the working-age 25-64
           cohort the same with natural rate of population increase, half life
