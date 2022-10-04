@@ -6,26 +6,32 @@ class GDP2 extends React.Component {
   constructor(props) {
     super(props);
 
-    let countryList = [];
+    let countriesList = [];
     let noData = [];
     let countries = {};
     let countriesData = {};
-    Object.keys(gdp22).forEach((country, i) => {
-      countryList.push(country);
-      Object.keys(gdp22[country]).forEach((year = (y) => Number(y)) => {
-        if (!countries[country]) countries[country] = [];
-        countries[country].push(gdp22[country][year]);
-        if (!countriesData[country]) countriesData[country] = [];
-        countriesData[country].push([year, gdp22[country][year]]);
-        noData.push([year, 0]);
+
+    Object.keys(gdp22)
+      .sort((a, b) => {
+        //console.log(oil2data[a]["2021"]);
+        return gdp22[b]["2016"] - gdp22[a]["2016"];
+      })
+      .forEach((country, i) => {
+        countriesList.push(country);
+        Object.keys(gdp22[country]).forEach((year = (y) => Number(y)) => {
+          if (!countries[country]) countries[country] = [];
+          countries[country].push(gdp22[country][year]);
+          if (!countriesData[country]) countriesData[country] = [];
+          countriesData[country].push([year, gdp22[country][year]]);
+          noData.push([year, 0]);
+        });
       });
-    });
     noData.sort((a, b) => a[0] - b[0]);
 
     var state = {
       chosenTime: 1910,
-      chosenCountry: "Argentina",
-      countryList,
+      chosenCountry: "Norway",
+      countriesList,
       countries,
       countriesData,
       noData
@@ -33,6 +39,7 @@ class GDP2 extends React.Component {
     this.state = state;
   }
   render() {
+    const { countriesList } = this.state;
     const labelstyle = {
       backgroundColor: "rgba(50,120,200,.6)",
       top: "0px",
@@ -87,13 +94,14 @@ class GDP2 extends React.Component {
 
     let date = [],
       testing = [];
-    var countriesData = {};
 
     var highDate = 2000;
     var lowRate = 0;
     var lowDate = 1820;
     var highRate = 0;
-    Object.keys(this.state.countriesData).forEach((country) => {
+    var countriesData = {};
+    /*Object.keys(this.state.countriesData)*/
+    countriesList.forEach((country) => {
       if (!countriesData[country]) countriesData[country] = [];
       countriesData[country] = this.state.countriesData[country]
         .map(([x, y]) => {
@@ -222,15 +230,14 @@ class GDP2 extends React.Component {
                   padding: "4px",
                   userSelect: "none"
                 }}
-                onClick={() =>
+                onClick={() => {
+                  var last =
+                    countriesList.lastIndexOf(this.state.chosenCountry) - 1;
                   this.setState({
-                    chosenCountry: this.state.countryList[
-                      this.state.countryList.lastIndexOf(
-                        this.state.chosenCountry
-                      ) - 1
-                    ]
-                  })
-                }
+                    chosenCountry:
+                      countriesList[last > 0 ? last : countriesList.length - 1]
+                  });
+                }}
               >
                 {"<"}
               </div>
@@ -248,7 +255,7 @@ class GDP2 extends React.Component {
                   })
                 }
               >
-                {this.state.countryList.map((country) => {
+                {countriesList.map((country) => {
                   return <option key={country}>{country}</option>;
                 })}
               </select>
@@ -258,15 +265,14 @@ class GDP2 extends React.Component {
                   padding: "4px",
                   userSelect: "none"
                 }}
-                onClick={() =>
+                onClick={() => {
+                  var undo =
+                    countriesList.lastIndexOf(this.state.chosenCountry) + 1;
                   this.setState({
-                    chosenCountry: this.state.countryList[
-                      this.state.countryList.lastIndexOf(
-                        this.state.chosenCountry
-                      ) + 1
-                    ]
-                  })
-                }
+                    chosenCountry:
+                      countriesList[undo !== countriesList.length ? undo : 0]
+                  });
+                }}
               >
                 {">"}
               </div>
