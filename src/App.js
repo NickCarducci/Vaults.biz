@@ -1498,7 +1498,29 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
-          <h4>guns or butter</h4>
+          <i>$50m 50k?</i>
+          <br />
+          If the top 3m wealthiest in America have $14m in assets and $300k in
+          cash, why are financial markets such the news in modern culture? Why
+          isn’t{space}
+          <a href="https://federalreserve.quora.com/Is-the-capitalization-of-a-bank-either-more-dependent-on-the-required-reserve-ratio-or-central-bank-funds-rate-1">
+            competition and entrepreneurship
+          </a>
+          ?{space}
+          <i>
+            Now that{space}
+            <a href="https://vaults.biz/work">we work</a>
+            {space}and{space}
+            <a href="https://vaults.biz/party">spend more than ever</a>, do
+            economists think they are still productive? Isn't more molar mass
+            spending an exhibition in worse technology exercised?
+          </i>
+          <br />
+          <h4>
+            <a href="https://nickcarducciforsenate.quora.com/Do-highly-productive-people-make-profits-higher-or-lower-1">
+              guns or butter
+            </a>
+          </h4>
           First we make them{space}
           <a href="https://reverseamortization.quora.com">square</a>. How many
           {space}
