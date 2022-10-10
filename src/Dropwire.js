@@ -3,9 +3,25 @@ import React from "react";
 class Cable extends React.Component {
   constructor(props) {
     super(props);
-    const { style: S } = props;
+    const { style } = props;
+    var S = {};
+    const isPixels = (s, what) => {
+      if (what) return s.substring(s.length - 2, s.length);
+      return s.substring(s.length - 2, s.length) === "px";
+    };
+    const apply = (s) => (S[s] = s.substring(0, s.length - 2));
+    if (style) {
+      if (style.height && isPixels(style.height)) {
+        apply(style.height);
+      } else S.height = style.height;
+      if (style.width && isPixels(style.width)) {
+        apply(style.width);
+      } else S.width = style.width;
+      //auto,min-content
+      //style && style.width && console.log(isPixels(style.width, true)); //S["width"]); //isPixels(style.width, true));
+    }
     var initheight =
-        !S || (!isNaN(S.width) && isNaN(S.height)) ? "auto" : S.height,
+        (!S || !isNaN(S.width)) && isNaN(S.height) ? "auto" : S.height,
       initwidth =
         !S || !isNaN(S.height) ? "auto" : !isNaN(S.width) ? 200 : S.width;
     this.state = {
@@ -78,6 +94,7 @@ class Cable extends React.Component {
     clearTimeout(this.setset);
   };
   checkIfBetween = () => {
+    console.log("scroll");
     const { cache } = this.state;
     const { scrollTop, girth, timeout } = this.props;
     var girt = girth && !isNaN(girth) ? girth + 500 : window.innerHeight;
