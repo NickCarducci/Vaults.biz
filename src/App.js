@@ -8200,7 +8200,7 @@ export default class App extends React.Component {
             wordBreak: "none",
             wordWrap: "break-word",
             cursor: "pointer",
-            zIndex: "9999",
+            zIndex: "9998",
             opacity: !this.state.footer /*&& this.state.scrollTop !== 0*/
               ? 0.3
               : 1,
@@ -8223,6 +8223,16 @@ export default class App extends React.Component {
             bottom: "0px"
           }}
         >
+          {!this.state.footer && (
+            <div
+              style={{
+                zIndex: "9999",
+                position: "fixed",
+                height: "100%",
+                width: "48px"
+              }}
+            ></div>
+          )}
           Anti-rentier, -gentrification, {this.state.footer ? "Amazon" : ""}{" "}
           stock general revenue Asset selling.
           <br />
