@@ -1498,6 +1498,23 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          <a href="https://fredaccount.stlouisfed.org/dashboard/83986">
+          <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/c2twcuyrnyyy8zn/Screen%20Shot%202022-10-13%20at%207.12.22%20PM.png?raw=1"
+              }
+              float="right"
+              title="'checking top 50% 170m' - https://fredaccount.stlouisfed.org/dashboard/83986"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+              scrollTop={this.props.scrollTop}
+            /></a>
           <i>$50m 50k?</i>
           <br />
           If the top 3m wealthiest in America have $14m in assets and $300k in
@@ -1537,7 +1554,7 @@ export default class App extends React.Component {
           ). “I didn’t recommend lockdowns [when people were making{space}
           <a href="https://humanharvest.info">
             weapons outside of our buttholes
-          </a>
+          </a>{space}<span role="img" aria-label="tornado">🌪</span>
           ].”
           <br />
           <br />
