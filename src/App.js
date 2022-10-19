@@ -405,7 +405,7 @@ export default class App extends React.Component {
     this.label(topProgress);
   };
   refresh = (first) => {
-    const width = this.state.ios ? window.screen.availWidth : window.innerWidth;
+    const width = (this.state.ios ? window.screen.availWidth : window.innerWidth)-62
     const height = this.state.ios
       ? window.screen.availHeight
       : window.innerHeight;
