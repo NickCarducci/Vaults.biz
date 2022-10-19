@@ -133,11 +133,24 @@ class GDP2 extends React.Component {
           Math.round(countriesData[this.state.chosenCountry].length / 2)
         ],
       currentRate = crate && crate[1];
+    //If young people buy homes with mortgages and try to rent them out, who will rent them?
+    //Could GDP pay off debt even though most of it is credit income?
+    //1/12 jury acquits incompetence and/or financial inerest. humanharvest.info
+    //save america 1/12 acquits incompetence. drain the swamp medicate the homeless
+    //Isn’t (hidden) technological advancement how capitalists profit?
+    //Isn’t non-deflationary unemployment a non-stagflationary recession?
     return (
-      <div style={{ width: "100%", minHeight: "210px", position: "relative" }}>
+      <div
+        style={{
+          width: "100%",
+          minHeight: this.props.lastWidth < 360 ? "300px" : "210px",
+          position: "relative"
+        }}
+      >
         <div
           style={{
             top: "40px",
+            flexWrap: "wrap",
             display: "flex",
             position: "absolute",
             left: "0px",
@@ -167,7 +180,7 @@ class GDP2 extends React.Component {
                 position: "relative",
                 height: "min-content",
                 margin: "10px 20px",
-                display: "flex",
+                display: "flex", //content adressability requires the social moral (commie.dev/anarchy), stay in your basement, don't vote!
                 width: "70%",
                 justifyContent: "space-between"
               }}
@@ -211,6 +224,8 @@ class GDP2 extends React.Component {
           </div>
           <div
             style={{
+              flexWrap: "wrap",
+              display: "flex",
               margin: 5,
               height: "min-content",
               backgroundColor: "rgba(250,250,250,.2)"
@@ -218,7 +233,6 @@ class GDP2 extends React.Component {
           >
             <div
               style={{
-                height: "min-content",
                 display: "flex",
                 width: "70%",
                 justifyContent: "space-between"
@@ -281,7 +295,13 @@ class GDP2 extends React.Component {
             /person
           </div>
         </div>
-        <div style={{ transform: "translate(0px,200px)" }}>
+        <div
+          style={{
+            transform: `translate(0px,${
+              this.props.lastWidth < 360 ? 300 : 200
+            }px)`
+          }}
+        >
           <svg
             className="all"
             style={linecss}
@@ -299,7 +319,7 @@ class GDP2 extends React.Component {
                     stroke="rgb(230,230,230)"
                     fill="transparent"
                     strokeWidth={0}
-                    key={i}
+                    key={i} //let's get this script straight and everything together
                   />
                 )
             )}
