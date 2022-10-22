@@ -14,6 +14,7 @@ export default class App extends React.Component {
     const name = parser.getBrowser().name;
     console.log(name);
     this.state = {
+      scrollTop:null,
       footer: true,
       windowScroll: 0,
       scrollcount: 0, //offScroll: true,
@@ -365,7 +366,9 @@ export default class App extends React.Component {
     this.refresh(true);
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.refresh);
-
+    //glass steagall prevents borrowing made-loans. sell a job (short term layoffs)
+    //Isn’t non-deflationary unemployment a non-stagflationary recession?
+    //right to own is subjectie, should be objective
     /*this.ch2refs = React.createRef([
       this.chapter2,
       this.sci,
@@ -403,9 +406,11 @@ export default class App extends React.Component {
         document.documentElement.scrollHeight //window.scrollY   this.state.ternaryHeight //
     );
     this.label(topProgress);
+    this.handleScroll();
   };
   refresh = (first) => {
-    const width = (this.state.ios ? window.screen.availWidth : window.innerWidth)-62
+    const width =
+      (this.state.ios ? window.screen.availWidth : window.innerWidth) - 62;
     const height = this.state.ios
       ? window.screen.availHeight
       : window.innerHeight;
@@ -1498,8 +1503,28 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          <a href="https://fred.stlouisfed.org/graph/?g=V9En">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/k8hkbfsp0dr9kk6/Screen%20Shot%202022-10-22%20at%2011.37.34%20AM.png?raw=1"
+              }
+              float="right"
+              title="'average household' - https://fred.stlouisfed.org/graph/?g=V9En"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
+          <br />
+          <br />
           <a href="https://fredaccount.stlouisfed.org/dashboard/83986">
-          <Cable
+            <Cable
               style={{ width: "100%", height: "auto" }}
               onError={handleScollImgError}
               img={true}
@@ -1512,9 +1537,10 @@ export default class App extends React.Component {
               title="'checking top 50% 170m' - https://fredaccount.stlouisfed.org/dashboard/83986"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-              scrollTop={this.props.scrollTop}
-            /></a>
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
           <i>$50m 50k?</i>
           <br />
           If the top 3m wealthiest in America have $14m in assets and $300k in
@@ -1554,7 +1580,11 @@ export default class App extends React.Component {
           ). “I didn’t recommend lockdowns [when people were making{space}
           <a href="https://humanharvest.info">
             weapons outside of our buttholes
-          </a>{space}<span role="img" aria-label="tornado">🌪</span>
+          </a>
+          {space}
+          <span role="img" aria-label="tornado">
+            🌪
+          </span>
           ].”
           <br />
           <br />
@@ -1634,8 +1664,8 @@ export default class App extends React.Component {
               title="'GDPI profits PI-PCE CPI' - https://fred.stlouisfed.org/graph/?g=TNXS"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-              scrollTop={this.props.scrollTop}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
             />
             {/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
@@ -1653,8 +1683,8 @@ export default class App extends React.Component {
               title="'continuing claims' - https://fred.stlouisfed.org/graph/?g=TO0j"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-              scrollTop={this.props.scrollTop}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
             />
             {/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
@@ -1672,8 +1702,8 @@ export default class App extends React.Component {
               title="'spending and money' - https://fred.stlouisfed.org/graph/?g=Ub14"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-              scrollTop={this.props.scrollTop}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
             />
             {/** Would cost to revenue alone not cause explicitly real growth? */}
           </a>
@@ -2203,8 +2233,8 @@ export default class App extends React.Component {
             title="Headliners (GBNews) - Roblox sex parties"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "Which is worse, inflation or recession?"
           <br />
@@ -2266,8 +2296,8 @@ export default class App extends React.Component {
             title=" 1950 decennial "
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           wouldn’t they be called that for 1942 200k+/yr 10%/yr+? Population
           growth then was 1.2m/yr+ (135m*.015), which is curiously not matching
@@ -2489,8 +2519,8 @@ export default class App extends React.Component {
             title=" (GBNews) Matthew Lesh Head of Public Policy, Inst. of Economic Affairs"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "Problems with house building is JUST NOT DOING monopsony by
           $2.2ttax/$1.8taccrual from outside the market for government trust."
@@ -2699,8 +2729,8 @@ export default class App extends React.Component {
             title=" ain't nobody got time for that"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           pennywise margin target to inflation mean material+rent WORKS because
           false bid pool loss supply!==demand without labor makes dead weight
@@ -2784,8 +2814,8 @@ export default class App extends React.Component {
             title=" (GBNews) methane fracking"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h2>
             "We are sitting on a ton of methane frackable (invisible fire),"
@@ -2815,8 +2845,8 @@ export default class App extends React.Component {
             title=" Putin thru the years (AFP)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "Why can the US impose economic sanctions on other countries?"
           <br />
@@ -2876,8 +2906,8 @@ export default class App extends React.Component {
             title="Schizo-Economics - https://qr.ae/pGjeZ2"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <br />
           or "Technological-advancement (-GDP/p) requires medication."
@@ -2968,8 +2998,8 @@ export default class App extends React.Component {
             title="John Bachmann Now (Newsmax) - Gordon Chang"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           “Olympians forced to use glasses to leave cells around, China is DNA
           harvesting.”
@@ -3027,8 +3057,8 @@ export default class App extends React.Component {
             title=" "
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           Intelligent right wing get better jobs, and the left wing become
           teachers, which is best addressed by doing all we can to get science
@@ -3095,8 +3125,8 @@ export default class App extends React.Component {
             title="google mention word, 'kike' 1868 for Jewish person."
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           production insurance{space}
           <a href="https://vaults.biz/insurance">false bid pool loss</a>
@@ -3194,8 +3224,8 @@ export default class App extends React.Component {
             title="1933 + 1937 trust"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h1>
             <a href="https://vaults.biz/obamacare">Obamacare</a>
@@ -3221,8 +3251,8 @@ export default class App extends React.Component {
             title="Can capitalism help workers to live better? - https://qr.ae/pGjUTr"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <br />
           <br />
@@ -3288,8 +3318,8 @@ export default class App extends React.Component {
             title="(GBNews, Newsmax) - 'Could Trump handle Putin?'"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           perversion of order as matter, anything washes, "item-issues," free by
           {space}
@@ -3385,8 +3415,8 @@ export default class App extends React.Component {
             title="Who Supplies Europe's Oil? - Cambridge Econometrics https://magazine.2celsius.org/80-of-eu-oil-imports-supplied-by-non-european-companies/"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           The moral incursion here is operational monopsony, where supply
           doesn’t equate demand and price or quality controls actually work, not
@@ -3414,8 +3444,8 @@ export default class App extends React.Component {
             title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           The{space}
           <a href="https://www.imf.org/external/np/fin/tad/balmov2.aspx?type=TOTAL">
@@ -3513,8 +3543,8 @@ export default class App extends React.Component {
             title="National Remorse (Newsmax) - Fred Fleitz fmr. CIA Analyst Nordstream 2"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "We would never have to revisit the issue if we tied{space}
           <a href="https://vaults.biz/inflation">minimum wage</a>
@@ -3657,8 +3687,8 @@ export default class App extends React.Component {
             title=""
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h2>
             "You are ruining a book I want to write, open now on our first
@@ -3710,8 +3740,8 @@ export default class App extends React.Component {
             title="NYT - Weiner 18mo for 15yr old sexting (details miscellaneous)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h1>
             Anthony Weiner, Democrat Party Spokesperson: "Jobs and stock market
@@ -5057,8 +5087,8 @@ export default class App extends React.Component {
             title="Rob Schmitt (Newsmax) - Crack child murder GTA 26%/yr+ 2019"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           Comparative advantage and tech advancement (-GDP/p) for GDP/hour-GDP/p
           productive efficiency bunting, how I enumerate economic welfare
@@ -5339,8 +5369,8 @@ export default class App extends React.Component {
             title="CEDC Archive Lesson 3 Principles of Epidimeology  Age Specific Mortality - https://www.cdc.gov/csels/dsepd/ss1978/Lesson3/Section3.html#_ref8"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           Correlation of significance is reflexive - how far off is the mean of
           the distribution (e.g. age-
@@ -5402,8 +5432,8 @@ export default class App extends React.Component {
             title="5x5 and single year population and mortality poistive correlation https://humanharvest.info/polio"
             scrolling={this.props.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           Single year age-SPECIFIC, not “adjusted”-rate (an average). In this
           way, derivatives define endogenous factors of a given Pearson
@@ -5465,8 +5495,8 @@ export default class App extends React.Component {
             title="https://humanharvest.info/polio"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           By time, would be a plane floor z-axis, Y- is still density. The
           significance of the mean is impossible to predict, yet the White House
@@ -5508,8 +5538,8 @@ export default class App extends React.Component {
             title="American Agenda (Newsmax) - David Samadi"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "You don’t need a medical degree to understand that the numbers are
           going down."
@@ -5568,8 +5598,8 @@ export default class App extends React.Component {
             title="hospitalizations - https://humanharvest.info/polio"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           Always sowing division.
           <br />
@@ -5605,8 +5635,8 @@ export default class App extends React.Component {
             title="nextdoor.com implausible landlord use survey - https://nextdoor.com/p/yJhWyXgPTdNG"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           “Poverty (material+rent)/income lowered, under Trump; wages grew.”
           Jason Riley, Black Boom.
@@ -5653,8 +5683,8 @@ export default class App extends React.Component {
             title="Nigel Farage (GBNews, Youtube) - Peter carter, 'poverty is more rich material than assets'"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h2>
             "highly motivated complacent stock share conflict of interest
@@ -5920,8 +5950,8 @@ export default class App extends React.Component {
             title="Energy and Commerce (Youtube) - rent-seeking science and gentrification"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h2>
             should shelving $100ms be liable for damages, or learn from
@@ -6133,8 +6163,8 @@ export default class App extends React.Component {
             title="Bo Snerdley, 'connect the dots,' Mario coloring sheet"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           <h1>
             theft of intellectual property, won the trade war with china, and
@@ -6643,8 +6673,8 @@ export default class App extends React.Component {
             title="Carshield (Newsmax) - 'saves money' lie"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           no pennywise equity investment for welfare NHS, premium for nothing,
           donee invoking, at that (casino is insulated loss)
@@ -6777,8 +6807,8 @@ export default class App extends React.Component {
             title="Curtis Sliwa and mentally-ill homeless (Trump USPTO fruitless nonsense) - https://youtu.be/WlSVwRaO-iQ?t=890"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "Which types of wealth are lacking?"
           <br />
