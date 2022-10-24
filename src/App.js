@@ -9,7 +9,7 @@ import TwitterTweetEmbed from "./TwitterTweetEmbed";
 
 export default class App extends React.Component {
   constructor(props) {
-    super(props);//on budget clearly
+    super(props); //on budget clearly
     var parser = new UAParser();
     const name = parser.getBrowser().name;
     console.log(name);
@@ -1503,7 +1503,27 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
-                    <br/>
+          don't compare yourself to{space}
+          <a href="https://thumbprint.quora.com">me</a>. your whole life you
+          have't solved ything. just{space}
+          <a href="https://saverparty.xyz/racists">hate</a>
+          {space}caused
+          <br />
+          <br />
+          Wouldn't checkable deposits less market concentration rather behoove
+          the pensioner?
+          <br />
+          <br />
+          useless life of a subjective, racist profiler
+          <h2>
+            What does{space}
+            <a href="https://medicatethehomeless.quora.com">Curtis Sliwa</a>
+            {space}want to do with the mentally ill?
+          </h2>
+          Don't pensions cause market concentration? Wouldn't the
+          non-deflationary pension investment be economically irrational and
+          financially irresponsible?
+          <br />
           <a href="https://fred.stlouisfed.org/graph/?g=VdVV">
             <Cable
               style={{ width: "100%", height: "auto" }}
@@ -1522,8 +1542,8 @@ export default class App extends React.Component {
               scrollTop={this.state.scrollTop}
             />
           </a>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <a href="https://fred.stlouisfed.org/graph/?g=V9En">
             <Cable
               style={{ width: "100%", height: "auto" }}
@@ -1608,7 +1628,8 @@ export default class App extends React.Component {
           </span>
           ].”
           <br />
-          <br /><a href="https://fred.stlouisfed.org/graph/?g=VedZ">
+          <br />
+          <a href="https://fred.stlouisfed.org/graph/?g=VedZ">
             <Cable
               style={{ width: "100%", height: "auto" }}
               onError={handleScollImgError}
@@ -9230,4 +9251,3 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
-
