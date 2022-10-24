@@ -1518,11 +1518,27 @@ export default class App extends React.Component {
           <h2>
             What does{space}
             <a href="https://medicatethehomeless.quora.com">Curtis Sliwa</a>
-            {space}want to do with the mentally ill?
+            {space}want to do with the{space}
+            <a href="https://www.reddit.com/r/moralanarchism/comments/ycnwjm/are_plushies_halal_show_me_evidence_if_you_have/">
+              mentally ill
+            </a>
+            ?
           </h2>
-          Don't pensions cause market concentration? Wouldn't the
-          non-deflationary pension investment be economically irrational and
-          financially irresponsible?
+          Don't{space}
+          <a href="https://rolloverinsurance.quora.com">pensions</a>
+          {space}cause market concentration? Wouldn't the non-deflationary
+          pension investment be{space}
+          <a href="https://www.reddit.com/r/moralanarchism/comments/yco6bl/is_a_tard_necessarily_disabled_to_anyone_but_the/">
+            economically irrational
+          </a>
+          {space}and
+          {space}
+          <a href="https://beingstable.quora.com">financially irresponsible</a>?
+          <br />
+          <br />
+          Do psychiatrists use MRI to attest to incompetency to{space}
+          <a href="https://2024nj.com/disability">stand trial</a>?
+          <br />
           <br />
           <a href="https://fred.stlouisfed.org/graph/?g=VdVV">
             <Cable
@@ -9251,3 +9267,4 @@ export default class App extends React.Component {
           {this.state.scrollTop === 0 && !this.state.footer ? "Plan" : "^"}
         </div>
  */
+
