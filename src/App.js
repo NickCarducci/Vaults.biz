@@ -14,7 +14,7 @@ export default class App extends React.Component {
     const name = parser.getBrowser().name;
     console.log(name);
     this.state = {
-      scrollTop:null,
+      //scrollTop:0,
       footer: true,
       windowScroll: 0,
       scrollcount: 0, //offScroll: true,
@@ -1503,6 +1503,27 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+                    <br/>
+          <a href="https://fred.stlouisfed.org/graph/?g=VdVV">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/pjtf8vmer66vl5l/Screen%20Shot%202022-10-24%20at%201.26.45%20PM.png?raw=1"
+              }
+              float="right"
+              title="'50-99 good will inequality' - https://fred.stlouisfed.org/graph/?g=VdVV"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
+          <br/>
+          <br/>
           <a href="https://fred.stlouisfed.org/graph/?g=V9En">
             <Cable
               style={{ width: "100%", height: "auto" }}
