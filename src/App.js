@@ -9,7 +9,7 @@ import TwitterTweetEmbed from "./TwitterTweetEmbed";
 
 export default class App extends React.Component {
   constructor(props) {
-    super(props);
+    super(props);//on budget clearly
     var parser = new UAParser();
     const name = parser.getBrowser().name;
     console.log(name);
@@ -1608,7 +1608,24 @@ export default class App extends React.Component {
           </span>
           ].”
           <br />
-          <br />
+          <br /><a href="https://fred.stlouisfed.org/graph/?g=VedZ">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/o5tiqirnp2baog7/Screen%20Shot%202022-10-24%20at%204.00.41%20PM.png?raw=1"
+              }
+              float="right"
+              title="gdpi-pce-government (non-deflationary) failure' - https://fred.stlouisfed.org/graph/?g=VedZ"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
           Real wages accumulate short term to long. We can't go back after
           {space}
           <a href="https://federalreserve.quora.com">trickle down</a>. Can't
