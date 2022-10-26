@@ -1675,7 +1675,7 @@ export default class App extends React.Component {
           Investment banks and commercial banks glass{space}
           <a href="htps://2024nj.com/oil">Steagall</a>
           {space}
-          &bull;&bull;&bull;&bull; the fdic debit note bond
+          &bull;&bull;&bull;&bull; the fdic debit note bond (<a href="https://vau.money">no borrowing made-loans</a>)
           <br />
           <br />
           exclusion of{space}
