@@ -407,6 +407,9 @@ export default class App extends React.Component {
     );
     this.label(topProgress);
     this.handleScroll();
+    this.pamphlet = setInterval(() => {
+      this.setState({ pamphlet: !this.state.pamphlet });
+    }, 5000);
   };
   refresh = (first) => {
     const width =
@@ -430,6 +433,7 @@ export default class App extends React.Component {
     }
   };
   componentWillUnmount = () => {
+    clearInterval(this.pamphlet);
     clearTimeout(this.footerHelpScroll);
     clearTimeout(this.labelTimer);
     clearInterval(this.check);
@@ -1503,6 +1507,10 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+
+        <div style={{ float: "right", transition: ".3s ease-out" }}>
+          {this.state.pamphlet ? "bankingisnot.biz" : "nick@vaults.biz"}
+        </div>
           don't compare yourself to{space}
           <a href="https://thumbprint.quora.com">me</a>. your whole life you
           have't solved ything. just{space}
