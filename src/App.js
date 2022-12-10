@@ -1509,7 +1509,7 @@ export default class App extends React.Component {
         >
 
         <div style={{ float: "right", transition: ".3s ease-out" }}>
-          {this.state.pamphlet ? "bankingisnot.biz" : "nick@vaults.biz"}
+          {this.state.pamphlet ? "goprovider.us" : "nick@vaults.biz"}
         </div>
           don't compare yourself to{space}
           <a href="https://thumbprint.quora.com">me</a>. your whole life you
