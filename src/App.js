@@ -1507,10 +1507,33 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
-
-        <div style={{ float: "right", transition: ".3s ease-out" }}>
-          {this.state.pamphlet ? "goprovider.us" : "nick@vaults.biz"}
-        </div>
+          <div style={{ float: "right", transition: ".3s ease-out" }}>
+            {this.state.pamphlet ? "goprovider.us" : "nick@vaults.biz"}
+          </div>
+          Tether funds as (<a href="https://vau.money">liquid</a>) cash in vaults, of what denominations?
+          <br />
+          <br />
+          Isn't their location just the account number at the headquarter
+          <br />
+          <br />
+          <a href="https://fred.stlouisfed.org/graph/?g=XCTT">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/v7aykjb17dvjrio/Screen%20Shot%202022-12-13%20at%202.34.52%20PM.png?raw=1"
+              }
+              float="right"
+              title="risk free money - https://fred.stlouisfed.org/graph/?g=XCTT"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
           don't compare yourself to{space}
           <a href="https://thumbprint.quora.com">me</a>. your whole life you
           have't solved ything. just{space}
@@ -1683,7 +1706,8 @@ export default class App extends React.Component {
           Investment banks and commercial banks glass{space}
           <a href="htps://2024nj.com/oil">Steagall</a>
           {space}
-          &bull;&bull;&bull;&bull; the fdic debit note bond (<a href="https://vau.money">no borrowing made-loans</a>)
+          &bull;&bull;&bull;&bull; the fdic debit note bond (
+          <a href="https://vau.money">no borrowing made-loans</a>)
           <br />
           <br />
           exclusion of{space}
