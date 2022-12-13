@@ -1507,10 +1507,29 @@ export default class App extends React.Component {
             //how are you going to balance the budget and get a better credit rating 50% $30b
           }}
         >
+          <a href="https://fred.stlouisfed.org/graph/?g=XDf1">
+            <Cable
+              style={{ width: "100%", height: "auto" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/la6mu8bnu30o5xq/Screen%20Shot%202022-12-13%20at%204.59.06%20PM.png?raw=1"
+              }
+              float="left"
+              title="https://fred.stlouisfed.org/graph/?g=XDf1"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
           <div style={{ float: "right", transition: ".3s ease-out" }}>
             {this.state.pamphlet ? "goprovider.us" : "nick@vaults.biz"}
           </div>
-          Tether funds as (<a href="https://vau.money">liquid</a>) cash in vaults, of what denominations?
+          Tether funds as (<a href="https://vau.money">liquid</a>) cash in
+          vaults, of what denominations?
           <br />
           <br />
           Isn't their location just the account number at the headquarter
