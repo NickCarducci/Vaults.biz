@@ -46,6 +46,7 @@ class Bank extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      payNow: 0,
       payoutType: "setup",
       mcc: "category",
       billing_details: {
@@ -1365,7 +1366,13 @@ class Bank extends React.Component {
                       ),
                       yearsSince =
                         (new Date().getTime() - x.acceptedAt.seconds * 1000) /
-                        31556952000;
+                        31556952000,
+                      interestPayment =
+                        x.offer *
+                        (x.interest / 100) *
+                        (yearsSince < x.years ? yearsSince : x.years),
+                      payNow = x.offer + interestPayment - this.state.payNow;
+
                     return !x.paid ? (
                       <form
                         key={x.id}
@@ -1385,10 +1392,58 @@ class Bank extends React.Component {
                         <button type="submit">accept</button>
                       </form>
                     ) : (
-                      "pay back " +
-                        x.offer *
-                          (x.interest / 100) *
-                          (yearsSince < x.years ? yearsSince : x.years)
+                      <form
+                        key={x.id}
+                        onSubmit={async (e) => {
+                          e.preventDefault();
+
+                          await fetch(
+                            "https://king-prawn-app-j2f2s.ondigitalocean.app/transfer",
+                            {
+                              method: "POST",
+                              headers: {
+                                "Content-Type": "Application/JSON",
+                                "Access-Control-Request-Method": "POST",
+                                "Access-Control-Request-Headers": [
+                                  "Origin",
+                                  "Content-Type"
+                                ] //allow referer
+                              },
+                              body: JSON.stringify({
+                                payment_method: this.state.chosenMethod,
+                                customerId: this.props.user.customerId,
+                                total: x.offer * 100,
+                                stripeId: usered.stripeId
+                              })
+                            }
+                          )
+                            .then(async (res) => await res.json())
+                            .then(async (result) => {
+                              if (result.status) return console.log(result);
+                              if (result.error) return console.log(result);
+                              if (!result.paymentIntent)
+                                return console.log("dev error (Cash)", result);
+
+                              updateDoc(doc(firestore, "offers", x.id), {
+                                accepted: true
+                              }).then(() => {});
+                            })
+                            .catch(standardCatch);
+                        }}
+                      >
+                        <input
+                          type="number"
+                          required={true}
+                          placeholder="Pay now"
+                          value={this.state.payNow}
+                          onChange={(e) =>
+                            this.setState({ payNow: e.target.value })
+                          }
+                        />
+                        <button type="submit">
+                          {"pay back " + x.offer + interestPayment - payNow}
+                        </button>
+                      </form>
                     );
                   })}
               </div>
@@ -2931,7 +2986,11 @@ class Bank extends React.Component {
         >
           {this.state.requests &&
             this.state.requests.map(async (x) => {
-              const usered = await getDoc(doc(firestore, "users", x.authorId));
+              const usered = await getDoc(
+                doc(firestore, "users", x.contractorId)
+              ).then((doc) => {
+                return { ...doc.data(), id: doc.id };
+              });
               return (
                 <form
                   style={{ border: "1px solid", borderRadius: "10px" }}
@@ -3007,3 +3066,4 @@ class Bank extends React.Component {
   }
 }
 export default Bank;
+
