@@ -25,7 +25,6 @@ import {
   signOut
 } from "firebase/auth";
 import Sudo, { specialFormatting } from "./Sudo.js";
-import Make from "./Make.js";
 import Bank from "./Bank";
 const forbiddenUsernames = [
   "event",
@@ -1037,6 +1036,8 @@ class Auth extends React.Component {
           pathname={this.props.pathname}
         />
         <br />
+        A limit on compound interest.
+        <br />
         For the company that might need extra time.
         <br />
         Payday loans without compound interest late fees nor discharges.
@@ -1045,3 +1046,4 @@ class Auth extends React.Component {
   }
 }
 export default Auth;
+
