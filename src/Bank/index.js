@@ -1361,9 +1361,12 @@ class Bank extends React.Component {
                 {this.state.offers &&
                   this.state.offers.map(async (x) => {
                     const usered = await getDoc(
-                      doc(firestore, "users", x.authorId)
-                    );
-                    return (
+                        doc(firestore, "users", x.authorId)
+                      ),
+                      yearsSince =
+                        (new Date().getTime() - x.acceptedAt.seconds * 1000) /
+                        31556952000;
+                    return !x.paid ? (
                       <form
                         key={x.id}
                         onSubmit={async (e) => {
@@ -1381,6 +1384,11 @@ class Bank extends React.Component {
                         <br />
                         <button type="submit">accept</button>
                       </form>
+                    ) : (
+                      "pay back " +
+                        x.offer *
+                          (x.interest / 100) *
+                          (yearsSince < x.years ? yearsSince : x.years)
                     );
                   })}
               </div>
@@ -2541,7 +2549,8 @@ class Bank extends React.Component {
                       .sort((a, b) =>
                         a[1].includes("Shop") ||
                         a[1].includes("Store") ||
-                        a[1].includes("Service")
+                        a[1].includes("Service") ||
+                        a[1].includes("Restaurant")
                           ? a[0] - b[0]
                           : true
                       )
@@ -2985,7 +2994,7 @@ class Bank extends React.Component {
                   <button type="submit">
                     {x.accepted
                       ? "awaiting approval"
-                      : `fulfill $${x.offer} for $${
+                      : `fulfill${x.paid ? "ed" : ""} $${x.offer} for $${
                           x.offer * (x.interest / 100) * x.duration
                         }`}
                   </button>
