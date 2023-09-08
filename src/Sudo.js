@@ -698,11 +698,14 @@ class FIREBASE_SUDO extends React.Component {
                   backgroundColor: "rgba(0,0,0,.3)"
                 }}
               >
-                <h1>
+                <h1
+                  style={{
+                    display: "none"
+                  }}
+                >
                   <span onClick={() => this.props.getUserInfo()}>You</span>
                   {space}must log in to view {bumpedFrom}
                 </h1>
-                <br />
                 <h2>standard rates apply</h2>
               </div>
               <div

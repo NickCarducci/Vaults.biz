@@ -1320,9 +1320,6 @@ class Bank extends React.Component {
         {user && user.stripeLink && (
           <a href={user && user.stripeLink}>Reset link</a>
         )}
-        For the company that might need extra time.
-        <br />
-        Payday loans without compound interest late fees nor discharges.
         {user !== undefined && user.customerId && (
           <div>
             <h2

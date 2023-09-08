@@ -1036,6 +1036,10 @@ class Auth extends React.Component {
           navigate={this.props.navigate}
           pathname={this.props.pathname}
         />
+        <br />
+        For the company that might need extra time.
+        <br />
+        Payday loans without compound interest late fees nor discharges.
       </div>
     );
   }
