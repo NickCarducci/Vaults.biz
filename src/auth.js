@@ -1041,6 +1041,9 @@ class Auth extends React.Component {
         For the company that might need extra time.
         <br />
         Payday loans without compound interest late fees nor discharges.
+        <br />
+        Merchant category code (geographical) after the cost of living
+        garnishable.
       </div>
     );
   }
