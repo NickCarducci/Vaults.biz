@@ -26,6 +26,8 @@ import {
 } from "firebase/auth";
 import Sudo, { specialFormatting } from "./Sudo.js";
 import Bank from "./Bank";
+import GDP from "./GDP.js";
+import GDP2 from "./GDP2.js";
 const forbiddenUsernames = [
   "event",
   "events",
@@ -465,108 +467,7 @@ class Auth extends React.Component {
     var foo = await this.state.db[method](note);
     return foo && this.getNotes();
   };
-  getNotes = async () => {
-    await this.state.db.getAllNotes().then(async (notes) => {
-      /*var result = Object.keys(notes).map(key => {
-    return notes[key];
-    }); 
-    this.props.setData({ notes, noteCount: result });*/
-      console.log("notes/plans", notes);
-      notes.sort((a, b) => new Date(b.date) - new Date(a.date));
-      await Promise.all(
-        notes.map(async (note) => {
-          //note.recipientsProfiled = await this.props.hydrateUsers(note.recipients);
-          var author =
-            note.authorId &&
-            note.authorId !== "" &&
-            (await this.hydrateUser(note.authorId).user());
-          note.author = author && JSON.parse(author);
-          return note;
-        })
-      ).then(async (notes) => {
-        const params = this.props.pathname.split("/").filter((x) => x !== "");
-        //console.log(params);
-        if (params[0] === "plan") {
-          var showThisPlan = notes.find((x) => x._id === params[1]);
-          if (showThisPlan)
-            showThisPlan.entity =
-              showThisPlan.entityId &&
-              (await getDoc(
-                doc(
-                  firestore,
-                  showThisPlan.entityType === "oldEvent"
-                    ? showThisPlan.entityType
-                    : ["event", "plan", "job", "housing"].includes(
-                        showThisPlan.entityType
-                      )
-                    ? "event"
-                    : showThisPlan.entityType === "class"
-                    ? "forum"
-                    : "entity",
-                  showThisPlan.entityId
-                )
-              ).then(
-                (doc) =>
-                  doc.exists() && {
-                    ...doc.data(),
-                    id: doc.id
-                  }
-              ));
-          console.log(showThisPlan);
-          showThisPlan &&
-            this.setState({
-              chosen: showThisPlan
-                ? new Date(showThisPlan.date)
-                : this.state.chosen,
-              month: new Date(showThisPlan.date).getMonth(),
-              year: new Date(showThisPlan.date).getFullYear(),
-              showThisPlan
-            });
-        } else if (params[0] && /[a-z]/.test(params[0].charAt(0))) {
-          this.setState(
-            {
-              userCalendar: await getDocs(
-                query(
-                  collection(firestore, "users"),
-                  where("username", "==", params[0])
-                )
-              ).then(
-                (querySnapshot) =>
-                  querySnapshot.docs
-                    .map((doc) => {
-                      return doc.exists() && { ...doc.data(), id: doc.id };
-                    })
-                    .filter((x) => x)[0]
-              )
-            },
-            async () =>
-              (notes = await getDocs(
-                query(
-                  collection(firestore, "calendar"),
-                  where("authorId", "==", params[0])
-                )
-              ).then((querySnapshot) =>
-                querySnapshot.docs
-                  .map((doc) => {
-                    return doc.exists() && { ...doc.data(), id: doc.id };
-                  })
-                  .filter((x) => x)
-              ))
-          );
-        }
-        this.setState({
-          notes
-        });
-      });
-    });
-  };
-  componentDidMount = () => {
-    this.getNotes();
-  };
   componentDidUpdate = (prevProps) => {
-    if (this.props.pathname !== prevProps.pathname) {
-      this.getNotes();
-    }
     if (window.meAuth !== this.state.lastAuth) {
       //console.log("window.meAuth", window.meAuth);
       this.setState({ lastAuth: window.meAuth }, () => {
@@ -916,7 +817,30 @@ class Auth extends React.Component {
       Object.keys(window.meAuth).length > 0
         ? window.meAuth
         : undefined;
-    return (
+    return this.props.pathname === "/gdp" ? (
+      <div>
+        <GDP
+          lastWidth={Math.min(
+            600,
+            (isNaN(this.props.lastWidth) ? 300 : this.props.lastWidth) - 20
+          )}
+          style={{
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <GDP2
+          lastWidth={Math.min(
+            600,
+            (isNaN(this.props.lastWidth) ? 300 : this.props.lastWidth) - 20
+          )}
+          style={{
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+      </div>
+    ) : (
       <div style={{ maxWidth: "500px" }}>
         <PromptAuth
           ref={{
