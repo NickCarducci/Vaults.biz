@@ -467,7 +467,12 @@ class GDPchild extends React.Component {
     if (this.props.data) {
       return (
         <div
-          style={{ width: "100%", minHeight: "230px", position: "relative" }}
+          style={{
+            backgroundColor: "rgba(0,0,0,0.6)",
+            width: "100%",
+            minHeight: "230px",
+            position: "relative"
+          }}
         >
           <div
             style={{
@@ -540,7 +545,7 @@ class GDPchild extends React.Component {
             style={{
               backgroundColor: "rgba(250,250,250,0.6)",
               top: "10px",
-              height: "40px",
+              height: "50px",
               display: "flex",
               position: "relative",
               width: "100%",
@@ -728,3 +733,4 @@ class GDP extends React.Component {
   }
 }
 export default GDP;
+
