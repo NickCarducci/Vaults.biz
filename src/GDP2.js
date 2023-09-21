@@ -368,11 +368,6 @@ class GDP2 extends React.Component {
             width: "100%"
           }}
         >
-          <a href="https://vau.money">
-            <div style={{ right: "0px", position: "absolute", float: "right" }}>
-              vau.money
-            </div>
-          </a>
           <div
             style={{
               fontSize: "15px",
