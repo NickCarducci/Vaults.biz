@@ -674,7 +674,9 @@ class GDP extends React.Component {
     const popdatapre2010 = popdata.filter((x) => x.year < 2010);
     return (
       <div style={{ width: this.props.lastWidth }}>
-        cases to tests; mv1===mv2==GDP/yr&nbsp;
+        cases to tests; mv1===mv2==
+        <a href="https://www.measuringworth.com/datasets/usgdp/">GDP</a>
+        /yr&nbsp;
         <span role="img" aria-label="skull">
           💀
         </span>
@@ -733,4 +735,5 @@ class GDP extends React.Component {
   }
 }
 export default GDP;
+
 
