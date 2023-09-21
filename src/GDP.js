@@ -1,5 +1,931 @@
 import React from "react";
 //import { Line } from "react-svg-curve";
+const gdpdata2 = [
+  {
+    year: 1790,
+    gdp: 189
+  },
+  {
+    year: 1791,
+    gdp: 206
+  },
+  {
+    year: 1792,
+    gdp: 225
+  },
+  {
+    year: 1793,
+    gdp: 251
+  },
+  {
+    year: 1794,
+    gdp: 315
+  },
+  {
+    year: 1795,
+    gdp: 383
+  },
+  {
+    year: 1796,
+    gdp: 417
+  },
+  {
+    year: 1797,
+    gdp: 409
+  },
+  {
+    year: 1798,
+    gdp: 413
+  },
+  {
+    year: 1799,
+    gdp: 442
+  },
+  {
+    year: 1800,
+    gdp: 480
+  },
+  {
+    year: 1801,
+    gdp: 514
+  },
+  {
+    year: 1802,
+    gdp: 451
+  },
+  {
+    year: 1803,
+    gdp: 487
+  },
+  {
+    year: 1804,
+    gdp: 533
+  },
+  {
+    year: 1805,
+    gdp: 561
+  },
+  {
+    year: 1806,
+    gdp: 617
+  },
+  {
+    year: 1807,
+    gdp: 589
+  },
+  {
+    year: 1808,
+    gdp: 646
+  },
+  {
+    year: 1809,
+    gdp: 687
+  },
+  {
+    year: 1810,
+    gdp: 706
+  },
+  {
+    year: 1811,
+    gdp: 767
+  },
+  {
+    year: 1812,
+    gdp: 786
+  },
+  {
+    year: 1813,
+    gdp: 969
+  },
+  {
+    year: 1814,
+    gdp: 1078
+  },
+  {
+    year: 1815,
+    gdp: 925
+  },
+  {
+    year: 1816,
+    gdp: 819
+  },
+  {
+    year: 1817,
+    gdp: 769
+  },
+  {
+    year: 1818,
+    gdp: 737
+  },
+  {
+    year: 1819,
+    gdp: 726
+  },
+  {
+    year: 1820,
+    gdp: 710
+  },
+  {
+    year: 1821,
+    gdp: 735
+  },
+  {
+    year: 1822,
+    gdp: 805
+  },
+  {
+    year: 1823,
+    gdp: 759
+  },
+  {
+    year: 1824,
+    gdp: 754
+  },
+  {
+    year: 1825,
+    gdp: 822
+  },
+  {
+    year: 1826,
+    gdp: 866
+  },
+  {
+    year: 1827,
+    gdp: 916
+  },
+  {
+    year: 1828,
+    gdp: 897
+  },
+  {
+    year: 1829,
+    gdp: 930
+  },
+  {
+    year: 1830,
+    gdp: 1022
+  },
+  {
+    year: 1831,
+    gdp: 1052
+  },
+  {
+    year: 1832,
+    gdp: 1129
+  },
+  {
+    year: 1833,
+    gdp: 1158
+  },
+  {
+    year: 1834,
+    gdp: 1219
+  },
+  {
+    year: 1835,
+    gdp: 1340
+  },
+  {
+    year: 1836,
+    gdp: 1479
+  },
+  {
+    year: 1837,
+    gdp: 1554
+  },
+  {
+    year: 1838,
+    gdp: 1598
+  },
+  {
+    year: 1839,
+    gdp: 1661
+  },
+  {
+    year: 1840,
+    gdp: 1574
+  },
+  {
+    year: 1841,
+    gdp: 1652
+  },
+  {
+    year: 1842,
+    gdp: 1618
+  },
+  {
+    year: 1843,
+    gdp: 1568
+  },
+  {
+    year: 1844,
+    gdp: 1702
+  },
+  {
+    year: 1845,
+    gdp: 1859
+  },
+  {
+    year: 1846,
+    gdp: 2065
+  },
+  {
+    year: 1847,
+    gdp: 2410
+  },
+  {
+    year: 1848,
+    gdp: 2427
+  },
+  {
+    year: 1849,
+    gdp: 2419
+  },
+  {
+    year: 1850,
+    gdp: 2581
+  },
+  {
+    year: 1851,
+    gdp: 2724
+  },
+  {
+    year: 1852,
+    gdp: 3066
+  },
+  {
+    year: 1853,
+    gdp: 3311
+  },
+  {
+    year: 1854,
+    gdp: 3713
+  },
+  {
+    year: 1855,
+    gdp: 3975
+  },
+  {
+    year: 1856,
+    gdp: 4047
+  },
+  {
+    year: 1857,
+    gdp: 4180
+  },
+  {
+    year: 1858,
+    gdp: 4093
+  },
+  {
+    year: 1859,
+    gdp: 4425
+  },
+  {
+    year: 1860,
+    gdp: 4387
+  },
+  {
+    year: 1861,
+    gdp: 4643
+  },
+  {
+    year: 1862,
+    gdp: 5844
+  },
+  {
+    year: 1863,
+    gdp: 7698
+  },
+  {
+    year: 1864,
+    gdp: 9549
+  },
+  {
+    year: 1865,
+    gdp: 9977
+  },
+  {
+    year: 1866,
+    gdp: 9081
+  },
+  {
+    year: 1867,
+    gdp: 8424
+  },
+  {
+    year: 1868,
+    gdp: 8224
+  },
+  {
+    year: 1869,
+    gdp: 7921
+  },
+  {
+    year: 1870,
+    gdp: 7812
+  },
+  {
+    year: 1871,
+    gdp: 7665
+  },
+  {
+    year: 1872,
+    gdp: 8309
+  },
+  {
+    year: 1873,
+    gdp: 8837
+  },
+  {
+    year: 1874,
+    gdp: 8563
+  },
+  {
+    year: 1875,
+    gdp: 8239
+  },
+  {
+    year: 1876,
+    gdp: 8388
+  },
+  {
+    year: 1877,
+    gdp: 8604
+  },
+  {
+    year: 1878,
+    gdp: 8460
+  },
+  {
+    year: 1879,
+    gdp: 9449
+  },
+  {
+    year: 1880,
+    gdp: 10462
+  },
+  {
+    year: 1881,
+    gdp: 11740
+  },
+  {
+    year: 1882,
+    gdp: 12331
+  },
+  {
+    year: 1883,
+    gdp: 12435
+  },
+  {
+    year: 1884,
+    gdp: 11896
+  },
+  {
+    year: 1885,
+    gdp: 11705
+  },
+  {
+    year: 1886,
+    gdp: 12297
+  },
+  {
+    year: 1887,
+    gdp: 13273
+  },
+  {
+    year: 1888,
+    gdp: 14000
+  },
+  {
+    year: 1889,
+    gdp: 13987
+  },
+  {
+    year: 1890,
+    gdp: 15223
+  },
+  {
+    year: 1891,
+    gdp: 15558
+  },
+  {
+    year: 1892,
+    gdp: 16514
+  },
+  {
+    year: 1893,
+    gdp: 15566
+  },
+  {
+    year: 1894,
+    gdp: 14280
+  },
+  {
+    year: 1895,
+    gdp: 15754
+  },
+  {
+    year: 1896,
+    gdp: 15643
+  },
+  {
+    year: 1897,
+    gdp: 16309
+  },
+  {
+    year: 1898,
+    gdp: 18263
+  },
+  {
+    year: 1899,
+    gdp: 19694
+  },
+  {
+    year: 1900,
+    gdp: 20766
+  },
+  {
+    year: 1901,
+    gdp: 22484
+  },
+  {
+    year: 1902,
+    gdp: 24294
+  },
+  {
+    year: 1903,
+    gdp: 26180
+  },
+  {
+    year: 1904,
+    gdp: 25928
+  },
+  {
+    year: 1905,
+    gdp: 29066
+  },
+  {
+    year: 1906,
+    gdp: 31336
+  },
+  {
+    year: 1907,
+    gdp: 34178
+  },
+  {
+    year: 1908,
+    gdp: 30423
+  },
+  {
+    year: 1909,
+    gdp: 32540
+  },
+  {
+    year: 1910,
+    gdp: 33746
+  },
+  {
+    year: 1911,
+    gdp: 34675
+  },
+  {
+    year: 1912,
+    gdp: 37745
+  },
+  {
+    year: 1913,
+    gdp: 39517
+  },
+  {
+    year: 1914,
+    gdp: 36831
+  },
+  {
+    year: 1915,
+    gdp: 39048
+  },
+  {
+    year: 1916,
+    gdp: 50117
+  },
+  {
+    year: 1917,
+    gdp: 60278
+  },
+  {
+    year: 1918,
+    gdp: 76567
+  },
+  {
+    year: 1919,
+    gdp: 79090
+  },
+  {
+    year: 1920,
+    gdp: 89246
+  },
+  {
+    year: 1921,
+    gdp: 74314
+  },
+  {
+    year: 1922,
+    gdp: 74140
+  },
+  {
+    year: 1923,
+    gdp: 86238
+  },
+  {
+    year: 1924,
+    gdp: 87786
+  },
+  {
+    year: 1925,
+    gdp: 91449
+  },
+  {
+    year: 1926,
+    gdp: 97885
+  },
+  {
+    year: 1927,
+    gdp: 96466
+  },
+  {
+    year: 1928,
+    gdp: 98305
+  },
+  {
+    year: 1929,
+    gdp: 104600
+  },
+  {
+    year: 1930,
+    gdp: 92200
+  },
+  {
+    year: 1931,
+    gdp: 77400
+  },
+  {
+    year: 1932,
+    gdp: 59500
+  },
+  {
+    year: 1933,
+    gdp: 57200
+  },
+  {
+    year: 1934,
+    gdp: 66800
+  },
+  {
+    year: 1935,
+    gdp: 74200
+  },
+  {
+    year: 1936,
+    gdp: 84800
+  },
+  {
+    year: 1937,
+    gdp: 93000
+  },
+  {
+    year: 1938,
+    gdp: 87400
+  },
+  {
+    year: 1939,
+    gdp: 93400
+  },
+  {
+    year: 1940,
+    gdp: 102900
+  },
+  {
+    year: 1941,
+    gdp: 129300
+  },
+  {
+    year: 1942,
+    gdp: 166000
+  },
+  {
+    year: 1943,
+    gdp: 203100
+  },
+  {
+    year: 1944,
+    gdp: 224400
+  },
+  {
+    year: 1945,
+    gdp: 228000
+  },
+  {
+    year: 1946,
+    gdp: 227500
+  },
+  {
+    year: 1947,
+    gdp: 249600
+  },
+  {
+    year: 1948,
+    gdp: 274500
+  },
+  {
+    year: 1949,
+    gdp: 272500
+  },
+  {
+    year: 1950,
+    gdp: 299800
+  },
+  {
+    year: 1951,
+    gdp: 346900
+  },
+  {
+    year: 1952,
+    gdp: 367300
+  },
+  {
+    year: 1953,
+    gdp: 389200
+  },
+  {
+    year: 1954,
+    gdp: 390500
+  },
+  {
+    year: 1955,
+    gdp: 425500
+  },
+  {
+    year: 1956,
+    gdp: 449400
+  },
+  {
+    year: 1957,
+    gdp: 474000
+  },
+  {
+    year: 1958,
+    gdp: 481200
+  },
+  {
+    year: 1959,
+    gdp: 521700
+  },
+  {
+    year: 1960,
+    gdp: 542400
+  },
+  {
+    year: 1961,
+    gdp: 562200
+  },
+  {
+    year: 1962,
+    gdp: 603900
+  },
+  {
+    year: 1963,
+    gdp: 637500
+  },
+  {
+    year: 1964,
+    gdp: 684500
+  },
+  {
+    year: 1965,
+    gdp: 742300
+  },
+  {
+    year: 1966,
+    gdp: 813400
+  },
+  {
+    year: 1967,
+    gdp: 860000
+  },
+  {
+    year: 1968,
+    gdp: 940700
+  },
+  {
+    year: 1969,
+    gdp: 1017600
+  },
+  {
+    year: 1970,
+    gdp: 1073300
+  },
+  {
+    year: 1971,
+    gdp: 1164900
+  },
+  {
+    year: 1972,
+    gdp: 1279100
+  },
+  {
+    year: 1973,
+    gdp: 1425400
+  },
+  {
+    year: 1974,
+    gdp: 1545200
+  },
+  {
+    year: 1975,
+    gdp: 1684900
+  },
+  {
+    year: 1976,
+    gdp: 1873400
+  },
+  {
+    year: 1977,
+    gdp: 2081800
+  },
+  {
+    year: 1978,
+    gdp: 2351600
+  },
+  {
+    year: 1979,
+    gdp: 2627300
+  },
+  {
+    year: 1980,
+    gdp: 2857300
+  },
+  {
+    year: 1981,
+    gdp: 3207000
+  },
+  {
+    year: 1982,
+    gdp: 3343800
+  },
+  {
+    year: 1983,
+    gdp: 3634000
+  },
+  {
+    year: 1984,
+    gdp: 4037600
+  },
+  {
+    year: 1985,
+    gdp: 4339000
+  },
+  {
+    year: 1986,
+    gdp: 4579600
+  },
+  {
+    year: 1987,
+    gdp: 4855200
+  },
+  {
+    year: 1988,
+    gdp: 5236400
+  },
+  {
+    year: 1989,
+    gdp: 5641600
+  },
+  {
+    year: 1990,
+    gdp: 5963100
+  },
+  {
+    year: 1991,
+    gdp: 6158100
+  },
+  {
+    year: 1992,
+    gdp: 6520300
+  },
+  {
+    year: 1993,
+    gdp: 6858600
+  },
+  {
+    year: 1994,
+    gdp: 7287200
+  },
+  {
+    year: 1995,
+    gdp: 7639700
+  },
+  {
+    year: 1996,
+    gdp: 8073100
+  },
+  {
+    year: 1997,
+    gdp: 8577600
+  },
+  {
+    year: 1998,
+    gdp: 9062800
+  },
+  {
+    year: 1999,
+    gdp: 9631200
+  },
+  {
+    year: 2000,
+    gdp: 10251000
+  },
+  {
+    year: 2001,
+    gdp: 10581900
+  },
+  {
+    year: 2002,
+    gdp: 10929100
+  },
+  {
+    year: 2003,
+    gdp: 11456500
+  },
+  {
+    year: 2004,
+    gdp: 12217200
+  },
+  {
+    year: 2005,
+    gdp: 13039200
+  },
+  {
+    year: 2006,
+    gdp: 13815600
+  },
+  {
+    year: 2007,
+    gdp: 14474200
+  },
+  {
+    year: 2008,
+    gdp: 14769900
+  },
+  {
+    year: 2009,
+    gdp: 14478100
+  },
+  {
+    year: 2010,
+    gdp: 15049000
+  },
+  {
+    year: 2011,
+    gdp: 15599700
+  },
+  {
+    year: 2012,
+    gdp: 16254000
+  },
+  {
+    year: 2013,
+    gdp: 16843200
+  },
+  {
+    year: 2014,
+    gdp: 17550700
+  },
+  {
+    year: 2015,
+    gdp: 18206000
+  },
+  {
+    year: 2016,
+    gdp: 18695100
+  },
+  {
+    year: 2017,
+    gdp: 19477300
+  },
+  {
+    year: 2018,
+    gdp: 20533100
+  },
+  {
+    year: 2019,
+    gdp: 21381000
+  },
+  {
+    year: 2020,
+    gdp: 21060500
+  }
+];
 export const gdpdata = [
   { year: 1791, num: 0.3 },
   { year: 1792, num: 0.3 },
@@ -599,25 +1525,24 @@ class GDP extends React.Component {
     super(props);
     const popdatapre2010 = popdata.filter((x) => x.year < 2010);
     this.state = {
-      chosenDecade: 1890,
+      chosenDecade: 1910,
       chosenDecadeInx: popdatapre2010.length - 12,
-      data: gdpdata
-        .map((x) => {
-          var foo = { ...x };
-          var b4Idx = null;
-          var thisdecade = popdata.find(
-            (p) => x.year - p.year < 10 && x.year - p.year > -1
-          );
-          if (foo.num) {
-            foo.num = foo.num * 1000000000;
-          }
-          var b4pop = popdata[b4Idx - 1] ? popdata[b4Idx - 1].pop : 0;
-          var b4year = popdata[b4Idx - 1] ? popdata[b4Idx - 1].year : 0;
-          var addi = (thisdecade.pop - b4pop) * ((x.year - b4year) / 10);
-          foo.pop = thisdecade.pop + addi;
-          return foo;
-        })
-        .filter((x) => x.year < 2000 + 1 && 2000 - x.year < 120),
+      data: gdpdata2.map((x) => {
+        var foo = { ...x };
+        var b4Idx = null;
+        var thisdecade = popdata.find(
+          (p) => x.year - p.year < 10 && x.year - p.year > -1
+        );
+        //if (foo.num) {
+        foo.num = foo.gdp * 1000000;
+
+        var b4pop = popdata[b4Idx - 1] ? popdata[b4Idx - 1].pop : 0;
+        var b4year = popdata[b4Idx - 1] ? popdata[b4Idx - 1].year : 0;
+        var addi = (thisdecade.pop - b4pop) * ((x.year - b4year) / 10);
+        foo.pop = thisdecade.pop + addi;
+        return foo;
+      }),
+      //.filter((x) => x.year < 2000 + 1 && 2000 - x.year < 120),
       chosenState: "Florida",
       last: 1000,
       crime: true
@@ -629,14 +1554,14 @@ class GDP extends React.Component {
       this.setState(
         { lastChosenDecadeInx: this.state.chosenDecadeInx },
         async () => {
-          const copy = gdpdata.map((x) => {
+          const copy = gdpdata2.map((x) => {
             var foo = { ...x };
             var b4Idx = null;
             var thisdecade = popdata.find((p, i) => {
               b4Idx = i;
               return x.year - p.year < 10 && x.year - p.year > -1;
             });
-            foo.num = foo.num * 1000000000;
+            foo.num = foo.gdp * 1000000;
             var b4pop = popdata[b4Idx - 1] ? popdata[b4Idx - 1].pop : 0;
             var b4year = popdata[b4Idx - 1] ? popdata[b4Idx - 1].year : 0;
             var addi = (thisdecade.pop - b4pop) * ((x.year - b4year) / 10);
@@ -671,7 +1596,7 @@ class GDP extends React.Component {
     );*/
     //console.log(this.props.covidData);
     //if (this.state.chosenState === this.state.lastChosenState) {
-    const popdatapre2010 = popdata.filter((x) => x.year < 2010);
+    const popdatapre2010 = popdata.filter((x) => x.year < 2030);
     return (
       <div style={{ width: this.props.lastWidth }}>
         cases to tests; mv1===mv2==
@@ -735,5 +1660,4 @@ class GDP extends React.Component {
   }
 }
 export default GDP;
-
 
