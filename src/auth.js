@@ -817,7 +817,21 @@ class Auth extends React.Component {
       Object.keys(window.meAuth).length > 0
         ? window.meAuth
         : undefined;
-    return this.props.pathname === "/gdp" ? (
+    return this.props.pathname === "/party" ? (
+      <div>
+        <iframe
+          style={{
+            border: "none",
+            height: "600px",
+            width: "670px"
+          }}
+          src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1auHh&width=340&height=575"
+        />
+        <a href="https://fred.stlouisfed.org/graph/?g=1auHh">
+          https://fred.stlouisfed.org/graph/?g=1auHh
+        </a>
+      </div>
+    ) : this.props.pathname === "/gdp" ? (
       <div>
         <GDP
           lastWidth={Math.min(
