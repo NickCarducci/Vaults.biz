@@ -28,6 +28,7 @@ import Sudo, { specialFormatting } from "./Sudo.js";
 import Bank from "./Bank";
 import GDP from "./GDP.js";
 import GDP2 from "./GDP2.js";
+import Wages from "./WageAge.js";
 const forbiddenUsernames = [
   "event",
   "events",
@@ -859,6 +860,20 @@ class Auth extends React.Component {
         <a href="https://fred.stlouisfed.org/graph/?g=1auHh">
           https://fred.stlouisfed.org/graph/?g=1auHh
         </a>
+        <br />
+        <br />
+        <Wages
+          lastWidth={Math.min(
+            600,
+            (isNaN(this.props.lastWidth) ? 300 : this.props.lastWidth) - 20
+          )}
+          style={{
+            margin: "5px",
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <br />
       </div>
     ) : this.props.pathname === "/gdp" ? (
       <div>
