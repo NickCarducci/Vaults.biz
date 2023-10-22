@@ -854,7 +854,7 @@ class Auth extends React.Component {
             height: "600px",
             width: "670px"
           }}
-          src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=1auHh&width=${this.state.selectedOption}&height=575`}
+          src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=1auHh&width=${this.state.selectedOption}&height=505`}
         />
         <a href="https://fred.stlouisfed.org/graph/?g=1auHh">
           https://fred.stlouisfed.org/graph/?g=1auHh
