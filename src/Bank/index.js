@@ -1370,8 +1370,7 @@ class Bank extends React.Component {
                       interestPayment =
                         x.offer *
                         (x.interest / 100) *
-                        (yearsSince < x.years ? yearsSince : x.years),
-                      payNow = x.offer + interestPayment - this.state.payNow;
+                        (yearsSince < x.years ? yearsSince : x.years);
 
                     return !x.paid ? (
                       <form
@@ -1397,6 +1396,10 @@ class Bank extends React.Component {
                         onSubmit={async (e) => {
                           e.preventDefault();
 
+                          if (this.state.chosenMethod !== "")
+                            return window.alert(
+                              "You must select a payment method."
+                            );
                           await fetch(
                             "https://king-prawn-app-j2f2s.ondigitalocean.app/transfer",
                             {
@@ -1412,7 +1415,11 @@ class Bank extends React.Component {
                               body: JSON.stringify({
                                 payment_method: this.state.chosenMethod,
                                 customerId: this.props.user.customerId,
-                                total: x.offer * 100,
+                                total:
+                                  (this.state.payNow === 0
+                                    ? //x.offer +
+                                      interestPayment
+                                    : this.state.payNow) * 100,
                                 stripeId: usered.stripeId
                               })
                             }
@@ -1423,15 +1430,20 @@ class Bank extends React.Component {
                               if (result.error) return console.log(result);
                               if (!result.paymentIntent)
                                 return console.log("dev error (Cash)", result);
-
                               updateDoc(doc(firestore, "offers", x.id), {
-                                accepted: true
+                                offer:
+                                  x.offer -
+                                  (this.state.payNow === 0
+                                    ? interestPayment
+                                    : this.state.payNow)
                               }).then(() => {});
                             })
                             .catch(standardCatch);
                         }}
                       >
                         <input
+                          min={0.5}
+                          step=".01"
                           type="number"
                           required={true}
                           placeholder="Pay now"
@@ -1441,7 +1453,9 @@ class Bank extends React.Component {
                           }
                         />
                         <button type="submit">
-                          {"pay back " + x.offer + interestPayment - payNow}
+                          {"pay back $" + this.state.payNow === 0
+                            ? x.offer + interestPayment
+                            : this.state.payNow}
                         </button>
                       </form>
                     );
